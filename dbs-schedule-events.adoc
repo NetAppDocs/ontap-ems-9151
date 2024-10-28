@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: dbs-schedule-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.schedule events
+---
+
+= dbs.schedule events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.schedule.action.error
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the Distributed Block Store (DBS) is running one or more of the scheduled activities but the activity failed, for example running a scheduled create snapshot fails to complete. The fault clears if the scheduled activity runs again and succeeds, if the scheduled activity is deleted, or if the activity is paused and resumed. The DBS is responsible for managing the data that backs the FlexVols(R).
+*Corrective Action*::
+Check the scheduler entry for issues.
+*Syslog Message*::
+The Distributed Block Store is attempting one or more scheduled activities which fails to complete. The cluster fault type is %s and fault id is %u.
+*Parameters*::
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Description of the cluster fault, including context details.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.

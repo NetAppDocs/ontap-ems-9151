@@ -1,0 +1,28 @@
+---
+sidebar: sidebar
+permalink: lmgr-persistent-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: lmgr.persistent events
+---
+
+= lmgr.persistent events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== lmgr.persistent.open.limit.hit
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the number of persistent open lock count reaches the maximum supported limit.
+*Corrective Action*::
+Run the "vserver locks show-mirrored-open-count -detailed" command to check the persisted open lock count and try closing the unused files to bring this count down to the currently supported maximum persistent open locks.
+*Syslog Message*::
+The number of persisted open locks count %u has reached the limit %u.
+*Parameters*::
+*locks_total* (INT): Number of persisted open locks.
+*locks_limit* (INT): Maximum supported persisted open locks.

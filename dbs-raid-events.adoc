@@ -1,0 +1,51 @@
+---
+sidebar: sidebar
+permalink: dbs-raid-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.raid events
+---
+
+= dbs.raid events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.raid.group.degraded
+*Severity*::
+ERROR
+*Description*::
+This message occurs when distributed block store detects that a RAID group in the cluster is degraded. The RAID group can continue to serve data, but performance might be adversely affected.
+*Corrective Action*::
+Look for disk error EMS messages, or use REST, Kubernetes, or kubectl calls to check for disk errors. If the errors cannot be resolved, contact NetApp technical support.
+*Syslog Message*::
+Distributed block store has detected a degraded RAID group. Cluster fault node %u, node UUID %s, type %s, fault ID %u, status %u. %s
+*Parameters*::
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node universal unique identifier (UUID) string of the associated node.
+*cfType* (STRING): Distributed block store cluster fault type of the associated object.
+*cfID* (INT): Distributed block store cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Details of the degraded RAID group.
+*cfExtSrc* (STRING): Distributed block store cluster fault externalSource label created by the "CreateClusterFault" API command and attached to the fault for testing purposes.
+
+== dbs.raid.group.not.oper
+*Severity*::
+ALERT
+*Description*::
+This message occurs when distributed block store detects that a RAID group is not operational and is unable to serve data.
+*Corrective Action*::
+Look for disk error EMS messages, or use REST, Kubernetes, or kubectl calls to check for disk errors. If the errors cannot be resolved, contact NetApp technical support.
+*Syslog Message*::
+Distributed block store has detected a nonoperational RAID group. Cluster fault node %u, node UUID %s, type %s, fault ID %u, status %u. %s
+*Parameters*::
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node universal unique identifier (UUID) string of the associated node.
+*cfType* (STRING): Distributed block store cluster fault type of the associated object.
+*cfID* (INT): Distributed block store cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Details of the RAID group that is not operational.
+*cfExtSrc* (STRING): Distributed block store cluster fault externalSource label created by the "CreateClusterFault" API command and attached to the fault for testing purposes.

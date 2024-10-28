@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: bsdsocket-queuelimit-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: bsdsocket.queuelimit events
+---
+
+= bsdsocket.queuelimit events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== bsdsocket.queueLimit.reached
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the number of connection requests for a socket reaches the maximum. These connection requests include partially completed connections and connections that are ready to be accepted.
+*Corrective Action*::
+Network misconfigurations can cause connectivity issues such as asymmetric routing, which causes loss of ACKs. Check the network for any such misconfigurations. A Denial of Service attack and an overloaded system can also be reasons for such an event. Contact NetApp technical support.
+*Syslog Message*::
+Number of connection requests for the socket bound to port %d having the IP address %s has reached the limit of %d connections. The socket uses %s protocol. This event has occurred %llu times since the last warning.
+*Parameters*::
+*port* (INT): Local port bound to the socket.
+*ipAddress* (STRING): IP address of the socket.
+*limit* (INT): Maximum number of connection requests per socket.
+*protocol* (STRING): Protocol used by the socket.
+*count* (LONGINT): Number of occurrences for this event since the last warning.

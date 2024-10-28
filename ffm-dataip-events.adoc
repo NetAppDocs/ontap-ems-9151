@@ -1,0 +1,71 @@
+---
+sidebar: sidebar
+permalink: ffm-dataip-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: ffm.dataip events
+---
+
+= ffm.dataip events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== ffm.dataip.failedToHost
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a data IP address was failed to host on the node. Data access through this IP address is not available.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Data IP address %s was failed to host by the NFS protocol service on the node %s (ID: %u).
+*Parameters*::
+*dataip* (STRING): The IP address that was failed to host.
+*nodename* (STRING): Name of the node on which the data IP was failed to host.
+*nodeid* (INT): Unique identifier of the node on which the data IP was failed to host.
+
+== ffm.dataip.notUnhosted
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a data IP address is not unhosted on the node.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+The NFS protocol service could not unhost data IP address "%s" on node "%s" (ID: %u).
+*Parameters*::
+*dataip* (STRING): IP address that could not be unhosted.
+*nodename* (STRING): Name of the node on which the data IP could not be unhosted.
+*nodeid* (INT): Unique identifier of the node on which the data IP could not be unhosted.
+
+== ffm.dataip.successfullyHosted
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a data IP address was successfully hosted on the node. Data access through this IP address is now available.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Data IP address %s was hosted by the NFS protocol service on the node %s (ID: %u).
+*Parameters*::
+*dataip* (STRING): The IP address that was hosted.
+*nodename* (STRING): Name of the node on which the data IP was hosted.
+*nodeid* (INT): Unique identifier of the node on which the data IP was hosted.
+
+== ffm.dataip.unhostSuccess
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a data IP address is successfully unhosted from the node. Data access through this IP address is not available.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+The NFS protocol service unhosted data IP address "%s" on node "%s" (ID: %u).
+*Parameters*::
+*dataip* (STRING): IP address that was unhosted.
+*nodename* (STRING): Name of the node on which the data IP was unhosted.
+*nodeid* (INT): Unique identifier of the node on which the data IP was unhosted.

@@ -1,0 +1,32 @@
+---
+sidebar: sidebar
+permalink: master-new-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: master.new events
+---
+
+= master.new events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== master.new.connection.state
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the connection state from the associated node to current cluster master has changed.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Service ID %u on node ID %u (UUID: %s) has a new MVIP address connection state "%s" to cluster master with service ID %u. The best connection state is "%s".
+*Parameters*::
+*serviceID* (INT): Service ID that identifies the associated master service.
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID of the associated node.
+*currentState* (STRING): Current management virtual IP (MVIP) address connection state.
+*lastKnownClusterMasterServiceID* (INT): Service ID number of the cluster master last known by this node.
+*highestState* (STRING): Best MVIP address connection state reached since the node connected to current cluster master.

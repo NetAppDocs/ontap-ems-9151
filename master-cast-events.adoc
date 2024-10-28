@@ -1,0 +1,35 @@
+---
+sidebar: sidebar
+permalink: master-cast-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: master.cast events
+---
+
+= master.cast events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== master.cast.cm.vote.against
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the master service of the associated node cannot connect to current cluster master. It tries to cast a vote against current cluster master in the global database. The current cluster master is demoted if more than half of the cluster nodes vote against it, and a new cluster master is promoted.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Service ID %u on node ID %u (UUID: %s) has voted against current cluster master with sequence number %u and service ID %u based on "%s". The current MVIP address connection state is "%s" with duration %s. The best connection state is "%s".
+*Parameters*::
+*serviceID* (INT): Service ID that identifies the associated master service.
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID of the associated node.
+*sequenceNumber* (INT): Sequence number of the cluster master.
+*lastKnownClusterMasterServiceID* (INT): Service ID number of the cluster master last known by this node.
+*reason* (STRING): Reason for casting the vote against current cluster master.
+*currentState* (STRING): Current MVIP address connection state.
+*currentStateDuration* (STRING): Duration of current MVIP address connection state.
+*highestState* (STRING): Best MVIP address connection state reached since the node connected to current cluster master.

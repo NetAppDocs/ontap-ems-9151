@@ -1,0 +1,32 @@
+---
+sidebar: sidebar
+permalink: ffrespmon-aggr-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: ffrespmon.aggr events
+---
+
+= ffrespmon.aggr events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== ffRespMon.aggr.offline
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when an aggregate is detected to be offline due to an unresponsive Firefly Service on a node.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Aggregate (ID: %u) attached (attaching: %u) to a Firefly Service (ID: %u), running on node %s (ID: %u, Uuid: %s), is offline.
+*Parameters*::
+*aggrID* (INT): Unique identifier of the aggregate.
+*attaching* (INT): Boolean value to denote whether the Firefly Service was in the process of attaching the aggregate.
+*fireflyID* (INT): Unique identifier of the Firefly Service to which the aggregate is attached.
+*nodeName* (STRING): Name of the node hosting the Firefly Service.
+*nodeID* (INT): Unique identifier of the node the hosting the Firefly Service.
+*nodeUuid* (STRING): Universal unique identifier of the node the hosting the Firefly Service.

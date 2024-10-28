@@ -1,0 +1,39 @@
+---
+sidebar: sidebar
+permalink: dbs-director-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.director events
+---
+
+= dbs.director events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.director.addrs.stable
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when data address assignments are stable. This means that all data address movement, graceful or ungraceful, is complete and remains stable until another event on the cluster requires subsequent data address movement.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Data address movement is complete and data address assignments are stable.
+*Parameters*::
+(None).
+
+== dbs.director.aggrs.stable
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when aggregate assignments are stable. This means that all aggregate movement, graceful or ungraceful, is complete and remains stable until another event on the cluster requires subsequent aggregate movement.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Aggregate movement is complete and aggregate assignments are stable.
+*Parameters*::
+(None).

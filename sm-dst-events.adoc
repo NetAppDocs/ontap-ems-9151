@@ -1,0 +1,28 @@
+---
+sidebar: sidebar
+permalink: sm-dst-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: sm.dst events
+---
+
+= sm.dst events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== sm.dst.vol.no.tag.metadata
+*Severity*::
+ALERT
+*Description*::
+This message occurs when the SnapMirror(R) labels are lost for all Snapshot(tm) copies on the vault destination. This happens when the Snapshot copy tag's metafile of a volume has an inconsistent header. As a result, SnapMirror cannot automatically delete existing Snapshot copies from the SnapVault(R) destination and can reach the maximum supported Snapshot copies limit. New Snapshot copies are not affected.
+*Corrective Action*::
+When SnapVault destination reaches maximum supported Snapshot copies limit, delete the Snapshot copies that are missing the SnapMirror label. Use "volume snapshot show -snapmirror-label -" to get a list of Snapshot copies that are missing SnapMirror label.
+*Syslog Message*::
+The volume '%s' has lost SnapMirror label for all Snapshot copies. SnapMirror will use Snapshot copy's Name Prefix to automatically delete Snapshot copies based on SnapMirror policy '%s'.
+*Parameters*::
+*dst_path* (STRING): Destination volume of the SnapVault relationship.
+*policy_name* (STRING): SnapMirror policy name.

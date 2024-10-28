@@ -1,0 +1,29 @@
+---
+sidebar: sidebar
+permalink: vol-reserve-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: vol.reserve events
+---
+
+= vol.reserve events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== vol.reserve.grew
+*Severity*::
+ERROR
+*Description*::
+This message occurs when WAFL(R) grows the reserve of a flexible volume that was running dangerously low on blocks for writing.
+*Corrective Action*::
+Create space by increasing the volume size, deleting data, or changing the provisioning from thick to thin. To increase a volume's size, use the "volume size" command. To change provisioning in a volume reserved files can be unreserved by using the "volume file reservation" command.
+*Syslog Message*::
+WAFL grew reserve of volume %s%s%s because the volume was running low on blocks.
+*Parameters*::
+*name* (STRING): Name of the volume.
+*app* (STRING): Application UUID.
+*vserver_uuid* (STRING): Name of the associated Vserver's UUID.

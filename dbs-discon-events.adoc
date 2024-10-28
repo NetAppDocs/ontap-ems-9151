@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: dbs-discon-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.discon events
+---
+
+= dbs.discon events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.discon.snapmirror.end
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the Distributed Block Store (DBS) is unable to access snapmirror endpoint on the network. The DBS is responsible for managing the data that backs the FlexVols(R).
+*Corrective Action*::
+Check network connectivity between the cluster and the remote snapmirror endpoint. Check the 1G management network.
+*Syslog Message*::
+The Distributed Block Store is unable to access the snapmirror endpoint from cluster. The cluster fault type is %s and fault id is %u.
+*Parameters*::
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Description of the cluster fault, including context details.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.

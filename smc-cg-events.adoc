@@ -1,0 +1,30 @@
+---
+sidebar: sidebar
+permalink: smc-cg-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: smc.cg events
+---
+
+= smc.cg events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== smc.cg.snap.ren.revert.fail
+*Severity*::
+ERROR
+*Description*::
+This message occurs when a FlexGroup(R) Snapshot copy rename fails and the revert to the original Snapshot copy name also fails.
+*Corrective Action*::
+Manually rename the Snapshot copy by issuing the "snapshot rename" command.
+*Syslog Message*::
+Unable to revert Snapshot copy name from the new name, "%s" to oldname "%s" in volume "%s".
+*Parameters*::
+*newsnapname* (STRING): New Snapshot copy name.
+*origsnapname* (STRING): Original Snapshot copy name.
+*dstpath* (STRING): Path name of the destination volume to which the Snapshot copy rename was issued.
+*error* (INT): Error code of the failure.

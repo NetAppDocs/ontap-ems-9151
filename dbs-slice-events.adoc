@@ -1,0 +1,54 @@
+---
+sidebar: sidebar
+permalink: dbs-slice-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.slice events
+---
+
+= dbs.slice events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.slice.operation
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a Distributed Block Store (DBS) event relating to a slice service operation such as removing a metadata drive, slice reassignment i.e. balancing volumes, moving primaries, snapshot success, failure, expiration, group snapshot success, failure occurs. If the original DBS event specifies multiple drives, then an EMS event is generated for each drive.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+A DBS slice event occurred, event %s, type %s, service %u, node %u/%s, drive %u/%s, eventID %u.
+*Parameters*::
+*evtMessage* (STRING): Description of the DBS event, including context details.
+*evtType* (STRING): Type of the original DBS event.
+*serviceID* (INT): Service ID that identifies the associated DBS service. It is 0 if there is no associated service.
+*nodeID* (INT): Node ID number of the associated node. It is 0 if there is no associated node.
+*nodeUuid* (STRING): Generated Universal Unique Identifier (UUID) of the associated node. It displays zeroes if there is no associated node.
+*driveID* (INT): Drive ID number of the associated drive. It is 0 if there is no associated drive.
+*driveUuid* (STRING): Generated UUID of the associated drive. It displays zeroes if there is no associated drive.
+*evtID* (INT): DBS event ID number.
+*evtDetails* (STRING): Specific details of the DBS event. It displays as a string, in JSON format, or is empty.
+
+== dbs.slice.service.unhealthy
+*Severity*::
+ALERT
+*Description*::
+This message occurs when the Distributed Block Store (DBS) is trying to migrate data away from an unresponsive Slice Service. The DBS is responsible for managing the data that backs the FlexVols(R).
+*Corrective Action*::
+Expect DBS to automatically resolve this failure. The cluster is automatically decommissioning data and re-replicating its data onto other healthy drives.
+*Syslog Message*::
+DBS is migrating data away from unresponsive Slice service %u, node %u.
+*Parameters*::
+*serviceID* (INT): Service ID that identifies the associated DBS service.
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID of the associated node. It will be zeroes if there is no associated node.
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Description of the cluster fault, including context details.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.

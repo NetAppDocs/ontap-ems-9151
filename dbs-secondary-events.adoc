@@ -1,0 +1,36 @@
+---
+sidebar: sidebar
+permalink: dbs-secondary-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.secondary events
+---
+
+= dbs.secondary events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.secondary.cache.thresh
+*Severity*::
+ALERT
+*Description*::
+This message occurs when the Distributed Block Store (DBS) detects that Slice volume secondary write cache has reached the first fullness warning threshold. Secondary cache starts to fill when Slice service write requests to the Block service (and by extension the FireStorm service) are not receiving replies. Client write performance may be reduced if this condition persists. The DBS is responsible for managing the data that backs the FlexVols(R).
+*Corrective Action*::
+Verify that all nodes are online. Verify that all Block and FireStorm services, and associated aggregates, are online. Attempt repairs needed to bring nodes and aggregrates online. If the reason for this condition cannot be found, contact NetApp technical support.
+*Syslog Message*::
+Slice secondary cache fullness threshold reached for service ID %u on node %u.
+*Parameters*::
+*serviceID* (INT): Service ID that identifies the associated cluster service.
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID of the associated node. It will be zeroes if there is no associated node.
+*cfDriveIDs* (STRING): List of the drive IDs associated with the fault. The list might be empty.
+*cfDriveUuids* (STRING): List of the drive UUIDs associated with the fault. The list might be empty.
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Description of the cluster fault, including context details.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.

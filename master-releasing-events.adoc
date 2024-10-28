@@ -1,0 +1,29 @@
+---
+sidebar: sidebar
+permalink: master-releasing-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: master.releasing events
+---
+
+= master.releasing events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== master.releasing.cm
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the node is demoted from being the cluster master.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Service ID %u on node ID %u (UUID: %s) releases control as the cluster master.
+*Parameters*::
+*serviceID* (INT): Service ID that identifies the associated master service.
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID of the associated node.

@@ -1,0 +1,41 @@
+---
+sidebar: sidebar
+permalink: disk-encrypt-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: disk.encrypt events
+---
+
+= disk.encrypt events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== disk.encrypt.destroy.complete
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when the disk encrypt destroy operation is completed.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Disk %s [S/N %s] has completed encrypt destroy.
+*Parameters*::
+*diskName* (STRING): Name of the device.
+*serialno* (STRING): Serial number of the device.
+
+== disk.encrypt.revert.complete
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the disk encrypt revert operation is completed.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Disk %s [S/N %s] has completed encrypt revert.
+*Parameters*::
+*diskName* (STRING): Name of the device.
+*serialno* (STRING): Serial number of the device.

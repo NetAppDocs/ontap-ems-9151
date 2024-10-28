@@ -1,0 +1,53 @@
+---
+sidebar: sidebar
+permalink: secd-rpc-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: secd.rpc events
+---
+
+= secd.rpc events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== secd.rpc.authRequest.blocked
+*Severity*::
+ALERT
+*Description*::
+This message occurs when a CIFS authentication RPC is blocked by Security Daemon(SecD) due to continuous authentication requests with wrong logon password from a particular client.
+*Corrective Action*::
+Check whether there is an unexpected increase in the number of authentication requests with wrong logon password from a particular CIFS client.
+*Syslog Message*::
+Too many CIFS authentication attempts with wrong password from client "%s" on Vserver "%s".
+*Parameters*::
+*clientIP* (STRING): Client that has been blocked.
+*vserverName* (STRING): Vserver associated with this operation.
+
+== secd.rpc.server.ready
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when SecD successfully loads the configuration and is ready to serve all RPCs.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+SecD is ready to serve all RPCs.
+*Parameters*::
+(None).
+
+== secd.rpc.server.request.dropped
+*Severity*::
+ERROR
+*Description*::
+This message occurs when a remote procedure call(RPC) is dropped by SecD due to a lack of memory space. It might occur either when SecD receives too many requests than it can handle or when a number of requests have accumulated due to server connectivity issues.
+*Corrective Action*::
+Check whether there is an unexpected increase in the number of authentication requests from NFS/CIFS clients. Verify that there are no connectivity issues to the external servers like DNS, LDAP, and DC.
+*Syslog Message*::
+RPC "%s" that was sent from "%s" was dropped by SecD due to a lack of memory space.
+*Parameters*::
+*rpcName* (STRING): Name of the RPC that has been dropped.
+*callerName* (STRING): Caller of the RPC that has been dropped.

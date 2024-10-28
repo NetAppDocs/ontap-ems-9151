@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: dbs-exception-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.exception events
+---
+
+= dbs.exception events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.exception
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the Distributed Block Store (DBS) is unable to process a cluster fault.
+*Corrective Action*::
+Wait 60 minutes and check that the fault status has changed to Resolved. If the condition persists, contact NetApp technical support.
+*Syslog Message*::
+DBS has detected a software exception. Cluster fault type %s, fault ID %u, status %u. %s
+*Parameters*::
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Description of the exception.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.

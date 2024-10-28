@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: service-resp-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: service.resp events
+---
+
+= service.resp events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== service.resp.committed
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a service (Firefly, Slice Service, etc.) is detected as responsive and this state is committed into the Zookeeper database. The service ID and node ID on which it is running are displayed in the event notification.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+The responsiveness for service (ID: %u) of type %s running on node %s (ID: %u, Uuid: %s) has been committed into the database.
+*Parameters*::
+*serviceID* (INT): Unique identifier (service ID) of the service.
+*serviceType* (STRING): Type of the service.
+*nodeName* (STRING): Name of the node on which the service is running.
+*nodeID* (INT): Unique identifier of the node on which the service is running.
+*nodeUuid* (STRING): Universal unique identifier of the node on which the service is running.

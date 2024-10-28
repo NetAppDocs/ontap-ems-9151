@@ -1,0 +1,71 @@
+---
+sidebar: sidebar
+permalink: dbs-network-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.network events
+---
+
+= dbs.network events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.network.error.fault
+*Severity*::
+ERROR
+*Description*::
+This message occurs when a distributed block store detects network configuration or connectivity errors on nodes in the cluster. Multiple error conditions are mapped to this one event. The distributed block store is responsible for managing the data that backs the flexible volumes.
+*Corrective Action*::
+Check and rectify network configuration parameters for configuration faults. For network connectivity faults, check physical components such as network interface card (NIC) port, switch port and ethernet cable. Replace the faulty component.
+*Syslog Message*::
+The distributed block store detects a network configuration cluster fault on node %u/%s. The cluster fault type is %s and fault ID is %u.
+*Parameters*::
+*nodeID* (INT): Node ID number of the associated node. It is "0" if there is no associated node.
+*nodeUuid* (STRING): Universal unique identifier (UUID) of the associated node. If there is no associated node, zeroes display.
+*cfType* (STRING): Distributed block store cluster fault type of the associated object.
+*cfID* (INT): Distributed block store cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Description of the cluster fault, including context details.
+*cfExtSrc* (STRING): Distributed block store cluster fault external source label created by the "CreateClusterFault" API command and attached to the fault for testing purposes.
+
+== dbs.network.event
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a Distributed Block Store (DBS) event related to storage cluster networking occurs.
+*Corrective Action*::
+Contact NetApp technical support for events related to network errors to assess the severity and for any required corrective actions.
+*Syslog Message*::
+A DBS software networking event %s of type %s occurred for Service ID %u on node %u/%s. Drive ID = %u/%s. Event ID = %u.
+*Parameters*::
+*evtMessage* (STRING): Description of the DBS event, including context details.
+*evtType* (STRING): Type of the original DBS event.
+*serviceID* (INT): Service ID that identifies the associated DBS service. It is "0" if there is no associated service.
+*nodeID* (INT): Node ID number of the associated node. It is "0" if there is no associated node.
+*nodeUuid* (STRING): Generated Universal Unique Identifier (UUID) of the associated node. It displays zeroes if there is no associated node.
+*driveID* (INT): Drive ID number of the associated drive. It is "0" if there is no associated drive.
+*driveUuid* (STRING): Generated UUID of the associated drive. It displays zeroes if there is no associated drive.
+*evtID* (INT): DBS event ID number.
+*evtDetails* (STRING): Specific details of the DBS event. It displays as a string, in JSON format, or is empty.
+
+== dbs.network.mtu.check
+*Severity*::
+ERROR
+*Description*::
+This message occurs when a distributed block store fails to send messages between the storage cluster nodes using configured maximum transmission unit (MTU size). The distributed block store is responsible for managing the data that backs the flexible volumes.
+*Corrective Action*::
+Check and rectify network MTU size on cluster nodes and switches connected to it. Contact NetApp technical support.
+*Syslog Message*::
+The distributed block store detects a network MTU check cluster fault on node %u/%s. The cluster fault type is %s and fault ID is %u.
+*Parameters*::
+*nodeID* (INT): Node ID number of the associated node. It is "0" if there is no associated node.
+*nodeUuid* (STRING): Universal unique identifier (UUID) of the associated node. If there is no associated node, zeroes display.
+*cfType* (STRING): Distributed block store cluster fault type of the associated object.
+*cfID* (INT): Distributed block store cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Description of the cluster fault, including context details.
+*cfExtSrc* (STRING): Distributed block store cluster fault external source label created by the "CreateClusterFault" API command and attached to the fault for testing purposes.
