@@ -1,5 +1,5 @@
 indexpage:
-  title: ONTAP 9.15.1 EMS Reference
+  title: ONTAP 9.15.1 EMS reference
   lead: 'The ONTAP 9.15.1 EMS reference documents all EMS (Event Management System) events in the ONTAP 9.15.1 release.'
   summary: 'The ONTAP 9.15.1 EMS reference documents all EMS (Event Management System) events in the ONTAP 9.15.1 release.'
   keywords: ems, message, messages, event, events, group, catalog
