@@ -1,0 +1,28 @@
+---
+sidebar: sidebar
+permalink: xyz-trans-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: xyz.trans events
+---
+
+= xyz.trans events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== xyz.trans.vol.start
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when Copy-Free Transition's volume transition job, responsible for transitioning 7-Mode volumes to clustered Data ONTAP(R), starts.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Copy-Free Transition session:%s volume transition job for %d volumes started.
+*Parameters*::
+*sessionId* (STRING): Unique session identification number.
+*numVolumes* (INT): Number of volumes transitioning.

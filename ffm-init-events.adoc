@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: ffm-init-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: ffm.init events
+---
+
+= ffm.init events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== ffm.init.firefly
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the Firefly manager is initiated during Firefly boot.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Firefly manager initiated.
+*Parameters*::
+(None).

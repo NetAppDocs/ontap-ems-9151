@@ -1,0 +1,59 @@
+---
+sidebar: sidebar
+permalink: dbs-generic-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.generic events
+---
+
+= dbs.generic events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.generic.cluster.fault
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a Distributed Block Store (DBS) cluster fault is reported as a generic fault. The DBS is responsible for managing the data that backs the FlexVols(R). Multiple faults are mapped to this one event.
+*Corrective Action*::
+None.
+*Syslog Message*::
+A DBS generic cluster fault occurred, fault %s (%u), sev %u, service %u, node %u/%s, drives %s.
+*Parameters*::
+*cfCodeName* (STRING): Name of the original DBS cluster fault code.
+*cfCode* (INT): DBS cluster fault code number.
+*cfSeverity* (INT): Severity of the original DBS cluster fault. This is different than the EMS severity.
+*serviceID* (INT): Service ID that identifies the associated cluster service. It will be "0" if there is no associated service.
+*nodeID* (INT): Node ID number of the associated node. It will be "0" if there is no associated node.
+*nodeUuid* (STRING): Node UUID of the associated node. It will be zeroes if there is no associated node.
+*cfDriveIDs* (STRING): List of the drive IDs associated with the fault. The list might be empty.
+*cfDriveUuids* (STRING): List of the drive UUIDs associated with the fault. The list might be empty.
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Description of the cluster fault, including context details.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.
+
+== dbs.generic.event
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a Distributed Block Store (DBS) event is reported as a generic event. The DBS is responsible for managing the data that backs the FlexVols(R). Multiple DBS events are mapped to this one event. If the original DBS event specifies multiple drives, then an EMS event is generated for each drive.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+DBS generic event %s occurred, type %s, service %u, node %u/%s. drive %u/%s, eventID %u.
+*Parameters*::
+*evtMessage* (STRING): Description of the DBS event, including context details.
+*evtType* (STRING): Type of the original DBS event.
+*serviceID* (INT): Service ID that identifies the associated DBS service. It is 0 if there is no associated service.
+*nodeID* (INT): Node ID number of the associated node. It is 0 if there is no associated node.
+*nodeUuid* (STRING): Generated Universal Unique Identifier (UUID) of the associated node. It displays zeroes if there is no associated node.
+*driveID* (INT): Drive ID number of the associated drive. It is 0 if there is no associated drive.
+*driveUuid* (STRING): Generated UUID of the associated drive. It displays zeroes if there is no associated drive.
+*evtID* (INT): DBS event ID number.
+*evtDetails* (STRING): Specific details of the DBS event. It displays as a string, in JSON format, or is empty.

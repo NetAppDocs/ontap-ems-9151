@@ -1,0 +1,35 @@
+---
+sidebar: sidebar
+permalink: dbs-drives-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.drives events
+---
+
+= dbs.drives events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.drives.failed
+*Severity*::
+ERROR
+*Description*::
+This message occurs when Distributed Block Store (DBS) has one or more failed drives. This can be happen due to: no access, too many failures, a missing drive, inaccessible master service for the node, or the drive is locked and cannot be unlocked or the authentication key cannot be accessed.
+*Corrective Action*::
+Check network connectivity for the node. Replace the drives. Make sure that the authentication key is available.
+*Syslog Message*::
+DBS has detected a failed drive(s). Cluster fault node %u, node UUID %s, drives %s, drive UUIDs %s, type %s, cluster fault ID %u, status %u. %s
+*Parameters*::
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID string of the associated node.
+*cfDriveIDs* (STRING): IDs of the failed drives
+*cfDriveUuids* (STRING): UUIDs of the failed drives
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Description of the cluster fault, including context details.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.

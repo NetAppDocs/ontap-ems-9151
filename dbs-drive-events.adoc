@@ -1,0 +1,55 @@
+---
+sidebar: sidebar
+permalink: dbs-drive-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.drive events
+---
+
+= dbs.drive events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.drive
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a Distributed Block Store (DBS) event related to drive operations occurs. If the original DBS event specifies multiple drives, then an EMS event is generated for each drive.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+A DBS event occurred, event %s, type %s, service %u, node %u/%s, drive %u/%s, eventID %u.
+*Parameters*::
+*evtMessage* (STRING): Description of the DBS event, including context details.
+*evtType* (STRING): Type of the original DBS event.
+*serviceID* (INT): Service ID that identifies the associated DBS service. It is "0" if there is no associated service.
+*nodeID* (INT): Node ID number of the associated node. It is "0" if there is no associated node.
+*nodeUuid* (STRING): Generated Universal Unique Identifier (UUID) of the associated node. It displays zeroes if there is no associated node.
+*driveID* (INT): Drive ID number of the associated drive. It is "0" if there is no associated drive.
+*driveUuid* (STRING): Generated UUID of the associated drive. It displays zeroes if there is no associated drive.
+*evtID* (INT): DBS event ID number.
+*evtDetails* (STRING): Specific details of the DBS event. It displays as a string, in JSON format, or is empty.
+
+== dbs.drive.capacity.mismatch
+*Severity*::
+ALERT
+*Description*::
+This message occurs when Distributed Block Store (DBS) detects a drive capacity mismatch.
+*Corrective Action*::
+Check capacity of drive against other DBS drives on the node. All drives are expected to be the same size.
+*Syslog Message*::
+DBS has detected a drive capacity mismatch. Cluster fault node %u, node UUID %s, drives %s, drive UUIDs %s, type %s, fault ID %u, status %u. %s
+*Parameters*::
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID string of the associated node.
+*cfDriveIDs* (STRING): IDs of the affected drives.
+*cfDriveUuids* (STRING): UUIDs of the affected drives.
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Details of the hardware mismatch.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.

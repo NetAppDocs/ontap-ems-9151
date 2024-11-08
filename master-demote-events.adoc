@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: master-demote-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: master.demote events
+---
+
+= master.demote events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== master.demote.cm.committed
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the associated node successfully updates the global database to demote current cluster master. As a result, a new cluster is promoted.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Service ID %u on node ID %u (UUID: %s) successfully updated database to demote cluster master with sequence number %u and service ID %u.
+*Parameters*::
+*serviceID* (INT): Service ID that identifies the associated master service.
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID of the associated node.
+*sequenceNumber* (INT): Sequence number of the cluster master last known by this node.
+*lastKnownClusterMasterServiceID* (INT): Service ID number of the cluster master last known by this node.

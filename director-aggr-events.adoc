@@ -1,0 +1,36 @@
+---
+sidebar: sidebar
+permalink: director-aggr-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: director.aggr events
+---
+
+= director.aggr events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== director.aggr.reassigned
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when an aggregate is being reassigned from one node to another node. The output contains the Firefly ID and node ID of both nodes as well as whether or not the operation was done forcefully. The value of isForceful is "true" if an aggregate is moved in response to a error condition on the cluster rather than a user requested operation.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Aggregate (ID: %u) is being reassigned (forcefully:%u) from node %s (ID: %u, Uuid: %s Firefly ID: %u) to node %s (ID: %u, Uuid: %s Firefly ID: %u).
+*Parameters*::
+*aggrID* (INT): Unique identifier of the aggregate being reassigned.
+*isForceful* (INT): Boolean value to denote whether or not the reassignment was done forcefully.
+*fromNode* (STRING): Name of the node that the aggregate is being reassigned from.
+*fromNodeID* (INT): Unique identifier of the node that the aggregate is being reassigned from.
+*fromNodeUuid* (STRING): Universal unique identifier of the node that the aggregate is being reassigned from.
+*fromFireflyID* (INT): Unique identifier of the Firefly Service that the aggregate is reassigned to.
+*toNode* (STRING): Name of the node that the aggregate is being reassigned to.
+*toNodeID* (INT): Unique identifier of the node that the aggregate is being reassigned to.
+*toNodeUuid* (STRING): Universal unique identifier of the node that the aggregate is being reassigned to.
+*toFireflyID* (INT): Unique identifier of the Firefly Service that the aggregate is reassigned to.

@@ -1,0 +1,44 @@
+---
+sidebar: sidebar
+permalink: dbs-master-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.master events
+---
+
+= dbs.master events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.master.didnt.start.cm
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the node fails to execute cluster master startup. The system attempts to start the cluster master again automatically.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Cluster master startup on service ID %u on node ID %u (UUID: %s) failed. Reason: %s.
+*Parameters*::
+*serviceID* (INT): Service ID that identifies the associated master service.
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID of the associated node.
+*reason* (STRING): Reason cluster master startup failed.
+
+== dbs.master.started.cm
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the node completes cluster master startup successfully.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Cluster master startup on service ID %u on node ID %u (UUID: %s) completed successfully.
+*Parameters*::
+*serviceID* (INT): Service ID that identifies the associated master service.
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node universal unique identifier (UUID) of the associated node.

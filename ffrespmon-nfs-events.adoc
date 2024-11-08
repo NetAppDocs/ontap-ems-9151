@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: ffrespmon-nfs-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: ffrespmon.nfs events
+---
+
+= ffrespmon.nfs events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== ffRespMon.nfs.unresponsive
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a data interface's IP address is unreachable. The NFS service might be affected and unresponsive.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Data IP address %s (ID: %u), hosted on node %s (ID: %u, Uuid: %s), is currently not reachable.
+*Parameters*::
+*dataip* (STRING): IP address of the data interface.
+*dataipID* (INT): Unique identifier of the data IP.
+*nodeName* (STRING): Name of the node hosting given data IP.
+*nodeID* (INT): Unique identifier of the node hosting given data IP.
+*nodeUuid* (STRING): Universal unique identifier of the node hosting given data IP.

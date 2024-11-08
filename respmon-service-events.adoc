@@ -1,0 +1,47 @@
+---
+sidebar: sidebar
+permalink: respmon-service-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: respmon.service events
+---
+
+= respmon.service events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== respMon.service.responsive
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a service being monitored is responding to requests.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+A service (ID: %u) of type %s, running on node %s (ID: %u, Uuid: %s), is responsive.
+*Parameters*::
+*serviceID* (INT): Unique identifier of the service (ServiceID).
+*serviceType* (STRING): Service type.
+*nodeName* (STRING): Name of the node on which the service is running.
+*nodeID* (INT): Unique identifier of the node on which the service is running.
+*nodeUuid* (STRING): Universal unique identifier of the node on which the service is running.
+
+== respMon.service.unresponsive
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a service being monitored is unresponsive.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+A service (ID: %u) of type %s, running on node %s (ID: %u, Uuid: %s), is unresponsive.
+*Parameters*::
+*serviceID* (INT): Unique identifier of the service (ServiceID).
+*serviceType* (STRING): Service type.
+*nodeName* (STRING): Name of the node on which the service is running.
+*nodeID* (INT): Unique identifier of the node on which the service is running.
+*nodeUuid* (STRING): Universal unique identifier of the node on which the service is running.

@@ -1,0 +1,35 @@
+---
+sidebar: sidebar
+permalink: dbs-encr-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.encr events
+---
+
+= dbs.encr events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.encr.at.rest
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when Distributed Block Store (DBS) enables or disables encryption at rest on a self-encrypting drive. Encrypting drives automatically encrypt and decrypt the data as it is written or read from the drive media. Enabling encryption at rest protects the data from unauthorized access if the drive is power-cycled. If the original DBS event specifies multiple drives, then an EMS event is generated for each drive.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+A DBS encryption at rest event occurred, event %s, type %s, service %u, node %u/%s, drive %u/%s, eventID %u.
+*Parameters*::
+*evtMessage* (STRING): Description of the DBS event, including context details.
+*evtType* (STRING): Type of the original DBS event.
+*serviceID* (INT): Service ID that identifies the associated DBS service. It is 0 if there is no associated service.
+*nodeID* (INT): Node ID number of the associated node. It is 0 if there is no associated node.
+*nodeUuid* (STRING): Generated Universal Unique Identifier (UUID) of the associated node. It displays zeroes if there is no associated node.
+*driveID* (INT): Drive ID number of the associated drive. It is 0 if there is no associated drive.
+*driveUuid* (STRING): Generated UUID of the associated drive. It displays zeroes if there is no associated drive.
+*evtID* (INT): DBS event ID number.
+*evtDetails* (STRING): Specific details of the DBS event. It displays as a string, in JSON format, or is empty.

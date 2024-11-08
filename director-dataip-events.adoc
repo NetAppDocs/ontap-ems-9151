@@ -1,0 +1,35 @@
+---
+sidebar: sidebar
+permalink: director-dataip-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: director.dataip events
+---
+
+= director.dataip events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== director.dataip.reassigned
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a data IP address is being reassigned from one node to another node. The output contains the node ID of both nodes as well as whether or not the operation was done forcefully. The value of isForceful is "true" if the data IP is moved in response to a error condition on the cluster rather than a user requested operation.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Data IP address %s (ID: %u) is being reassigned (forcefully:%u) from node %s (ID: %u, Uuid: %s) to node %s (ID: %u, Uuid: %s).
+*Parameters*::
+*dataip* (STRING): IP address of the data IP.
+*dataipID* (INT): Unique identifier of the data IP.
+*isForceful* (INT): Boolean value to denote whether or not the reassignment was done forcefully.
+*fromNode* (STRING): Name of the node from which the data IP is being reassigned.
+*fromNodeID* (INT): Unique identifier of the node from which the data IP is being reassigned.
+*fromNodeUuid* (STRING): Universal unique identifier of the node from which the data IP is being reassigned.
+*toNode* (STRING): Name of the node to which the data IP is being reassigned.
+*toNodeID* (INT): Unique identifier of the node to which the data IP is being reassigned.
+*toNodeUuid* (STRING): Universal unique identifier of the node to which the data IP is being reassigned.

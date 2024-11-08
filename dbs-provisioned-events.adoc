@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: dbs-provisioned-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.provisioned events
+---
+
+= dbs.provisioned events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.provisioned.space.full
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the distributed block store detects that the overall provisioned capacity of the cluster has exceeded the slice reserve space threshold. The slice reserve space is only used when slices get reassigned due to slice drive failure. Therefore, the slice files can no longer be migrated during drive failure until this fault is resolved. The distributed block store is responsible for managing the data that backs the flexible volumes.
+*Corrective Action*::
+Add more provisioned space, or delete and purge volumes to resolve this fault.
+*Syslog Message*::
+The distributed block store detected that the overall provisioned capacity of the cluster is full. The cluster fault type is %s and fault id is %u.
+*Parameters*::
+*cfType* (STRING): Distributed block store cluster fault type of the associated object.
+*cfID* (INT): Distributed block store cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Description of the cluster fault, including context details.
+*cfExtSrc* (STRING): Distributed block store cluster fault external source label created by the "CreateClusterFault" API command and attached to the fault for testing purposes.

@@ -1,0 +1,47 @@
+---
+sidebar: sidebar
+permalink: dipmon-dataip-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dipmon.dataip events
+---
+
+= dipmon.dataip events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dipmon.dataip.responsive
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a data IP address becomes responsive on the node on which it is hosted and has been committed to the Zookeeper database.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Data IP address %s (ID: %u) hosted on node %s (ID: %u, Uuid: %s) is responsive and has been committed to the database.
+*Parameters*::
+*dataip* (STRING): IP address of the data IP.
+*dataipID* (INT): Unique identifier of the data IP.
+*nodeName* (STRING): Name of the node that is hosting the data IP.
+*nodeID* (INT): Unique identifier of the node that is hosting the data IP.
+*nodeUuid* (STRING): Universal unique identifier of the node that is hosting the data IP.
+
+== dipmon.dataip.unresponsive
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a data IP address becomes unresponsive on the node on which it is hosted and has been committed to the Zookeeper database.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Data IP address %s (ID: %u) hosted on node %s (ID: %u, Uuid: %s) is unresponsive and has been committed to the database.
+*Parameters*::
+*dataip* (STRING): IP address of the data IP.
+*dataipID* (INT): Unique identifier of the data IP.
+*nodeName* (STRING): Name of the node that is hosting the data IP.
+*nodeID* (INT): Unique identifier of the node that is hosting the data IP.
+*nodeUuid* (STRING): Universal unique identifier of the node that is hosting the data IP.
