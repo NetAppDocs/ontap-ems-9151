@@ -1,0 +1,51 @@
+---
+sidebar: sidebar
+permalink: dbs-file-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.file events
+---
+
+= dbs.file events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.file.system.capacity.low
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the Distributed Block Store (DBS) detects the mounted container file system ("/", "/persist", "/var/log") has capacity below 5 percent.
+*Corrective Action*::
+Add additional filesystem capacity to the node or remove any unneeded files until the fault is cleared.
+*Syslog Message*::
+DBS has detected low filesystem free space on node %u/%s. Cluster fault type %s, fault ID %u, status %u. %s
+*Parameters*::
+*nodeID* (INT): Node ID number of the associated node. It is "0" if there is no associated node.
+*nodeUuid* (STRING): Universal unique identifier (UUID) of the associated node. If there is no associated node, zeroes display.
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Description of the cluster fault, including context details.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.
+
+== dbs.file.system.read.only
+*Severity*::
+ALERT
+*Description*::
+This message occurs when Distributed Block Store (DBS) detects a mounted container file system ("/", "/persist", "/var/log") that should be writeable is marked as read-only.
+*Corrective Action*::
+Verify required node file systems ("/", "/persist", "/var/log") are writeable. If not, resolve this issue. Contact NetApp technical support if cause cannot be found.
+*Syslog Message*::
+DBS has detected a file system is read-only. Cluster fault node %u, node UUID %s, type %s, fault ID %u, status %u. %s
+*Parameters*::
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID string of the associated node.
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Details of the file system set to read-only.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.

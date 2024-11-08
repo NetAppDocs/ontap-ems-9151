@@ -1,0 +1,29 @@
+---
+sidebar: sidebar
+permalink: application-volume-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: application.volume events
+---
+
+= application.volume events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== application.volume.removed
+*Severity*::
+ERROR
+*Description*::
+This message occurs when an application is destroyed, but a member volume was not deleted after an error was was encountered. This volume is no longer associated with the application and must be deleted manually.
+*Corrective Action*::
+Delete the volume using the "volume delete" command.
+*Syslog Message*::
+Failed to destroy member volume %s in Vserver %s during an application destroy operation. The volume must be deleted manually. The volume was previously associated with an application with UUID %s.
+*Parameters*::
+*volumeName* (STRING): Name of the volume.
+*vserver* (STRING): Vserver containing the volume.
+*applicationUUID* (STRING): UUID of the application.

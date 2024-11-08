@@ -1,0 +1,34 @@
+---
+sidebar: sidebar
+permalink: master-try-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: master.try events
+---
+
+= master.try events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== master.try.demote.cm
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the associated node can not connect to current cluster master and tries to demote it by making associated global database change. The database change might fail if multiple cluster nodes try to do the same thing, and one of them has updated global database successfully.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Service ID %u on node ID %u (UUID: %s) tries to demote the cluster master with sequence number %u and service ID %u from the global database based on the votes (forVotes=%u, againstVotes=%u, staleVotes=%u).
+*Parameters*::
+*serviceID* (INT): Service ID that identifies the associated master service.
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID of the associated node.
+*sequenceNumber* (INT): Sequence number of the cluster master last known by this node.
+*lastKnownClusterMasterServiceID* (INT): Service ID number of the cluster master last known by this node.
+*forVotes* (INT): Number of votes to keep current cluster master in the poll.
+*againstVotes* (INT): Number of votes to demote current cluster master in the poll.
+*staleVotes* (INT): Number of stale votes to update current cluster master in the poll.

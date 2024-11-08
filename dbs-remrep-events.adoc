@@ -1,0 +1,63 @@
+---
+sidebar: sidebar
+permalink: dbs-remrep-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.remrep events
+---
+
+= dbs.remrep events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.remrep.async.dly.exceed
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the Distributed Block Store (DBS) is executing remote replication for a pair of volumes, but that it has not reached active state for 6 hours. The DBS is responsible for managing the data that backs the FlexVols(R).
+*Corrective Action*::
+Check network connectivity between clusters. Inspect slice service logs to see if some issue is preventing replication from continuing.
+*Syslog Message*::
+The Distributed Block Store is attempting to perform remote replication that has not reached active state for 6 hours. The cluster fault type is %s and fault id is %u.
+*Parameters*::
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Description of the cluster fault, including context details.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.
+
+== dbs.remrep.snap.cluster.full
+*Severity*::
+ALERT
+*Description*::
+This message occurs when the Distributed Block Store (DBS) detects that Remote Replication of Snapshots is paused for associated volumes because target cluster is full. The DBS is responsible for managing the data that backs the FlexVols(R).
+*Corrective Action*::
+Free space on the target volume.
+*Syslog Message*::
+The Distributed Block Store detected that Remote Replication of Snapshots is paused for associated volumes because target cluster is full. The cluster fault type is %s and fault id is %u.
+*Parameters*::
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Description of the cluster fault, including context details.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.
+
+== dbs.remrep.snapshots.exceed
+*Severity*::
+ALERT
+*Description*::
+This message occurs when the Distributed Block Store (DBS) detects that Remote Replication of Snapshots is paused for associated volumes because target volume has exceeded its snapshot limit. The DBS is responsible for managing the data that backs the FlexVols(R).
+*Corrective Action*::
+Delete snapshots on the target volume.
+*Syslog Message*::
+The Distributed Block Store detected that Remote Replication of Snapshots is paused for associated volumes because target volume has exceeded its snapshot limit. The cluster fault type is %s and fault id is %u.
+*Parameters*::
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Description of the cluster fault, including context details.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.

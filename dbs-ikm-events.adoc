@@ -1,0 +1,35 @@
+---
+sidebar: sidebar
+permalink: dbs-ikm-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.ikm events
+---
+
+= dbs.ikm events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.ikm
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a Distributed Block Store (DBS) event relating to Internal Key Management (IKM) occurs, such as purging a key.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+DBS IKM event %s occurred, type %s, service %u, node %u/%s. drive %u/%s, eventID %u.
+*Parameters*::
+*evtMessage* (STRING): Description of the DBS event, including context details.
+*evtType* (STRING): Type of the original DBS event.
+*serviceID* (INT): Service ID that identifies the associated DBS service. It will be 0 if there is no associated service.
+*nodeID* (INT): Node ID number of the associated node. It will be 0 if there is no associated node.
+*nodeUuid* (STRING): Generated Universal Unique Identifier UUID of the associated node. It displays zeroes if there is no associated node.
+*driveID* (INT): Drive ID number of the associated drive. It will be 0 if there is no associated drive.
+*driveUuid* (STRING): Generated UUID of the associated drive. It diplays zeroes if there is no associated drive.
+*evtID* (INT): DBS event ID number.
+*evtDetails* (STRING): Specific details of the DBS event. It may be a string, in JSON format, or empty.

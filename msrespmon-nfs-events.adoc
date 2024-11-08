@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: msrespmon-nfs-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: msrespmon.nfs events
+---
+
+= msrespmon.nfs events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== msRespMon.nfs.unresponsive
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when data IP is detected to be unresponsive. NFS service may be affected and unreachable.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Data IP address %s (ID: %u) hosted on a node %s (ID: %u, Uuid: %s) has been detected to be unresponsive.
+*Parameters*::
+*dataip* (STRING): The IP address of the data IP.
+*dataipID* (INT): Unique identifier of the data IP.
+*nodeName* (STRING): Name of the node hosting given data IP.
+*nodeID* (INT): Unique identifier of the node hosting given data IP.
+*nodeUuid* (STRING): Universal unique identifier of the node hosting given data IP.

@@ -1,0 +1,71 @@
+---
+sidebar: sidebar
+permalink: ffm-aggr-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: ffm.aggr events
+---
+
+= ffm.aggr events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== ffm.aggr.attach.done
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when an aggregate attach operation is complete. The event displays the service ID of the attached Firefly Service and the generation number, which is the number of times this aggr has been unattached.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Aggregate ID: %u has been attached to a Firefly service ID: %u, the current attach generation of the aggregate is %u.
+*Parameters*::
+*aggrID* (INT): Unique identifier of the aggregate.
+*fireflyID* (INT): Unique identifier of the Firefly Service the aggregate is attached to.
+*attachGeneration* (INT): Current attach generation of the aggregate.
+
+== ffm.aggr.attach.started
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when an aggregate attach operation is started. The event displays the service ID of the attached Firefly Service and the generation number, which is the number of times this aggr has been unattached.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Attachment of an aggregate ID: %u to a Firefly service ID: %u has been started, the current attach generation of the aggregate is %u.
+*Parameters*::
+*aggrID* (INT): Unique identifier of the aggregate.
+*fireflyID* (INT): Unique identifier of the Firefly Service the aggregate is being attached to.
+*attachGeneration* (INT): Current attach generation of the aggregate.
+
+== ffm.aggr.detach.done
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when an aggregate detach operation is completed. The event displays the service ID of the attached Firefly Service and the generation number, which is the number of times this aggr has been unattached.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Aggregate ID: %u has been detached from a Firefly service ID: %u, the current attach generation of the aggregate is %u.
+*Parameters*::
+*aggrID* (INT): Unique identifier of the aggregate.
+*fireflyID* (INT): Unique identifier of the Firefly Service the aggregate is detached from.
+*attachGeneration* (INT): Current attach generation count of the aggregate.
+
+== ffm.aggr.detach.started
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when an aggregate detach operation is started. The event displays the service ID of the attached Firefly Service and the generation number, which is the number of times this aggr has been unattached.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Detachment of an aggregate ID: %u from a Firefly service ID: %u has been started, the current attach generation of the aggregate is %u.
+*Parameters*::
+*aggrID* (INT): Unique identifier of the aggregate.
+*fireflyID* (INT): Unique identifier of the Firefly Service the aggregate is being detached from.
+*attachGeneration* (INT): Current attach generation of the aggregate.

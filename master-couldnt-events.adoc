@@ -1,0 +1,52 @@
+---
+sidebar: sidebar
+permalink: master-couldnt-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: master.couldnt events
+---
+
+= master.couldnt events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== master.couldnt.cast.cm.vote
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the master service on the associated node is unable to cast a vote to update the connection status with current cluster master in global database since it has lost connection to the database server.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Service ID %u on node ID %u (UUID: %s) failed to cast a vote "%s" to cluster master with sequence number %u and service ID %u due to exception code: %s. The connection state is "%s" with duration %s. The best connection state is "%s".
+*Parameters*::
+*serviceID* (INT): Service ID that identifies the associated master service.
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID of the associated node.
+*voteToCast* (STRING): Vote which the master service failed to cast. It can be "true" or "false".
+*sequenceNumber* (INT): Sequence number of current cluster master.
+*lastKnownClusterMasterServiceID* (INT): Service ID number of the cluster master last known by this node.
+*exceptionCode* (STRING): Exception code.
+*currentState* (STRING): Current MVIP address connection state.
+*currentStateDuration* (STRING): Duration of current MVIP address connection state.
+*highestState* (STRING): Best MVIP address connection state reached since the node connected to current cluster master.
+
+== master.couldnt.demote.cm
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the associated node tries to update the global database to demote current cluster master but the operation fails due to an exception. This could happen if another cluster node already made the same database change, or the connection to global database has been lost.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Service ID %u on node ID %u (UUID: %s) failed to update database to demote cluster master with service ID %u with exception code: %s.
+*Parameters*::
+*serviceID* (INT): Service ID that identifies the associated master service.
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID of the associated node.
+*lastKnownClusterMasterServiceID* (INT): Service ID number of the cluster master last known by this node.
+*exceptionCode* (STRING): Exception code.

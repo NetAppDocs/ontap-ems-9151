@@ -1,0 +1,45 @@
+---
+sidebar: sidebar
+permalink: ffm-detach-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: ffm.detach events
+---
+
+= ffm.detach events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== ffm.detach.outage.start
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a volume becomes unavailable to protocol traffic during a graceful volume relocation.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Protocol outage of volume "%s" on aggregate "%s" has started. Timestamp: %llu, %llu ms after the detach callback.
+*Parameters*::
+*volume_name* (STRING): Name of the volume.
+*aggr_name* (STRING): Name of the aggregate.
+*sk_msecs* (LONGINT): Timestamp of this event.
+*detach_lead_time* (LONGINT): Duration in milliseconds from the moment of the detach callback to this event.
+
+== ffm.detach.outage.summary
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the detach phase of graceful volume relocation finishes.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Detach protocol outage has completed for volumes on aggregate %s. Timestamp: %llu, estimated protocol outage duration: %llu ms, total detach duration: %llu ms.
+*Parameters*::
+*aggr_name* (STRING): Name of the aggregate.
+*detach_end_sk_msecs* (LONGINT): Timestamp of this event.
+*est_detach_protocol_outage_duration* (LONGINT): Estimated duration in milliseconds from the start to the end of the protocol outage for the detach operation.
+*detach_op_total* (LONGINT): Duration in milliseconds from the moment of the detach callback to this event.

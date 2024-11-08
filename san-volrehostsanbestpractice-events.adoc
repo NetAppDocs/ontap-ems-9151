@@ -1,0 +1,28 @@
+---
+sidebar: sidebar
+permalink: san-volrehostsanbestpractice-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: san.volrehostsanbestpractice events
+---
+
+= san.volrehostsanbestpractice events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== san.volRehostSANBestPractice
+*Severity*::
+ERROR
+*Description*::
+This message occurs on clustered Data ONTAP(R) systems for Volume Rehost operation when the destination Vserver does not comply with the SAN best practice.
+*Corrective Action*::
+Please check if there are SAN LIFS on the volume owning node and its HA partner
+*Syslog Message*::
+Node "%s" for Vserver "%s" does not comply SAN Best Practice to create LUN maps.
+*Parameters*::
+*node_name* (STRING): Node name.
+*vserver_name* (STRING): Vserver name.

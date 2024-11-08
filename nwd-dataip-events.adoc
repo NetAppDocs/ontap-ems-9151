@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: nwd-dataip-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: nwd.dataip events
+---
+
+= nwd.dataip events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== nwd.dataip.removed
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a data IP address is being removed from a node. Data access through this IP address is now unavailable.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Data IP address %s is being removed from this node.
+*Parameters*::
+*dataip* (STRING): The IP address that is being removed.

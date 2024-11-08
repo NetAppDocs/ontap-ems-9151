@@ -1,0 +1,35 @@
+---
+sidebar: sidebar
+permalink: dbs-assignments-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.assignments events
+---
+
+= dbs.assignments events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.assignments
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a Distributed Block Store (DBS) assignments event is reported, which occurs when the distribution of block data within the cluster changes. The DBS is responsible for managing the data that backs the FlexVols(R).
+*Corrective Action*::
+(None).
+*Syslog Message*::
+A DBS assignments event %s of type %s occurred for ServiceID %u on node %u/%s. DriveID = %u/%s. EventID = %u.
+*Parameters*::
+*evtMessage* (STRING): Description of the DBS event, including context details.
+*evtType* (STRING): Type of the original DBS event.
+*serviceID* (INT): Service ID that identifies the associated DBS service. It is 0 if there is no associated service.
+*nodeID* (INT): Node ID number of the associated node. It is 0 if there is no associated node.
+*nodeUuid* (STRING): Generated Universal Unique Identifier (UUID) of the associated node. It displays zeroes if there is no associated node.
+*driveID* (INT): Drive ID number of the associated drive. It is 0 if there is no associated drive.
+*driveUuid* (STRING): Generated UUID of the associated drive. It displays zeroes if there is no associated drive.
+*evtID* (INT): DBS event ID number.
+*evtDetails* (STRING): Specific details of the DBS event. It displays as a string, in JSON format, or is empty.

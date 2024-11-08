@@ -1,0 +1,33 @@
+---
+sidebar: sidebar
+permalink: dbs-software-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.software events
+---
+
+= dbs.software events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.software.version.mismatch
+*Severity*::
+ALERT
+*Description*::
+This message occurs when Distributed Block Store (DBS) detects a software version mismatch in the cluster.
+*Corrective Action*::
+Bring the node out of maintenance mode. Check for cluster faults and upgrade again if the faults are cleared.
+*Syslog Message*::
+DBS has detected a software upgrade that has failed. Cluster fault node %u, node UUID %s, type %s, fault ID %u, status %u. %s
+*Parameters*::
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID string of the associated node.
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Details of the software version that did not upgrade properly.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.

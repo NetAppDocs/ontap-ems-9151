@@ -1,0 +1,43 @@
+---
+sidebar: sidebar
+permalink: storage-interface-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: storage.interface events
+---
+
+= storage.interface events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== storage.interface.linkdown
+*Severity*::
+ALERT
+*Description*::
+This message occurs when a storage interface reports a link down.
+*Corrective Action*::
+Check the system and attempt to bring the network interface back online.
+*Syslog Message*::
+Storage interface link status is down. Node ID: %u, Node UUID: %s, Storage Interface: %s
+*Parameters*::
+*nodeID* (INT): Unique identifier of the node that is hosting the storage interface.
+*nodeUuid* (STRING): Universal unique identifier of the node that is hosting the data IP.
+*sipi* (STRING): Storage Interface name
+
+== storage.interface.linkup
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a storage interface reports a link up.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Storage interface link status is up. Node ID: %u, Node UUID: %s, Storage Interface: %s
+*Parameters*::
+*nodeID* (INT): Unique identifier of the node that is hosting the storage interface.
+*nodeUuid* (STRING): Universal unique identifier of the node that is hosting the data IP.
+*sipi* (STRING): Storage Interface name

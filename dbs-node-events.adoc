@@ -1,0 +1,69 @@
+---
+sidebar: sidebar
+permalink: dbs-node-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dbs.node events
+---
+
+= dbs.node events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dbs.node.maint.mode.alert
+*Severity*::
+ALERT
+*Description*::
+This message occurs when Distributed Block Store (DBS) detects a node with a maintenance mode failure.
+*Corrective Action*::
+Contact NetApp technical support.
+*Syslog Message*::
+DBS has detected a node with a maintenance mode failure. Cluster fault node %u, node UUID %s, type %s, fault ID %u, status %u. %s
+*Parameters*::
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID string of the associated node.
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Details of the node in maintenance mode.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.
+
+== dbs.node.maint.mode.error
+*Severity*::
+ERROR
+*Description*::
+This message occurs when Distributed Block Store (DBS) detects a node is in maintenance mode.
+*Corrective Action*::
+Disable maintenance mode when maintenance is complete.
+*Syslog Message*::
+DBS has detected a node is in maintenance mode. Cluster fault node %u, node UUID %s, type %s, fault ID %u, status %u. %s
+*Parameters*::
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID string of the associated node.
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Details of the node in maintenance mode.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.
+
+== dbs.node.offline
+*Severity*::
+ALERT
+*Description*::
+This message occurs when Distributed Block Store (DBS) detects the Cluster Master cannot communicate with the master service on a node.
+*Corrective Action*::
+Check for network connectivity issues and hardware errors.
+*Syslog Message*::
+DBS has detected the Cluster Master cannot communicate with the master service on a node. Cluster fault node %u, node UUID %s, type %s, fault ID %u, status %u. %s
+*Parameters*::
+*nodeID* (INT): Node ID number of the associated node.
+*nodeUuid* (STRING): Node UUID string of the associated node.
+*cfType* (STRING): DBS cluster fault type of the associated object.
+*cfID* (INT): DBS cluster fault ID number associated with the fault.
+*cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
+*cfDetails* (STRING): Details of the node offline.
+*cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.

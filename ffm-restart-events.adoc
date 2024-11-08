@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: ffm-restart-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: ffm.restart events
+---
+
+= ffm.restart events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== ffm.restart.firefly
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the Firefly manager restarts Firefly after detecting abnormal behavior. This restart avoids a core dump, which would not help address the abnormal behavior. When Firefly comes back up, aggregates will be re-attached.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Firefly manager restart: %s
+*Parameters*::
+*reason* (STRING): Reason to restart.
