@@ -8,7 +8,7 @@ settings:
   prod:
     pdf_enabled: true
     avatars_enabled: false
-    harmony_enabled: true
+    harmony_enabled: false
     github_edit: false
     github_issue: false
     lipi_enabled: false
