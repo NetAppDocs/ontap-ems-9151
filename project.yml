@@ -1,5 +1,5 @@
 settings:
-  name: ONTAP
+  name: ONTAP EMS reference
   internal:
     pdf_enabled: false
     github_edit: false
@@ -8,7 +8,7 @@ settings:
   prod:
     pdf_enabled: true
     avatars_enabled: false
-    harmony_enabled: true
+    harmony_enabled: false
     github_edit: false
     github_issue: false
     lipi_enabled: false
@@ -16,6 +16,8 @@ settings:
     # This Repo
     - version-number: "9.15.1"
       url: /ontap-ems-9151
+    - version-number: "9.16.1"
+      url: /ontap-ems
     - version-number: "9.14.1"
       url: /ontap-ems-9141
     - version-number: "9.13.1"
