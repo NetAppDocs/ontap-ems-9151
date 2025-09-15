@@ -30,7 +30,7 @@ QoS violation limit for %s %s is %u IOPS.
 
 == qos.VioDet.Mintput.Throttle
 *Severity*::
-ALERT
+INFORMATIONAL
 *Description*::
 This message occurs when the Quality of Service (QoS) subsystem starts throttling requests to help workloads meet their min-throughput and their service-level objectives (SLOs). Possible reasons for throttling could be that there are bully workloads or insufficient resources, which means the system cannot support the specified targets in the SLOs.
 *Corrective Action*::

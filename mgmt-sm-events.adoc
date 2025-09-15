@@ -41,6 +41,32 @@ Sync granular consistency group relationship with source path %s and destination
 *src_path* (STRING): Source path of the sync granular consistency group relationship that was force deleted.
 *dst_path* (STRING): Destination path of the sync granular consistency group relationship that was force deleted.
 
+== mgmt.sm.cgRel.limit
+*Severity*::
+ALERT
+*Description*::
+This message occurs when either Consistency Group relationships or FlexGroups relationships exceeds the cluster-wide limit.
+*Corrective Action*::
+To delete the excess relationships. Alternatively, not to create any more additional relationship in the cluster.
+*Syslog Message*::
+Number of Consistency Group SnapMirror and/or FlexGroup relationships exceeds supported limit. Number of relationships supported on this cluster "%d". Current Number of relationships "%lu"
+*Parameters*::
+*max_count* (INT): Maximum number of relationships supported on cluster.
+*cur_count* (LONGINT): Current count of relationships on cluster.
+
+== mgmt.sm.cgVolRel.limit
+*Severity*::
+ALERT
+*Description*::
+This message occurs when either Consistency Group item relationships or FlexGroups item relationships exceeds the cluster-wide limit.
+*Corrective Action*::
+To delete the excess item relationships. Alternatively, not to create any more additional relationship in the cluster.
+*Syslog Message*::
+Number of Consistency Group item SnapMirror and/or FlexGroup item relationships exceeds supported limit. Number of item relationships supported on this cluster "%d". Current Number of relationships "%lu"
+*Parameters*::
+*max_count* (INT): Maximum number of item relationships supported on cluster.
+*cur_count* (LONGINT): Current count of item relationships on cluster.
+
 == mgmt.sm.dp.depr.msg
 *Severity*::
 NOTICE
