@@ -57,9 +57,9 @@ Failed to create privileged share ONTAP_ADMIN$ for Vserver "%s". Reason: "%s".
 *Severity*::
 ERROR
 *Description*::
-This message occurs when an FPolicy(R) configuration replication mechanism fails after a maximum number of retries.
+This message occurs when an FPolicy(R) configuration replication mechanism fails after a maximum number of retries. FPolicy Service Manager (FSM) process will restart to resync configuration.
 *Corrective Action*::
-Restart the node or contact NetApp technical support for assistance.
+If the error persists, contact NetApp technical support for assistance.
 *Syslog Message*::
 FPolicy configuration replication process failed.
 *Parameters*::
