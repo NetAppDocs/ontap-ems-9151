@@ -99,6 +99,18 @@ The NVMEM battery capacity is normal.
 *Parameters*::
 (None).
 
+== nvmem.battery.chgrFailed
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the NVMEM battery charger is disabled because a bad charger circuit is detected. The system continues to run as normal but the NVMEM battery does not start charging when it falls below a certain capacity.
+*Corrective Action*::
+Contact NetApp technical support for assistance to replace the circuit at the next available maintenance window.
+*Syslog Message*::
+The NVMEM battery charger is disabled because a bad charger circuit is detected.
+*Parameters*::
+(None).
+
 == nvmem.battery.current.high
 *Severity*::
 EMERGENCY

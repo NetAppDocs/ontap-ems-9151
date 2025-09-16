@@ -28,7 +28,7 @@ IPsec: %s packet cannot be successfully decrypted.
 
 == ipsec.ib.no.lookup
 *Severity*::
-ALERT
+NOTICE
 *Description*::
 This message occurs when an inbound IPsec packet cannot able to locate the IPsec Security Association (SA) from the SA database. The remote side is using an SA which does not exist in the local SA database.
 *Corrective Action*::

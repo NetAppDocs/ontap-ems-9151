@@ -186,11 +186,11 @@ Configuration replication for volume "%s" in Vserver "%s" has failed because the
 *Severity*::
 ERROR
 *Description*::
-This message occurs when there is not enough space left in the fabric pool aggregate for new volumes to be created during configuration replication.
+This message occurs when there is no matching fabric pool aggregate found for composite source volume or not enough space left in the fabric pool aggregate for new volumes to be created during configuration replication.
 *Corrective Action*::
 Log in to the cluster and assign more disks to the perf tier of fabric pool aggregate.
 *Syslog Message*::
-Couldn't place volume "%s" of Vserver "%s" in fabric pool aggregate as there is not enough spece left in perf tier.
+Couldn't place volume "%s" of Vserver "%s" in fabric pool aggregate as there is no matching fabric pool aggregate found or there is not enough space left in perf tier.
 *Parameters*::
 *volume_name* (STRING): Volume on which this error occurred.
 *vserver_name* (STRING): Vserver name for which configuration replication is happening.

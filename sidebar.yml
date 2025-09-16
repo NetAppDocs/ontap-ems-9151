@@ -429,6 +429,8 @@ entries:
     url: /callhome-fcp-events.html
   - title: callhome.fdsk events
     url: /callhome-fdsk-events.html
+  - title: callhome.fg events
+    url: /callhome-fg-events.html
   - title: callhome.flash events
     url: /callhome-flash-events.html
   - title: callhome.fs events
@@ -581,6 +583,8 @@ entries:
     url: /callhome-weekly-events.html
 - title: cam events
   entries:
+  - title: cam.counters events
+    url: /cam-counters-events.html
   - title: cam.dev events
     url: /cam-dev-events.html
   - title: cam.timeout events
@@ -1749,6 +1753,8 @@ entries:
     url: /fabric-sdm-events.html
 - title: fabriclink events
   entries:
+  - title: fabriclink.metadata events
+    url: /fabriclink-metadata-events.html
   - title: fabriclink.retry events
     url: /fabriclink-retry-events.html
 - title: fabricpool events
@@ -1931,6 +1937,8 @@ entries:
     url: /flexcache-cachedisconnected-events.html
   - title: flexcache.capacity events
     url: /flexcache-capacity-events.html
+  - title: flexcache.cfg events
+    url: /flexcache-cfg-events.html
   - title: flexcache.conf events
     url: /flexcache-conf-events.html
   - title: flexcache.config events
@@ -2185,6 +2193,8 @@ entries:
     url: /hwaccel-reset-events.html
 - title: hya events
   entries:
+  - title: hya.caching events
+    url: /hya-caching-events.html
   - title: hya.dup_vbn_lookup events
     url: /hya-dup_vbn_lookup-events.html
 - title: hybaggrcopy events
@@ -2419,8 +2429,6 @@ entries:
     url: /lmgr-mismatch-events.html
   - title: lmgr.move events
     url: /lmgr-move-events.html
-  - title: lmgr.nl events
-    url: /lmgr-nl-events.html
   - title: lmgr.notify events
     url: /lmgr-notify-events.html
   - title: lmgr.owners events
@@ -3073,6 +3081,8 @@ entries:
     url: /nblade-nfspathresmaxlinks-events.html
   - title: nblade.nfsrcchecksummismatch events
     url: /nblade-nfsrcchecksummismatch-events.html
+  - title: nblade.nfstlsdisabled events
+    url: /nblade-nfstlsdisabled-events.html
   - title: nblade.nfsv3writetoolarge events
     url: /nblade-nfsv3writetoolarge-events.html
   - title: nblade.nfsv4blockclient events
@@ -3095,6 +3105,8 @@ entries:
     url: /nblade-pcp-events.html
   - title: nblade.qosvioldetectregfail events
     url: /nblade-qosvioldetectregfail-events.html
+  - title: nblade.qtreefhnotused events
+    url: /nblade-qtreefhnotused-events.html
   - title: nblade.rcbinid events
     url: /nblade-rcbinid-events.html
   - title: nblade.recoverybegin events
@@ -3195,6 +3207,10 @@ entries:
     url: /netgroup-ldap-events.html
   - title: netgroup.nis events
     url: /netgroup-nis-events.html
+- title: netgroupbyname events
+  entries:
+  - title: netgroupbyname.cache events
+    url: /netgroupbyname-cache-events.html
 - title: netif events
   entries:
   - title: netif.autonegfailed events
@@ -3465,6 +3481,8 @@ entries:
     url: /nvram-flash-events.html
   - title: nvram.hw events
     url: /nvram-hw-events.html
+  - title: nvram.parity events
+    url: /nvram-parity-events.html
 - title: nwd events
   entries:
   - title: nwd.dataip events
@@ -4341,6 +4359,8 @@ entries:
     url: /secd-nonetgroupfile-events.html
   - title: secd.quark events
     url: /secd-quark-events.html
+  - title: secd.rogue events
+    url: /secd-rogue-events.html
   - title: secd.rpc events
     url: /secd-rpc-events.html
   - title: secd.single events
@@ -4871,8 +4891,6 @@ entries:
     url: /socket-sndbuflimit-events.html
 - title: sp events
   entries:
-  - title: sp.auth events
-    url: /sp-auth-events.html
   - title: sp.authlog events
     url: /sp-authlog-events.html
   - title: sp.autoconfig events
@@ -4891,6 +4909,8 @@ entries:
     url: /sp-eth-events.html
   - title: sp.firmware events
     url: /sp-firmware-events.html
+  - title: sp.fwud events
+    url: /sp-fwud-events.html
   - title: sp.heartbeat events
     url: /sp-heartbeat-events.html
   - title: sp.ipmi events
@@ -5337,6 +5357,8 @@ entries:
     url: /vifmgr-svcpolicy-events.html
   - title: vifmgr.unabletohostmovedlif events
     url: /vifmgr-unabletohostmovedlif-events.html
+  - title: vifmgr.vifidmissing events
+    url: /vifmgr-vifidmissing-events.html
   - title: vifmgr.viplifwithoutbgp events
     url: /vifmgr-viplifwithoutbgp-events.html
   - title: vifmgr.vs events
@@ -5791,6 +5813,8 @@ entries:
     url: /wafl-raid-events.html
   - title: wafl.rclm events
     url: /wafl-rclm-events.html
+  - title: wafl.rclone events
+    url: /wafl-rclone-events.html
   - title: wafl.readdir events
     url: /wafl-readdir-events.html
   - title: wafl.reallocate events

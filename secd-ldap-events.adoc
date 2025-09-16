@@ -159,3 +159,17 @@ The STARTTLS operation is taking too long on LDAP server "%s" for SVM "%s".
 *Parameters*::
 *serverAddress* (STRING): Address of the LDAP server that is not responding fast enough.
 *vserverName* (STRING): SVM associated with this operation.
+
+== secd.ldap.trust.noServers
+*Severity*::
+ERROR
+*Description*::
+This message occurs when Security Daemon (SecD) fails to connect to any of the configured Lightweight Directory Access Protocol (LDAP) servers belonging to a trusted domain. Usually, this issue is seen when the LDAP servers are either unreachable or slow to respond. This issue can result in longer CIFS access times, potentially resulting in client failures or timeouts.
+*Corrective Action*::
+From an LDAP client workstation, ensure that all configured LDAP servers in the trusted domain are responding to requests. Ensure that networking issues do not prevent the cluster from communicating with the servers. If domain controllers (DC's) in trusted domains should not be discovered, run the "vserver cifs options modify -is-trusted-domain-enum-search-enabled false" command.
+*Syslog Message*::
+None of the LDAP servers configured for SVM "%s" and trusted domain "%s" are currently accessible for LDAP service type "%s".
+*Parameters*::
+*vserverName* (STRING): Storage virtual machine (SVM) associated with this operation.
+*trustedDomain* (STRING): Trusted domain for which the LDAP connection is required.
+*ldapOperation* (STRING): LDAP operation and service for which the connection is required.

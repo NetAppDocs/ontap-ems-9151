@@ -18,14 +18,16 @@ summary: secd.rpc events
 *Severity*::
 ALERT
 *Description*::
-This message occurs when a CIFS authentication RPC is blocked by Security Daemon(SecD) due to continuous authentication requests with wrong logon password from a particular client.
+This message occurs when a user with the same domain and same client IP address is blocked due to continuous authentication requests with an invalid login password.
 *Corrective Action*::
-Check whether there is an unexpected increase in the number of authentication requests with wrong logon password from a particular CIFS client.
+Check if there is an unexpected increase in the number of authentication requests with an invalid login password from a particular CIFS client. Use "statistics show -raw -object secd -instance secd -counter num_rpcs_blocked_due_to_wrong_password" command to check the number of clients blocked due to an invalid password.
 *Syslog Message*::
-Too many CIFS authentication attempts with wrong password from client "%s" on Vserver "%s".
+Too many CIFS authentication attempts with an invalid password from a client with IP "%s", user name "%s" and domain "%s" on SVM "%s".
 *Parameters*::
-*clientIP* (STRING): Client that has been blocked.
-*vserverName* (STRING): Vserver associated with this operation.
+*clientIP* (STRING): IP address of the client that has been blocked.
+*userName* (STRING): User who is trying to mount with an invalid password.
+*domain* (STRING): Domain to which the user belongs.
+*vserverName* (STRING): Storage virtual machine(SVM) associated with this operation.
 
 == secd.rpc.server.ready
 *Severity*::
