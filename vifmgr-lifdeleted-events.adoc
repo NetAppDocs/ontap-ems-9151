@@ -14,6 +14,9 @@ summary: vifmgr.lifdeleted events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an administrator action causes a logical interface (LIF) IP address to be deleted.
+
 == vifmgr.lifdeleted.byadmin
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ LIF %s with ID %s (on virtual server %s), IP address %s, was deleted.
 *vifid* (STRING): Unique ID assigned to the LIF.
 *vsrvid* (STRING): Name of the virtual server identifier on which the LIF resided.
 *vifip* (STRING): LIF IP address that was deleted.
+

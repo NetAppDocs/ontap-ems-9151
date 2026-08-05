@@ -14,6 +14,9 @@ summary: protocol.exportcheckfailed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is an export check failure due to, either export-policy configuration not allowing access, or a non-existing filesystem/junction access attempt.
+
 == protocol.exportCheckFailed
 *Severity*::
 ERROR
@@ -30,3 +33,4 @@ Export access check failed on Vserver %s for client %s, trying to access volume 
 *policyName* (STRING): Name of the export policy from which export access check failed.
 *protocol* (STRING): Access protocol used by client for filesystem access.
 *reason* (STRING): Reason for which export access check failed.
+

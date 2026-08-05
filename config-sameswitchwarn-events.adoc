@@ -14,6 +14,9 @@ summary: config.sameswitchwarn events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when both ports of a disk are found to be attached to the same switch.
+
 == config.SameSwitchWarn
 *Severity*::
 ALERT
@@ -28,3 +31,4 @@ Disks on port %s:%d are also connected to the same switch at port %s:%d. For ava
 *port1* (INT): Port number of first connection.
 *switch2* (STRING): (None).
 *port2* (INT): Port number of second connection.
+

@@ -14,6 +14,9 @@ summary: fmmb.payload events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued when the outbound FM payload area is found to be corrupted.
+
 == fmmb.payload.outbound.bad
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ This event is issued when the outbound FM payload area is found to be corrupted.
 *Parameters*::
 *host* (STRING): The node which owns the HA mailbox disk. The node can be either local or partner.
 *fmState* (INT): The invalid FM state information.
+

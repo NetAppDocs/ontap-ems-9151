@@ -14,6 +14,9 @@ summary: snaplock.user events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the SnapLock(R) logging system fails to securely log either the addition or deletion of the compliance admin role to or from a user account.
+
 == snaplock.user
 *Severity*::
 NOTICE
@@ -30,3 +33,4 @@ There was a problem securely logging the %s of the "%s" role %s the user "%s" by
 *username* (STRING): User name to or from which the role is being added or deleted.
 *whodidit* (STRING): Name of the user performing the operation.
 *reason* (STRING): Reason for the logging failure.
+

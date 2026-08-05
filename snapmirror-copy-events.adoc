@@ -14,6 +14,9 @@ summary: snapmirror.copy events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the baseline transfer of a SnapMirror(R) copy for a volume is completed and the volume comes online.
+
 == snapmirror.copy.baseLine.done
 *Severity*::
 INFORMATIONAL
@@ -74,3 +77,4 @@ This message occurs when the update time taken by the latest transfer is smaller
 Destination volume %s is ready for final update.
 *Parameters*::
 *dstpath* (STRING): Destination volume.
+

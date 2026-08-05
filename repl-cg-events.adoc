@@ -14,6 +14,9 @@ summary: repl.cg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the number of Consistency Group Items involved in a SnapMirror(R) Granular Sync relationship exceeds its limit in the system.
+
 == repl.cg.item.limit.exceeded
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ Load balance the system to have fewer Consistency Groups.
 The number of CGs involved in a SnapMirror Granular Sync relationship exceeded.
 *Parameters*::
 (None).
+

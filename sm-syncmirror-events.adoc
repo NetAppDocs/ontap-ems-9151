@@ -14,6 +14,9 @@ summary: sm.syncmirror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a sync granular CG relationship transitions from in-sync status to out-of-sync status.
+
 == sm.syncmirror.out.of.sync
 *Severity*::
 ALERT
@@ -27,3 +30,4 @@ Sync granular CG relationship with source path %s and destination path %s has tr
 *src_path* (STRING): Source path of the sync granular CG relationship that transitioned from in-sync to out-of-sync.
 *dst_path* (STRING): Destination path of the sync granular CG relationship that transitioned from in-sync to out-of-sync.
 *reason* (STRING): Reason that the relationship went out-of-sync.
+

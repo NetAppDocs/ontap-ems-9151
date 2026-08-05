@@ -14,6 +14,9 @@ summary: pcp.linkstateinprogress events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a change of network port state cannot be confirmed because another configuration task is in progress.
+
 == pcp.linkStateInProgress
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ The link state change request will be retried in the next 5 minutes. If it succe
 Link state change cannot be confirmed on port %s.
 *Parameters*::
 *portname* (STRING): Port name.
+

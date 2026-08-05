@@ -14,6 +14,9 @@ summary: callhome.shutdown events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk drive fails but there are no suitable spares available for reconstruction.
+
 == callhome.shutdown.pending
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ To prevent the system from shutting down in 24 hours, perform either of the foll
 Call home for SHUTDOWN PENDING (degraded mode)
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

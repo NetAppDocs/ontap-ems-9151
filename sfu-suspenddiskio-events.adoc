@@ -14,6 +14,9 @@ summary: sfu.suspenddiskio events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk shelf firmware update is started and disk I/O is suspended.
+
 == sfu.suspendDiskIO
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ This message occurs when a disk shelf firmware update is started and disk I/O is
 Suspending disk I/O to reboot shelf modules for shelf firmware update.
 *Parameters*::
 (None).
+

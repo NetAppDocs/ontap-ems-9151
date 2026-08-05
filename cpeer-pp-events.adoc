@@ -14,6 +14,9 @@ summary: cpeer.pp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an incoming cluster peer authentication request fails due to a passphrase mismatch.
+
 == cpeer.pp.mismatch
 *Severity*::
 ERROR
@@ -31,3 +34,4 @@ Remote cluster %s//%s did not accept a cluster peering authentication offer (fro
 *offerTime* (STRING): Time at which the offer from the local cluster was generated.
 *offerDuration* (STRING): Duration of the offer from the local cluster.
 *offerStyle* (STRING): Style of authentication offer.
+

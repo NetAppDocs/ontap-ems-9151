@@ -14,6 +14,9 @@ summary: cpeer.modify events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the address family for a peering relationship is modified.
+
 == cpeer.modify.address.family
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Address family change for peer cluster %s to address family %s.
 *Parameters*::
 *peer* (STRING): Name of the peer cluster affected by the address family change.
 *family* (STRING): The new address family of the peering relationship.
+

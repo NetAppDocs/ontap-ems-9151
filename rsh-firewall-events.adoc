@@ -14,6 +14,9 @@ summary: rsh.firewall events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when rsh is automatically removed from firewall policies during a revert operation from Data ONTAP(R) 9.0 to 8.3.
+
 == rsh.firewall.policy.remove
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ Use the "system services firewall policy create" command to reenable rsh.
 Rsh removed from firewall policy because of Data ONTAP revert operations. Rsh is now disabled.
 *Parameters*::
 (None).
+

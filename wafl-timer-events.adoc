@@ -14,6 +14,9 @@ summary: wafl.timer events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when disk I/O is stalled, possibly during a disk firmware download operation.
+
 == wafl.timer.disk.io.stalled
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ If disk firmware updates were in progress, verify that the update has automatica
 All disk I/O stalled.
 *Parameters*::
 (None).
+

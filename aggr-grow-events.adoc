@@ -14,6 +14,9 @@ summary: aggr.grow events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when request to grow an aggregate is completed successfully.
+
 == aggr.grow.completed
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ Request to grow aggregate "%s" is complete. Old size: %lu, new size: %lu, old st
 *new_size* (LONGINT): Size of the aggregate after it is grown.
 *previous_state* (INT): State of the aggregate before it is grown.
 *current_state* (INT): State of the aggregate after it is grown.
+

@@ -14,6 +14,9 @@ summary: wafl.ntfsunixsecurityops events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a UNIX-type permissions or ownership change is attempted by an NFS client on an NTFS (Windows) volume, but changes of this type are prohibited by an export policy rule.
+
 == wafl.ntfsUnixSecurityOps
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ NFS client attempted prohibited change of UNIX permissions for file ID: %d, on N
 *vol* (STRING): Volume name.
 *app* (STRING): Application UUID.
 *volident* (STRING): Vserver's Universal Unique Identifier (UUID).
+

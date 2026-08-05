@@ -14,6 +14,9 @@ summary: nblade.scannerconnected events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Vserver connects successfully to a Vscan server.
+
 == Nblade.scannerConnected
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Vserver "%s" connected to Vscan server (IP: %s).
 *Parameters*::
 *vserverName* (STRING): Name of the connecting Vserver.
 *scannerIp* (STRING): IP address of the Vscan server.
+

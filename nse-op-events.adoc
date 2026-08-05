@@ -14,6 +14,9 @@ summary: nse.op events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAP(R) does not succeed in performing an operation on a NetApp(R) Storage Encryption (NSE) self-encrypting drive (SED).
+
 == nse.op.failed
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ Control failure on self-encrypting drive %s; security provider: %s, authority: %
 *securityProvider* (STRING): Name of the TCG security provider process.
 *authority* (STRING): Name of the affected TCG authority.
 *operation* (STRING): Description of the operation that failed.
+

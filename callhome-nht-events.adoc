@@ -14,6 +14,9 @@ summary: callhome.nht events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the weekly AutoSupport or 'call home' event is sent for any drive NHT data.
+
 == callhome.nht.data
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when the weekly AutoSupport or 'call home' event is sent for
 Call home for DRIVE NHT DATA
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

@@ -14,6 +14,9 @@ summary: dfu.readtestfailed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a read of the disk fails after downloading firmware to a disk.
+
 == dfu.readTestFailed
 *Severity*::
 ERROR
@@ -45,3 +48,4 @@ Unable to access media after firmware update on Disk %s [%s %s %s] S/N [%s].
 *productId* (STRING): Product ID of the disk.
 *fwVersion* (STRING): Firmware version of the disk.
 *serialno* (STRING): Serial number of the disk.
+

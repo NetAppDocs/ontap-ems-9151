@@ -14,6 +14,9 @@ summary: prov.rollback events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAP(R) software cannot complete a rollback of a provisioning operation sequence that failed.
+
 == prov.rollback.fail.cmd
 *Severity*::
 ERROR
@@ -56,3 +59,4 @@ Failed to roll back an action performed by the provisioning engine. API: curl -X
 *failed_body* (STRING): REST API JSON body that failed.
 *failed_method* (STRING): REST API method that failed.
 *error* (STRING): Error that the provisioning engine encountered.
+

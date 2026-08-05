@@ -14,6 +14,9 @@ summary: mcc.drdom events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when disk ownership changes are made by the disaster recovery disk ownership manager (DRDOM).
+
 == mcc.drdom.diskOwnerChange
 *Severity*::
 INFORMATIONAL
@@ -70,3 +73,4 @@ Node failed to change disk ownership for DR partner disks after a headswap.
 *disks_in_request* (INT): Total number of disks for which the disk ownership change is requested.
 *disks_failed_request* (INT): Total number of disks for which the disk ownership change request failed.
 *error_code* (INT): Internal error code for the failure.
+

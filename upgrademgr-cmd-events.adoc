@@ -14,6 +14,9 @@ summary: upgrademgr.cmd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the execution of the commands listed in the support file has completed.
+
 == upgrademgr.cmd.invoke.done
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ This message occurs when the support file is invoked by an automated nondisrupti
 The commands are invoked from the support file: %s
 *Parameters*::
 *command* (STRING): Commands that are invoked from the support file when the ANDU has started.
+

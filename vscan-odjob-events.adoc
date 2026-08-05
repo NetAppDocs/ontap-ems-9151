@@ -14,6 +14,9 @@ summary: vscan.odjob events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system fails to delete queued Vscan On-Demand job.
+
 == vscan.odJob.delete.failed
 *Severity*::
 ERROR
@@ -53,3 +56,4 @@ System failed to schedule Vscan On-Demand job for the task "%s" on Vserver "%s".
 *taskName* (STRING): Vscan On-Demand task name.
 *vserverName* (STRING): Name of the Vserver.
 *failureReason* (STRING): Reason for the failure.
+

@@ -14,6 +14,9 @@ summary: monitor.fan events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when one or more main unit fans have failed.
+
 == monitor.fan.critical
 *Severity*::
 EMERGENCY
@@ -67,3 +70,4 @@ Replace the indicated fans to avoid overheating.
 *report* (STRING): Report indicating the warning level.
 *object_type* (STRING): Type of resource object under notification. For this EMS, the object_type will always be NODE.
 *object_uuid* (STRING): UUID of the resource object. For this EMS, the UUID will be of the node.
+

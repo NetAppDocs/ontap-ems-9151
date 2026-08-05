@@ -14,6 +14,9 @@ summary: image.install events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAP software installation was performed via the boot menu, which does not verify the digital signature of the software image.
+
 == image.install.bypass.ds.chk
 *Severity*::
 ALERT
@@ -73,3 +76,4 @@ Replace the image, and then try the command again.
 Image installation fail: Image digital signature check failed.
 *Parameters*::
 (None).
+

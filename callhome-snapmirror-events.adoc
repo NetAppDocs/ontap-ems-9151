@@ -14,6 +14,9 @@ summary: callhome.snapmirror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a sync-granular consistency group (CG) transitions from in-sync status to out-of-sync status.
+
 == callhome.snapmirror.oos
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ Look for the sm.syncmirror.out.of.sync event concerning this relationship in the
 Call home for %s.
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

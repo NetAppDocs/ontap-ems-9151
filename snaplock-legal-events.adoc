@@ -14,6 +14,9 @@ summary: snaplock.legal events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs on completion of a legal-hold dump-files operation on a SnapLock(R) compliance volume.
+
 == snaplock.legal.hold.dump.files.op.status
 *Severity*::
 NOTICE
@@ -73,3 +76,4 @@ A legal-hold %s operation with ID %lu ended for litigation %s on path %s in volu
 *num_files_failed* (LONGINT): Total count of files for which legal-hold operation failed.
 *num_files_skipped* (LONGINT): Total count of files for which legal-hold operation was skipped.
 *num_inodes_ignored* (LONGINT): Total count of inodes which were ignored by legal-hold operation because they are not regular files.
+

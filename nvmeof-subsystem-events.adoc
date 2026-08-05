@@ -14,6 +14,9 @@ summary: nvmeof.subsystem events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an NVMe-oF subsystem is added.
+
 == nvmeof.subsystem.add
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ This message occurs when an NVMe-oF subsystem is deleted.
 NVMe-oF subsystem deleted at address %s.
 *Parameters*::
 *address* (STRING): IP address of susbsystem.
+

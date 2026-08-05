@@ -14,6 +14,9 @@ summary: mgwd.cluscheck events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system changes the cluster LIFs used for internal replicated database (RDB) operations, ensuring they are connected to different cluster switches for optimal cluster resiliency.
+
 == mgwd.cluscheck.rmtDevRepair
 *Severity*::
 NOTICE
@@ -30,3 +33,4 @@ Cluster LIF "%s" with IP address %s connected to cluster switch "%s" is being re
 *replacementlif* (STRING): Cluster LIF being added.
 *replacementaddress* (STRING): IP address of the cluster LIF that is being added.
 *replacementremotedevice* (STRING): Cluster switch connected to the home port of the IP address being added.
+

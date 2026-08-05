@@ -14,6 +14,9 @@ summary: sfu.partnernotresponding events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when one node in a high-availability (HA) configuration does not respond to firmware download requests from another node, in which case the other node cannot download disk shelf firmware.
+
 == sfu.partnerNotResponding
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Make certain that the HA interconnect is up and running on both nodes of the HA 
 Partner either responded in the negative, or did not respond in %d seconds. Aborting shelf firmware update.
 *Parameters*::
 *timeout* (INT): Number of seconds the timeout is set for.
+

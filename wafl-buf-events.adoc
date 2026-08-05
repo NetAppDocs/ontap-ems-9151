@@ -14,6 +14,9 @@ summary: wafl.buf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system encounters a bad header in the Snapshot(tm) copy of the active map block of the filesystem.
+
 == wafl.buf.badHeader
 *Severity*::
 EMERGENCY
@@ -49,3 +52,4 @@ Freeing free block at VBN %llu in %s %s%s%s%s. WAFL inconsistent. Contact NetApp
 *app* (STRING): Application UUID.
 *volident* (STRING): Uniquely identifies the volume in cases where the volume name itself is insufficient.
 *vendor* (STRING): Name of the vendor.
+

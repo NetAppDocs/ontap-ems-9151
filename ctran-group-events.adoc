@@ -14,6 +14,9 @@ summary: ctran.group events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an attempt to reset a group by Kernel Cluster Services (KCS) Cluster Transaction Manager (CTRAN) fails.
+
 == ctran.group.reset.failed
 *Severity*::
 EMERGENCY
@@ -26,3 +29,4 @@ Group reset for %s has failed on node %s.
 *Parameters*::
 *localhostname* (STRING): The host name of the local node.
 *group_name* (STRING): The group on which the group reset operation is attempted.
+

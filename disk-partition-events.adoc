@@ -14,6 +14,9 @@ summary: disk.partition events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the disk partition layout contains more partitions than are supported by the system.
+
 == disk.partition.exceeded
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Disk %s has %d partitions, which exceeds the maximum of %d partitions.
 *disk_name* (STRING): Name of the disk.
 *partition_count* (INT): Number of partitions on the disk.
 *max_partition_count* (INT): Maximum number of partitions supported per disk.
+

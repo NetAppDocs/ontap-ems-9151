@@ -14,6 +14,9 @@ summary: nblade.nfspathresmaxlinks events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs while resolving an input path, when the server has reached the limit of maximum links it can follow and the corresponding RPC fails.
+
 == Nblade.nfsPathResMaxLinks
 *Severity*::
 ERROR
@@ -31,3 +34,4 @@ NFS maximum symbolic link limit reached when resolving path. Vserver ID: %d, ser
 *remotePort* (INT): Remote port number that sent the data.
 *localAddr* (STRING): IP address of the local interface serving the protocol operation.
 *procedureNum* (INT): RPC procedure number for the requested operation.
+

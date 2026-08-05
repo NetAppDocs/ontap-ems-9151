@@ -14,6 +14,9 @@ summary: connectx.fatalerror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a fatal error is polled from the ConnectX(tm) InfiniBand(R) adapter.
+
 == connectx.fatalError
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Contact NetApp technical support. ConnectX registers have been dumped to the /et
 HA interconnect HBA failure, ConnectX fatal error was polled.
 *Parameters*::
 (None).
+

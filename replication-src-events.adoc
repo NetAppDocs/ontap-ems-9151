@@ -14,6 +14,9 @@ summary: replication.src events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system detects an error on a SnapMirror(R) or SnapVault(R) source volume or qtree.
+
 == replication.src.err
 *Severity*::
 ERROR
@@ -84,3 +87,4 @@ This message is normally seen after upgrading the source or the destination. ONT
 Replication source received an unknown command from the destination. This might be due to Data ONTAP version mismatch between the source and destination.
 *Parameters*::
 (None).
+

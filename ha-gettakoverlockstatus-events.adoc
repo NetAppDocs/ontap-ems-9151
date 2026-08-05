@@ -14,6 +14,9 @@ summary: ha.gettakoverlockstatus events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the HA subsystem attempts to acquire takeover lock as part of the takeover operation.
+
 == ha.getTakoverLockStatus
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when the HA subsystem attempts to acquire takeover lock as p
 Attempting to acquire takeover lock. Status: %s.
 *Parameters*::
 *status* (STRING): Status of the attempt to acquire the lock.
+

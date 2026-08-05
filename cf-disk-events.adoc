@@ -14,6 +14,9 @@ summary: cf.disk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when one of the nodes in a high-availability (HA) pair reports that multiple disks in the disk inventory do not match what the partner node reported.
+
 == cf.disk.invent.mismatchalt
 *Severity*::
 ALERT
@@ -171,3 +174,4 @@ The disk %s was skipped because it reported the status %s.
 *Parameters*::
 *diskname* (STRING): Name of the disk that was skipped.
 *status* (STRING): Status reported by the disk.
+

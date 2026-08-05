@@ -14,6 +14,9 @@ summary: air.repaired events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAP(R) discovers an inconsistency in a metadata bucket header record.
+
 == air.repaired.bucket.header
 *Severity*::
 NOTICE
@@ -679,3 +682,4 @@ AIR vplus rebuild of %s completed for subtype %d
 *Parameters*::
 *fh* (STRING): File handle of the storage tree.
 *subtype* (INT): Subtype of the inode encountering the inconsistency.
+

@@ -14,6 +14,9 @@ summary: vifmgr.extroute events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a new external route table is added successfully.
+
 == vifmgr.extRoute.addTable
 *Severity*::
 NOTICE
@@ -153,3 +156,4 @@ This message occurs when an external route table is removed.
 External route table %s was removed successfully.
 *Parameters*::
 *table* (STRING): Route table name.
+

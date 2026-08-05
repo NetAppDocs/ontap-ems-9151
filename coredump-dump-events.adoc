@@ -14,6 +14,9 @@ summary: coredump.dump events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is an unsaved core on the dump device.
+
 == coredump.dump.abort
 *Severity*::
 ERROR
@@ -273,3 +276,4 @@ Error writing core header to block %llu on disk %s
 *Parameters*::
 *header* (LONGINT): Block number of the core header block
 *disk* (STRING): Name of disk on which the write failed
+

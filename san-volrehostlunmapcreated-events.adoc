@@ -14,6 +14,9 @@ summary: san.volrehostlunmapcreated events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs on clustered Data ONTAP(R) systems for Volume Rehost operation on successful creation of the LUN map the destination Vserver.
+
 == san.volRehostLunMapCreated
 *Severity*::
 INFORMATIONAL
@@ -27,3 +30,4 @@ LUN "%s" successfully mapped with igroup "%s" for Vserver "%s".
 *lun_path* (STRING): LUN path.
 *igroup_name* (STRING): Igroup name.
 *vserver_name* (STRING): Vserver name.
+

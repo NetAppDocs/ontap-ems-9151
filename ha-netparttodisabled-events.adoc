@@ -14,6 +14,9 @@ summary: ha.netparttodisabled events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when takeovers due to network partitioning are disabled because of the number of previous, consecutive, network-partiion takeovers that occurred within a preceding detection period.
+
 == ha.netPartToDisabled
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ Network partitioning takeovers are disabled due to %d network-related takeovers 
 *local_node_initiated* (INT): Number of takeovers due to network partitioning occurring within the detection period that were initiated by the local node. This number is included in the takeover_initiated number.
 *partner_node_initiated* (INT): Number of takeovers due to network partitioning occurring within the detection period that were initiated by the partner node. This number is included in the takeover_initiated number.
 *minutes_until_reenable* (INT): Minutes until takeover due to network partitioning is reenabled.
+

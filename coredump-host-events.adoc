@@ -14,6 +14,9 @@ summary: coredump.host events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when no sparecore disk is found at boot/takeover time.
+
 == coredump.host.spare.none
 *Severity*::
 INFORMATIONAL
@@ -51,3 +54,4 @@ This message occurs when a disk is identified as a sparecore disk and the host's
 *Parameters*::
 *disk* (STRING): Name of the sparecore disk
 *host* (INT): Host whose sparecoreinfo was updated.
+

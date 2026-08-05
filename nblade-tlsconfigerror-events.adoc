@@ -14,6 +14,9 @@ summary: nblade.tlsconfigerror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the client is trying to use NFS over TLS (Transport Layer Security), but it is disabled on the NFS server side.
+
 == Nblade.TLSConfigError
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Failed to create NFS over TLS (Transport Layer Security) connection from client 
 *clientIpAddress* (STRING): Client IP address.
 *vsName* (STRING): Storage virtual machine (SVM) name.
 *lifIpAddress* (STRING): LIF IP address of NFS server.
+

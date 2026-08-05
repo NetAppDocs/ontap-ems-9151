@@ -14,6 +14,9 @@ summary: director.dataip events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a data IP address is being reassigned from one node to another node.
+
 == director.dataip.reassigned
 *Severity*::
 NOTICE
@@ -33,3 +36,4 @@ Data IP address %s (ID: %u) is being reassigned (forcefully:%u) from node %s (ID
 *toNode* (STRING): Name of the node to which the data IP is being reassigned.
 *toNodeID* (INT): Unique identifier of the node to which the data IP is being reassigned.
 *toNodeUuid* (STRING): Universal unique identifier of the node to which the data IP is being reassigned.
+

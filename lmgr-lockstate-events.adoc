@@ -14,6 +14,9 @@ summary: lmgr.lockstate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system cannot clean up the lock state associated with the active file system.
+
 == lmgr.lockstate.cleanup.fail
 *Severity*::
 ERROR
@@ -31,3 +34,4 @@ Lock state cleanup failed for '%s' during '%s' on volume '%s%s%s' (DSID %llu) wi
 *volident* (STRING): Unique identifier for the volume.
 *volDsid* (LONGINT): Data set identifier (DSID) of the volume.
 *code* (INT): Error code returned while trying to clean up lock state.
+

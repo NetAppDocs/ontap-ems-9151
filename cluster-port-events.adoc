@@ -14,6 +14,9 @@ summary: cluster.port events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the cluster ports are operating at an unsupported speed.
+
 == cluster.port.unsupport.speed
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ Ensure that the cluster port has a supported network interface card installed, a
 *node* (STRING): Node on which the misconfigured ports reside.
 *portlist* (STRING): List of misconfigured ports.
 *supported_speed* (STRING): Speed at which the port is supported.
+

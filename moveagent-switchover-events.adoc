@@ -14,6 +14,9 @@ summary: moveagent.switchover events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the volume move operation vetoes a MetroCluster(tm) switchover because the operations are mutually exclusive.
+
 == moveagent.switchover.veto
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ Reissue the "metrocluster switchover" command to initiate the MetroCluster switc
 The volume move operation in progress prevents MetroCluster switchover. Monitor the currently running volume move operation by using the "volume move show" command.
 *Parameters*::
 (None).
+

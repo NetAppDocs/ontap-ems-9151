@@ -14,6 +14,9 @@ summary: isns.socket events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the TCP socket connection in the Internet Storage Name Service (iSNS) fails to connect to the iSNS server.
+
 == isns.socket.conn.failed
 *Severity*::
 ERROR
@@ -40,3 +43,4 @@ The iSNS for %s failed to create a socket to %s; check the Data ONTAP network co
 *Parameters*::
 *vserver* (STRING): Name of the Vserver
 *ip_address* (STRING): IP address for the iSNS server.
+

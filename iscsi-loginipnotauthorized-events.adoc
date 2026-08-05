@@ -14,6 +14,9 @@ summary: iscsi.loginipnotauthorized events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system rejects an iSCSI login attempt because it originates from an unauthorized IP address.
+
 == iscsi.loginIpNotAuthorized
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ iSCSI login authorization failure. Initiator %s attempted to log in on Vserver %
 *vserver* (STRING): Name of the vserver to which the unauthorized login attempt is made.
 *lif* (STRING): Name of the LIF where the login was attempted.
 *initiator_ip_address* (STRING): Source IP address of the initiator that attempted to login.
+

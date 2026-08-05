@@ -14,6 +14,9 @@ summary: bcomd.fcnvmelifremoved events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an FC NVMe (Nonvolatile Memory Express) logical interface (LIF) is removed.
+
 == bcomd.fcNvmeLifRemoved
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ LIF %s (on Vserver %s), WWPN %s, was removed from node %s, port %s.
 *wwpn* (STRING): WWPN that was removed.
 *node* (STRING): Name of the node on which the LIF had been hosted.
 *port* (STRING): Name of the port on which the LIF had been hosted.
+

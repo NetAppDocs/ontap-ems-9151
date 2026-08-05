@@ -14,6 +14,9 @@ summary: wafl.ino events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an inode upgrade for the specified WAFL volume or aggregate is aborted.
+
 == wafl.ino.upgrade.aborted
 *Severity*::
 INFORMATIONAL
@@ -146,3 +149,4 @@ An inode upgrade for volume or aggregate '%s %s' was suspended due to a lack of 
 *owner* (STRING): Owner of the volume or aggregate.
 *volname* (STRING): Name of the volume or aggregate.
 *space_required* (LONGINT): Estimated amount of disk space required, in bytes, to complete the upgrade.
+

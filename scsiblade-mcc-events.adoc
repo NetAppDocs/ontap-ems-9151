@@ -14,6 +14,9 @@ summary: scsiblade.mcc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Vserver load during MCC switchover/switchback consumes majority of the 120 second MAX timeout.
+
 == scsiblade.mcc.vs.load.wm
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ MCC Vserver load hit %s watermark set to %d seconds.
 *Parameters*::
 *level* (STRING): watermark level.
 *time* (INT): time.
+

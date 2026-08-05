@@ -14,6 +14,9 @@ summary: smc.vlt events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the transfer for the SnapVault(R) relationship replicating the read-only source volume fails because the SnapMirror(R) policy prevents it from transferring the exported Snapshot(R) copy from the source.
+
 == smc.vlt.cascade.xfer.fail
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Unable to transfer any Snapshot copies to %s because the exported Snapshot copy 
 *dst_path* (STRING): Destination volume of the SnapVault relationship.
 *snap_name* (STRING): Name of the exported Snapshot copy on the source volume.
 *snapmirror_label* (STRING): SnapMirror label associated with the exported Snapshot copy.
+

@@ -14,6 +14,9 @@ summary: wafl.takeover events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system does not find any WAFL(R) nvlog records to replay during takeover processing.
+
 == wafl.takeover.nvram.missing
 *Severity*::
 INFORMATIONAL
@@ -93,3 +96,4 @@ This message occurs when the volumes are mounted during takeover.
 (None).
 *Parameters*::
 (None).
+

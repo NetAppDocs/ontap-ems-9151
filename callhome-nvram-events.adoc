@@ -14,6 +14,9 @@ summary: callhome.nvram events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when excessive correctable error-correcting code (ECC) memory errors are reported by the NVRAM complex.
+
 == callhome.nvram.cecc
 *Severity*::
 ERROR
@@ -78,3 +81,4 @@ Use the "system environment sensors show -hidden true" command to view the curre
 Call home for %s.
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

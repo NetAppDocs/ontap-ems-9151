@@ -14,6 +14,9 @@ summary: wafl.cdemap events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an inconsistency is discovered in one of the metafile blocks.
+
 == wafl.cdemap.repaired.metafile
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Inconsistent block (%s) found in %s metafile on aggregate (%s). Repaired.
 *state* (STRING): A description of the metafile block that was found to be inconsistent.
 *metafile_name* (STRING): Name of the metafile.
 *aggr* (STRING): Name of the aggregate.
+

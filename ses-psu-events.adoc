@@ -14,6 +14,9 @@ summary: ses.psu events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the power supplies that are installed in a disk shelf are not compatible with each other.
+
 == ses.psu.comboError
 *Severity*::
 ALERT
@@ -58,3 +61,4 @@ Not enough power supplies are present in channel %s disk shelf %d to satisfy dis
 *ShelfID* (INT): ID of the disk shelf.
 *NumReqd* (INT): Number of power supplies required.
 *NumPresent* (INT): Number of PSUs present.
+

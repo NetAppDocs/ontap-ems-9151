@@ -14,6 +14,9 @@ summary: cecc_log.masked events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the ECC error logger stops reporting the occurrence of correctable ECC errors because the frequency of their occurrence is too high.
+
 == cecc_log.masked
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Use the "system controller memory dimm show" command to check system memory.
 Error logging temporarily suspended due to excessive CECC errors.
 *Parameters*::
 (None).
+

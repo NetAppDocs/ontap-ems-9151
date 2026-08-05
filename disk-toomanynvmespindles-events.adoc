@@ -14,6 +14,9 @@ summary: disk.toomanynvmespindles events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Data ONTAP(R) finds more NVMe disks present on a platform than the platform actually supports.
+
 == disk.tooManyNvmeSpindles
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Too many NVMe disks have been installed. Reconfigure the system to the maximum n
 Reached the maximum number of NVMe disks that are supported on this system of %d NVMe disks. All additional NVMe disks will be ignored. This problem must be resolved before the system is rebooted.
 *Parameters*::
 *maxSpindle* (INT): Maximum number of NVMe disks supported on this platform.
+

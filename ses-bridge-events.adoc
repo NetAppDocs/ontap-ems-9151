@@ -14,6 +14,9 @@ summary: ses.bridge events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the bridge firmware revision cannot be obtained.
+
 == ses.bridge.fw.getFailWarn
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ On channel %s, the bridge firmware revision appears to be inconsistent : %8.8s a
 *ChannelName* (STRING): Name of the channel that contains the inconsistent firmware revision.
 *PrevRev* (STRING): Previous firmware revision.
 *CurRev* (STRING): Current firmware revision.
+

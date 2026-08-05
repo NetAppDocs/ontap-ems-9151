@@ -14,6 +14,9 @@ summary: ha.gb events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a mailbox disk cannot be accessed prior to a giveback.
+
 == ha.gb.mbxAccessErr
 *Severity*::
 ALERT
@@ -63,3 +66,4 @@ Problem accessing %s mailbox disks prior to giveback. Found %d disks. Override v
 *override_vetoes* (STRING): Value of the "-override-vetoes" parameter passed to the "storage failover giveback" command or the sf-send-home-initiate ZAPI.
 *error_code* (INT): Disk I/O or other error code.
 *error_status* (INT): Additional internal status related to the error code.
+

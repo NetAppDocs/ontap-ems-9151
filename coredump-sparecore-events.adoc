@@ -14,6 +14,9 @@ summary: coredump.sparecore events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+Sparecore was aborted by partner.
+
 == coredump.sparecore.killed
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ Sparecore was aborted by partner.
 Sparcore was aborted by partner.
 *Parameters*::
 (None).
+

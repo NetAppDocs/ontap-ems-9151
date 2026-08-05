@@ -14,6 +14,9 @@ summary: smc.cg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a FlexGroup(R) Snapshot copy rename fails and the revert to the original Snapshot copy name also fails.
+
 == smc.cg.snap.ren.revert.fail
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ Unable to revert Snapshot copy name from the new name, "%s" to oldname "%s" in v
 *origsnapname* (STRING): Original Snapshot copy name.
 *dstpath* (STRING): Path name of the destination volume to which the Snapshot copy rename was issued.
 *error* (INT): Error code of the failure.
+

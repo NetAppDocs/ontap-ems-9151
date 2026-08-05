@@ -14,6 +14,9 @@ summary: disk.outofservice events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a drive is removed from service because it has been marked failed, is being sanitized, or has entered Maintenance Center.
+
 == disk.outOfService
 *Severity*::
 NOTICE
@@ -30,3 +33,4 @@ Drive %s (%s)%s. Power-On Hours: %s, GList Count: %d, Drive Info: %s.
 *powerOnHours* (STRING): Time, in hours, that the drive was powered on when the failure occurred.
 *glistEntries* (INT): Number of grown defect list entries.
 *disk_information* (STRING): Formatted information about the drive. This includes the drive's vendor, model, firmware revision, and serial number.
+

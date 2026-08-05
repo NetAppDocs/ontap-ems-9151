@@ -14,6 +14,9 @@ summary: sis.revertmetacreate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Single Instance Storage (SIS) metafiles cannot be created in the flexible volume metadir during a reversion to an earlier version of Data ONTAP(R).
+
 == sis.revertmetacreate.failed
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Could not create the metafiles for the volume %s%s in the volume metadir: %s SIS
 *vol* (STRING): Path to the volume.
 *volident* (STRING): To uniquely identify the volume in cases where volume name itself is insufficient.
 *err* (STRING): Reason for the failure.
+

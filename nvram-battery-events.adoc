@@ -14,6 +14,9 @@ summary: nvram.battery events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the NVRAM battery capacity is critically low.
+
 == nvram.battery.capacity.low.critical
 *Severity*::
 EMERGENCY
@@ -572,3 +575,4 @@ Correct any environmental problems, such as chassis over- temperature. If the NV
 The NVRAM battery voltage is below normal (%s).
 *Parameters*::
 *reading* (STRING): Reading that triggered this message.
+

@@ -14,6 +14,9 @@ summary: ses.badsharestorageconfigerr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk shelf module that is not supported in a Shared Storage system, such as an LRC module, is detected in a Shared Storage system.
+
 == ses.badShareStorageConfigErr
 *Severity*::
 EMERGENCY
@@ -26,3 +29,4 @@ Disk shelf %d on adapter %s has an unsupported module for a Shared Storage confi
 *Parameters*::
 *shelf_num* (INT): Disk shelf number the unsupported module is on.
 *ha_name* (STRING): Host adapter on which the disk shelf resides.
+

@@ -14,6 +14,9 @@ summary: wafl.dirent events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a user attempts to use a directory entry name that is not supported by the virtual server's language setting.
+
 == wafl.dirent.illegal.encoding
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ The encoding of directory entry name %s doesn't match the virtual server's langu
 *Parameters*::
 *filename* (STRING): The filename
 *langcode* (STRING): Language code
+

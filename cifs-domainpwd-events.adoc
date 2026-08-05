@@ -14,6 +14,9 @@ summary: cifs.domainpwd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when disabling of CIFS domain password change schedule fails to delete the job for a Vserver.
+
 == cifs.domainpwd.job.deletion
 *Severity*::
 NOTICE
@@ -53,3 +56,4 @@ An attempt to update the domain account password for Vserver %s failed during %s
 *vserver* (STRING): Name of the Vserver for which the password update failed.
 *method* (STRING): Method used to update the password.
 *reason* (STRING): Reason for the failure.
+

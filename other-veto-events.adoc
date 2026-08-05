@@ -14,6 +14,9 @@ summary: other.veto events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a giveback or aggregate relocation operation fails but ONTAP(R) software cannot determine the specific operation type.
+
 == other.veto.kmgr.keysmissing
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ Relocation or giveback of aggregate "%s" has failed because the restoration stat
 *Parameters*::
 *aggr* (STRING): Name of the aggregate that was being queried when the timeout occurred.
 *dest_node* (STRING): Name of the destination node.
+

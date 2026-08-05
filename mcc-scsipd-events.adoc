@@ -14,6 +14,9 @@ summary: mcc.scsipd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+iSCSI session maintenance thread was signaled to reconnect and destroy SIM paths.
+
 == mcc.scsipd.iScsiSessionReconnectDestroySim
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ iSCSI session maintenance thread was signaled to reconnect and destroy SIM paths
 *Parameters*::
 *watchdogIdx* (INT): The watchdog thread index for the mcc_scsipd driver.
 *watchdogTimeLimit* (INT): The time limit in seconds that the watchdog thread waits before signaling the iSCSI session maintenace thread.
+

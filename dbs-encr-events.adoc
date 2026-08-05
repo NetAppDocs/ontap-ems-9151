@@ -14,6 +14,9 @@ summary: dbs.encr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Distributed Block Store (DBS) enables or disables encryption at rest on a self-encrypting drive.
+
 == dbs.encr.at.rest
 *Severity*::
 NOTICE
@@ -33,3 +36,4 @@ A DBS encryption at rest event occurred, event %s, type %s, service %u, node %u/
 *driveUuid* (STRING): Generated UUID of the associated drive. It displays zeroes if there is no associated drive.
 *evtID* (INT): DBS event ID number.
 *evtDetails* (STRING): Specific details of the DBS event. It displays as a string, in JSON format, or is empty.
+

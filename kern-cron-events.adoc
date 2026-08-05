@@ -14,6 +14,9 @@ summary: kern.cron events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued when the kernel cron daemon is unable to reschedule an internal process due to an error in handling of daylight savings time.
+
 == kern.cron.dstError
 *Severity*::
 ERROR
@@ -38,3 +41,4 @@ Daylight Savings Time change: rescheduling %s to run at %s
 *Parameters*::
 *owner* (STRING): The name of the process that was scheduled
 *time* (STRING): The text version of the time string at which the event was scheduled
+

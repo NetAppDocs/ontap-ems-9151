@@ -14,6 +14,9 @@ summary: sp.log events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the available memory of the log partition in the Service Processor (SP) or the Baseboard Management Controller (BMC) is low.
+
 == sp.log.partition.full
 *Severity*::
 ERROR
@@ -49,3 +52,4 @@ This message occurs when the node's Service Processor (SP) or Baseboard Manageme
 Log partition "%s" has been remounted as read-write after recovery from a read-only state.
 *Parameters*::
 *sp_type* (STRING): Service processor type (SP or BMC)
+

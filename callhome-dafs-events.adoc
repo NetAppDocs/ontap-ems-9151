@@ -14,6 +14,9 @@ summary: callhome.dafs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the DAFS (Direct Acess File System) NIC (Network Interface Controller) has stopped while DAFS was running.
+
 == callhome.dafs.nic.stop
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Reboot the system to recover the NIC. If you need assistance, contact NetApp tec
 Call home for DAFS VI NIC HALTED - DAFS SERVICE MAY BE INACCESSIBLE
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

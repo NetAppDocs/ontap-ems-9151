@@ -14,6 +14,9 @@ summary: lmgr.mismatch events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the current file object of a lock does not match the file object found through the file handle.
+
 == lmgr.mismatch.file.objects
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ None.
 *volume* (STRING): Name of the volume, based on the file handle.
 *lockid* (STRING): Lock Universal Unique Identifier (UUID) of the sharelock.
 *caller* (STRING): WAFL(R) spinnp operation that encountered this event.
+

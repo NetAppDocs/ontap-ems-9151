@@ -14,6 +14,9 @@ summary: wafl.i2p events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the ONTAP(R) kernel detects that an i2p metafile on one of the snapshot has more entries than necessary for an inode.
+
 == wafl.i2p.entries.mismatch
 *Severity*::
 NOTICE
@@ -49,3 +52,4 @@ This message occurs when an inode-to-parent (i2p) scan detects and rectifies an 
 *inode* (INT): Inode number.
 *old_parent_inode* (INT): Existing parent inode number.
 *old_cookie* (INT): Existing parent cookie.
+

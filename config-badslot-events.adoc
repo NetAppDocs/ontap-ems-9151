@@ -14,6 +14,9 @@ summary: config.badslot events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk is found to be attached to an invalid Host Adapter (HA) controller slot.
+
 == config.BadSlot
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Consult the NetApp technical support guides for the supported slots for adapters
 Disk %s is attached to an invalid HA slot. This is an illegal configuration.
 *Parameters*::
 *disk* (STRING): Name of the disk.
+

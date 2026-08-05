@@ -14,6 +14,9 @@ summary: diskown.assignexceeded events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an attempt is made to assign more disks than are supported by this node.
+
 == diskown.AssignExceeded
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ The maximum number of disks that can be assigned to this node has been exceeded.
 *Parameters*::
 *attempted* (INT): Number of disks attempted to assign.
 *supported* (INT): Number of disks supported.
+

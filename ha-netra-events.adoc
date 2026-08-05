@@ -14,6 +14,9 @@ summary: ha.netra events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs during an aggregate migration, when the destination node either cannot determine whether at least one disk in the aggregate is a disk partition, or the associated container disk is not visible to the destination node.
+
 == ha.netra.dskChkNoContDsk
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Disk with UUID %s is not visible to node %s, which is the destination of an aggr
 *Parameters*::
 *disk_uuid* (STRING): Universal unique identifier (UUID) of the disk that is not visible to the destination node.
 *node_name* (STRING): Name of the destination node.
+

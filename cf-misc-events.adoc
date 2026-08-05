@@ -14,6 +14,9 @@ summary: cf.misc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+The message occurs when a giveback is initiated before the partner has reached waiting-for-giveback state.
+
 == cf.misc.givebackPartnerNotReady
 *Severity*::
 NOTICE
@@ -206,3 +209,4 @@ Verify that both nodes are booted.
 Failover monitor: Programmatic takeover failed because shutdown was in progress.
 *Parameters*::
 (None).
+

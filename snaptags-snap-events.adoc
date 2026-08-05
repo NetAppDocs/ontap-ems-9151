@@ -14,6 +14,9 @@ summary: snaptags.snap events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system detects inconsistency of Snapshot(tm) copy-specific information in the Snapshot copy tag's metafile on a volume.
+
 == snaptags.snap.inconsist
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ An inconsistency of Snapshot copy tags was detected for Snapshot copy ID '%d' on
 *Parameters*::
 *snapid* (INT): Physical Snapshot copy ID on the volume.
 *vol* (STRING): Name of the volume.
+

@@ -14,6 +14,9 @@ summary: sfu.adaptersuspendio events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs during a disk shelf firmware update on a disk shelf that cannot perform I/O while updating firmware.
+
 == sfu.adapterSuspendIO
 *Severity*::
 INFORMATIONAL
@@ -42,3 +45,4 @@ Suspending %s to %s adapter %s for %d seconds while shelf firmware is updated.
 *adapterType* (STRING): Type of adapter that is updating firmware.
 *channelName* (STRING): Name of the adapter on which shelves will be updating firmware.
 *minutes* (INT): Amount of time that specified data traffic will be suspended on the adapter.
+

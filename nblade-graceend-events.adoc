@@ -14,6 +14,9 @@ summary: nblade.graceend events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the NFS server exits the grace state.
+
 == Nblade.graceEnd
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ NFS server grace state has ended for Vserver "%s", LIF ID "%d", LIF IP address "
 *vserverName* (STRING): Vserver Name.
 *lifId* (INT): LIF ID
 *lifIpAddress* (STRING): LIF IP address for the NFS server.
+

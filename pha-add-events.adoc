@@ -14,6 +14,9 @@ summary: pha.add events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an attempt to add a passthrough host adapter (PHA) disk to a virtual disk adapter fails because the supplied disk number exceeds the maximum supported disk ID.
+
 == pha.add.dev.limitExceeded
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Reduce the number of devices connected to Data ONTAP(R) and retry this operation
 Failed to add a device with unit number %d to virtual disk adapter. Reason: Supplied disk number exceeds the max number of supported disks.
 *Parameters*::
 *disk_num* (INT): Unit number for the rejected disk.
+

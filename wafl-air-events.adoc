@@ -14,6 +14,9 @@ summary: wafl.air events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+Generic wafl air message
+
 == wafl.air.info
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Generic wafl air message
 %s
 *Parameters*::
 *msg* (STRING): The message from AIR module
+

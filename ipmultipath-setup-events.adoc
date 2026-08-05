@@ -14,6 +14,9 @@ summary: ipmultipath.setup events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs during IP Multipath connection setup, when the IP Multipath listener process cannot bind to any IP address of the source.
+
 == ipmultipath.setup.bindFailed
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ The destination host information provided to IP Multipath is incorrect or the re
 IP Multipath failed to connect to %s.
 *Parameters*::
 *dst* (STRING): Host name of the remote host.
+

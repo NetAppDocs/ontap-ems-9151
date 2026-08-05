@@ -14,6 +14,9 @@ summary: gpo.reg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the group policy object (GPO) registry policy settings are applied.
+
 == gpo.reg.applied
 *Severity*::
 INFORMATIONAL
@@ -63,3 +66,4 @@ Failed to apply GPO registry settings for Vserver %s, reason: %s.
 *Parameters*::
 *vserver* (STRING): Vserver name.
 *reason* (STRING): Reason for the failure.
+

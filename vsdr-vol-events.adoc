@@ -14,6 +14,9 @@ summary: vsdr.vol events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Vserver DR subsystem does not enable inline deduplication on the destination volume.
+
 == vsdr.vol.aff.inline.dedup
 *Severity*::
 ALERT
@@ -302,3 +305,4 @@ Configuration replication for volume "%s" in Vserver "%s" has failed because the
 *Parameters*::
 *volume_name* (STRING): Volume on which this error occurred.
 *vserver_name* (STRING): Vserver name for which configuration replication is happening.
+

@@ -14,6 +14,9 @@ summary: sfo.takeover events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the taking over node cannot complete an attempted optimized negotiated takeover.
+
 == sfo.takeover.aborted
 *Severity*::
 ERROR
@@ -137,3 +140,4 @@ The local node has initiated optimized negotiated takeover of its partner (%s).
 *Parameters*::
 *partner_name* (STRING): Name of the partner node.
 *partner_sysid* (LONGINT): System ID of the partner node.
+

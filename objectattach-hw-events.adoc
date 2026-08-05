@@ -14,6 +14,9 @@ summary: objectattach.hw events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an object store attach failed due to an unsupported hardware configuration.
+
 == objectAttach.hw.unsupported
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Object store attach failed because node %s with model %s is not supported by Fab
 *Parameters*::
 *node* (STRING): Node that has the unsupported hardware version.
 *model* (STRING): Model information.
+

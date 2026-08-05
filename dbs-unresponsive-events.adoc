@@ -14,6 +14,9 @@ summary: dbs.unresponsive events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Distributed Block Store (DBS) Master Service detects an unresponsive service.
+
 == dbs.unresponsive.service.alrt
 *Severity*::
 ALERT
@@ -51,3 +54,4 @@ DBS has detected an unresponsive service. Cluster fault service ID %u, node %u, 
 *cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
 *cfDetails* (STRING): Name of the affected service.
 *cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.
+

@@ -14,6 +14,9 @@ summary: config.repl events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the configuration replication bypass has been disabled.
+
 == config.repl.bypass.disabled
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ This message occurs when the configuration replication bypass has been enabled. 
 The configuration replication bypass has been enabled.
 *Parameters*::
 (None).
+

@@ -14,6 +14,9 @@ summary: wafl.ialloc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an inode allocation in a stripe is disabled.
+
 == wafl.ialloc.is.disabled
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when an inode allocation in a stripe is disabled.
 Inode allocation in stripe is disabled for %s inode space.
 *Parameters*::
 *ino_type* (STRING): Inode type.
+

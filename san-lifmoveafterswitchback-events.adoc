@@ -14,6 +14,9 @@ summary: san.lifmoveafterswitchback events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs during MetroCluster(tm) switchback, when a LIF cannot be placed on one of the disaster recovery (DR) nodes because it is offline.
+
 == san.lifmoveafterswitchback
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ MetroCluster DR node %s is offline. The LIF %s belonging to Vserver %s will be p
 *lif* (STRING): LIF name.
 *vserver_name* (STRING): Vserver name.
 *node_name* (STRING): Name of the HA partner node of the MetroCluster DR node.
+

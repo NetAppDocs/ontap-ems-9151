@@ -14,6 +14,9 @@ summary: air.fc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when inconsistencies are detected in the origin of this FlexCache(R) volume.
+
 == air.fc.origin.corrupt
 *Severity*::
 ALERT
@@ -27,3 +30,4 @@ The fh %s in Origin of this FlexCache volume %s%s contains inconsistencies.
 *fh* (STRING): File handle of the affected inode.
 *vol* (STRING): FlexCache volume name.
 *volident* (STRING): Unique identifier for the volume if volume name alone is insufficient.
+

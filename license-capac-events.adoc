@@ -14,6 +14,9 @@ summary: license.capac events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the total storage capacity of all disks currently assigned to your system exceeds the limits of your capacity license.
+
 == license.capac.enforce
 *Severity*::
 ALERT
@@ -230,3 +233,4 @@ To avoid disruption, either contact your sales representative immediately to obt
 *Parameters*::
 *current_capacity* (LONGINT): Currently used storage capacity of the system, in gigabytes.
 *max_capacity* (LONGINT): Maximum storage capacity supported under the current license, in gigabytes.
+

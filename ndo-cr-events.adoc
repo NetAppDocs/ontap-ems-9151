@@ -14,6 +14,9 @@ summary: ndo.cr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a controller replacement operation is canceled by the operator.
+
 == ndo.cr.canceled
 *Severity*::
 NOTICE
@@ -328,3 +331,4 @@ Controller replacement operation has been started. Node "%s" (model: %s), HA par
 *modelName* (STRING): Model name of the controller that will be replaced.
 *haNodeName* (STRING): Node name of the HA partner controller that will be replaced.
 *haModelName* (STRING): Model name of the HA partner controller that will be replaced.
+

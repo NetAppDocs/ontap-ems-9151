@@ -14,6 +14,9 @@ summary: cf.boot events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the failover monitor continues booting after waiting for giveback.
+
 == cf.boot.continuing
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ This message occurs when the failover monitor continues booting after waiting fo
 (None).
 *Parameters*::
 (None).
+

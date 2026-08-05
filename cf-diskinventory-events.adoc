@@ -14,6 +14,9 @@ summary: cf.diskinventory events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the computed checksum of the disk inventory message is different from the checksum sent as part of the disk inventory message.
+
 == cf.diskinventory.cksum.fail
 *Severity*::
 ALERT
@@ -39,3 +42,4 @@ disk inventory: ndisks %d max_disks %d
 *Parameters*::
 *ndisks* (INT): Number of disk descriptions sent in the inventory message.
 *maxdisks* (INT): Maximum number of disks supported.
+

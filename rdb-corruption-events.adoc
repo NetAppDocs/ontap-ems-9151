@@ -14,6 +14,9 @@ summary: rdb.corruption events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the cluster management Data Replication Module determines that the node's local replica set is corrupted.
+
 == rdb.corruption.reported
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Corruption reported in the local database of Data Replication Module %s, error: 
 *Parameters*::
 *unit* (STRING): The unit that is reporting corruption.
 *message* (STRING): Error message.
+

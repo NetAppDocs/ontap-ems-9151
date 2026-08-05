@@ -14,6 +14,9 @@ summary: disk.toomanypartitioneddisks events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Data ONTAP(R) finds more partitioned disks present on a platform than the platform supports.
+
 == disk.tooManyPartitionedDisks
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ Ignoring partitioned disk %s because the maximum limit of %d partitioned disks s
 *Parameters*::
 *diskName* (STRING): Name of the disk.
 *maxPartitionedDisks* (INT): Maximum number of partitioned disks supported on this platform.
+

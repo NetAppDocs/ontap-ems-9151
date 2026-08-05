@@ -14,6 +14,9 @@ summary: repository.ctpupdate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an update to the Create Time Placement (CTP) ruleset fails.
+
 == Repository.CTPUpdate.Failed
 *Deprecated*::
 Deprecated as of Data ONTAP 9.6 because Infinite Volumes no longer exist.
@@ -27,3 +30,4 @@ Retry updating the ruleset by using the "vserver data-policy import" command. If
 Create Time Placement (CTP) ruleset update failed on the Infinite Volume. Reason: %s.
 *Parameters*::
 *reason* (STRING): Reason for the failure.
+

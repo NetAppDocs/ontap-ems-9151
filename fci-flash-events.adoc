@@ -14,6 +14,9 @@ summary: fci.flash events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is a failure updating the Fibre Channel adapter flash preload table.
+
 == fci.flash.preload.failed
 *Severity*::
 ERROR
@@ -51,3 +54,4 @@ Updated flash preload table on Fibre Channel adapter %s to version %s.
 *Parameters*::
 *port* (STRING): Name of the adapter port.
 *version* (STRING): Preload table version.
+

@@ -14,6 +14,9 @@ summary: ucore.error events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is an error while processing a user space core dump.
+
 == ucore.error
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Could not dump core for process ID %d (%s). Reason: %s.
 *process_id* (INT): Process ID of the process.
 *process_name* (STRING): Name of the process.
 *reason* (STRING): Error condition encountered.
+

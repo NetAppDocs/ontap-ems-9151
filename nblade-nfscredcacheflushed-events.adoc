@@ -14,6 +14,9 @@ summary: nblade.nfscredcacheflushed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the administrator modifies the "extended-groups-limit" option or "auth-sys-extended-groups" option using the "vserver nfs modify" command.
+
 == Nblade.nfsCredCacheFlushed
 *Severity*::
 INFORMATIONAL
@@ -26,3 +29,4 @@ When the administrator modifies the "extended-groups-limit" option or "auth-sys-
 *Parameters*::
 *isExtGroupsEnabled* (INT): Flag to indicate if "auth-sys-extended-groups" option is enabled or not.
 *extendedGroupsLimit* (INT): This indicates the number of auxiliary groups supported over RPC security flavors AUTH_SYS or RPCSEC_GSS. The range is 32 to 1024.
+

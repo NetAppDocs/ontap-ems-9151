@@ -14,6 +14,9 @@ summary: raid.mv events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when aggregates are brought online in a deferred way after mirror votes are retrieved automatically.
+
 == raid.mv.defVol.online
 *Severity*::
 INFORMATIONAL
@@ -76,3 +79,4 @@ This message occurs when we pull mirror votes from the replicated database (RDB)
 RAID: Found a stale vote for aggregate %s in the mailbox when the mirror vote was pulled from the RDB.
 *Parameters*::
 *aggregate* (STRING): Name of the aggregate.
+

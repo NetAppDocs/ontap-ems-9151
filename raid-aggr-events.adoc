@@ -14,6 +14,9 @@ summary: raid.aggr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the usable size of an aggregate does not expand after a corresponding increase in the size of the underlying storage.
+
 == raid.aggr.autoGrow.abort
 *Severity*::
 NOTICE
@@ -70,3 +73,4 @@ Exclusive access on the aggregate %s by operation %s failed because of a conflic
 *aggregate* (STRING): Name of the aggregate.
 *attempted_op_name* (STRING): Name of the operation that tried to get exclusive access.
 *current_op_name* (STRING): Name of the operation that is currently holding the exclusive access.
+

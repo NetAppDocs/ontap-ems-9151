@@ -14,6 +14,9 @@ summary: vsa.cloud events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when cluster LIF route update succeeds upon node switchover.
+
 == vsa.cloud.aws.api.rtUpdt
 *Severity*::
 NOTICE
@@ -108,3 +111,4 @@ ONTAP Load Balancer has %s listening for probes from a Cloud Network load Balanc
 *Parameters*::
 *detail* (STRING): Whether the Cloud Volumes ONTAP probe port has started or stopped listening for probes from the Cloud Load Balancer.
 *probe_port* (INT): Port that the listening event occurred on.
+

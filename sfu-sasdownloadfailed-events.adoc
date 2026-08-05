@@ -14,6 +14,9 @@ summary: sfu.sasdownloadfailed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk shelf firmware update fails to download disk shelf firmware to a disk shelf successfully.
+
 == sfu.SASDownloadFailed
 *Severity*::
 ERROR
@@ -29,3 +32,4 @@ Go to the NetApp Support Site at http://support.netapp.com/NOW/download/tools/di
 *module* (STRING): Module on which the disk shelf firmware download failed.
 *channelNameSES* (STRING): Name of the adapter port or switch port on the SCSI enclosure services (SES) device on which the disk shelf firmware download failed.
 *shelfId* (INT): ID of the disk shelf on which the disk shelf firmware download failed.
+

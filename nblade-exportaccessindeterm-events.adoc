@@ -14,6 +14,9 @@ summary: nblade.exportaccessindeterm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when client access cannot be evaluated because of an error while matching the client against export rules.
+
 == Nblade.exportAccessIndeterm
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ Access to volume with MSID %llu in Vserver %u could not be evaluated for client 
 *vserverId* (INT): Identifier for the Vserver associated with this access.
 *clientAddr* (STRING): IP address of the client attempting access.
 *rulesetID* (LONGINT): Export rule set ID.
+

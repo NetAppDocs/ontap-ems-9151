@@ -14,6 +14,9 @@ summary: nblade.cifs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is a budget allocation failure for a CIFS subsystem because other CIFS subsystems are consuming too much memory.
+
 == Nblade.cifs.budgetAllocFailure
 *Severity*::
 ERROR
@@ -39,3 +42,4 @@ Use the command "event log show -messagename adt.service.block" to check for des
 CIFS logon failed due to audit log generation failure for the vserver %u.
 *Parameters*::
 *vsId* (INT): Id of the vserver, on which this event occurred.
+

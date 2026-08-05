@@ -14,6 +14,9 @@ summary: ccma.perfstatd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Perfstat daemon (perfstatd) has been disabled for more than an hour.
+
 == ccma.perfstatd.disabled
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Run the 'statistics archive config modify -perfstat-sampling-period 5' command. 
 The Perfstat daemon (perfstatd) has been disabled for more than an hour. It is important for the analysis and diagnoses of performance related issues. Consider enabling it.
 *Parameters*::
 (None).
+

@@ -14,6 +14,9 @@ summary: vol.duplicate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a duplicate master set ID (MSID) has been detected.
+
 == vol.duplicate.msid
 *Severity*::
 EMERGENCY
@@ -28,3 +31,4 @@ Duplicate MSID "%lu" has been detected in SVM "%s". The duplicate MSID is used f
 *vserverName* (STRING): Name of the storage virtual machine (SVM) on which the volumes reside.
 *firstVolName* (STRING): Name of the first volume with the duplicate MSID.
 *secondVolName* (STRING): Name of the second volume with the duplicate MSID.
+

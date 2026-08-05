@@ -14,6 +14,9 @@ summary: zsm.send events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a socket timeout occurs on an intracluster Manage ONTAP(R) API request to an internal ONTAPI(R) server.
+
 == zsm.send.request.timeout
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Check your network configuration and other potential error conditions, such as t
 An intracluster Manage ONTAP API request timed out while waiting for an internal ONTAPI server response.
 *Parameters*::
 (None).
+

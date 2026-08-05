@@ -14,6 +14,9 @@ summary: wafl.mcc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when WAFL(R) does not find the MetroCluster configuration information on this node.
+
 == wafl.mcc.config.notFound
 *Deprecated*::
 Deprecated as of version 9.4 as this debug EMS not supported now.
@@ -248,3 +251,4 @@ There are more volumes (%d) than the maximum number of volumes (%d) supported on
 *numVols* (INT): Current number of volumes.
 *limit* (INT): Maximum number of volumes supported.
 *host* (STRING): Host on this node for which the volume limit has been exceeded.
+

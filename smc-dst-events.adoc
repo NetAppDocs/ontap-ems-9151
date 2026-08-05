@@ -14,6 +14,9 @@ summary: smc.dst events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when SnapMirror creates or deletes a Snapshot copy with a SnapMirror label on a FlexVol destination volume of a SnapMirror(R) relationship.
+
 == smc.dst.snapshot.op
 *Severity*::
 NOTICE
@@ -31,3 +34,4 @@ SnapMirror Snapshot %s %s on destination volume %s, label %s, instance UUID %s, 
 *instance_uuid* (STRING): Instance UUID of the Snapshot copy.
 *version_uuid* (STRING): Version UUID of the Snapshot copy.
 *relationshipID* (STRING): UUID of the SnapMirror relationship.
+

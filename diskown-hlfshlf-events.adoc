@@ -14,6 +14,9 @@ summary: diskown.hlfshlf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when half-shelf based drive assignment is enabled or disabled.
+
 == diskown.hlfShlf.assignStatus
 *Severity*::
 NOTICE
@@ -50,3 +53,4 @@ This message occurs when the controller cannot automatically assign disks using 
 The controller cannot automatically assign disks using half shelf based disk assignment because disks in shelf "%d" are assigned to multiple systems in a conflicting manner.
 *Parameters*::
 *shelf_id* (INT): Shelf identifier.
+

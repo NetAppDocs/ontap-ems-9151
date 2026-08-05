@@ -14,6 +14,9 @@ summary: shelf.test events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a TEST request is now in progress.
+
 == shelf.test.in.progress
 *Severity*::
 INFORMATIONAL
@@ -37,3 +40,4 @@ Run the test against a shelf that exists.
 Could not perform TEST request; the disk shelf does not exist.
 *Parameters*::
 (None).
+

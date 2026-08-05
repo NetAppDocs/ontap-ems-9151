@@ -14,6 +14,9 @@ summary: ccma.quota events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a datastore has been orphaned due to the system not having sufficient memory to keep track of itin the quota system.
+
 == ccma.quota.datastore.leak
 *Severity*::
 ERROR
@@ -50,3 +53,4 @@ The performance archive data collection rate is too high for the amount of space
 *Parameters*::
 *days* (LONGINT): Number of days of performance archive data that can be stored at the current rate.
 *size* (LONGINT): Size increase (in MB) needed to maintain a system performance history equal to the datastore-max-retention configuration value.
+

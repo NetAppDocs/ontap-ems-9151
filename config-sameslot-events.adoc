@@ -14,6 +14,9 @@ summary: config.sameslot events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a SAS disk is multipathed to host adapters in the same controller slot.
+
 == config.sameSlot
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Move one of the connections attaching the disk shelf to a host adapter in a diff
 Disk %s and other disks attached to the same port are dual-attached to adapters in the same slot . For improved availability you should dual-attach them to adapters in separate slots.
 *Parameters*::
 *disk* (STRING): Name of the disk.
+

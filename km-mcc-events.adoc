@@ -14,6 +14,9 @@ summary: km.mcc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs in a MetroCluster(tm) configuration, when one or both clusters have been configured with the Onboard Key Manager, but one or both of the Onboard Key Manager key hierarchies are corrupted.
+
 == km.mcc.okm.hierarchy.bad
 *Severity*::
 ALERT
@@ -49,3 +52,4 @@ Contact Contact NetApp technical support. for assistance.
 This cluster is part of a MetroCluster configuration. An SVM key encryption key created on the remote cluster has not been replicated to the local cluster.
 *Parameters*::
 (None).
+

@@ -14,6 +14,9 @@ summary: ems.snmp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when SNMP parsing of an input packet fails.
+
 == ems.snmp.parse.error
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ An agent is incorrectly communicating with the system using SNMP. Find and disab
 %s
 *Parameters*::
 *errorMsg* (STRING): Returned error message from the parsing of the input packet.
+

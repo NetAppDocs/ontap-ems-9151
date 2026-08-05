@@ -14,6 +14,9 @@ summary: snapmirror.status events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is generated when Data ONTAP cannot update the latest base snapshot for the replication destination.
+
 == snapmirror.status.dstUpdateSnapErr
 *Severity*::
 ERROR
@@ -61,3 +64,4 @@ Check if the root volume is out of disk space by issuing the 'df' command from t
 Data ONTAP could not update the ONTAP system registry with upgraded snapmirror status keys.
 *Parameters*::
 (None).
+

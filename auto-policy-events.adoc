@@ -14,6 +14,9 @@ summary: auto.policy events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs during upgrade to Data ONTAP(R) 9.3 or later, when we start enabling the "auto" efficiency policy on the existing compatible volumes on All-Flash Optimized nodes in the background.
+
 == auto.policy.feature.enable
 *Severity*::
 NOTICE
@@ -64,3 +67,4 @@ Volume Efficiency features enabled on Volume %s of Vserver %s.
 *Parameters*::
 *volume* (STRING): Volume name.
 *vserver* (STRING): Vserver name.
+

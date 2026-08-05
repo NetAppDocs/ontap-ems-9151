@@ -14,6 +14,9 @@ summary: ems.asup events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the e-mail addresses for deprecated AutoSupport "noteto" messages are copied to EMS event notification destinations during an upgrade to Data ONTAP(R) 9.0 or later.
+
 == ems.asup.noteto.transition
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ To remove event message duplication, remove the AutoSupport "noteto" addresses b
 AutoSupport -noteto e-mail addresses have been copied and transitioned to EMS event notification destinations.
 *Parameters*::
 (None).
+

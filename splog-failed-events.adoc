@@ -14,6 +14,9 @@ summary: splog.failed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system fails to transfer the SP log file from the remote Service Processor (SP).
+
 == splog.failed.to.transfer.log
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Failed to transfer log from Service Processor (SP) on the remote node (%s) becau
 *Parameters*::
 *node_name* (STRING): Name of the remote node that is down and whose SP the log file cannot be transferred from.
 *reason* (STRING): Reason for the warning.
+

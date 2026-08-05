@@ -14,6 +14,9 @@ summary: zapi.retired events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAPI (ZAPI) is used for ONTAP data storage management.
+
 == zapi.retired.usageDetected
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ Ensure that all ONTAP data storage management functions using ONTAPI (ZAPI) have
 ONTAPI (ZAPI), which is approaching end of availability, was last used from source address: %s, for ONTAP data storage management.
 *Parameters*::
 *sourceAddress* (STRING): The source address from which the last ONTAPI (ZAPI) call was made.
+

@@ -14,6 +14,9 @@ summary: coredump.shutdown events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a core is about to be generated.
+
 == coredump.shutdown.trace
 *Severity*::
 NOTICE
@@ -31,3 +34,4 @@ coredump shutdown times: kmod dumper start %llu, panic_info set %llu, sf_dumpcor
 *fmotOutageSentTime* (LONGINT): Duration for sending FMOT (Failover Monitor Outage Tracker) Outage information over the interconnect, in milliseconds.
 *diskDumpStartTime* (LONGINT): Duration until disk dump start stage, in milliseconds.
 *coredumpBeginTime* (LONGINT): Duration until the start of the actual core dump, in milliseconds.
+

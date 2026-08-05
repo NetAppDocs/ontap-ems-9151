@@ -14,6 +14,9 @@ summary: vifmgr.port events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a physical network port has been discovered.
+
 == vifmgr.port.discovered
 *Severity*::
 NOTICE
@@ -284,3 +287,4 @@ Vlan %s is deleted from port %s, node %s.
 *vlanName* (STRING): Name of the VLAN deleted from the port.
 *portName* (STRING): Name of the port from which the VLAN was deleted.
 *nodeName* (STRING): Name of the node on which the port resides.
+

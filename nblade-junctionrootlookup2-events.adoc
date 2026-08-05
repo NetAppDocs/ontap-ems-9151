@@ -14,6 +14,9 @@ summary: nblade.junctionrootlookup2 events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system cannot obtain the root file handle of the volume mounted on a junction path.
+
 == Nblade.JunctionRootLookup2
 *Severity*::
 ERROR
@@ -29,3 +32,4 @@ Junction root lookup failed for a volume (Name: %s, MSID: %llu) in Vserver (Name
 *vserverName* (STRING): Vserver name for this MSID.
 *vserverId* (LONGINT): Vserver for this MSID.
 *reason* (STRING): Additional information about why the operation failed.
+

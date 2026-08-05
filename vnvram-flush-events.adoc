@@ -14,6 +14,9 @@ summary: vnvram.flush events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the write to the backing storage device for the EMS region of VNVRAM (virtual NVRAM) takes longer than 500 msec.
+
 == vnvram.flush.ems
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when the write to the backing storage device for the EMS reg
 EMS region write to VNVRAM persistent storage took %d seconds.
 *Parameters*::
 *vnvr_write_time* (LONGINT): Time in seconds taken for the EMS region write to persistent storage.
+

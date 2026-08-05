@@ -14,6 +14,9 @@ summary: nvmf.mgmt events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a management operation fails in an NVMe-oF subsystem.
+
 == nvmf.mgmt.op.failed
 *Severity*::
 EMERGENCY
@@ -65,3 +68,4 @@ Completion queue entries on NVMe/RoCE port "%s" are exhausted (current number us
 *Parameters*::
 *portname* (STRING): Port name on which the completion queue entries are exhausted.
 *cq_entries* (INT): Current number of completion queue entries used on the port.
+

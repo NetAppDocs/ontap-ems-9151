@@ -14,6 +14,9 @@ summary: cpeer.dns events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an attempt is made to resolve and insert a stable address that is a Domain Name System (DNS) style host name.
+
 == cpeer.dns.family.mismatch
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Host name %s of peer cluster %s resolved to %s, which does not match the peer re
 *addr* (STRING): Peer cluster host name that is being inserted.
 *peer* (STRING): Name of the peer cluster for which an address family mismatch was seen.
 *resolved_address* (STRING): Address resolved to, which belongs to the incorrect address family.
+

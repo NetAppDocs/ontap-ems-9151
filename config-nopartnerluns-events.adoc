@@ -14,6 +14,9 @@ summary: config.nopartnerluns events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs in a High-Availablity (HA) configuration with array LUNS when there is no attachment to both local and partner LUNs.
+
 == config.noPartnerLUNs
 *Severity*::
 EMERGENCY
@@ -25,3 +28,4 @@ Ensure that both nodes of the HA pair are cabled so they have access to all of t
 No LUNs were detected for the partner; this node cannot perform takeover correctly.
 *Parameters*::
 (None).
+

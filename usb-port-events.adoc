@@ -14,6 +14,9 @@ summary: usb.port events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Data ONTAP(R) universal serial bus (USB) adapter driver detects an unrecoverable error on the associated port.
+
 == usb.port.error
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ In adapter %s, unrecoverable error detected for port %d. Ignoring attached devic
 *Parameters*::
 *adapterName* (STRING): Name of the associated USB adapter.
 *port* (INT): Associated port number.
+

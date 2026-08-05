@@ -14,6 +14,9 @@ summary: ffm.attach events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when volumes on an aggregate become available to the protocol clients near the end of the attach phase of volume relocation.
+
 == ffm.attach.outage.end
 *Severity*::
 NOTICE
@@ -43,3 +46,4 @@ Attach of volumes on aggregate "%s" has started at %llu and ended at %llu. Total
 *attach_start_sk_msecs* (LONGINT): Timestamp when the attach starts.
 *attach_end_sk_msecs* (LONGINT): Timestamp of this event.
 *attach_op_total* (LONGINT): Duration in milliseconds from the moment of the attach callback to this event.
+

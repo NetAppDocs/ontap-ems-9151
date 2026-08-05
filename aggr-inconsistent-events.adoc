@@ -14,6 +14,9 @@ summary: aggr.inconsistent events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the 'aggr inconsistent' command is used to modify a state of an aggregate.
+
 == aggr.inconsistent.modify
 *Severity*::
 INFORMATIONAL
@@ -26,3 +29,4 @@ Aggregate %s: 'aggr inconsistent' command used to change inconsistent state to '
 *Parameters*::
 *aggr* (STRING): Name of the aggregate.
 *state* (STRING): State of the action: "set" or "clear".
+

@@ -14,6 +14,9 @@ summary: fc.bridge events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an FC port goes offline.
+
 == fc.bridge.fc.port.alert
 *Severity*::
 ALERT
@@ -234,3 +237,4 @@ Fibre Channel %s Bridge %s S/N: %s WWN: %s throughput is normal. %s
 *bridgeSerialNum* (STRING): Serial number of the FC-to-SAS bridge.
 *bridgeWWN* (STRING): World-Wide Name (WWN) of the FC-to-SAS bridge.
 *addlInfo* (STRING): Additional information about the alert being generated, if available.
+

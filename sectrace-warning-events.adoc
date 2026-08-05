@@ -14,6 +14,9 @@ summary: sectrace.warning events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a security tracing filter is enabled.
+
 == sectrace.warning.aboutperf
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ Security tracing is enabled on Vserver %s for the next %d minutes.
 *Parameters*::
 *vservername* (STRING): Name of the vserver on which file/directory tracing is enabled.
 *duration* (INT): Duration of the sectrace filter that is enabled.
+

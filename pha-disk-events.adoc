@@ -14,6 +14,9 @@ summary: pha.disk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the backing disk type for an existing disk was changed from the cloud API.
+
 == pha.disk.type.changed
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ Failed to recognize backing disk type for Disk: %s, Volume: %s. Error: %s.
 *d_name* (STRING): Disk name.
 *d_id* (STRING): Disk ID
 *errmsg* (STRING): Indicating the stage at which the disk lookup failed.
+

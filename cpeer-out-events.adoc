@@ -14,6 +14,9 @@ summary: cpeer.out events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an outgoing cluster peer request authentication fails due to a passphrase mismatch.
+
 == cpeer.out.pp.mismatch
 *Severity*::
 ERROR
@@ -34,3 +37,4 @@ This cluster did not accept a cluster peering authentication offer from cluster 
 *username* (STRING): User name for the contact.
 *authMethod* (STRING): Authentication method for the user.
 *offerStyle* (STRING): Style of authentication offer.
+

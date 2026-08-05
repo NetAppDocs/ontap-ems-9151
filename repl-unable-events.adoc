@@ -14,6 +14,9 @@ summary: repl.unable events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the workflow is unable to create a common Snapshot copy due to timeout.
+
 == repl.unable.to.create.css
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Unable to create CSS "%s" for relationship with UUID %s.
 *Parameters*::
 *snapshot_name* (STRING): Common Snapshot copy name
 *relationship_id* (STRING): SnapMirror relationship universal unique identifier (UUID).
+

@@ -14,6 +14,9 @@ summary: lun.vol events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an operation on a LUN or NVMe namespace fails due to insufficient space in the volume.
+
 == LUN.vol.no.space
 *Severity*::
 ERROR
@@ -40,3 +43,4 @@ Processing for LUNs in volume %s (DSID %llu) failed due to lack of space.
 *Parameters*::
 *volume_name* (STRING): Name of the volume for which the processing failed.
 *volume_dsid* (LONGINT): Data Set ID (DSID) of the volume for which the processing failed.
+

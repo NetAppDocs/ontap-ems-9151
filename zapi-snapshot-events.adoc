@@ -14,6 +14,9 @@ summary: zapi.snapshot events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event occurs when an asynchronous Snapshot(tm) copy is created successfully through the Zephyr API (ZAPI) interface.
+
 == zapi.snapshot.success
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ Asynchronous creation of Snapshot copy named %s in volume %s was successful. The
 *snapshot* (STRING): Name of the Snapshot copy.
 *volume* (STRING): Volume name in which the Snapshot copy was created.
 *time* (INT): Duration, in milliseconds, that it took to create the Snapshot copy.
+

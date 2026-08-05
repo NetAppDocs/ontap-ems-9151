@@ -14,6 +14,9 @@ summary: mgr.module events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This occurs to inform you of where kernel modules were loaded in memory.
+
 == mgr.module.address
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ Module %s loaded from 0x%llx - 0x%llx.
 *module_name* (STRING): Name of the module.
 *module_start* (PTR): Starting address of the module.
 *module_end* (PTR): Ending address of the module.
+

@@ -14,6 +14,9 @@ summary: repl.space events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the attempt to change space guarantee type fails on the destination volume.
+
 == repl.space.guarantee.transfer.failed
 *Severity*::
 ERROR
@@ -30,3 +33,4 @@ The volume with DSID %llu, name %s%s, Vserver UUID %s cannot support changing th
 *volident* (STRING): Unique identifier for the volume
 *srcSpcGuarantee* (STRING): Source volume space guarantee.
 *code* (INT): Error code returned when setting the space guarantee of the destination volume.
+

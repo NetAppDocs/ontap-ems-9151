@@ -14,6 +14,9 @@ summary: certificate.node events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an installed certificate record exists in a node Vserver.
+
 == certificate.node.vserver
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ The certificate record with UUID %s, named "%s" is installed in the node Vserver
 *uuid* (STRING): UUID of the offending record.
 *cert_name* (STRING): Name (unique within a Vserver) of the offending record.
 *vserver* (STRING): Name of the node Vserver in which the offending record is installed.
+

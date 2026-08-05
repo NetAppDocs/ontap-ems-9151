@@ -14,6 +14,9 @@ summary: smbc.cg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when read of Consistency Group aggregate information entry fails for the SnapMirror(R) active sync volume which results into IO disruption.
+
 == smbc.cg.info.read.failed
 *Severity*::
 ERROR
@@ -39,3 +42,4 @@ To recover from this situation, perform below steps : Run wafliron on the aggreg
 *Parameters*::
 *metafile_update_type* (STRING): Name of aggregate metafile update type
 *volume_dsid* (LONGINT): Volume DSID
+

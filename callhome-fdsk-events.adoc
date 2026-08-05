@@ -14,6 +14,9 @@ summary: callhome.fdsk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when you fail a file system disk drive.
+
 == callhome.fdsk.admin
 *Severity*::
 NOTICE
@@ -97,3 +100,4 @@ Locate the failed disk drive by looking for a disk drive whose red and amber LED
 Call home for FILESYSTEM DISK RAWSIZE SHRANK
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

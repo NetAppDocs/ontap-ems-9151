@@ -14,6 +14,9 @@ summary: spm.mes events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the SPD MES daemon (spd) involuntarily terminates.
+
 == spm.mes.process.exit
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ SPD MES daemon (spd) with ID %d exited as a result of signal %s. The service wil
 *Parameters*::
 *id* (INT): Process identifier.
 *cause* (STRING): Plain text description of why the process exited.
+

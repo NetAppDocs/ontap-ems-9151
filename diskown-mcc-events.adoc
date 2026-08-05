@@ -14,6 +14,9 @@ summary: diskown.mcc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the number of drives assigned in the MetroCluster(tm) configuration exceeds the supported limit.
+
 == diskown.mcc.AssignExceeded
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ The maximum number of drives that can be assigned in the configuration has excee
 *Parameters*::
 *total_disk_count* (INT): Total number of drives assigned in the configuration.
 *supported* (INT): Number of drives supported.
+

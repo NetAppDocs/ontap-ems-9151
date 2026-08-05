@@ -14,6 +14,9 @@ summary: config.badlocalswitch events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk is found to be attached to a switch, but there are also disks attached via local connections.
+
 == config.BadLocalSwitch
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Correct the cabling so that all disks are attached either directly or through sw
 Disk %s is attached to a switch. However, there are also local attached disks. This is an illegal configuration.
 *Parameters*::
 *disk* (STRING): Name of the disk.
+

@@ -14,6 +14,9 @@ summary: sms.failed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a SnapMirror(R) Sync relationship cannot be established due to precheck failures.
+
 == sms.failed.precheck
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ SnapMirror Sync operation failed for source volume "%s" and destination volume "
 *dstpath* (STRING): Path name of the destination volume of the SnapMirror relationship.
 *relationship_id* (STRING): Relationship UUID.
 *error_msg* (STRING): Reason for the failure.
+

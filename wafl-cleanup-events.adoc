@@ -14,6 +14,9 @@ summary: wafl.cleanup events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs after WAFL(R) completes the post-giveback cleanup.
+
 == wafl.cleanup.after.giveback
 *Severity*::
 INFORMATIONAL
@@ -51,3 +54,4 @@ This message occurs after WAFL(R) completes the aggregate post-giveback cleanup.
 *Parameters*::
 *aggrName* (STRING): Name of the aggregate.
 *delay* (LONGINT): Amount of time (in milliseconds) WAFL took to perform the aggregate post-giveback cleanup.
+

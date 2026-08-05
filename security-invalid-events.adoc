@@ -14,6 +14,9 @@ summary: security.invalid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an attempt is made to access the appliance by using invalid authentication credentials.
+
 == security.invalid.login
 *Severity*::
 ALERT
@@ -27,3 +30,4 @@ Failed to authenticate login attempt to Vserver: %s, username: %s, application: 
 *vserver* (STRING): The name of the Vserver to which the access was attempted.
 *userName* (STRING): The user name used to gain access to the Vserver.
 *application* (STRING): The name of the application used to gain access to the Vserver.
+

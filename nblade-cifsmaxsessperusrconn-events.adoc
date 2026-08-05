@@ -14,6 +14,9 @@ summary: nblade.cifsmaxsessperusrconn events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the number of sessions allowed per user over a TCP connection is exceeded.
+
 == Nblade.cifsMaxSessPerUsrConn
 *Severity*::
 ERROR
@@ -30,3 +33,4 @@ Received too many session requests from the same user on one TCP connection: cli
 *vserverName* (STRING): Vserver associated with this operation.
 *object_type* (STRING): Type of resource object.
 *object_uuid* (STRING): UUID of the resource object.
+

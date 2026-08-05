@@ -14,6 +14,9 @@ summary: lun.oovc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the rebuilding of the Out Of Volume Container (OOVC) file is complete.
+
 == LUN.oovc.rebuild.done
 *Severity*::
 NOTICE
@@ -39,3 +42,4 @@ A version mismatch has been detected for the OOVC metafile in volume %s (DSID %l
 *Parameters*::
 *volume_name* (STRING): Name of the volume for which a version mismatch of the OOVC metafile has been detected.
 *volume_dsid* (LONGINT): Data Set ID (DSID) of the volume for which a version mismatch of the OOVC metafile has been detected.
+

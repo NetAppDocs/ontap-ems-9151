@@ -14,6 +14,9 @@ summary: vserver.rootvolume events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is no space left on Vserver root Volume.
+
 == vserver.rootVolume.full
 *Severity*::
 ERROR
@@ -49,3 +52,4 @@ Make the vserver root volume online.
 Vserver %s has its root volume offline.
 *Parameters*::
 *vserver_name* (STRING): Name of the vserver for which the root volume is not accessible.
+

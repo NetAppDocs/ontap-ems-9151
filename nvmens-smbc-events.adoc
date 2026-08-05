@@ -14,6 +14,9 @@ summary: nvmens.smbc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an NVMe namespace is partially restored to a SnapMirror(R) active sync volume because the SnapMirror(R) active sync volume does not support NVMe namespace.
+
 == NVMeNS.SMBC.vol.unsupp
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ NVMe namespace "%s" is not supported on SnapMirror(R) active sync volume "%s" (D
 *path* (STRING): Path for the NVMe namespace that has been restored.
 *volume_name* (STRING): Name of the containing volume.
 *volume_dsid* (LONGINT): Dataset ID (DSID) of the containing volume.
+

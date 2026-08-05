@@ -14,6 +14,9 @@ summary: bridge.removed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an FC-to-SAS bridge is removed from the system.
+
 == bridge.removed
 *Severity*::
 INFORMATIONAL
@@ -29,3 +32,4 @@ FC-to-SAS bridge %s [%s %s %s] S/N [%s] was removed.
 *bridgeModel* (STRING): Model name of the bridge.
 *bridgeRevision* (STRING): Firmware revision of the bridge.
 *bridgeSerialNum* (STRING): Serial number of the bridge.
+

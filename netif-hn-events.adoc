@@ -14,6 +14,9 @@ summary: netif.hn events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Hyper-V virtual NIC fails to switch the data path from a Physical Function (PF) vPort to a Virtual Function (VF) vPort or vice-versa when accelerated networking is enabled on the virtual NIC.
+
 == netif.hn.setDataPathFailure
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Redeploy the CVO instance on another host machine. If the problem persists, cont
 *ifName* (STRING): Name of the network interface.
 *path* (STRING): Data path: synthetic (via PF) or virtual (via VF).
 *error* (INT): Failure to set data path.
+

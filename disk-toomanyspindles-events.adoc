@@ -14,6 +14,9 @@ summary: disk.toomanyspindles events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Data ONTAP(R) finds more disks present on a platform than the platform actually supports.
+
 == disk.tooManySpindles
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ Found %d disks, but maximum of %d disks are supported on this system. All additi
 *Parameters*::
 *actualSpindle* (INT): Actual number of disks configured.
 *maxSpindle* (INT): Maximum number of disks supported on this platform.
+

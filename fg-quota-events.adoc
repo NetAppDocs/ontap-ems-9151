@@ -14,6 +14,9 @@ summary: fg.quota events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a FlexGroup cannot enforce its quota as expected.
+
 == fg.quota.cannot.enforce
 *Severity*::
 NOTICE
@@ -69,3 +72,4 @@ This message occurs when the quota mapper decides whether to map the Windows quo
 *object_uuid* (STRING): UUID of the FlexGroup constituent.
 *qtree* (LONGINT): Qtree identifier (tid).
 *result* (STRING): User mapping result.
+

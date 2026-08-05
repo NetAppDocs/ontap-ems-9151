@@ -14,6 +14,9 @@ summary: dump.notify events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the dump incremental backup might be incomplete.
+
 == dump.notify.backward.ctime
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ The incremental backup (Dump name = "%s", Snapshot copy ID = "%d") might be inco
 *Parameters*::
 *dump_name* (STRING): Dump name.
 *snap_id* (INT): ID of the Snapshot copy being backed up.
+

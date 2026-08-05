@@ -14,6 +14,9 @@ summary: raid.mirror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a SyncMirror(R) aggregate uses aggregate Snapshot(tm) copies other than SyncMirror aggregate Snapshot copies.
+
 == raid.mirror.aggrSnapUse
 *Severity*::
 NOTICE
@@ -735,3 +738,4 @@ Failed to communicate with the destination node over the cluster network while m
 *aggregate* (STRING): Name of the aggregate.
 *aggregate_uuid* (STRING): UUID of the aggregate.
 *reason* (STRING): The reason the transfer failed.
+

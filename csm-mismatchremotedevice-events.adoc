@@ -14,6 +14,9 @@ summary: csm.mismatchremotedevice events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+The message occurs when the Cluster Session Manager (CSM) establishes a connection between nodes over the cluster network interface, but the node's remote device IDs do not match.
+
 == csm.mismatchRemoteDevice
 *Severity*::
 ERROR
@@ -29,3 +32,4 @@ CSM connection between source LIF %d and destination address %s might not be opt
 *uniquifier* (STRING): Unique identifier for this session.
 *sourceRemoteDevice* (STRING): Remote device associated with the source logical interface.
 *destRemoteDevice* (STRING): Remote device associated with the destination IP address.
+

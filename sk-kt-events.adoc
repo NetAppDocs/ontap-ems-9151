@@ -14,6 +14,9 @@ summary: sk.kt events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This is the output of debugging command that prints the time of day held in the real-time clock chip.
+
 == sk.kt.rtc
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ This is the output of debugging command that prints the time of day held in the 
 RTC time: %s
 *Parameters*::
 *rtc_time* (STRING): The time held in the real-time clock chip.
+

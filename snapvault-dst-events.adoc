@@ -14,6 +14,9 @@ summary: snapvault.dst events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when SnapVault(R) creates a backup Snapshot(tm) copy for a given backup schedule.
+
 == snapvault.dst.bkpSnapCreate
 *Severity*::
 INFORMATIONAL
@@ -101,3 +104,4 @@ This message occurs when an update request is received on a destination qtree th
 *srcpath2* (STRING): SnapVault destination qtree for first transfer. Source for second transfer.
 *dstfiler2* (STRING): Destination system for second transfer.
 *dstpath2* (STRING): Destination qtree for second transfer.
+

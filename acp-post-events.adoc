@@ -14,6 +14,9 @@ summary: acp.post events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a 'post data' request that was sent to the Alternate Controller Path Processor fails.
+
 == acp.post.data.failed
 *Severity*::
 INFORMATIONAL
@@ -28,3 +31,4 @@ A 'post data' request sent to %s (%s) failed with status (%s), (disk shelf seria
 *ip* (STRING): IP address of the module.
 *status* (STRING): Reason for the 'post data' failure.
 *shelf_sno* (STRING): Disk shelf serial number of the shelf where this I/O module is seated.
+

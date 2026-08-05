@@ -14,6 +14,9 @@ summary: api.output events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when An invalid character was detected while checking the output for a Data ONTAP(R) API.
+
 == api.output.invalid
 *Severity*::
 NOTICE
@@ -39,3 +42,4 @@ Error in API output schema validation. API name: %s. Detailed error: %s.
 *Parameters*::
 *apiName* (STRING): Name of the ONTAPI API in which something invalid was detected.
 *detailInfo* (STRING): Description of the error in the API output, such as an extra output value or a missing output value.
+

@@ -14,6 +14,9 @@ summary: vifmgr.svcpolicy events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a service is added to a network interface service policy.
+
 == vifmgr.svcPolicy.addSvc
 *Severity*::
 NOTICE
@@ -57,3 +60,4 @@ Service %s has been removed from network interface service policy %s on Vserver 
 *service* (STRING): Name of the service that has been removed.
 *policy* (STRING): Name of the affected service policy.
 *vserver* (STRING): Name of the Vserver associated with this policy.
+

@@ -14,6 +14,9 @@ summary: secd.cifs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the CIFS server machine account is missing from the Active Directory domain.
+
 == secd.cifs.machacct.missing
 *Severity*::
 ALERT
@@ -27,3 +30,4 @@ The CIFS server machine account '%s' for Vserver '%s' is missing from the Active
 *acctName* (STRING): Name of the missing CIFS server machine account.
 *vserverName* (STRING): Vserver whose CIFS server machine account is missing.
 *domainName* (STRING): Name of the Active Directory domain.
+

@@ -14,6 +14,9 @@ summary: vsdr.cluster events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a source cluster of SVMDR relationship is at higher version than destination cluster.
+
 == vsdr.cluster.sourceVersionIsHigherThanDestination
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Resync failed becuase source cluster version "%s" is higher than destination clu
 *Parameters*::
 *source_cluster_version* (STRING): Version of source cluster of SVMDR relationship.
 *destination_cluster_version* (STRING): Version of destination cluster of SVMDR relationship.
+

@@ -14,6 +14,9 @@ summary: dbs.valence events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Distributed Block Store (DBS) valence test failure event occurs.
+
 == dbs.valence.test.bad
 *Severity*::
 NOTICE
@@ -33,3 +36,4 @@ A DBS valence test failure event %s of type %s occurred for Service ID %u on nod
 *driveUuid* (STRING): Generated UUID of the associated drive. It displays zeroes if there is no associated drive.
 *evtID* (INT): DBS event ID number.
 *evtDetails* (STRING): Specific details of the DBS event. It displays as a string, in JSON format, or is empty.
+

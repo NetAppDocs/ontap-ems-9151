@@ -14,6 +14,9 @@ summary: vifmgr.lifs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the total number of logical interfaces (LIFs) exceeds the supported per-cluster limit.
+
 == vifmgr.lifs.clusterlimit
 *Severity*::
 ERROR
@@ -66,3 +69,4 @@ Removing LIFs from the system, adjusting the failover settings of some LIFs, and
 Node with failover targets over-provisioned: %u LIFs could be marked "down" during node outage.
 *Parameters*::
 *overamount* (INT): Number of LIFs that might be displayed as "down".
+

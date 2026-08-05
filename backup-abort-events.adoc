@@ -14,6 +14,9 @@ summary: backup.abort events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is generated when backup event like dump has been aborted and currently ROOLR (Read Only On Line Replica) is running on the Filer.
+
 == backup.abort.ROOLR
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ This event is generated when a backup started by VERITAS NBU STSP Protocol has b
 The abort event, %s, is just notified.
 *Parameters*::
 *errmsg* (STRING): Error Description
+

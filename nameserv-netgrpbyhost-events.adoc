@@ -14,6 +14,9 @@ summary: nameserv.netgrpbyhost events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when netgroup is configured but the netgroup byhost database is not generated during an upgrade operation.
+
 == nameserv.netgrpbyhost.failed
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Netgroup byhost database failed to generate for Vserver %s on node %s with error
 *vserver_name* (STRING): Name of the Vserver.
 *node_name* (STRING): Name of the node.
 *error_string* (STRING): Error encountered during creation of netgroup byhost.
+

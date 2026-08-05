@@ -14,6 +14,9 @@ summary: raid.encrypt events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a node is enabled for encryption by RAID, but the system is not FIPS compliant.
+
 == raid.encrypt.disabled
 *Severity*::
 ALERT
@@ -38,3 +41,4 @@ No encryption key is available for volume '%s' because of error '%d'.
 *Parameters*::
 *volume* (STRING): Volume involved.
 *error* (INT): Reason code for the failure to find a key.
+

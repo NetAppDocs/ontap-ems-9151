@@ -14,6 +14,9 @@ summary: license.subscription events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when your Cloud ONTAP(R) license subscription has expired but may still be renewed.
+
 == license.subscription.enforcement
 *Severity*::
 EMERGENCY
@@ -49,3 +52,4 @@ Contact your sales representative to renew your subscription immediately, to avo
 %s
 *Parameters*::
 *warning_msg* (STRING): Warning message.
+

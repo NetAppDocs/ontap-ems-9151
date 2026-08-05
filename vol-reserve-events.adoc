@@ -14,6 +14,9 @@ summary: vol.reserve events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when WAFL(R) grows the reserve of a flexible volume that was running dangerously low on blocks for writing.
+
 == vol.reserve.grew
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ WAFL grew reserve of volume %s%s%s because the volume was running low on blocks.
 *name* (STRING): Name of the volume.
 *app* (STRING): Application UUID.
 *vserver_uuid* (STRING): Name of the associated Vserver's UUID.
+

@@ -14,6 +14,9 @@ summary: clam.valid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Kernel Cluster Services (KCS) Connectivity, Liveliness, Availability Monitor (CLAM) determines that the local node is in a valid configuration for providing CLAM functionality.
+
 == clam.valid.config
 *Severity*::
 INFORMATIONAL
@@ -28,3 +31,4 @@ Local node (name=%s, id=%llu) is operating in a suitable configuration for provi
 *localnodeid* (LONGINT): Node ID of the local node.
 *partnerhostname* (STRING): Host name of the partner node.
 *partnernodeid* (LONGINT): Node ID of the partner node.
+

@@ -14,6 +14,9 @@ summary: wafl.root events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued when no online root volume is found.
+
 == wafl.root.autocreate
 *Severity*::
 NOTICE
@@ -75,3 +78,4 @@ Set the Space Guarantee on the root volume to "volume" and the Fractional Reserv
 Root volume %s does not protect overwrites in space reserved files.
 *Parameters*::
 *vol* (STRING): Root volume name.
+

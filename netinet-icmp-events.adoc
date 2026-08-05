@@ -14,6 +14,9 @@ summary: netinet.icmp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an ICMPv4 redirect message is received.
+
 == netinet.icmp.redirect
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Received %lu ICMPv4 redirect messages for IPspace "%s".
 *Parameters*::
 *no_of_redirects* (LONGINT): Total number of ICMPv4 redirects received for the specific IPspace.
 *ipspace* (STRING): The IPspace for which the redirect packets are received.
+

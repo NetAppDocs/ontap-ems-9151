@@ -14,6 +14,9 @@ summary: km.run events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a node successfully performs a join operation to join a cluster, but the other nodes in the cluster have the External Key Manager configured and the new node does not.
+
 == km.run.external.setup
 *Severity*::
 ERROR
@@ -89,3 +92,4 @@ Run the "security key-manager onboard sync" command on the local cluster or the 
 The Onboard Key Manager configuration is not consistent between the local cluster and the peer cluster of the MetroCluster configuration. This can lead to a failure during a future switchover or switchback event. Synchronize the configuration on the %s cluster.
 *Parameters*::
 *cluster* (STRING): Local cluster or peer cluster on which to run the command.
+

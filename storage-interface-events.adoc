@@ -14,6 +14,9 @@ summary: storage.interface events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a storage interface reports a link down.
+
 == storage.interface.linkdown
 *Severity*::
 ALERT
@@ -41,3 +44,4 @@ Storage interface link status is up. Node ID: %u, Node UUID: %s, Storage Interfa
 *nodeID* (INT): Unique identifier of the node that is hosting the storage interface.
 *nodeUuid* (STRING): Universal unique identifier of the node that is hosting the data IP.
 *sipi* (STRING): Storage Interface name
+

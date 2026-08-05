@@ -14,6 +14,9 @@ summary: flexcache.conf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when FlexCache configuration refresh fails.
+
 == flexcache.conf.refreshFailed
 *Severity*::
 ALERT
@@ -27,3 +30,4 @@ Failed to refresh FlexCache configuration for peer vserver UUID %s and peer volu
 *peerVserverUuid* (STRING): Peer vserver UUID in string format for which refresh failed.
 *peerVolMsid* (LONGINT): Peer volume MSID for which refresh failed.
 *isPeerOrigin* (INT): Origin peer volume or cache peer volume for which refresh failed.
+

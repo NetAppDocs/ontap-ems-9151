@@ -14,6 +14,9 @@ summary: dfu.fwdownloadfailedstatus events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a firmware download failure occurs.
+
 == dfu.fwDownloadFailedStatus
 *Severity*::
 ERROR
@@ -31,3 +34,4 @@ Status: (0x%x/0x%x/0x%x) (SCSI sense 0x%x/0x%x/0x%x/0x%x)
 *sense_code* (INTHEX): SCSI Sense Code.
 *sense_code_qualifier* (INTHEX): SCSI Sense Code Qualifier.
 *fru* (INTHEX): SCSI Sense Code FRU identifier.
+

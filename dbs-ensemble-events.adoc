@@ -14,6 +14,9 @@ summary: dbs.ensemble events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Distributed Block Store (DBS) event related to the database ensemble occurs, such as the inability to reach the database in a node.
+
 == dbs.ensemble
 *Severity*::
 NOTICE
@@ -49,3 +52,4 @@ DBS has lost network connectivity or power an ensemble node. Cluster fault type 
 *cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
 *cfDetails* (STRING): Description of the degraded ensemble.
 *cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.
+

@@ -14,6 +14,9 @@ summary: nameserv.conf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a UNIX user or group name exceeds 64 characters.
+
 == nameserv.conf.limit.reached
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Replace the name with a name that is no longer than 64 characters.
 *name* (STRING): Name of the user or group that exceeded 64 characters.
 *vserver_name* (STRING): Name of the Vserver.
 *ns_config_name* (STRING): Name of the name service configuration (unix-user or unix-group).
+

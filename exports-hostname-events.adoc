@@ -14,6 +14,9 @@ summary: exports.hostname events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the forward lookup record mapping a host name to its IP address is not found in the configured name servers in a Vserver.
+
 == exports.hostname.notFound
 *Severity*::
 INFORMATIONAL
@@ -46,3 +49,4 @@ Hostname "%s" could not be resolved to an %s address (error %d) when evaluating 
 *ruleindex* (INT): Index of the export-policy rule for which the problem occurs.
 *policyid* (LONGINT): Identifier for the export-policy that owns the export-policy rule.
 *vserver* (STRING): Name of the data Vserver for which the problem occurs.
+

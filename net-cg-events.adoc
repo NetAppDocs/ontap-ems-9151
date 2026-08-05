@@ -14,6 +14,9 @@ summary: net.cg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the current connection group experiences backpressure.
+
 == net.cg.backpressureEntered
 *Severity*::
 NOTICE
@@ -53,3 +56,4 @@ Utilization of connection group "%d" (%d%%) exceeds the configured threshold (%d
 *connection_group* (INT): Connection group whose utilization exceeded the configured threshold.
 *current_utilization* (INT): Current connection group utilization.
 *configured_threshold* (INT): Configured connection group utilization threshold.
+

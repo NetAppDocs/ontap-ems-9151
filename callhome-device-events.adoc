@@ -14,6 +14,9 @@ summary: callhome.device events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system detected a disk drive device that did not receive qualification from NetApp.
+
 == callhome.device.qual
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ To correct this situation, complete one of the following steps: 1. Download and 
 Call home for DEVICE_QUALIFICATION_FAILED
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

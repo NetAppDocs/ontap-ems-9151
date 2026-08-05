@@ -14,6 +14,9 @@ summary: vsa.vsphere events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Data ONTAP(R) on VMware(R) manages to reconnect and authenticate itself with the vSphere(tm) server.
+
 == vsa.vsphere.connected
 *Severity*::
 INFORMATIONAL
@@ -50,3 +53,4 @@ Verify that the vSphere server is up and reachable through https: If necessary, 
 Cannot establish connection to vSphere server: %s.
 *Parameters*::
 *detail* (STRING): Details of how the connection failed.
+

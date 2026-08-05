@@ -14,6 +14,9 @@ summary: raid.mcc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message reports the summary information for the MetroCluster(tm) switchover operation.
+
 == raid.mcc.disasterSummary
 *Severity*::
 INFORMATIONAL
@@ -208,3 +211,4 @@ RAID switchback summary: switched back aggregates: %d, left behind aggregates: %
 *switched_back_aggr_count* (INT): Count of aggregates that were switched back.
 *left_behind_aggr_count* (INT): Count of switched over aggregates that remain after switchback.
 *switched_back_spare_count* (INT): Count of spare disks that were switched back.
+

@@ -14,6 +14,9 @@ summary: wafl.nvlog events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued to indicate that the system is unable to create nvlog stats file.
+
 == wafl.nvlog.stats.createError
 *Severity*::
 NOTICE
@@ -50,3 +53,4 @@ Could not replay WAFL NV log: nvlog format is of a prior or future release (%d, 
 *Parameters*::
 *version* (INT): WAFL(R) NV log version in the NV log.
 *myversion* (INT): Kernel WAFL NV log version.
+

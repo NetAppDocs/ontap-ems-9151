@@ -14,6 +14,9 @@ summary: bridge.duplicate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system discovers an ATTO FibreBridge using the same IP address as some other device in the network.
+
 == bridge.duplicate.ip.address
 *Severity*::
 ALERT
@@ -46,3 +49,4 @@ FC-to-SAS bridge %s [%s] and bridge %s [%s] are presenting a duplicate WWN [%s] 
 *bridgeSerialNum2* (STRING): Serial number of the secondbridge.
 *bridgeWWN* (STRING): World wide name of the bridges.
 *addlInfo* (STRING): Additional information about the alert being generated, if available.
+

@@ -14,6 +14,9 @@ summary: fli.lun events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a checkpoint record delete fails.
+
 == fli.lun.import.checkpoint
 *Severity*::
 ERROR
@@ -99,3 +102,4 @@ Import verify of foreign LUN %s and NetApp LUN %s failed - Reason:%s
 *DiskSerialNumber* (STRING): Foreign disk serial number.
 *LUNSerialNumber* (STRING): Serial number of the LUN.
 *FailureReason* (STRING): Internal error reason.
+

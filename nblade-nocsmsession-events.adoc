@@ -14,6 +14,9 @@ summary: nblade.nocsmsession events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the local node could not acquire a Connection Session Manager (CSM) session.
+
 == Nblade.noCsmSession
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ Check IP connectivity over the cluster interfaces between the two nodes. If furt
 (None).
 *Parameters*::
 *bladeId* (STRING): UUID of the node that could not be reached.
+

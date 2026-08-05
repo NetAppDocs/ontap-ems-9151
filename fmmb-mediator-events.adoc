@@ -14,6 +14,9 @@ summary: fmmb.mediator events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a mailbox disk from the mediator site is selected to be included in the mailbox disk list.
+
 == fmmb.mediator.lckdiskSuggest
 *Severity*::
 INFORMATIONAL
@@ -50,3 +53,4 @@ This message occurs when there is null mediator mailbox detected.
 (None).
 *Parameters*::
 *side* (INT): The mailbox instance side. The value of 0 for local mailbox and the value of 1 for partner mailbox.
+

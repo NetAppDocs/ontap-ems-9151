@@ -14,6 +14,9 @@ summary: nameserv.ddns events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a request to delete the fully qualified domain name (FQDN) of all or some of the logical interfaces of a Vserver from the DNS server fails, resulting in stale records on the DNS server.
+
 == nameserv.ddns.bulk.delete
 *Severity*::
 ALERT
@@ -98,3 +101,4 @@ DDNS %s operation of FQDN "%s" failed for LIF with IP %s on Vserver "%s".
 *FQDN* (STRING): FQDN for which the operation failed.
 *IP* (STRING): IP address for which the operation failed.
 *vserver_name* (STRING): Name of the Vserver.
+

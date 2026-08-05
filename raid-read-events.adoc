@@ -14,6 +14,9 @@ summary: raid.read events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system detects a checksum block media error in an advanced zoned checksums(AZCS) RAID group during a read operation.
+
 == raid.read.cksum.blk.err
 *Deprecated*::
 Deprecated as of version 9.9.1 because this EMS does not appropriately describe the checksum block error.
@@ -152,3 +155,4 @@ Block recommended for reassignment on %s%s, block #%llu
 *disk_rpm* (STRING): Rotational speed of disk in RPM
 *carrier* (STRING): Unique ID of the carrier in which the disk is installed.
 *site* (STRING): For a MetroCluster(tm) configuration, indicates the site {Local|Remote} where the disk is located. For non-MetroCluster configurations, site is 'Local'.
+

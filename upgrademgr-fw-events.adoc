@@ -14,6 +14,9 @@ summary: upgrademgr.fw events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an automated nondisruptive upgrade (ANDU) completes the firmware update monitoring job.
+
 == upgrademgr.fw.monitor.end
 *Severity*::
 NOTICE
@@ -62,3 +65,4 @@ ANDU firmware update failed for firmware component: %s. Status: %s.
 *Parameters*::
 *firmware_name* (STRING): Firmware component whose update has failed.
 *status* (STRING): Category of failure for the firmware component whose update has failed.
+

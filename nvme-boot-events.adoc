@@ -14,6 +14,9 @@ summary: nvme.boot events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the NVMe boot device firmware has been updated.
+
 == nvme.boot.fw.update.complete
 *Severity*::
 NOTICE
@@ -39,3 +42,4 @@ The NVMe boot device has failed a firmware update from %s to %s.
 *Parameters*::
 *old_ver* (STRING): Previous firmware version.
 *new_ver* (STRING): New firmware version.
+

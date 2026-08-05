@@ -14,6 +14,9 @@ summary: netinet6.mld6 events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system discovers an illegal Internet Control Message Protocol (ICMP) type field in a multicast listener discovery structure.
+
 == netinet6.mld6.illegal.type
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ This message occurs during validation of the source address, when the system fin
 mld6_input: Source address %s is not link-local.
 *Parameters*::
 *srcAddr* (STRING): Source IP6 address.
+

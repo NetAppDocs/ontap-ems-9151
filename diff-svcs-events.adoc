@@ -14,6 +14,9 @@ summary: diff.svcs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system cannot automatically apply the Differentiated Services (diff-svcs) setting to the High Availability (HA) partner.
+
 == diff.svcs.setting.topartner
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Differentiated services setting was not automatically applied to the HA partner 
 *Parameters*::
 *node* (STRING): Name of the node where the setting was successfully applied. A failure occurred while trying to apply the same setting to its HA partner.
 *error* (STRING): Error reported when attempting to apply the setting to the HA partner.
+

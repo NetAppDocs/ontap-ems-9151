@@ -14,6 +14,9 @@ summary: callhome.mhost events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when you invoke an AutoSupport for userspace coredump files.
+
 == callhome.mhost.core
 *Deprecated*::
 Deprecated as of ONTAP 9.3. This event is replaced by the callhome.mhost.coreinfo event.
@@ -52,3 +55,4 @@ User space coredump callhome for %s
 *aod_initiated* (INT): This flag indicates that NetApp technical support has remotely requested for this AutoSupport message via AutoSupport OnDemand.
 *sequence* (LONGINT): Sequence number to use to generate this Autosupport. Use value zero to auto-generate or a value higher than last used ASUP sequence number.
 *aod_req_id* (STRING): AOD request ID
+

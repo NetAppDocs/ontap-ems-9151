@@ -14,6 +14,9 @@ summary: cpeer.pm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the peer manager job experiences a transient failure.
+
 == cpeer.pm.update.warn
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Periodic update of peer information from %s failed. The following operations are
 *Parameters*::
 *peer* (STRING): Peer whose updates failed.
 *failures* (STRING): Failed peer updates.
+

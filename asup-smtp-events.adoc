@@ -14,6 +14,9 @@ summary: asup.smtp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the AutoSupport(R) mechanism drops email messages after having retried for the specified times.
+
 == asup.smtp.drop
 *Severity*::
 ERROR
@@ -49,3 +52,4 @@ Install the correct Root CA certificates for the SMTP server using the "security
 AutoSupport SMTP connection to "%s" failed due to missing Root CA certificate.
 *Parameters*::
 *mailhost* (STRING): Mailhost name.
+

@@ -14,6 +14,9 @@ summary: ctrl.link events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the software detects either symbol errors or out-of-sequence errors on HA interconnect links.
+
 == ctrl.link.degraded
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ If possible, replace the degraded interconnect cable and reenable the automatic 
 Link switchover initiated to switch active interconnect link %s.
 *Parameters*::
 *degraded_port_name* (STRING): Port name of the degraded link that is being switched from.
+

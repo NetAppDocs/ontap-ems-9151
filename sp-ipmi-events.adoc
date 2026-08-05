@@ -14,6 +14,9 @@ summary: sp.ipmi events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Data ONTAP(R) is no longer receiving the heartbeats from the Service Processor (SP) after all the SP recovery actions have been taken.
+
 == sp.ipmi.lost.shutdown
 *Severity*::
 EMERGENCY
@@ -27,3 +30,4 @@ SP heartbeat stopped and cannot be recovered. To prevent hardware damage and dat
 *num_minutes* (INT): Number of minutes until the system shuts down.
 *object_type* (STRING): Type of resource object under notification. For this EMS, the object_type will always be NODE.
 *object_uuid* (STRING): UUID of the resource object. For this EMS, the UUID will be of the node.
+

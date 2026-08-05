@@ -14,6 +14,9 @@ summary: tape.device events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an adapter error occurs that Data ONTAP(R) does not recognize.
+
 == tape.device.adapterErr
 *Severity*::
 ERROR
@@ -80,3 +83,4 @@ Tape %s: selection timeout, ha_status 0x%x.
 *Parameters*::
 *deviceName* (STRING): Electrical path name of the device on which the command failed.
 *adapterError* (INT): Internal adapter error that was detected.
+

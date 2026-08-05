@@ -14,6 +14,9 @@ summary: sysmgr.ecv events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when acquiring the desired Effective Cluster Version (ECV) of System Manager was not accomplished within the time limit.
+
 == sysmgr.ecv.fetch
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ ECV version %s of System Manager was not acquired within %d seconds.
 *Parameters*::
 *ecv* (STRING): Current ECV determined by the capability management (CAPM) system.
 *timeout* (INT): Timeout in seconds.
+

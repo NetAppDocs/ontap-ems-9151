@@ -14,6 +14,9 @@ summary: secd.dc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Windows Domain Controller (DC), while responding to an MSRPC request from Data ONTAP(R), returns an error indicating that it ran out of pipe instances in the listening state.
+
 == secd.dc.out.of.pipe.instances
 *Severity*::
 ALERT
@@ -29,3 +32,4 @@ MSRPC for Vserver %s to %s:%s was retried %d times (delay: %d usecs).
 *pipe* (STRING): Pipe on the DC.
 *retries* (INT): Number of retries.
 *delay* (INT): Time (usecs) spent retrying.
+

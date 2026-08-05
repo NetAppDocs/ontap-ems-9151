@@ -14,6 +14,9 @@ summary: iclink.init events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the HA interconnect fails to initialize.
+
 == iclink.init.error
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Reboot the system. If the problem persists, run diagnostics on the memory in the
 (None).
 *Parameters*::
 *errorCode* (INT): The internal error code.
+

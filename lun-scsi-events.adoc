@@ -14,6 +14,9 @@ summary: lun.scsi events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the SCSI reservation for one or more LUNs in the secondary or primary Vserver cannot be deleted during a Vserver disaster recovery(DR) resynchronize operation.
+
 == LUN.SCSI.reservation.removal.failed
 *Severity*::
 ALERT
@@ -27,3 +30,4 @@ SCSI reservation for LUN %s in volume %s (DSID %llu) could not be deleted.
 *lun_path* (STRING): Path for the LUN whose SCSI reservation could not be removed.
 *volume_name* (STRING): Name of the containing volume.
 *volume_dsid* (LONGINT): Data set ID (DSID) of the containing volume.
+

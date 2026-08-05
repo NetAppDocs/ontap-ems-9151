@@ -14,6 +14,9 @@ summary: nvmeof.timeout events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the NVMeoF driver detects a timeout on a request.
+
 == nvmeof.timeout
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ Timeout on subnqn %s, controller ID %d, qpair ID %d, sequence number %d.
 *ctrlr_id* (INT): Controller ID.
 *qpair* (INT): Qpair ID.
 *cid* (INT): NVMe-oF CID.
+

@@ -14,6 +14,9 @@ summary: nblade.newclientidmismatch events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a namestring collision occurs between NFS clients.
+
 == Nblade.NewClientIdMismatch
 *Severity*::
 ALERT
@@ -27,3 +30,4 @@ NFSv4 name string "%s" collision between clients %s and %s.
 *clientNameStr* (STRING): Client identifier namestring during SETCLIENTID operation.
 *existingStr* (STRING): IP address of the existing client.
 *newStr* (STRING): IP address of the new client.
+

@@ -14,6 +14,9 @@ summary: ktls.health events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the depth of the action queue in the ktlsd subsystem is increasing in the majority of time intervals.
+
 == ktls.health.actionQGrowing
 *Severity*::
 NOTICE
@@ -154,3 +157,4 @@ There might be a variety of potential corrective actions. The first course of ac
 "The KTLS subsystem is exhibiting signs of moderate stress."
 *Parameters*::
 (None).
+

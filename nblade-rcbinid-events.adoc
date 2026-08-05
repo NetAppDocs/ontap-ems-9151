@@ -14,6 +14,9 @@ summary: nblade.rcbinid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an NFS replay cache bin ID entry expires.
+
 == nblade.RCBinId.timeout
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when an NFS replay cache bin ID entry expires.
 Found replay cache expired entry for NFS client IP address: %s.
 *Parameters*::
 *ipaddr* (STRING): IP address of the NFS client.
+

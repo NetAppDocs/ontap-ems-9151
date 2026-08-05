@@ -14,6 +14,9 @@ summary: fcvi.unsupported events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a network adapter port behavior type is set to use FC-VI on a platform that has not been validated for its use and is therefore unsupported.
+
 == fcvi.unsupported.config
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Change the port behavior type to a value other than "FC-VI". Use the "system har
 FC-VI port behavior type not supported on network adapter port %s.
 *Parameters*::
 *port* (STRING): The network adapter port whose behavior type is set to use FC-VI.
+

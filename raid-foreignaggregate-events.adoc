@@ -14,6 +14,9 @@ summary: raid.foreignaggregate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system changes the RAID tree ID of a foreign aggregate that is being brought online.
+
 == raid.foreignAggregate.online.rtIDChanged
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ This message occurs when the system changes the RAID tree ID of a foreign aggreg
 *aggregate* (STRING): Name of the aggregate.
 *oldrtID* (STRING): Old RAID tree ID of the aggregate.
 *newrtID* (STRING): New RAID tree ID of the aggregate.
+

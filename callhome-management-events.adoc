@@ -14,6 +14,9 @@ summary: callhome.management events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the MANAGEMENT_LOG AutoSupport or 'call home' event is sent.
+
 == callhome.management.log
 *Severity*::
 NOTICE
@@ -38,3 +41,4 @@ Call home %s for filename: %s.
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
 *filename* (STRING): The name of the log file that rotated.
+

@@ -14,6 +14,9 @@ summary: dump.inconsistent events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the dump engine encounters a disk error in an ACL file in a Snapshot(tm) copy.
+
 == dump.inconsistent.acl_data
 *Severity*::
 ERROR
@@ -82,3 +85,4 @@ Dump of source path (%s), Snapshot copy ID (%d): WAFL metadata inconsistent due 
 *Parameters*::
 *src_path* (STRING): Source path being backed up.
 *snap_id* (INT): ID of the Snapshot copy where the disk error was encountered.
+

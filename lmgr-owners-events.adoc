@@ -14,6 +14,9 @@ summary: lmgr.owners events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a lock manager owner object cannot be allocated due to reaching the limit for owner objects in the associated pool.
+
 == lmgr.owners.limit.hit
 *Severity*::
 ERROR
@@ -54,3 +57,4 @@ The current number of owner objects %u with maximum limit of %u has reached the 
 *hosts_limit* (INT): Allocated hosts limit for the pool.
 *locks_total* (INT): Number of allocated locks in the pool.
 *locks_limit* (INT): Allocated locks limit for the pool.
+

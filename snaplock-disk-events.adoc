@@ -14,6 +14,9 @@ summary: snaplock.disk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the configuration management detects that an older(7-Mode) version of a SnapLock(R) disk is attached to a system running a Data ONTAP(R) release that cannot support it.
+
 == snaplock.disk.import.7mode
 *Severity*::
 ERROR
@@ -59,3 +62,4 @@ File system %s has SnapLock disks. This version of Data ONTAP does not support S
 *failure_reason* (STRING): A text description of storage error leading to disk failure.
 *carrier* (STRING): Unique ID of the carrier in which the disk drive is installed.
 *site* (STRING): For a MetroCluster configuration(tm), indicates the site {Local|Remote} where the disk is located. For non-MetroCluster configurations, site is 'Local'.
+

@@ -14,6 +14,9 @@ summary: disk.diagnostic events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAP retrieves the diagnostic logs from the disk.
+
 == disk.diagnostic.logs.saved
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when ONTAP retrieves the diagnostic logs from the disk. The 
 Diagnostic logs retrieved for disk "%s".
 *Parameters*::
 *diskName* (STRING): Name of the disk.
+

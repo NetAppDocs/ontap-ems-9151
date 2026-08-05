@@ -14,6 +14,9 @@ summary: diskown.delayed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the software disk ownership module completes the process of updating its view of the disks attached to the system but delays notifying other layers of the completion of this process.
+
 == diskown.delayed.completionEvent
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ This message occurs when the software disk ownership module completes the proces
 Software disk ownership module temporarily delayed notification that it has completed updating its view of the disks.
 *Parameters*::
 (None).
+

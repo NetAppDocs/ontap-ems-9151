@@ -14,6 +14,9 @@ summary: rshd.failure events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is generated after rshd failed to start.
+
 == rshd.failure
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Restart the rsh daemon for the affected vfiler by using the vfiler run command t
 rshd failed to start for vfiler %s
 *Parameters*::
 *vfilername* (STRING): The name of the vfiler that attempted to start rshd
+

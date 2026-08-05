@@ -14,6 +14,9 @@ summary: shm.bypassed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system recommends that a disk be failed because it has been bypassed.
+
 == shm.bypassed.disk.fail
 *Deprecated*::
 Deprecated as of Data ONTAP 9.3 because bypass code has been removed.
@@ -54,3 +57,4 @@ This message occurs when the bypass disabled state is cleared.
 shm: Disk bypass check has been enabled for host bus adapter %s.
 *Parameters*::
 *hba* (STRING): Name of the host bus adapter.
+

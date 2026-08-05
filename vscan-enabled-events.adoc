@@ -14,6 +14,9 @@ summary: vscan.enabled events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Vserver or cluster administrator enables Vscan on a Vserver.
+
 == vscan.enabled
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ This message occurs when a Vserver or cluster administrator enables Vscan on a V
 Vscan is enabled on Vserver '%s'.
 *Parameters*::
 *vserverName* (STRING): Name of the Vserver.
+

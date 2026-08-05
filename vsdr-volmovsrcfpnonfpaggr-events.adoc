@@ -14,6 +14,9 @@ summary: vsdr.volmovsrcfpnonfpaggr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a volume move operation is executed between FabricPool and non-FabricPool aggregates on the source Vserver of an SVM disaster recovery (SVMDR) relationship.
+
 == vsdr.volMovSrcFPNonFPAggr
 *Severity*::
 NOTICE
@@ -30,3 +33,4 @@ Source volume "%s" on Vserver "%s" of the SVMDR relationship is moved from "%s" 
 *source_aggr_name* (STRING): Name of the source aggregate at the primary cluster.
 *dest_aggr_type* (STRING): Destination aggregate type, either FabricPool or non-FabricPool.
 *dest_aggr_name* (STRING): Name of the destination aggregate at the primary cluster.
+

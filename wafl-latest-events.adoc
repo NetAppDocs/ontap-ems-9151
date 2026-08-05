@@ -14,6 +14,9 @@ summary: wafl.latest events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when WAFL(R) detects an inconsistent physical Snapshot(tm) copy ID for the latest Snapshot copy on a volume or an aggregate.
+
 == wafl.latest.physical.snapid.info
 *Severity*::
 INFORMATIONAL
@@ -28,3 +31,4 @@ Corrected the latest_snapid for %s %s from %d to %d.
 *volume* (STRING): Volume or aggregate name.
 *invalid_latest_snapid* (INT): Invalid latest Snapshot copy ID stored on disk.
 *corrected_latest_snapid* (INT): The corrected latest Snapshot copy ID.
+

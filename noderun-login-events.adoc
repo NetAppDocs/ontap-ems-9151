@@ -14,6 +14,9 @@ summary: noderun.login events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a cluster user successfully logs in to the node using the 'run' command.
+
 == noderun.login.success
 *Severity*::
 INFORMATIONAL
@@ -26,3 +29,4 @@ This message occurs when a cluster user successfully logs in to the node using t
 *Parameters*::
 *user* (STRING): Name of the user who logged in to the node.
 *cluster* (STRING): Cluster name from where the user logged in to the node.
+

@@ -14,6 +14,9 @@ summary: wafl.encryption events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system takes offline an encrypted virtual volume because encryption became unsupported.
+
 == wafl.encryption.unsupported
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ Keeping encrypted volume "%s" (UUID: %s) offline because encryption has become u
 *Parameters*::
 *uuid* (STRING): UUID of the volume.
 *vol* (STRING): Volume name.
+

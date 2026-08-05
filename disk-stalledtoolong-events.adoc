@@ -14,6 +14,9 @@ summary: disk.stalledtoolong events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk has been stalled too long.
+
 == disk.stalledTooLong
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ I/O for disk %s has been suspended %d times for %d seconds.
 *diskName* (STRING): Name of the device.
 *count* (INT): Count of times suspended.
 *error* (INT): Time suspended.
+

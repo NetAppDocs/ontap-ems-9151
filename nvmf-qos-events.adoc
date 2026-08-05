@@ -14,6 +14,9 @@ summary: nvmf.qos events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an NVMe-oF target subsystem contains namespaces that have different QoS policies.
+
 == nvmf.qos.mismatched.policy
 *Severity*::
 ERROR
@@ -38,3 +41,4 @@ The registration will continue to be retried. If this message continues to occur
 Failed to register for violation detection updates. QoS min-throughput might operate in a limited capacity.
 *Parameters*::
 *errorCode* (INT): Error code that was returned during registration.
+

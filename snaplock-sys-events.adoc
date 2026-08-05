@@ -14,6 +14,9 @@ summary: snaplock.sys events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system's compliance clock time and date is set.
+
 == snaplock.sys.compclock.set
 *Severity*::
 NOTICE
@@ -39,3 +42,4 @@ The system compliance clock time (%s) was skewed from the system clock (%s) by m
 *Parameters*::
 *system_compliance_clock_time* (STRING): Human readable system compliance clock time.
 *system_time* (STRING): Human readable system time.
+

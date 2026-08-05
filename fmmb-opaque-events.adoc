@@ -14,6 +14,9 @@ summary: fmmb.opaque events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued when the HA Mailbox opaque header is invalid.
+
 == fmmb.opaque.hdr.invalid
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ This event is issued when the HA Mailbox opaque header is invalid. The opaque ar
 HA %s Mailbox opaque header is invalid.
 *Parameters*::
 *host* (STRING): The node which owns the HA mailbox disk. The node can be either local or partner.
+

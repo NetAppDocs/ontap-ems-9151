@@ -14,6 +14,9 @@ summary: cf.ndustart events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a nondisruptive upgrade starts.
+
 == cf.nduStart
 *Severity*::
 INFORMATIONAL
@@ -26,3 +29,4 @@ This message occurs when a nondisruptive upgrade starts.
 *Parameters*::
 *token* (STRING): Unique token that identifies an instance of a nondisruptive upgrade.
 *host* (STRING): Name of system that started the nondisruptive upgrade.
+

@@ -14,6 +14,9 @@ summary: vserver.vsdr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs in Async Vserver-DR setup, when an auditing-configured Vserver is starting up in Read-Only (RO) mode.
+
 == vserver.vsdr.adt.romode
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ None.
 Vserver %s is configured with auditing support in Async Vserver-Disaster Recovery setup.
 *Parameters*::
 *vserver_name* (STRING): Name of the Vserver that is in Async Vserver-Disaster Recovery Read only mode.
+

@@ -14,6 +14,9 @@ summary: vscan.odreport events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the On-Demand job fails to create report file.
+
 == vscan.odReport.create.failed
 *Severity*::
 ERROR
@@ -43,3 +46,4 @@ On-Demand job for the task "%s" on Vserver "%s" could not write to the report fi
 *vserverName* (STRING): Name of the Vserver.
 *reportFile* (STRING): Path of the report file.
 *failureReason* (STRING): Reason for the failure.
+

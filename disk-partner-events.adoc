@@ -14,6 +14,9 @@ summary: disk.partner events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a node receives notice that a partner node has completed a disk encrypt revert operation.
+
 == disk.partner.encrRevertDone
 *Severity*::
 NOTICE
@@ -49,3 +52,4 @@ This message occurs when a message is received from the partner for a disk sanit
 The partner has started a disk sanitize on %s.
 *Parameters*::
 *diskName* (STRING): Name of the disk.
+

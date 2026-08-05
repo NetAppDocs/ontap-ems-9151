@@ -14,6 +14,9 @@ summary: oauth2.localroles events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an authentication fails when the "use-local-roles-if-present" setting is set to "true", but the user information does not exist in ONTAP, or the scope information within the access token does not grant sufficient access in ONTAP.
+
 == oauth2.localroles.unauth
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Authentication of requested user "%s" in SVM "%s" failed because the "use-local-
 *Parameters*::
 *user* (STRING): User for whom authentication failed.
 *vserver* (STRING): SVM to which the user belongs.
+

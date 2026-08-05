@@ -14,6 +14,9 @@ summary: hwaccel.reset events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a hardware accelerator is reset using software.
+
 == hwaccel.reset
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Hardware accelerator %s reset by %s.
 *Parameters*::
 *devName* (STRING): Name of the acceleration device; for example, "qat0".
 *module* (STRING): Name of the software module or driver.
+

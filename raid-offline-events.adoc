@@ -14,6 +14,9 @@ summary: raid.offline events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an attempt to offline an aggregate fails due to active operations on the contained volumes.
+
 == raid.offline.busy
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Active operations in progress on aggregate %s: %s.
 *Parameters*::
 *aggrname* (STRING): Aggregate name.
 *operation* (STRING): Operation.
+

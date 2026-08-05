@@ -14,6 +14,9 @@ summary: coredump.micro events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+Microcore generation has completed.
+
 == coredump.micro.completed
 *Severity*::
 INFORMATIONAL
@@ -37,3 +40,4 @@ Microcore generation has failed.
 Generation of microcore failed
 *Parameters*::
 (None).
+

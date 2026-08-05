@@ -14,6 +14,9 @@ summary: snapmirror.sockreaderr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued when SnapMirror tries to read a very large chunk from the network.
+
 == snapmirror.sockReadErr
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ This event is issued when SnapMirror tries to read a very large chunk from the n
 Attempted illegal network read of %d bytes.
 *Parameters*::
 *bytes* (INT): Bytes SnapMirror tried to read from socket.
+

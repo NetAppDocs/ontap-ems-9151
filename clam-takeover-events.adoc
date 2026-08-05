@@ -14,6 +14,9 @@ summary: clam.takeover events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Kernel Cluster Services Connectivity, Liveliness, Availability Monitor (CLAM) triggers takeover of a partner node after determining that the local node is in "CLAM quorum" and the partner node is out of "CLAM quorum".
+
 == clam.takeover
 *Severity*::
 INFORMATIONAL
@@ -47,3 +50,4 @@ CLAM on node %s (ID=%llu) cannot proceed with a takeover operation of partner no
 *partner_host_name* (STRING): Host name of the partner node.
 *partnernodeid* (LONGINT): Node ID of the partner node.
 *reason* (STRING): Reason takeover was disabled.
+

@@ -14,6 +14,9 @@ summary: disk.vendorspecificcode events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk returns a vendor-specific error.
+
 == disk.vendorSpecificCode
 *Severity*::
 ERROR
@@ -39,3 +42,4 @@ Drive %s has failed with a vendor specific error: class 0x%x segment 0x%x sense_
 *fru_failed* (INTHEX): Actual FRU code.
 *flags* (INTHEX): Flags of the error.
 *field_ptr* (INTHEX): Sense field pointer.
+

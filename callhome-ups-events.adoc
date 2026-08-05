@@ -14,6 +14,9 @@ summary: callhome.ups events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when line power for an Uninterruptible Power Supply (UPS) system is restored and the battery power is normal.
+
 == callhome.ups.line
 *Severity*::
 NOTICE
@@ -85,3 +88,4 @@ Restore the line power to the UPS immediately to prevent system shutdown. If you
 Call home for UPS SHUTTING DOWN
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

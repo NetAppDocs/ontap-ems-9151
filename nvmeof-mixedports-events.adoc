@@ -14,6 +14,9 @@ summary: nvmeof.mixedports events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is no longer a nonrecommended mix of a dedicated port and a nondedicated port cabled from a node to a shelf.
+
 == nvmeof.mixedports.clear
 *Severity*::
 NOTICE
@@ -39,3 +42,4 @@ There is a nonrecommended mix of a dedicated port and a nondedicated port cabled
 *Parameters*::
 *node_name* (STRING): Host port connected to the cable.
 *shelf_sn* (STRING): Serial number of the shelf connected to the cable.
+

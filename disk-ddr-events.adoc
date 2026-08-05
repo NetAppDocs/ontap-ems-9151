@@ -14,6 +14,9 @@ summary: disk.ddr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Dynamic Drive Recognition (DDR) Scanner detects a disk that is not part of its qualification table.
+
 == disk.ddr.dqp.out.of.date
 *Severity*::
 NOTICE
@@ -136,3 +139,4 @@ This event is generated when the DDR Scanner is unable to re-add a disk to the f
 The filer has not freed a disk_Cb for over 2 mintues for %s.
 *Parameters*::
 *diskuid* (STRING): The unique identifier of the disk
+

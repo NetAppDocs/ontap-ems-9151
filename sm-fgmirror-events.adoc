@@ -14,6 +14,9 @@ summary: sm.fgmirror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when improper group workflow cleanup caused the subsequent SnapMirror(R) operation to fail.
+
 == sm.fgmirror.stale.grp.wkflw
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Run the "snapmirror abort -h {-relationship-id <relationshipID>}" command, and t
 SnapMirror operation on relationship with relationshipID %s failed because of an existing stale group workflow.
 *Parameters*::
 *relationshipID* (STRING): UUID of the SnapMirror relationship.
+

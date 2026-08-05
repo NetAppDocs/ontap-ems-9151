@@ -14,6 +14,9 @@ summary: mes_dimm.error events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message appears when an error is encountered by MES (Memory Error Statistics).
+
 == mes_dimm.error
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ DIMM error reported. Please contact NetApp technical support for further assista
 DIMM error - %s.
 *Parameters*::
 *error* (STRING): Error message from Data ONTAP.
+

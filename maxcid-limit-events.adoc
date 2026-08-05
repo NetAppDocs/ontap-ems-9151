@@ -14,6 +14,9 @@ summary: maxcid.limit events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when system exceeds the maximum number of open network data connections on the node.
+
 == maxCID.limit.exceeded
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ Number of active data connections is %d and system limit is %d.
 *Parameters*::
 *activeCID* (INT): Number of open data connections on the node.
 *maxCID* (INT): Maximum allowed limit of data connections per node.
+

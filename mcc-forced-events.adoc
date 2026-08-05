@@ -14,6 +14,9 @@ summary: mcc.forced events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the node triggers a forced automatic unplanned switchover because the "allow-auto-forced-switchover" option is true.
+
 == mcc.forced.auso.issued
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when the node triggers a forced automatic unplanned switchov
 The node has triggered a forced automatic unplanned switchover of the DR partner. Reason: "%s".
 *Parameters*::
 *reason* (STRING): Reason for triggering a forced automatic unplanned switchover with "allow-auto-forced-switchover" option.
+

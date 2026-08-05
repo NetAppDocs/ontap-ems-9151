@@ -14,6 +14,9 @@ summary: fpolicy.server events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the FPolicy server has applied backpressure which means that the server is busy and does not want to receive requests until it removes backpressure.
+
 == fpolicy.server.bkPressApply
 *Severity*::
 INFORMATIONAL
@@ -93,3 +96,4 @@ If you want to increase the maximum pending request modify the "-max-server-reqs
 Maximum outstanding requests for the FPolicy server "%s" has reached.
 *Parameters*::
 *fpserver* (STRING): IP Address of the FPolicy server.
+

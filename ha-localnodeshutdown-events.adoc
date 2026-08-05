@@ -14,6 +14,9 @@ summary: ha.localnodeshutdown events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when shutdown of the local node is initiated.
+
 == ha.localNodeShutDown
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when shutdown of the local node is initiated.
 Shutdown of the local node has been initiated with inhibit_takeover set to %s.
 *Parameters*::
 *inhibit_takeover* (STRING): Specifies whether takeover by the partner node is inhibited on shutdown of the local node.
+

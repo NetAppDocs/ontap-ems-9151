@@ -14,6 +14,9 @@ summary: arl.netra events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs during the relocation of an aggregate, when the destination node cannot reach the object stores.
+
 == arl.netra.ca.check.failed
 *Severity*::
 ERROR
@@ -95,3 +98,4 @@ Check whether there exists any online left-behind DR aggregates on the destinati
 Aggregate '%s': One or more online left-behind DR aggregates were found on the destination node and the "node-object-limit" option is set to off.
 *Parameters*::
 *vol* (STRING): Name of the aggregate.
+

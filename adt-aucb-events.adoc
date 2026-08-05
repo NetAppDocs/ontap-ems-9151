@@ -14,6 +14,9 @@ summary: adt.aucb events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs in the auditing subsytem, when the subsystem overwrite an existing audit control block during audit control block creation.
+
 == adt.aucb.overwrite
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ This message occurs in the auditing subsytem, when the subsystem overwrite an ex
 Overwriting of audit control block occured.
 *Parameters*::
 (None).
+

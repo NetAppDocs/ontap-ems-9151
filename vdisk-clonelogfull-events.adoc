@@ -14,6 +14,9 @@ summary: vdisk.clonelogfull events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+LUN clone creation has failed because the limit on the maximum supported entries(32705) has been exceeded.
+
 == vdisk.clonelogFull
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ Retry upon the completition of the pending clone operations for this volume.
 Logging the LUN clone creation has failed because the limit on the maximum supported clone log entries in the volume %s has been exceeded.
 *Parameters*::
 *vol_name* (STRING): Name of the volume for which the LUN clone creation has failed.
+

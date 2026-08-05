@@ -14,6 +14,9 @@ summary: disk.fw events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system detects disks with firmware that is not up-to-date.
+
 == disk.fw.autodownrev
 *Severity*::
 INFORMATIONAL
@@ -37,3 +40,4 @@ Download and install the latest disk firmware file. Check your support provider'
 %d disks have downrev firmware that you need to update.
 *Parameters*::
 *driveCount* (INT): Number of disks that need to have updated firmware.
+

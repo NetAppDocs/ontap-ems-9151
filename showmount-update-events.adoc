@@ -14,6 +14,9 @@ summary: showmount.update events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the showmount job fails to update the "exports.data" file.
+
 == showmount.update.failed
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Verify that the root volume of the Vserver is online and not full. After the Vse
 Flushing to exports.data file failed on Vserver "%s".
 *Parameters*::
 *vserver* (STRING): Name of the Vserver where the problem is occurring.
+

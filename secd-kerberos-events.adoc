@@ -14,6 +14,9 @@ summary: secd.kerberos events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is a "time error"(clock skew, time skew, time out of bounds).
+
 == secd.kerberos.clockskew
 *Severity*::
 ERROR
@@ -91,3 +94,4 @@ Kerberos client ticket not yet valid for vserver (%s)%s
 *Parameters*::
 *vserverName* (STRING): Name of the vserver that is having the error.
 *clientInfo* (STRING): Information of the client that is having the error if available.
+

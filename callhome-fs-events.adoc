@@ -14,6 +14,9 @@ summary: callhome.fs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system has detected that a filesystem logical disk array or LUN (Logical Unit Number) stored raw size no longer matches the reported physical size of the LUN.
+
 == callhome.fs.lun.resized
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Restore the logical disk array or LUN raw size to the expected file system size 
 Call home for FILESYSTEM LUN RESIZED
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

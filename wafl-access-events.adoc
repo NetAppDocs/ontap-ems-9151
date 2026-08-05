@@ -14,6 +14,9 @@ summary: wafl.access events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the user attempts to access a fenced file.
+
 == wafl.access.fenced.file
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ The file with inode %d on volume %s cannot be accessed because it is fenced by %
 *fid* (INT): Inode number of the fenced file.
 *vol* (STRING): Name of the volume that contains the fenced file.
 *owner* (STRING): Name of the operation that fenced the file.
+

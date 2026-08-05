@@ -14,6 +14,9 @@ summary: sp.dup events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when another system has been detected to be using the same IP address as the one configured on the Service Processor (SP).
+
 == sp.dup.ip
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ If the network in question has been configured to use this address as a static a
 SP IP address %s in use by another system.
 *Parameters*::
 *ipaddr* (STRING): IP address.
+

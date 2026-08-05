@@ -14,6 +14,9 @@ summary: config.cfobothabmodule events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk shelf in a node is cabled for multipathing and the configuration does not support it.
+
 == config.CFObothABmodule
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ For a standard HA configuration, identify the miscabled disk shelf and attach ei
 The disk shelf where disk %s resides is connected to this node through both disk shelf module A and module B; one of the modules must be connected to the partner node instead.
 *Parameters*::
 *disk* (STRING): Name of the disk that is cabled for multipathing.
+

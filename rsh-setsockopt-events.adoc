@@ -14,6 +14,9 @@ summary: rsh.setsockopt events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the setsockopt option on the RemoteShell(RSH) socket fails; RSH is not available.
+
 == rsh.setsockopt.failure
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ RSH setsockopt error: option level '%s', option value '%s', error code '%d', err
 *socketoption* (STRING): Socket option value parameter.
 *errorcode* (INT): Error code returned from setsockopt.
 *reason* (STRING): Error message for the failure.
+

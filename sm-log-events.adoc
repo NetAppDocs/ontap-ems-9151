@@ -14,6 +14,9 @@ summary: sm.log events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when writing SnapMirror(R) data to a log file fails.
+
 == sm.log.write.fail
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Writing log data of size %d bytes to SnapMirror log file '%s' failed with error 
 *size* (INT): Data size in bytes.
 *filepath* (STRING): Log file path.
 *error* (STRING): Error string.
+

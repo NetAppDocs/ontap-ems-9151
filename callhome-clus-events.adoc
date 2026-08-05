@@ -14,6 +14,9 @@ summary: callhome.clus events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the cluster network has experienced an issue that could potentially affect connectivity, reliability, redundancy, or performance, as observed from the local node.
+
 == callhome.clus.net.degraded
 *Severity*::
 ALERT
@@ -59,3 +62,4 @@ Call home for %s. Could not delete volumes "%s" and "%s" for feature %s.
 *ActiveVolume* (STRING): Active volume name.
 *StandbyVolume* (STRING): Standby volume name.
 *Feature* (STRING): Feature using the cluster-wide storage.
+

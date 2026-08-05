@@ -14,6 +14,9 @@ summary: fg.member events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a members available space is below the threshold.
+
 == fg.member.below.threshold
 *Severity*::
 ALERT
@@ -74,3 +77,4 @@ Attempt to add/update FG member with invalid fgindex. FlexGroup "%s" with MSID %
 *existing_member_fgindex* (INT): Fgindex of the existing flexgroup member.
 *rogue_member_dsid* (INT): DSID of the rogue flexgroup member which has an invalid fgindex.
 *rogue_member_fgindex* (INT): Fgindex of the rogue flexgroup member.
+

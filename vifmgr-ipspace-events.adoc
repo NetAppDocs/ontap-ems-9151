@@ -14,6 +14,9 @@ summary: vifmgr.ipspace events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system is over-provisioned with IPspaces, exceeding the maximum number allowed.The over-provisioned IPspaces might not be configured successfully in the stack.
+
 == vifmgr.ipspace.tooMany
 *Severity*::
 EMERGENCY
@@ -26,3 +29,4 @@ There are %d custom IPspaces configured on the cluster, exceeding the maximum li
 *Parameters*::
 *configNum* (INT): Number of custom IPspaces configured.
 *maxNum* (INT): Maximum number of custom IPspaces supported.
+

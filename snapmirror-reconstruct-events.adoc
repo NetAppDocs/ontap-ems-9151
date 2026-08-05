@@ -14,6 +14,9 @@ summary: snapmirror.reconstruct events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the SnapMirror(R) requested reconstruction of a per-volume meta file used for labeling block information is complete.
+
 == snapmirror.reconstruct.complete
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ Reconstruction %s for data to be transferred by SnapMirror from %s to %s:%s was 
 *dstfiler* (STRING): Replication destination system.
 *dstpath* (STRING): Replication destination path.
 *time* (INT): Time it took for the reconstruction to be complete.
+

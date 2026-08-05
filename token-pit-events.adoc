@@ -14,6 +14,9 @@ summary: token.pit events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the token manager cannot create a PIT file in a volume.
+
 == token.pit.file.create.info
 *Severity*::
 NOTICE
@@ -38,3 +41,4 @@ This message occurs when the PIT file of a volume is deleted. A new PIT file wil
 PIT file in volume %s was deleted.
 *Parameters*::
 *volume_name* (STRING): Name of the volume in which the PIT file was deleted.
+

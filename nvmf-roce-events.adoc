@@ -14,6 +14,9 @@ summary: nvmf.roce events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there was an internal error while creating a NVMe over RoCE logical network interface (LIF).
+
 == nvmf.roce.lif.create.failed
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ To recover from this condition, use the "network interface modify" command to ch
 NVMe/RoCE LIF "%s" create operation failed because of an internal error.
 *Parameters*::
 *lifname* (STRING): Name of the NVMe/RoCE LIF that encountered the failure.
+

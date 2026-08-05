@@ -14,6 +14,9 @@ summary: sp.wdog events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAP(R) software fails to disable or enable the service-processor' (SP or BMC) watchdog timer.
+
 == sp.wdog.set.fail
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Unable to %s service-processor's watchdog timer. Error code: 0x%x.
 *Parameters*::
 *op* (STRING): Whether the failure was to enable or disable the timer.
 *errcode* (INT): Error code for debugging.
+

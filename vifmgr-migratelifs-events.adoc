@@ -14,6 +14,9 @@ summary: vifmgr.migratelifs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the network load balancing listener is not responding to probes over a node management LIF, and cluster-scoped LIFs with the same current port have been migrated elsewhere.
+
 == vifmgr.migrateLifs.nlbdDown
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ The network load balancing listener has started responding via LIF "%s" on Vserv
 *lif* (STRING): LIF name.
 *vserver_name* (STRING): Vserver name.
 *port* (STRING): Network port name.
+

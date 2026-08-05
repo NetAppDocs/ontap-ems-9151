@@ -14,6 +14,9 @@ summary: config.localswitch events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk is found attached via both local connection and a switch.
+
 == config.localswitch
 *Severity*::
 EMERGENCY
@@ -25,3 +28,4 @@ This message occurs when a disk is found attached via both local connection and 
 Disk %s is attached via a local connection and a switch. This is an illegal configuration.
 *Parameters*::
 *disk* (STRING): Name of the disk.
+

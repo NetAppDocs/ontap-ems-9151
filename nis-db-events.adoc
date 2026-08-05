@@ -14,6 +14,9 @@ summary: nis.db events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the NIS group database job queue fails.
+
 == nis.db.job.queue.failure
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Use the "vserver services name-service nis-domain group-database build" command 
 NIS group database job queue failed for Vserver %s.
 *Parameters*::
 *vserver_name* (STRING): Name of the Vserver.
+

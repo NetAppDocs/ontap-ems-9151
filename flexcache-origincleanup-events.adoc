@@ -14,6 +14,9 @@ summary: flexcache.origincleanup events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the origin of a FlexCache(R) volume cleanup job fails to clean up the origin volume.
+
 == flexcache.origincleanup.fail
 *Severity*::
 ERROR
@@ -39,3 +42,4 @@ RAL cleanup incomplete for the origin volume of the FlexCache volume %s in Vserv
 *Parameters*::
 *originVolName* (STRING): Name of the origin volume of the FlexCache volume.
 *originVserver* (STRING): Name of the Vserver hosting the origin of a FlexCache volume.
+

@@ -14,6 +14,9 @@ summary: kern.rc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued when an error printf is issued by the kernel in the context of executing the /etc/rc file.
+
 == kern.rc.errorMsg
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ This event is issued when a printf is issued by the kernel in the context of exe
 %s
 *Parameters*::
 *msg* (STRING): The text of the message
+

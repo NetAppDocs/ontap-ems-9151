@@ -14,6 +14,9 @@ summary: qtree.delete events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the delete operation on a qtree fails.
+
 == qtree.delete.failed
 *Severity*::
 ERROR
@@ -57,3 +60,4 @@ Successfully deleted qtree "%s" in volume "%s" on Vserver "%s".
 *qtree* (STRING): Name of the qtree.
 *volume* (STRING): Name of the volume on which the qtree resides.
 *vserver* (STRING): Name of the Vserver on which the volume resides.
+

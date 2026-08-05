@@ -14,6 +14,9 @@ summary: fg.modify events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a user modifies the workflow type of a FlexGroup volume.
+
 == fg.modify.workflow
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ The workflow type for FlexGroup volume "%s" in Vserver "%s" was modified from "%
 *vserverName* (STRING): Name of the Vserver on which the FlexGroup volume resides.
 *oldWorkflow* (STRING): The old workflow type of the FlexGroup volume.
 *newWorkflow* (STRING): The new workflow type for the FlexGroup volume.
+

@@ -14,6 +14,9 @@ summary: nblade.pcp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a network port undergoes multiple link state transitions within a short period of time.
+
 == Nblade.pcp.linkThrashing
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ If this problem persists, check the physical connections between the affected po
 Link thrashing detected on port %u.
 *Parameters*::
 *port* (INT): Port ID.
+

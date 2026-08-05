@@ -14,6 +14,9 @@ summary: wafl.snaprestore events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs during a Snapshot(tm) copy restore operation, when the system cannot recognize the version of Data ONTAP(R) from the Snapshot copy it is reverting to.
+
 == wafl.snaprestore.badVersion
 *Severity*::
 ERROR
@@ -104,3 +107,4 @@ Snapshot copy is stale. (vol='%s', volident='%s')
 *Parameters*::
 *vol* (STRING): Volume name.
 *volident* (STRING): To uniquely identify the volume in cases where the volume name itself is insufficient.
+

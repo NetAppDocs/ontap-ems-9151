@@ -14,6 +14,9 @@ summary: acp.bind events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system encounters a socket binding error while setting up the Alternate Control Path (ACP) Management Ethernet port.
+
 == acp.bind.error
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Verify that the Ethernet cable is properly attached to the ACP port and the gree
 An error was encountered while configuring the ACP Management Ethernet Port: %s.
 *Parameters*::
 *ErrorString* (STRING): Error string.
+

@@ -14,6 +14,9 @@ summary: netif.eepromreadfailed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is a failure in reading the electronically erasable programmable read-only memory (EEPROM) for a network interface.
+
 == netif.eepromReadFailed
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Rebooting the system might clear the problem. The problem might be caused by a s
 Failure in reading EEPROM for network interface %s.
 *Parameters*::
 *ifName* (STRING): Name of the network interface; for example, "e8a".
+

@@ -14,6 +14,9 @@ summary: snaplock.state events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is generated if SnapLock is unable to destroy the SnapLock state for a SnapLock volume.
+
 == snaplock.state.dir.destroyFail
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ Failed to destroy the SnapLock state for SnapLock volume '%s%s' on the Vserver w
 *volume* (STRING): The name of the SnapLock volume on which the SnapLock state could not be destroyed.
 *app* (STRING): Application Name.
 *volident* (STRING): Unique identifier of the volume when the volume name itself is insufficient.
+

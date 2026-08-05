@@ -14,6 +14,9 @@ summary: coredump.sparecoreinit events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when sparecore initialization is completed.
+
 == coredump.sparecoreinit.times
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ sparecore_init: update firmware %llu msec, write partial headers %llu msec, clea
 *partialHeaderTime* (LONGINT): Time taken to write partial headers, in milliseconds.
 *clearAbortAreaTime* (LONGINT): Time taken to clear sparecore abort area, in milliseconds.
 *writeNodeStatusTime* (LONGINT): Time taken to write the node status information to the sparecore disk, in milliseconds, if any.
+

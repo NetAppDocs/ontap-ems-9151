@@ -14,6 +14,9 @@ summary: diskown.replayingownership events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event occurs during a boot or takeover when a disk ownership request is replayed from NVRAM.
+
 == diskown.replayingOwnership
 *Severity*::
 INFORMATIONAL
@@ -37,3 +40,4 @@ This message occurs during takeover, when a disk ownership request is replayed f
 Failed to replay disk ownership because NVRAM corruption was detected.
 *Parameters*::
 (None).
+

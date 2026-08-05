@@ -14,6 +14,9 @@ summary: netinet6.icmp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system receives an Internet Control Message Protocol(ICMP) message, and while processing the ICMP message it finds a checksum error.
+
 == netinet6.icmp.chksum
 *Severity*::
 ERROR
@@ -91,3 +94,4 @@ This message occurs because of invalid neighbor discovery options.
 icmp6_redirect_input: Invalid neighbor discovery option, rejected: %s.
 *Parameters*::
 *addressBuff* (STRING): Contains IP6 addresses.
+

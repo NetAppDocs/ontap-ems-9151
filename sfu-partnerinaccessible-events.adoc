@@ -14,6 +14,9 @@ summary: sfu.partnerinaccessible events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs in a high-availability (HA) configuration in which communication between partner nodes cannot be established.
+
 == sfu.partnerInaccessible
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Verify that the HA interconnect is operational. Retry the (advanced privilege) "
 HA partner is inaccessible. Shelf firmware update canceled.
 *Parameters*::
 (None).
+

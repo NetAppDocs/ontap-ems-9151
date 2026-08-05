@@ -14,6 +14,9 @@ summary: wafl.metafile events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a metafile to be created is not documented, has information about it missing, or has not been identified and associated with an entry from the wiki page: MetafileRegistration.
+
 == wafl.metafile.reg.unknown
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ The information in the wiki page: MetafileRegistration and metafiles.h needs to 
 %s is declared as METAFILE_UNUSED. The information in the wiki page: MetafileRegistration and metafiles.h needs to be corrected. Please contact dl-replication-developer.
 *Parameters*::
 *path* (STRING): Filepath of the metafile
+

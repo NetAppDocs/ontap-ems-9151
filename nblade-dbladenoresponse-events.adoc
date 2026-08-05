@@ -14,6 +14,9 @@ summary: nblade.dbladenoresponse events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a CIFS network data protocol operation times out because the requesting node cannot communicate with the data-serving node to complete the file operation.
+
 == Nblade.dBladeNoResponse.CIFS
 *Severity*::
 ERROR
@@ -42,3 +45,4 @@ File operation timed out because there was no response from the data-serving nod
 *clientip* (STRING): IP address of client that attempted the file operation.
 *nfsOpcode* (STRING): Opcode corresponding to file operation.
 *fileoperation* (INT): File operation during which the timeout happened.
+

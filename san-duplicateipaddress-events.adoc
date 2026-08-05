@@ -14,6 +14,9 @@ summary: san.duplicateipaddress events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs in MetroCluster(TM) configurations of clustered ONTAP(R), when an IP LIF is created in the source cluster, but one of the storage virtual machines (SVMs) in the destination cluster is already configured with an IP LIF having the same IP address.
+
 == san.DuplicateIpAddress
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ One of the SVM's in the destination cluster is configured with an %s LIF with th
 *IpAddress* (STRING): IP address existing in the destination cluster.
 *primary_data_protocol* (STRING): Data protocol of the primary SVM LIF.
 *lif* (STRING): Name of the primary SVM IP LIF.
+

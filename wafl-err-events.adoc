@@ -14,6 +14,9 @@ summary: wafl.err events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a level 1 indirect block with given block number is not found in a compacted block.
+
 == wafl.err.L1.compacted.block
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when a level 1 indirect block with given block number is not
 Block number 0x%llx is not found in the compacted block.
 *Parameters*::
 *vvbn* (LONGINT): Volume block number.
+

@@ -14,6 +14,9 @@ summary: diskown.split events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when any type of split-shelf automatic drive assignment is disabled.
+
 == diskown.split.shelf.assignStatus
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when any type of split-shelf automatic drive assignment is d
 Split-shelf based automatic drive assignment is "%s".
 *Parameters*::
 *state* (STRING): All split-shelf based drive assignment states.
+

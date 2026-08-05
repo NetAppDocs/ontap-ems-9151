@@ -14,6 +14,9 @@ summary: sis.wafliron events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a requested SIS volume 'undo' operation fails to correct on-disk corruption and requires wafliron to be run.
+
 == sis.wafliron.required
 *Severity*::
 ALERT
@@ -27,3 +30,4 @@ SIS 'undo' command detected on-disk corruption while working on unshare request.
 *volume* (STRING): Name of the affected volume.
 *volident* (STRING): To uniquely identify the volume in cases where volume name itself is insufficient.
 *aggregate* (STRING): Aggregate name containing the affected volume.
+

@@ -14,6 +14,9 @@ summary: km.onboard events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a cluster administrator supplies the wrong Onboard Key Manager cluster-wide passphrase more than three times in a row while attempting to enable Common Criteria (CC) mode.
+
 == km.onboard.ccmode.wrongpass
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ The Onboard Key Manager cluster-wide passphrase has been entered incorrectly %s 
 *Parameters*::
 *username* (STRING): Name of the user who issued the command to enable CC mode.
 *failure_count* (STRING): Number of sequential times that the cluster-wide passphrase has been entered incorrectly.
+

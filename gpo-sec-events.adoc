@@ -14,6 +14,9 @@ summary: gpo.sec events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when applying group policy object (GPO) event audit policy settings succeeds.
+
 == gpo.sec.EvtAdt.applied
 *Severity*::
 INFORMATIONAL
@@ -231,3 +234,4 @@ Failed to apply restricted-groups settings for group %s in Vserver %s, reason: %
 *group* (STRING): Group name.
 *vserver* (STRING): Vserver name.
 *reason* (STRING): Reason for the failure.
+

@@ -14,6 +14,9 @@ summary: moveagent.cleanup events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a volume move operation running on the partner cluster is interrupted by a disaster recovery event (such as switchover or switchback) in the MetroCluster(tm) configuration before the operation reaches the cutover phase.
+
 == moveagent.cleanup.dest
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ If necessary, identify which source volume must be deleted by running the "volum
 A MetroCluster disaster recovery event interrupted the volume move operation before the source volume was deleted. Delete the source volume (DSID: %llu). Failure to delete the source volume might cause future switchback operations to fail.
 *Parameters*::
 *volume_dsid* (LONGINT): Source volume data set ID (DSID).
+

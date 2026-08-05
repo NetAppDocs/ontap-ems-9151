@@ -14,6 +14,9 @@ summary: volume.transition events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a volume transition plug-in is taking longer than expected.
+
 == volume.transition.plugin.slow
 *Severity*::
 INFORMATIONAL
@@ -28,3 +31,4 @@ Volume transition on volume %s, plug-in %s running %d ms (expected %d ms).
 *plugin* (STRING): Name of the slow plug-in.
 *used* (INT): Runtime for the plug-in, in milliseconds.
 *expected* (INT): Expected runtime for the plug-in, in milliseconds.
+

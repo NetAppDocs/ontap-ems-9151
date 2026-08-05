@@ -14,6 +14,9 @@ summary: ha.resvconflicthalt events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the node halts itself after it finds disks with reservation conflicts.
+
 == ha.resvConflictHalt
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ A disk reservation conflict was detected on disk %s at %-20s. Typically, this on
 *disk_name* (STRING): Name of the disk.
 *time* (STRING): Time when the disk reservation was detected.
 *last_update* (INT): Time passed since last rescan, in milliseconds.
+

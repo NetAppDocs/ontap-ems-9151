@@ -14,6 +14,9 @@ summary: vol.log events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the volume or aggregate allocates more space than it can honor by way of reservations, or the aggregate has allocated more space than it can honor by way of guarantees.
+
 == vol.log.overalloc
 *Severity*::
 ALERT
@@ -47,3 +50,4 @@ Create space by increasing the volume size, deleting data or their reservations,
 *vserver_uuid* (STRING): UUID of the object's or volume's Vserver.
 *object_uuid* (STRING): UUID of the object or volume.
 *percent_full* (STRING): Used capacity of the logical space of the object, along with reservations and space saved by the storage efficiency features, as a percentage. This value can be greater than 100 due to space reserved for metadata. The percentage is computed for the entire object, including Snapshot(tm) copy space, and is equivalent to the "logical-used" field in the output of the "volume show-space" command.
+

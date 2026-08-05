@@ -14,6 +14,9 @@ summary: raid.ns events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system removes ownership of its disks during initialization of a non-shared HA system.
+
 == raid.ns.init.removeOwnership
 *Severity*::
 NOTICE
@@ -53,3 +56,4 @@ This message occurs when the system unpartitions one or more disks during initia
 Unpartitioned %d disk(s).
 *Parameters*::
 *num_disks_unpartitioned* (INT): Number of disks unpartitioned.
+

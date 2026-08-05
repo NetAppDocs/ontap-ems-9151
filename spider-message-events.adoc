@@ -14,6 +14,9 @@ summary: spider.message events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a directory traversal task cannot finish because of an unexpected error.
+
 == spider.message.fail
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Volume %llu failed to perform directory task %s because of %s.
 *volume_dsid* (LONGINT): DSID of the volume that encountered the error.
 *task* (STRING): Description of the task that could not be performed.
 *error* (STRING): Description of the error that occurred.
+

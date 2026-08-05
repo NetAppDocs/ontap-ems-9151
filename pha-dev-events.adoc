@@ -14,6 +14,9 @@ summary: pha.dev events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAP(R)software fails to get a drives's capacity after an extended wait.
+
 == pha.dev.get.capacity.failed
 *Severity*::
 ERROR
@@ -104,3 +107,4 @@ Failed to write header to the device %s%d.
 *Parameters*::
 *devname* (STRING): Name of the device.
 *unit* (INT): Unit number of the device.
+

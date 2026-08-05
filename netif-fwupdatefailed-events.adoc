@@ -14,6 +14,9 @@ summary: netif.fwupdatefailed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is an error during a network interface firmware update.
+
 == netif.fwUpdateFailed
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Firmware update of network interface %s to version %s failed :%s.
 *ifName* (STRING): Name of the network interface.
 *version* (STRING): Version of the firmware update.
 *reason* (STRING): Reason for the firmware update failure.
+

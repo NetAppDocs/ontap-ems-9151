@@ -14,6 +14,9 @@ summary: wafl.readdir events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a READDIR file operation has exceeded the timeout that it is allowed to run in WAFL.
+
 == wafl.readdir.expired
 *Severity*::
 ERROR
@@ -46,3 +49,4 @@ A READDIR file operation has detected that a directory associated with volume %s
 *volident* (STRING): Volume identifier to uniquely identify the volume in cases where the volume name alone is insufficient.
 *snapid* (LONGINT): Snapshot(tm) copy ID the that the directory is in.
 *directory_inum* (LONGINT): The inode number (fileid) of the directory.
+

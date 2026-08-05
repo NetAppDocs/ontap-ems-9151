@@ -14,6 +14,9 @@ summary: sis.op events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued when a SIS volume operation is aborted due to unexpected conditions.
+
 == sis.op.aborted
 *Severity*::
 ERROR
@@ -54,3 +57,4 @@ SIS operation for %s%s has stopped
 *Parameters*::
 *path* (STRING): Path to a SIS volume
 *volident* (STRING): To uniquely identify the volume in cases where volume name itself is insufficient.
+

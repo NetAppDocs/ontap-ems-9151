@@ -14,6 +14,9 @@ summary: lun.copy events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a LUN appears in the public namespace of the destination volume during a LUN copy operation.
+
 == LUN.copy.dstPresent
 *Severity*::
 INFORMATIONAL
@@ -42,3 +45,4 @@ LUN copy started from (DSID:%llu)%s to (DSID:%llu)%s with job-uuid %s.
 *dst_vol_dsid* (LONGINT): Destination volume Data Set ID (DSID).
 *dst_lun* (STRING): Destination LUN.
 *UUID* (STRING): UUID identifying the copy operation.
+

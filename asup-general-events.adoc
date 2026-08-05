@@ -14,6 +14,9 @@ summary: asup.general events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system cannot generate an AutoSupport message from a callhome EMS event.
+
 == asup.general.drop
 *Severity*::
 NOTICE
@@ -64,3 +67,4 @@ This message occurs when AutoSupport is not configured to send messages to NetAp
 AutoSupport is not configured to send messages to NetApp. Enabling AutoSupport can significantly speed problem determination and resolution should a problem occur on your system. More information about AutoSupport is available at http://support.netapp.com/autosupport/.
 *Parameters*::
 (None).
+

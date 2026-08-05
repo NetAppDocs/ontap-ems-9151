@@ -14,6 +14,9 @@ summary: monitor.vol events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when one or more file systems are full, typically indicating at least 98% full.
+
 == monitor.vol.full.inc.sav
 *Severity*::
 ALERT
@@ -49,3 +52,4 @@ Create space by increasing the volume size, deleting data, or deleting Snapshot 
 *object_uuid* (STRING): UUID of the object or volume.
 *percent_full_blocks* (INT): Used capacity of the space of the object, including space saved by the storage efficiency features, as a percentage.
 *percent_full_inodes* (INT): Used capacity of inodes of the object, as a percentage.
+

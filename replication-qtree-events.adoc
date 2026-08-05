@@ -14,6 +14,9 @@ summary: replication.qtree events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the replication destination engine receives blocks with disk errors from the source for the first time in a transfer and continues with replication.
+
 == replication.qtree.dst.disk.error
 *Severity*::
 ALERT
@@ -97,3 +100,4 @@ SnapMirror: transfer from %s:%s to %s:%s: Source volume has disk errors. (source
 *dst_path* (STRING): Destination path of this replication transfer.
 *sfileid* (INT): Identifying number for the suspect symbolic link.
 *snapid* (INT): Incremental Snapshot(tm) copy of the source from which this symbolic link came.
+

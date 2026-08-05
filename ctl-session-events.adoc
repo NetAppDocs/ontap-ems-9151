@@ -14,6 +14,9 @@ summary: ctl.session events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when iSCSI CAM target layer session status is changed.
+
 == ctl.session.stateChanged
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ iSCSI CAM target layer's session state is changed to %s for the initiator %s (ad
 *ctl_initiator_address* (STRING): iSCSI CAM target layer initiator's address.
 *ctl_session_state_change_reason* (STRING): Reason for the iSCSI CAM target layer session state change.
 *ctl_timeout_value* (INT): iSCSI CAM target layer timeout value.
+

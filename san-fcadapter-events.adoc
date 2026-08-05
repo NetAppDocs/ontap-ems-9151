@@ -14,6 +14,9 @@ summary: san.fcadapter events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when FC adapters hosting LIFs fails to initialize during node boot.
+
 == san.fcadapter.init.failure
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ The following FC adapters with configured LIFs failed to initialize: %s.
 *adapters* (STRING): List of FC adapters that failed to initialize.
 *object_type* (STRING): Type of resource object under notification. For this EMS, the object_type will always be NODE.
 *object_uuid* (STRING): UUID of the resource object. For this EMS, the UUID will be of the node.
+

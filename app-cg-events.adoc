@@ -14,6 +14,9 @@ summary: app.cg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a consistency group on either side of a SnapMirror(R) active sync relationship cannot be resolved to the remote consistency group for correctly replicating consistency group Snapshot copies.
+
 == app.cg.snap.smbc.lookup.fail
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ Failed to resolve Snapshot copy "%s" in consistency group "%s" on Vserver %s to 
 *consistency_group* (STRING): Name of the consistency group.
 *vserver* (STRING): Name of the Vserver.
 *error* (STRING): The error that was encountered while resolving the local consistency group to its corresponding remote consistency group.
+

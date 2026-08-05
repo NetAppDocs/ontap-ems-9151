@@ -14,6 +14,9 @@ summary: cam.dev events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the disk does not support the Forced Unit Access (FUA) feature bit.
+
 == cam.dev.fuaNotSupported
 *Severity*::
 ALERT
@@ -41,3 +44,4 @@ Unable to read the FUA settings for disk %s%d with target address %s.
 *periph_name* (STRING): Disk name.
 *unit* (INT): Unit number.
 *target_addr* (STRING): Disk target address.
+

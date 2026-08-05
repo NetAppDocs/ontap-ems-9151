@@ -14,6 +14,9 @@ summary: fg.inodes events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when conditions that led to previous "fg.inodes.member.nearlyFull" and "fg.inodes.member.full" events no longer apply for any constituent in this FlexGroup.
+
 == fg.inodes.member.allOK
 *Severity*::
 NOTICE
@@ -54,3 +57,4 @@ Constituent %llu in FlexGroup %s (fg-uuid %s) is nearly out of inodes.
 *constituent_dsid* (LONGINT): DSID of the constituent that is almost out of inodes.
 *object_name* (STRING): Human-readable name of the FlexGroup.
 *object_uuid* (STRING): UUID of the FlexGroup.
+

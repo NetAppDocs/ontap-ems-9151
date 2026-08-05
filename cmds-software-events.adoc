@@ -14,6 +14,9 @@ summary: cmds.software events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs because the system cannot create the directory at the designated path.
+
 == cmds.software.dirErr
 *Severity*::
 ERROR
@@ -50,3 +53,4 @@ This message occurs during software update and installation to inform you that i
 Software: Installation of %s failed.
 *Parameters*::
 *fileName* (STRING): Name of the file to be updated/installed.
+

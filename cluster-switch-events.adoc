@@ -14,6 +14,9 @@ summary: cluster.switch events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+Redundant configuration is missing for cluster switches.
+
 == cluster.switch.count
 *Severity*::
 INFORMATIONAL
@@ -94,3 +97,4 @@ Cluster switch: %s model: %s not supported.
 *Parameters*::
 *switch_name* (STRING): Cluster switch name
 *model* (STRING): The switch model.
+

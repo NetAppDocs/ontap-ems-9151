@@ -14,6 +14,9 @@ summary: mdb.exit events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the management process exits to recover from a database error.
+
 == mdb.exit
 *Severity*::
 EMERGENCY
@@ -28,3 +31,4 @@ MDB %s process exit due to "%s". Error code: %d (%s).
 *table_or_operation* (STRING): Database table name or operation that encountered the error.
 *error_code* (INT): Numeric error code reported by the management database.
 *error_msg* (STRING): Error message reported by the management database.
+

@@ -14,6 +14,9 @@ summary: vserver.oper events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system detects a cluster reboot on a Disaster Recovery Source (MetroCluster(tm) configuration or Vserver DR).
+
 == vserver.oper.state.down
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ If the destination Vservers or site are already brought up, nothing needs to be 
 The Vservers on cluster %s that are in a DR relationship have been operationally brought down.
 *Parameters*::
 *cluster_name* (STRING): Name of the source cluster.
+

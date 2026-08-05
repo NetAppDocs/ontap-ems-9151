@@ -14,6 +14,9 @@ summary: raid.root events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the root volume is not mirrored in a MetroCluster(tm) configuration.
+
 == raid.root.unmirrored
 *Severity*::
 ALERT
@@ -38,3 +41,4 @@ Root volume %s%s: Current plex will have disks from mixed pools if the root volu
 *Parameters*::
 *owner* (STRING): Owner of the aggregate.
 *vol* (STRING): Name of the aggregate.
+

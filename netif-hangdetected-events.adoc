@@ -14,6 +14,9 @@ summary: netif.hangdetected events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a network interface driver detects that an interface is hung.
+
 == netif.hangDetected
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ Network interface %s hung (%s). %s. Driver: %s.
 *hangType* (STRING): Type of hang. For example, "transmit", "PCIe RcvMstAbt".
 *recoveryAction* (STRING): Action, if any, that will be taken by the driver to recover. For example, "Resetting to recover" or "Forcing panic for core dump" (for root cause analysis).
 *driver* (STRING): Driver name.
+

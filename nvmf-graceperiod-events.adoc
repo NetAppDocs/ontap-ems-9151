@@ -14,6 +14,9 @@ summary: nvmf.graceperiod events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs daily while the NVMe over Fabrics (NVMe-oF) protocol is in use and the license grace period is active.
+
 == nvmf.graceperiod.active
 *Severity*::
 ALERT
@@ -56,3 +59,4 @@ The NVMe-oF feature requires a license in this version of ONTAP. NVMe-oF functio
 *expiration_date* (STRING): Date the license grace period expires.
 *object_type* (STRING): Type of resource object under notification. For this EMS, the object_type is CLUSTER.
 *object_uuid* (STRING): UUID of the resource object. For this EMS, the UUID is that of the cluster.
+

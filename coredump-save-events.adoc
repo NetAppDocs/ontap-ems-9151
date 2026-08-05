@@ -14,6 +14,9 @@ summary: coredump.save events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the savecore operation is aborted while saving a kernel core.
+
 == coredump.save.aborted
 *Severity*::
 NOTICE
@@ -187,3 +190,4 @@ Saving %llu MB to %s via %s ("%s") for node %s.
 *dumpcoretype* (STRING): Kernel coredump type.
 *panic* (STRING): Panic string of the kernel core being saved.
 *node* (STRING): Name of the node whose core is being saved.
+

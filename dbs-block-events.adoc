@@ -14,6 +14,9 @@ summary: dbs.block events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Distributed Block Store (DBS) successfully completes a block service repair operation involving block rewrites to all BServices that are replicas for the block .
+
 == dbs.block.repair.success
 *Severity*::
 NOTICE
@@ -33,3 +36,4 @@ A DBS block repair success event %s of type %s occurred for Service ID %u on nod
 *driveUuid* (STRING): Generated UUID of the associated drive. It displays zeroes if there is no associated drive.
 *evtID* (INT): DBS event ID number.
 *evtDetails* (STRING): Specific details of the DBS event. It displays as a string, in JSON format, or is empty.
+

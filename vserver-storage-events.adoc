@@ -14,6 +14,9 @@ summary: vserver.storage events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Storage of Vserver is full.
+
 == vserver.storage.full
 *Severity*::
 ERROR
@@ -83,3 +86,4 @@ Vserver "%s" with current storage size of "%s" has exceeded "%s%%" of storage li
 *storage_size* (STRING): The storage used size of the Vserver.
 *storage_limit_threshold* (STRING): The storage-limit-threshold-alert value of the Vserver.
 *storage_limit* (STRING): The storage-limit for the Vserver.
+

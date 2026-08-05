@@ -14,6 +14,9 @@ summary: arl.postmigrnotok events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the specified subsystem encounters an error during the post-migration phase of the aggregate relocation (ARL) operation.
+
 == arl.postMigrNotOk
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Relocation of aggregate '%s' encountered an error during post-migration processi
 *Parameters*::
 *aggr* (STRING): Name of the aggregate on which the subsystem attempted the relocation operation.
 *subsystem* (STRING): Name of the subsystem that failed the relocation operation.
+

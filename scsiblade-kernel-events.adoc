@@ -14,6 +14,9 @@ summary: scsiblade.kernel events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the kernel cluster group for the specified volume is in an indeterminate state.
+
 == scsiblade.kernel.volume.limbo.group
 *Severity*::
 EMERGENCY
@@ -38,3 +41,4 @@ Contact NetApp technical support. For further information about correcting the p
 The kernel cluster group for Vserver %s is in an indeterminate state. This will impact SAN management and configuration. Additionally, LUNs might not be accessible on this Vserver from this node.
 *Parameters*::
 *vserver* (STRING): UUID of the Vserver.
+

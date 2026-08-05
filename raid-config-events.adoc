@@ -14,6 +14,9 @@ summary: raid.config events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs during a mirror check, when the system discovers that all plexes have failed in an aggregate.
+
 == raid.config.check.failed
 *Severity*::
 ERROR
@@ -975,3 +978,4 @@ This event is issued when an aggregate with block checksums is changing its chec
 *owner* (STRING): Owner of the affected aggregate.
 *volumeName* (STRING): Name of the aggregate object.
 *status* (STRING): The status of the command.
+

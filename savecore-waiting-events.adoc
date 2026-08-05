@@ -14,6 +14,9 @@ summary: savecore.waiting events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+Savecore is running synchronously, and the console will be unresponsive until it is complete.
+
 == savecore.waiting
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ Savecore is running synchronously, and the console will be unresponsive until it
 Pausing to wait for savecore admin to finish
 *Parameters*::
 (None).
+

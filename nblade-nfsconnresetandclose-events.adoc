@@ -14,6 +14,9 @@ summary: nblade.nfsconnresetandclose events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the server aborts the connection with the client by sending one or more RST segments, immediately resulting in the connection state being discarded.
+
 == Nblade.nfsConnResetAndClose
 *Severity*::
 ERROR
@@ -31,3 +34,4 @@ Shutting down connection with the client. Vserver ID is %d; network data protoco
 *remotePort* (INT): TCP or UDP port number used by the remote client to send the data.
 *localAddr* (STRING): IP address of the local interface serving the protocol operation.
 *reason* (STRING): Reason for the disconnection.
+

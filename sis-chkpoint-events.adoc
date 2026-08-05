@@ -14,6 +14,9 @@ summary: sis.chkpoint events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Single Instance Storage (SIS) checkpoint is deleted.
+
 == sis.chkpoint.delete
 *Severity*::
 INFORMATIONAL
@@ -39,3 +42,4 @@ SIS operation on the volume '%s%s' failed to restore from a previous checkpoint.
 *Parameters*::
 *volume* (STRING): Volume name.
 *volident* (STRING): To uniquely identify the volume in cases where volume name itself is insufficient.
+

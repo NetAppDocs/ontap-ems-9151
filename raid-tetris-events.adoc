@@ -14,6 +14,9 @@ summary: raid.tetris events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system detects a block number mismatch during a write operation.
+
 == raid.tetris.cksum.bno
 *Severity*::
 NOTICE
@@ -215,3 +218,4 @@ Block recommended for reassignment on %s%s, Block #%llu during stripe write.
 *disk_rpm* (STRING): Rotational speed of the disk, in RPM.
 *carrier* (STRING): Unique ID of the carrier in which the disk is installed.
 *site* (STRING): For a MetroCluster(tm) configuration, indicates the site {Local|Remote} where the disk is located. For non-MetroCluster configurations, site is 'Local'.
+

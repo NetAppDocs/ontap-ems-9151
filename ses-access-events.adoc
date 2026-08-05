@@ -14,6 +14,9 @@ summary: ses.access events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Enclosure Services in the storage system cannot establish contact with the enclosure monitoring process in any disk shelf on the channel.
+
 == ses.access.noEnclServ
 *Severity*::
 ALERT
@@ -63,3 +66,4 @@ If the error persists for more than an hour, then reboot the controller.
 Enclosure Services unavailable for one or more shelves on channel %s.
 *Parameters*::
 *channelName* (STRING): Name of the adapter port or switch port associated with the error; for example, "7a" or "myswitch:5".
+

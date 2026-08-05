@@ -14,6 +14,9 @@ summary: rpl.snapshot events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when SnapMirror(R) or SnapVault(R) cannot delete one of its Snapshot(tm) copies.
+
 == rpl.snapshot.delete.error
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ SnapMirror or SnapVault tries to delete this Snapshot copy during the next updat
 *snapname* (STRING): Snapshot copy name.
 *volname* (STRING): Volume name.
 *error* (STRING): WAFL(R) error message.
+

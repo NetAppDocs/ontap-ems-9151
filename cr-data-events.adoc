@@ -14,6 +14,9 @@ summary: cr.data events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the namespace scanner skips an inode for which it cannot access the data file.
+
 == CR.Data.File.Inaccessible
 *Deprecated*::
 Deprecated as of Data ONTAP 9.6 because Infinite Volumes no longer exist.
@@ -30,3 +33,4 @@ The redirector file [%s] on namespace volume [%s] will be skipped by "Volume Che
 *nsVol* (STRING): Name of the constituent namespace volume that hosts the redirector file.
 *dataVol* (STRING): Name of the constituent data volume that hosts the data file.
 *vserver* (STRING): Vserver hosting the constituent volumes.
+

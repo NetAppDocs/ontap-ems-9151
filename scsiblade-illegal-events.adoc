@@ -14,6 +14,9 @@ summary: scsiblade.illegal events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an error is returned for a SCSI command that exceeds the LUN's maximum supported transfer length of 1MB.
+
 == scsiblade.illegal.xfer.len
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ Returned Illegal Request response to host type %s for command opcode 0x%x with a
 *opcode* (INT): SCSI opcode.
 *length* (LONGINT): Request transfer length.
 *LUNSerialNumber* (STRING): Serial number of the LUN.
+

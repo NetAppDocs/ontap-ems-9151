@@ -14,6 +14,9 @@ summary: upgrademgr.update events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the automated update of the cluster is canceled by the operator.
+
 == upgrademgr.update.cancelled
 *Severity*::
 INFORMATIONAL
@@ -85,3 +88,4 @@ This message occurs when the upgrade manager begins an automated update of the c
 An automated update of the cluster has been started.
 *Parameters*::
 (None).
+

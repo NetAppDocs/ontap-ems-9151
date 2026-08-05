@@ -14,6 +14,9 @@ summary: csm.badconnection events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAP(R) software receives a Cluster Session Manager (CSM) connection with unrecognizable content.
+
 == csm.badConnection
 *Severity*::
 ALERT
@@ -29,3 +32,4 @@ ONTAP received a CSM connection with unrecognizable content at local address %s 
 *remoteAddr* (STRING): Full internet address of the remote end of the connection.
 *remotePort* (INT): Remote port number.
 *IPspace* (INT): Identifier of the IPspace within which the remote address was reached.
+

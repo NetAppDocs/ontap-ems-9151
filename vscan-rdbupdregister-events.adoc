@@ -14,6 +14,9 @@ summary: vscan.rdbupdregister events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Vscan configuration replication mechanism fails to register RDB update callback.
+
 == vscan.rdbUpdRegister.failed
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Perform a takeover and giveback of the node or reboot the node. For additional o
 Vscan configuration replication mechanism failed to register RDB update callback. Modifications made to the Vscan configuration might not be available to this node.
 *Parameters*::
 (None).
+

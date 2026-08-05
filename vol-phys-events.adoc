@@ -14,6 +14,9 @@ summary: vol.phys events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the volume or aggregate is running dangerously low on free blocks to write to.
+
 == vol.phys.overalloc
 *Severity*::
 EMERGENCY
@@ -30,3 +33,4 @@ Create space by increasing the volume or aggregate sizes, or by deleting data or
 *vserver_uuid* (STRING): Universal Unique ID (UUID) of the object's Vserver, if the object is a volume. Otherwise, this string is empty.
 *percent_logically_full* (STRING): Used capacity of the logical space of the object, as a percent. This value can be greater than 100 due to space reserved for metadata. The percentage is computed for the entire object, including Snapshot(R) copy space, and is equivalent to the "Total Used" field in the output of the "volume show-space" or "aggregate show-space" commands.
 *percent_physically_full* (STRING): Used capacity of the physical space of the object, as a percent. This value can be greater than 100 due to space reserved for metadata. The percentage is computed for the entire object, including Snapshot(R) copy space, and is equivalent to the "Total Physical Used" field in the output of the "volume show-space" or "aggregate show-space" commands.
+

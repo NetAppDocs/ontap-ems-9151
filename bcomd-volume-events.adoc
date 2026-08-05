@@ -14,6 +14,9 @@ summary: bcomd.volume events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the SAN Kernel Agent is unable to process a volume LUN inventory update resulting from a Snapshot(R) copy restore operation.
+
 == bcomd.volume.update.lost
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ A volume LUN inventory change notification for Vserver %s volume %llu has been l
 *vserver* (STRING): Name of the Vserver.
 *volume* (LONGINT): MSID of the volume.
 *error* (STRING): Error preventing the update from being processed.
+

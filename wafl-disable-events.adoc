@@ -14,6 +14,9 @@ summary: wafl.disable events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the volume guarantee of a flexible volume is disabled due to aggregate space being physically overallocated.
+
 == wafl.disable.vol.guarantee
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Volume guarantee on volume "%s" is disabled after the aggregate "%s" becomes phy
 *Parameters*::
 *vol* (STRING): Volume name whose guarantee is getting disabled.
 *aggr* (STRING): The aggregate name on which the volume whose guarantee is getting disabled resides.
+

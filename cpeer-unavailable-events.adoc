@@ -14,6 +14,9 @@ summary: cpeer.unavailable events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a peer cluster becomes unavailable.
+
 == cpeer.unavailable
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Verify network connectivity between the local cluster and the peer cluster. It m
 Peer cluster %s is no longer available.
 *Parameters*::
 *peer* (STRING): Peer cluster that became unavailable.
+

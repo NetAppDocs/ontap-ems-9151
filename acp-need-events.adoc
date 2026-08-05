@@ -14,6 +14,9 @@ summary: acp.need events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Alternate Control Path (ACP) Administrator determines that the ACP processor is running an older firmware revision that supports only the Secure Socket Library (SSL) channel.
+
 == acp.need.firmware.update
 *Severity*::
 ERROR
@@ -40,3 +43,4 @@ IOM %s does not support InBand ACP. Upgrade the IOM to IOM6 or later for support
 *Parameters*::
 *inband_id* (STRING): Inband ID of the module.
 *shelf_sno* (STRING): Disk shelf serial number of the shelf where this IOM is seated.
+

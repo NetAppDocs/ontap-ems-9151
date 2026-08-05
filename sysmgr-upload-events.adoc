@@ -14,6 +14,9 @@ summary: sysmgr.upload events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an attempt to upload a file through the System Manager web service fails because the HTTP method is not POST.
+
 == sysmgr.upload.bad.method
 *Severity*::
 ERROR
@@ -111,3 +114,4 @@ Verify that the user name and password used to log in in to System Manager are c
 Failed to upload file "%s" because the user is unauthorized.
 *Parameters*::
 *file* (STRING): File name.
+

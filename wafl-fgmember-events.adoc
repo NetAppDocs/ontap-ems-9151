@@ -14,6 +14,9 @@ summary: wafl.fgmember events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a member of a FlexGroup experiences an unexpected rollback in its state due to a loss of the NVRAM log for the member.
+
 == wafl.fgmember.rollback
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ FlexGroup %u member %u/%u detected a rollback.
 *FlexGroupMSID* (LONGINTHEX): Volume master data set identifier (MSID) of the FlexGroup that experienced a rollback due to NVRAM loss.
 *FlexGroupMemberMSID* (LONGINTHEX): Volume master data set identifier (MSID) of the FlexGroup member that experienced a rollback due to NVRAM loss.
 *FlexGroupMemberDSID* (LONGINTHEX): Volume data set identifier (DSID) of the FlexGroup member that experienced a rollback due to NVRAM loss.
+

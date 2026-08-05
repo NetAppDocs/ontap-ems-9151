@@ -14,6 +14,9 @@ summary: raid.plex events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when disks in a plex do not have the same hardware-based pool.
+
 == raid.plex.faultIsolation.reminder
 *Severity*::
 ERROR
@@ -42,3 +45,4 @@ This message occurs when the system attempts to start up a plex and discovers th
 *vol* (STRING): Name of the aggregate.
 *plexId* (INT): Identifier of the plex.
 *vbn* (LONGINT): Starting VBN that is missing.
+

@@ -14,6 +14,9 @@ summary: vifmgr.cdb events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when attempting to merge a LIF from the configuration database (CDB) to the replicated database (RDB), and the LIF from the CDB is found to have the same address as an existing LIF in the RDB.
+
 == vifmgr.cdb.merge.dupip
 *Severity*::
 ALERT
@@ -41,3 +44,4 @@ This message occurs when the configuration database (CDB) for a node is not acce
 The CDB for node %s is not accessible.
 *Parameters*::
 *node* (STRING): Name of the node.
+

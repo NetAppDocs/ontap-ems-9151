@@ -14,6 +14,9 @@ summary: adt.service events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the volume that hosts the destination path where the final audit logs are stored is not accessible or does not have sufficient space and the audit consolidation service is not able to write to the volume.
+
 == adt.service.block
 *Severity*::
 EMERGENCY
@@ -55,3 +58,4 @@ Audit destination directory "%s" of Vserver "%s" for consolidation job of type "
 *destinationPath* (STRING): Destination path.
 *vserverName* (STRING): Name of the Storage Virtual Machine (SVM, formerly Vserver).
 *descriptor* (STRING): Type of consolidation job - CIFS/S3.
+

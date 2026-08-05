@@ -14,6 +14,9 @@ summary: wafl.ca events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the space used in the capacity tier of a FabricPool aggregate has exceeded or is projected to exceed the size limit set on the capacity tier.
+
 == wafl.ca.cap.tier.usage.limit
 *Severity*::
 ERROR
@@ -472,3 +475,4 @@ Inconsistency was found in the total object store space used by FabricPool aggre
 *Parameters*::
 *aggrname* (STRING): Name of the aggregate.
 *space_delta* (LONGINT): The estimated amount of space in bytes that could be overcounted as a result of other inconsistencies.
+

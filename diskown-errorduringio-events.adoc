@@ -14,6 +14,9 @@ summary: diskown.errorduringio events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued when an I/O error occurs during a sanown disk operation.
+
 == diskown.errorDuringIO
 *Severity*::
 ERROR
@@ -29,3 +32,4 @@ error %d (%s) on disk %s (S/N %s) while %s
 *diskname* (STRING): The name of the disk
 *serialno* (STRING): The serial number of the disk
 *details* (STRING): The operation that was going on
+

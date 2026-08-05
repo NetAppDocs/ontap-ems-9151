@@ -14,6 +14,9 @@ summary: wafl.c2c events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when attempt to increase volume max size limit during c2c restore fails due to an error.
+
 == wafl.c2c.increase.vol.max.size.failed
 *Severity*::
 ERROR
@@ -139,3 +142,4 @@ This message occurs when the size of a file being restored exceeds the maximum f
 *fileid* (INT): File identifier.
 *maxsize* (LONGINT): Maximum file size allowed on this system.
 *filesize* (LONGINT): Size of the file being restored.
+

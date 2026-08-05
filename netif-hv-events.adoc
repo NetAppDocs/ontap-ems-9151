@@ -14,6 +14,9 @@ summary: netif.hv events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the heartbeat between hypervisor and the guest virtual machine (VM) fails.
+
 == netif.hv.heartbeatFail
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Reboot the Cloud Volumes ONTAP (CVO) instance or run the following two commands 
 Failed to respond to heartbeat message from the hypervisor.
 *Parameters*::
 (None).
+

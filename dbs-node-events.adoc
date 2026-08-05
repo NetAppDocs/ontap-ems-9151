@@ -14,6 +14,9 @@ summary: dbs.node events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Distributed Block Store (DBS) detects a node with a maintenance mode failure.
+
 == dbs.node.maint.mode.alert
 *Severity*::
 ALERT
@@ -67,3 +70,4 @@ DBS has detected the Cluster Master cannot communicate with the master service o
 *cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
 *cfDetails* (STRING): Details of the node offline.
 *cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.
+

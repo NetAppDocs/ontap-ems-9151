@@ -14,6 +14,9 @@ summary: callhome.encl events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when contact to one or more disk shelf enclosure services (environmental monitoring) is lost, possibly due to storage cabling, adapter, or configuration problems.
+
 == callhome.encl.access
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Use the "storage errors show" command to display the current outstanding shelf e
 Call home for ENCLOSURE SERVICES ACCESS ERROR
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

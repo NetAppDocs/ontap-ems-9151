@@ -14,6 +14,9 @@ summary: vol.registryget events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a registry request finds no 512 or 520 BPS (bytes per sector) disks.
+
 == vol.registryGet.no512520BPS
 *Severity*::
 NOTICE
@@ -49,3 +52,4 @@ This message occurs when a registry request for zoned or block checksum volumes 
 No volume has zoned or block checksums.
 *Parameters*::
 (None).
+

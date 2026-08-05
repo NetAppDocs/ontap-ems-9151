@@ -14,6 +14,9 @@ summary: pha.vsa events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAP(R) software detects a device with a device descriptor length greater than 40 characters.
+
 == pha.vsa.uuid.too.long
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Detach the device from all ONTAP virtual machines, and then delete it. Create a 
 The device descriptor %s is too long and was not presented to ONTAP.
 *Parameters*::
 *Descriptor* (STRING): Descriptor of the device.
+

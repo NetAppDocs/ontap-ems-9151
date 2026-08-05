@@ -14,6 +14,9 @@ summary: rlib.ifconfig events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is generated when there is a link event on the MCC/IP managed interface.
+
 == rlib.ifconfig.linkEvent
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ This event is generated when there is a link event on the MCC/IP managed interfa
 *Parameters*::
 *ifname* (STRING): The name of the interface
 *eventType* (STRING): The event type
+

@@ -14,6 +14,9 @@ summary: dml.init events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Device Management Layer (DML) fails initialization.
+
 == dml.init.fail
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Retry the startup.
 Firestorm initialization failed with error code (%d).
 *Parameters*::
 *error_code* (INT): Failure code.
+

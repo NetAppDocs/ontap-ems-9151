@@ -14,6 +14,9 @@ summary: callhome.micro events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a "micro-core" file is available.
+
 == callhome.micro.core
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ Contact NetApp technical support.
 Call home for MICRO-CORE: %s
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

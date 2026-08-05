@@ -14,6 +14,9 @@ summary: vm.dev events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Data ONTAP(R) is running on a virtual platform, and slow I/O is detected.
+
 == vm.dev.diskSlowIO
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ Detach the device, and then reattach the device as writable.
 The device %s is write-protected and is not presented to ONTAP.
 *Parameters*::
 *device* (STRING): Device name.
+

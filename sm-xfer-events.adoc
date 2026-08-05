@@ -14,6 +14,9 @@ summary: sm.xfer events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when deletion of a Snapshot(tm) copy on the destination volume fails, and therefore a subsequent transfer exceeds the maximum supported Snapshot copy count for the vault destination.
+
 == sm.xfer.fail.del.snap
 *Severity*::
 ERROR
@@ -111,3 +114,4 @@ Snapshot count limit for SnapMirror relationship with source volume '%s' and des
 *dst_path* (STRING): Destination volume of the SnapMirror relationship.
 *relationship_id* (STRING): UUID of the snapmirror relationship.
 *warn_str* (STRING): SnapMirror transfer warning.
+

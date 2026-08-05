@@ -14,6 +14,9 @@ summary: scsiblade.pport events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+PPorts LIF migration started before BSH cancel completed.
+
 == scsiblade.pport.bsh.cancel.timeout
 *Severity*::
 NOTICE
@@ -57,3 +60,4 @@ FCP LIF "%s" persistence in Vserver "%s" failed to initialize. Error %u/%u: %s.
 *errortype* (INT): Error type.
 *error* (INT): Error code.
 *errorDecString* (STRING): Error description string.
+

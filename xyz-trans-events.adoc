@@ -14,6 +14,9 @@ summary: xyz.trans events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Copy-Free Transition's volume transition job, responsible for transitioning 7-Mode volumes to clustered Data ONTAP(R), starts.
+
 == xyz.trans.vol.start
 *Severity*::
 INFORMATIONAL
@@ -26,3 +29,4 @@ Copy-Free Transition session:%s volume transition job for %d volumes started.
 *Parameters*::
 *sessionId* (STRING): Unique session identification number.
 *numVolumes* (INT): Number of volumes transitioning.
+

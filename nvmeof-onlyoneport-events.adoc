@@ -14,6 +14,9 @@ summary: nvmeof.onlyoneport events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is no longer only one port cabled from a node to a shelf.
+
 == nvmeof.onlyoneport.clear
 *Severity*::
 NOTICE
@@ -39,3 +42,4 @@ There is only one port cabled from node %s to Shelf with SN %s.
 *Parameters*::
 *node_name* (STRING): Host name connected to the cable.
 *shelf_sn* (STRING): Serial number of the shelf connected to the cable.
+

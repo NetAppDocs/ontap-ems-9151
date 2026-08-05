@@ -14,6 +14,9 @@ summary: config.diffpool events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk is found to be multipathed to two different mirroring pools.
+
 == config.DiffPool
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ See the NetApp technical support site for guidelines about assigning disks or ar
 Disk %s is dual-attached to two separate mirrored pools. This is an illegal configuration.
 *Parameters*::
 *disk* (STRING): Name of the disk.
+

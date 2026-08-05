@@ -14,6 +14,9 @@ summary: sfu.downloadsuccess events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when disk shelf firmware updates successfully.
+
 == sfu.downloadSuccess
 *Severity*::
 INFORMATIONAL
@@ -28,3 +31,4 @@ This message occurs when disk shelf firmware updates successfully.
 *fileName* (STRING): Name of the file in /etc/shelf_fw that was being downloaded.
 *channelName* (STRING): Name of the adapter port or switch port on which the shelf firmware download occurred.
 *shelfId* (INT): ID of the disk shelf on which the disk shelf firmware download occurred.
+

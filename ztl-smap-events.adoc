@@ -14,6 +14,9 @@ summary: ztl.smap events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the specified partition on a SSD-ZNS drive could not be onlined due to internal S/W or device error.
+
 == ztl.smap.online.status
 *Severity*::
 NOTICE
@@ -31,3 +34,4 @@ Disk %s partition %d (first zone=%d, number of zones=%d) online operation failed
 *ha_err_status* (INT): Host Adapter error status.
 *nvme_err_code_type* (INT): NVME error code type.
 *nvme_err_code* (INT): NVME error for the specific NVME error code type.
+

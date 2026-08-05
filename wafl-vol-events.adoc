@@ -14,6 +14,9 @@ summary: wafl.vol events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system rejects client access to a volume.
+
 == wafl.vol.access.denied
 *Severity*::
 ERROR
@@ -944,3 +947,4 @@ Increasing the root volume size. Contact NetApp technical support for more infor
 Root volume (or aggregate) %s free space reserve is critically low.
 *Parameters*::
 *vol* (STRING): Root volume or aggregate name.
+

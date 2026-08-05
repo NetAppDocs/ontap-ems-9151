@@ -14,6 +14,9 @@ summary: disk.spindleerror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk returns a spindle detect error.
+
 == disk.spindleError.detect
 *Severity*::
 ERROR
@@ -45,3 +48,4 @@ Disk firmware has detected spindle motor problems. The option to recommend the d
 *sense_code* (INT): Actual sense code.
 *qualifier* (INT): Actual sense code qualifier.
 *fru_failed* (INT): Actual FRU code.
+

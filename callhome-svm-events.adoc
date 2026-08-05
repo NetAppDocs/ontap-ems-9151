@@ -14,6 +14,9 @@ summary: callhome.svm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Vserver migration failed to be aborted.
+
 == callhome.svm.mig.abort.fail
 *Severity*::
 ERROR
@@ -143,3 +146,4 @@ Call home for %s
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
 *epoch* (STRING): Identifying tag for multi-node AutoSupport.
+

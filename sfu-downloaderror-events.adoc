@@ -14,6 +14,9 @@ summary: sfu.downloaderror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk shelf firmware update fails to successfully download firmware to a disk shelf or shelves in the system.
+
 == sfu.downloadError
 *Severity*::
 ERROR
@@ -29,3 +32,4 @@ Redownload the latest disk shelf firmware from the NetApp Support Site at http:/
 *channelName* (STRING): Name of the adapter port or switch port on which the disk shelf firmware download error occurred.
 *shelfId* (INT): ID of the disk shelf on which the disk shelf firmware download. error occurred.
 *ErrorReason* (STRING): More information about the reason for download error.
+

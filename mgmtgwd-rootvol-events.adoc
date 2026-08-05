@@ -14,6 +14,9 @@ summary: mgmtgwd.rootvol events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system detects that a root volume might have changed, causing the local management databases to be out of sync with the replicated databases.
+
 == mgmtgwd.rootvol.recovery.changed
 *Severity*::
 EMERGENCY
@@ -61,3 +64,4 @@ Contact technical support to obtain the root volume recovery procedures.
 The contents of the root volume might have changed and the local management databases might be out of sync with the replicated databases due to corruption of NVLOG data during takeover. This node is not fully operational. Contact technical support to obtain the root volume recovery procedures.
 *Parameters*::
 (None).
+

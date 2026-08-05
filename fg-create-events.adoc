@@ -14,6 +14,9 @@ summary: fg.create events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a user creates a FlexGroup volume that has a workflow with a type that is not "auto".
+
 == fg.create.workflow.non.auto
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ FlexGroup volume "%s" in Vserver "%s" was created with workflow type "%s"
 *volumeName* (STRING): Name of the FlexGroup volume.
 *vserverName* (STRING): Name of the Vserver on which the FlexGroup volume resides.
 *workflow* (STRING): The type of workflow for the FlexGroup volume.
+

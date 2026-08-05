@@ -14,6 +14,9 @@ summary: ses.drive events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when disk drives are placed in locations that do not provide for proper signal integrity.
+
 == ses.drive.badPlacement
 *Severity*::
 ALERT
@@ -64,3 +67,4 @@ If the problem is throughout the disk shelf, replace the disk shelf. If the erro
 Possible actual locations for devices with unexpected addresses: %s.
 *Parameters*::
 *Msg* (STRING): Physical locations of disks that do not have expected addresses in the adapter's map of disks.
+

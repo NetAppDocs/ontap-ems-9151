@@ -14,6 +14,9 @@ summary: exports.policy events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an export policy with no rules is assigned to a volume or a qtree.
+
 == exports.policy.empty
 *Severity*::
 NOTICE
@@ -53,3 +56,4 @@ There are two possible actions. Delete an existing export policy rule using the 
 The cluster export policy rule limit (%s rules) has crossed the supported value.
 *Parameters*::
 *ruleLimit* (STRING): Count of the export policy rule cluster limit.
+

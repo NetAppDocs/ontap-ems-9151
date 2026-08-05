@@ -14,6 +14,9 @@ summary: ipsec.ib events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an inbound IPsec packet cannot be successfully decrypted.
+
 == ipsec.ib.bad.encrypt
 *Severity*::
 ALERT
@@ -65,3 +68,4 @@ IPsec: Inbound %s packet %s ==> %s security policy violation.
 *protocol* (STRING): Packet protocol.
 *srcAddr* (STRING): Source IP address.
 *dstAddr* (STRING): Destination IP address.
+

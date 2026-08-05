@@ -14,6 +14,9 @@ summary: netif.nicnotsupported events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the installed network interface card (NIC) version is not supported.
+
 == netif.nicNotSupported
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ The NIC in slot %d is not supported. The %s is not supported.
 *Parameters*::
 *slot* (INT): Slot number of the NIC.
 *reason* (STRING): Specific reason the NIC is not supported.
+

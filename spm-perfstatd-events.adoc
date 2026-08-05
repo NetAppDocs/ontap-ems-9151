@@ -14,6 +14,9 @@ summary: spm.perfstatd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the perfstat daemon (perfstatd) involuntarily terminates.
+
 == spm.perfstatd.process.exit
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ The perfstat daemon(perfstatd) with ID %d exited as a result of %s. This server 
 *Parameters*::
 *id* (INT): Process identifier.
 *cause* (STRING): Plain text description of why the process exited.
+

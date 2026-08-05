@@ -14,6 +14,9 @@ summary: copy.dst events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued when a SnapMirror or aggregate copy operation attempts to update a flexible volume RAID block on the destination but is unable to do so.
+
 == copy.dst.raid.convert.fail
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ Verify the source and destination have flexible volumes with compatible versions
 Unable to convert volume RAID block %llu during copy transfer.
 *Parameters*::
 *block* (LONGINT): Block with the error
+

@@ -14,6 +14,9 @@ summary: wafl.fsa events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when enabling file system analytics on a volume with autosize enabled fails because there is insufficient space in the volume.
+
 == wafl.fsa.autosize.valid.fail
 *Severity*::
 ERROR
@@ -29,3 +32,4 @@ Enabling file system analytics on %s "%s" in SVM "%s" with "%s" usage while its 
 *vserverName* (STRING): Name of the storage virtual machine (SVM) on which the volume resides.
 *spaceUsed* (STRING): Space usage in the volume, represented in bytes.
 *volSize* (STRING): Volume size, represented in bytes.
+

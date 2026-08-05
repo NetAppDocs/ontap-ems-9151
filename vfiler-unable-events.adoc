@@ -14,6 +14,9 @@ summary: vfiler.unable events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs during vFiler(tm) unit discovery, if one of the vFiler(tm) unit module initialization functions fails.
+
 == vFiler.unable.initModules
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ This message occurs during vFiler(tm) unit discovery, if one of the vFiler(tm) u
 Could not initialize modules for vFiler unit "%s".
 *Parameters*::
 *vfName* (STRING): The vFiler unit on the source.
+

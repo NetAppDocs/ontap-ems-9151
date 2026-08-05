@@ -14,6 +14,9 @@ summary: monitor.iocard events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message indicates that an I/O card is degraded.
+
 == monitor.ioCard.degraded
 *Severity*::
 ALERT
@@ -37,3 +40,4 @@ None.
 IO card on slot %d is OK
 *Parameters*::
 *slot_number* (INT): Slot number of the card.
+

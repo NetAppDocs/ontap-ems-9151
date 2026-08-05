@@ -14,6 +14,9 @@ summary: sis.vol events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when deprioritized volume gets auto promoted.
+
 == sis.vol.auto.promote
 *Severity*::
 NOTICE
@@ -69,3 +72,4 @@ Automatic deduplication on volume "%s" is deprioritized: significant percentage 
 *Parameters*::
 *vvol_name* (STRING): Volume name.
 *high_verify_pct* (INT): Percentage of cumulative stale fingerprint removal operations after the fifth iteration of automatic deduplication runs.
+

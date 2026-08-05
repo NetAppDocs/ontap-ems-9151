@@ -14,6 +14,9 @@ summary: nvdimm.flash events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the NVDIMM device exceeds its warning threshold.
+
 == nvdimm.flash.lifetime.low
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ Service lifetime of NVDIMM device in slot-%d is low at %d%%.
 *Parameters*::
 *slot* (INT): NVDIMM slot location.
 *percent* (INT): Lifetime percentage.
+

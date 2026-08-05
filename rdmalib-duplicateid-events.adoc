@@ -14,6 +14,9 @@ summary: rdmalib.duplicateid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the local node system identifier matches the partner node's system identifier.
+
 == rdmalib.duplicateId
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Contact NetApp technical support.
 Interconnect : Partner ID %u is the same as our id.
 *Parameters*::
 *id* (INT): System Id
+

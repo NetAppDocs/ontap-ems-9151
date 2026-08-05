@@ -14,6 +14,9 @@ summary: sis.default events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs whenever volume move is done from a non All Flash Optimized node to an All Flash Optimized node and we attempt to enable storage efficiency features and automatic offline volume efficiency.
+
 == sis.default.auto.se.enable
 *Severity*::
 NOTICE
@@ -40,3 +43,4 @@ Failed to enable automatic offline volume efficiency features for volume %s on a
 *vvol_name* (STRING): Flex volume name.
 *aggr_name* (STRING): Aggregate name.
 *reason* (STRING): Reason for the failure.
+

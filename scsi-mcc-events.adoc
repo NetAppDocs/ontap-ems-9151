@@ -14,6 +14,9 @@ summary: scsi.mcc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+Generated when an I/O request encounters an error because of an iSCSI Protocol Error, a end device error, or some stack internal error.
+
 == scsi.mcc.adt.ioTransportError
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ mcc_adt[%u] - Transport error during execution of command: HA status 0x%x: CAM t
 *ha_status* (INTHEX): Value returned by the host adapter driver describing completion status of I/O request execution at the transport or physical link layer.
 *cam_status* (INTHEX): Value returned by the host adapter driver in the FreeBSD CAM transport layer
 *cdb* (STRING): A string containing the opcode byte of the CDB which was sent to the device. If the opcode was for a READ (0x28) or a WRITE (x02a) command, the logical block address and the transfer length are included as well.
+

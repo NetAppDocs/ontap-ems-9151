@@ -14,6 +14,9 @@ summary: shm.ssd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAP(R) detects that a solid-state drive (SSD) has an average block latency during a five-minute timeframe that is greater than expected.
+
 == shm.ssd.threshold.ioLatency
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ SSD %s has exceeded the expected block latency in the current timeframe with an 
 *util_avg* (INT): Average drive utilization percent in the current timeframe.
 *next_hi_latency_avg* (INT): Average block latency for the SSD with the next highest block latency in the current timeframe.
 *disk_information* (STRING): Formatted information about the disk. This includes the disk's vendor, model, firmware revision, and serial number.
+

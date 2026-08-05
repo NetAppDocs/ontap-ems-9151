@@ -14,6 +14,9 @@ summary: snapdiff.rebl events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when SnapDiff(R), the snapshot copy differencing engine, encounters an absent allocated block.
+
 == snapdiff.rebl.absent.allocated.block
 *Severity*::
 INFORMATIONAL
@@ -56,3 +59,4 @@ Encountered invalid modify time on inode %u in Snapshot copy ID %u of volume %u.
 *inode_num* (INT): Identifier of the affected file.
 *snap_id* (INT): Identifier of the Snapshot copy.
 *fsid* (INT): Identifier of the volume.
+

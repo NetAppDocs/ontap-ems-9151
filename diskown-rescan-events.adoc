@@ -14,6 +14,9 @@ summary: diskown.rescan events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the high-availability (HA) messaging layer fails to connect to the specified node for disk ownership updates.
+
 == diskown.rescan.notConnected
 *Severity*::
 ERROR
@@ -43,3 +46,4 @@ HA messaging layer on the local node failed to send a disk ownership update mess
 *status* (INT): Error number returned by the HA messaging layer from the HA message error space.
 *scope* (INT): Internal scope identifier for the module that returned the error.
 *scope_err* (INT): Internal error number returned by the module.
+

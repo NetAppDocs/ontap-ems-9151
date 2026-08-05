@@ -14,6 +14,9 @@ summary: diskown.diskhaswronginfo events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the disk ownership information on a disk does not belong to the disk that it was read from.
+
 == diskown.diskHasWrongInfo
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ Disk %s (S/N %s) has ownership information for disk %s (S/N %s) on it.
 *serialno* (STRING): Serial number of the disk from which the ownership information was read.
 *infoForDiskname* (STRING): Name of the disk that the ownership information is for.
 *infoForSerialno* (STRING): Serial number of the disk that the ownership information is for.
+

@@ -14,6 +14,9 @@ summary: wafl.iron events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when wafliron is running on a transitioned aggregate in precommit phase and there are 7-Mode volumes present.
+
 == wafl.iron.7mode
 *Severity*::
 ERROR
@@ -917,3 +920,4 @@ This message is used to print on the console that the volumes selected for ironi
 Some of the volumes selected for ironing do not exist in the aggregate %s.
 *Parameters*::
 *aggr* (STRING): Name of the aggregate.
+

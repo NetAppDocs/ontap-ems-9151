@@ -14,6 +14,9 @@ summary: air.evicted events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Automated Incremental Repair (AIR) subsystem evicts an entry in the qtree metafile because of inconsistent data within that entry.
+
 == air.evicted.qtm.entry
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ Qtree entry certification failed at %s. In the qtree metafile %d, AIR evicted an
 *inode* (INT): Inode number of the qtree metafile.
 *tid* (INT): TID.
 *volume* (STRING): Name of the volume.
+

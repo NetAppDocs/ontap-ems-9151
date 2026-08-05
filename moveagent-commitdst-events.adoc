@@ -14,6 +14,9 @@ summary: moveagent.commitdst events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a 'volume move' operation finishes moving the volume to the destination but fails to update the appropriate information on the destination.
+
 == moveagent.commitdst.fail
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Monitor the volume move job. If the problem persists, contact NetApp technical s
 Unable to finish the volume move operation for DSID %llu. Failed to commit the destination volume.
 *Parameters*::
 *volume_dsid* (LONGINT): Destination volume Data Set ID (DSID).
+

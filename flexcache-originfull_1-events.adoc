@@ -14,6 +14,9 @@ summary: flexcache.originfull_1 events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a FlexCache(R) volume cannot retrieve data from its origin volume because origin volume is full.
+
 == flexcache.originFull_1
 *Severity*::
 ALERT
@@ -30,3 +33,4 @@ FlexCache volume with Name %s MSID %lu on Vserver Name %s UUID %s may not be abl
 *cacheVserverUuid* (STRING): Vserver UUID of the FlexCache volume.
 *originVserverUuid* (STRING): Vserver UUID of the origin volume.
 *originMsid* (LONGINT): Master data set identifier (MSID) of the origin volume.
+

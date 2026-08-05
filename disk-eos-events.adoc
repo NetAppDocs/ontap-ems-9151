@@ -14,6 +14,9 @@ summary: disk.eos events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk is detected that is not supported in this version of Data ONTAP(R) or later
+
 == disk.EOS.OS.error
 *Severity*::
 ALERT
@@ -27,3 +30,4 @@ Remove the disk and replace it with a disk that is supported.
 *disk_information* (STRING): Disk information.
 *EOS_OS_version* (STRING): Latest version of Data ONTAP supported by the disk.
 *cur_OS_version* (STRING): Current version of Data ONTAP.
+

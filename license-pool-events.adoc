@@ -14,6 +14,9 @@ summary: license.pool events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a storage failover giveback is vetoed because the aggregate has no valid capacity lease from the capacity pool.
+
 == license.pool.sfo.gb.veto
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ If the node could not check the compliance status of an aggregate, check that th
 SFO giveback vetoed. %s.
 *Parameters*::
 *reason* (STRING): Explanation for the veto.
+

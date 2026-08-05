@@ -14,6 +14,9 @@ summary: monitor.nvramlowbattery events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the NVRAM battery is at a dangerously low power level.
+
 == monitor.nvramLowBattery
 *Severity*::
 EMERGENCY
@@ -39,3 +42,4 @@ If the NVRAM battery is dangerously low, the system shuts down automatically eve
 *timeout1* (INT): Timeout value.
 *timeout2* (INT): Timeout value.
 *timeout3* (INT): Timeout value.
+

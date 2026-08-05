@@ -14,6 +14,9 @@ summary: bsdsocket.queuelimit events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the number of connection requests for a socket reaches the maximum.
+
 == bsdsocket.queueLimit.reached
 *Severity*::
 ERROR
@@ -29,3 +32,4 @@ Number of connection requests for the socket bound to port %d having the IP addr
 *limit* (INT): Maximum number of connection requests per socket.
 *protocol* (STRING): Protocol used by the socket.
 *count* (LONGINT): Number of occurrences for this event since the last warning.
+

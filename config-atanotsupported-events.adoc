@@ -14,6 +14,9 @@ summary: config.atanotsupported events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an ATA disk is found, but the appliance does not support it.
+
 == config.ATAnotSupported
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Remove the ATA disks or upgrade your appliance to a model that supports ATA disk
 ATA disks are not supported on this appliance. Disk %s is an ATA disk and should be removed.
 *Parameters*::
 *disk* (STRING): Name of the disk.
+

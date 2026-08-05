@@ -14,6 +14,9 @@ summary: qos.viodet events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Quality of Service (QoS) subsystem has already throttled requests severely to help workloads meet their min-throughput and their service-level objectives (SLOs) and will not throttle any further.
+
 == qos.VioDet.maxThrottle
 *Severity*::
 NOTICE
@@ -66,3 +69,4 @@ QoS subsystem cannot publish throttle limits.
 *Parameters*::
 *object_type* (STRING): Type of resource object under notification. For this EMS, the object_type will always be NODE.
 *object_uuid* (STRING): UUID of the resource object. For this EMS, the UUID will be of the node.
+

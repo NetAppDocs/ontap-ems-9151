@@ -14,6 +14,9 @@ summary: dev.driver events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an I/O driver is throttling I/O requests because the underlying controller is overloaded with I/O requests.
+
 == dev.driver.throttling
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ This message occurs when an I/O driver is throttling I/O requests because the un
 *reason* (STRING): Reason for throttling.
 *current_throttle_sendq* (INT): Current throttle value for send requests
 *lowest_throttle_sendq* (INT): Lowest throttle value for send requests
+

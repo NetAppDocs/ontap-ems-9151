@@ -14,6 +14,9 @@ summary: config.habadbank1 events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a local host adapter is connected to a different switch bank (on ports 8-15) than other adapters on this controller, which are connected to ports 0-7.
+
 == config.HABadBank1
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Connect all of the adapters of this controller to the same bank of switch ports.
 Other local host adapters are connected to Switch bank 1 (ports 0-7). Host adapter %s is connected to Switch bank 2 (ports 8-15). This is an illegal configuration.
 *Parameters*::
 *ha* (STRING): Name of the host adapter.
+

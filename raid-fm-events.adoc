@@ -14,6 +14,9 @@ summary: raid.fm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event contains summary information for the disaster takeover.
+
 == raid.fm.disasterSummary
 *Severity*::
 ERROR
@@ -167,3 +170,4 @@ Partner volume %s FSID was rewritten during HA disaster takeover. Clients must b
 *vol* (STRING): Name of the aggregate.
 *oldFsid* (INT): Old fsid
 *newFsid* (INT): New fsid
+

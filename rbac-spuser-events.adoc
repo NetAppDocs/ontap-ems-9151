@@ -14,6 +14,9 @@ summary: rbac.spuser events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the role that was earlier associated with the service-processor application user in a previous release was deleted in the current release and is not found during a revert to a previous release.
+
 == rbac.spuser.role.notfound
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Role "%s" for service-processor user "%s" was not found on SVM "%s".
 *role_name* (STRING): Name of the role which was deleted.
 *user_name* (STRING): Name of the user for which the role modification failed.
 *vserver_name* (STRING): Name of the SVM.
+

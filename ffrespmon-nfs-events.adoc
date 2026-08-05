@@ -14,6 +14,9 @@ summary: ffrespmon.nfs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a data interface's IP address is unreachable.
+
 == ffRespMon.nfs.unresponsive
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ Data IP address %s (ID: %u), hosted on node %s (ID: %u, Uuid: %s), is currently 
 *nodeName* (STRING): Name of the node hosting given data IP.
 *nodeID* (INT): Unique identifier of the node hosting given data IP.
 *nodeUuid* (STRING): Universal unique identifier of the node hosting given data IP.
+

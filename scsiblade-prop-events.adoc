@@ -14,6 +14,9 @@ summary: scsiblade.prop events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a CTRAN "proposal done" message is not received.
+
 == scsiblade.prop.done.error
 *Severity*::
 EMERGENCY
@@ -27,3 +30,4 @@ An internal error occurred in a %s group (MSID: %llu). The Vserver %s will not b
 *groupType* (STRING): CTRAN group type.
 *volumeMSID* (LONGINT): MSID of the volume in case the CTRAN group type is "volume"; otherwise, 0.
 *vserver* (STRING): Name or UUID of the Vserver.
+

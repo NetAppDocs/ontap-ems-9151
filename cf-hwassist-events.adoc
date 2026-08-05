@@ -14,6 +14,9 @@ summary: cf.hwassist events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the hardware-assist module automatically picked a local IP address for the hardware-assisted takeover feature.
+
 == cf.hwassist.Default.NodemgmtAddr
 *Severity*::
 INFORMATIONAL
@@ -355,3 +358,4 @@ None.
 hw_assist: Received unknown signal 0x%x.
 *Parameters*::
 *sigmask* (INT): Signal received by hwassist thread.
+

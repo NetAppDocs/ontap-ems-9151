@@ -14,6 +14,9 @@ summary: netif.badoversizepacket events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the network interface card (NIC) receives a bad oversize packet.
+
 == netif.badOversizePacket
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Try a different switch port.
 Bad oversize packet received on network interface %s. Check for NIC receive errors (CRC, runts, fragments). Might indicate a bad switch port.
 *Parameters*::
 *ifName* (STRING): Name of the network interface; for example, "e8a".
+

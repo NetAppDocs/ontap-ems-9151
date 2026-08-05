@@ -14,6 +14,9 @@ summary: exports.dom events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the reverse lookup record mapping an IP address to its hostname cannot be found in the configured name servers.
+
 == exports.dom.notFound
 *Severity*::
 ERROR
@@ -44,3 +47,4 @@ IP address "%s" could not be resolved to a hostname (error %d) when evaluating e
 *ruleindex* (INT): Index of the export-policy rule for which the problem is occurring.
 *policyid* (LONGINT): Identifier for the export-policy owning the export-policy rule.
 *vserver* (STRING): Name of the data Vserver for which the problem is occurring.
+

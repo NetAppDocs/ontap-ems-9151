@@ -14,6 +14,9 @@ summary: rlib.mccip events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is generated if any error occurs while configuring MCC/IP.
+
 == rlib.mccip.config.failure
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ This event is generated if any of the environment data relating to the configura
 (None).
 *Parameters*::
 *objectOper* (STRING): Interface being configured.
+

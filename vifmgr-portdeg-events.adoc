@@ -14,6 +14,9 @@ summary: vifmgr.portdeg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an administrative action adds a port with a degraded health status to an interface group.
+
 == vifmgr.portDeg.ifgrpAdded
 *Severity*::
 NOTICE
@@ -74,3 +77,4 @@ Vlan %s is created on a degraded port %s, node %s.
 *vlanName* (STRING): Name of the VLAN created on the degraded port.
 *portName* (STRING): Name of the degraded port on which the VLAN was created.
 *nodeName* (STRING): Name of the node on which the degraded port resides.
+

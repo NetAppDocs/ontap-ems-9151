@@ -14,6 +14,9 @@ summary: config.sas2domain events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk is multipathed to one SAS domain; that is, both ports of the disk are visible from the same HBA port.
+
 == config.SAS2Domain
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Recable the disk shelf containing the specified disk, so that the two disk ports
 Disk %s is multipathed to the same SAS domain. The two disk ports must be in different SAS domains.
 *Parameters*::
 *disk* (STRING): Name of the disk.
+

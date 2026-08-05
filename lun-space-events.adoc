@@ -14,6 +14,9 @@ summary: lun.space events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the space reservation settings for the named volume are not honored in its containing aggregate.
+
 == LUN.space.resv.not.honored
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Space reservations in volume %s (DSID %llu) are not honored, either because the 
 *Parameters*::
 *volume_name* (STRING): Name of the volume for which reservations are not honored.
 *volume_dsid* (LONGINT): Data Set ID (DSID) of the volume for which reservations are not honored.
+

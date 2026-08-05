@@ -14,6 +14,9 @@ summary: fci.device events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Fibre Channel port transmits a frame that is rejected.
+
 == fci.device.general.reject
 *Severity*::
 INFORMATIONAL
@@ -92,3 +95,4 @@ Loop recovery event caused by the device upstream from %s device %s.
 *Parameters*::
 *deviceType* (STRING): Type of device.
 *deviceName* (STRING): Name of the device.
+

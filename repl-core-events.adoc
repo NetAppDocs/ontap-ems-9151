@@ -14,6 +14,9 @@ summary: repl.core events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a replication transfer that completed ten or more minutes ago is found and subsequently cleaned up.
+
 == repl.core.nanny.cleanup
 *Severity*::
 INFORMATIONAL
@@ -29,3 +32,4 @@ The replication transfer identified by transfer Id %s was cleaned up since the t
 *failureReason* (INT): Failure reason code if there was a failure. Zero is returned on success.
 *failureMsg* (INT): Failure message code if there was a failure. Zero is returned on success.
 *failureMsgDetail* (INT): Failure message detail code if there was a failure. Zero is returned on success.
+

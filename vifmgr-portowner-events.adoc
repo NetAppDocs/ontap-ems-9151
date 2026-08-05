@@ -14,6 +14,9 @@ summary: vifmgr.portowner events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a port receives a configuration error.
+
 == vifmgr.portowner.err
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Node %s port %s has an invalid port role type. Only node-mgmt network ports can 
 *Parameters*::
 *nodename* (STRING): Name of the node on which the affected port resides.
 *portname* (STRING): Name of the affected port.
+

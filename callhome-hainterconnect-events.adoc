@@ -14,6 +14,9 @@ summary: callhome.hainterconnect events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the high-availability (HA) interconnect is down.
+
 == callhome.hainterconnect.down
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ Call home for %s due to %s.
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
 *reason* (STRING): Reason for interconnect down.
+

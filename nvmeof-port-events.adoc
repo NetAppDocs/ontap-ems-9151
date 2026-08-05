@@ -14,6 +14,9 @@ summary: nvmeof.port events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the mode of an NVMe-oF port is changed.
+
 == nvmeof.port.modify
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Changing NVMe-oF port %s to %s mode.
 *Parameters*::
 *port* (STRING): Name of port being configured.
 *mode* (STRING): Mode in which to configure port: network or storage.
+

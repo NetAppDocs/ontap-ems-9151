@@ -14,6 +14,9 @@ summary: wafl.replay events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a partner aggregate is mounted early before replay.
+
 == wafl.replay.aggr.early.mt
 *Severity*::
 NOTICE
@@ -121,3 +124,4 @@ FSID collision mapping created during replay for %s %s%s%s old fsid:%x, new fsid
 *old_fsid* (INTHEX): Old filesystem identifier
 *new_fsid* (INTHEX): New filesystem identifier
 *uuid* (STRING): UUID of the volume
+

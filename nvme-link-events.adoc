@@ -14,6 +14,9 @@ summary: nvme.link events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the NVMe driver disables the PCIe link due to excessive errors.
+
 == nvme.link.disabled.error
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ Remove or replace the NVMe SSD.
 PCIe link initialization error for NVMe SSD in slot %d.
 *Parameters*::
 *slot* (INT): Slot number of associated NVMe SSD.
+

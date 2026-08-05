@@ -14,6 +14,9 @@ summary: san.volrehostsanbestpractice events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs on clustered Data ONTAP(R) systems for Volume Rehost operation when the destination Vserver does not comply with the SAN best practice.
+
 == san.volRehostSANBestPractice
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Node "%s" for Vserver "%s" does not comply SAN Best Practice to create LUN maps.
 *Parameters*::
 *node_name* (STRING): Node name.
 *vserver_name* (STRING): Vserver name.
+

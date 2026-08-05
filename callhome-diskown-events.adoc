@@ -14,6 +14,9 @@ summary: callhome.diskown events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when too many disks have been installed.
+
 == callhome.diskown.AssignExceeded
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Review the system capacity limits and the assigned disks on this system. If poss
 Call home for ATTEMPTED TO ASSIGN MORE DISKS THAN MAXIMUM SUPPORTED.
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

@@ -14,6 +14,9 @@ summary: repl.seq events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the SnapMirror sequential split is enabled on a SAN operating workload.
+
 == repl.seq.split.enabled.SAN
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Switch back to parallel split mode by running the command "snapmirror policy mod
 Sequential splitting mode is enabled in SAN operating workload for relationship with UUID "%s".
 *Parameters*::
 *relationship_id* (STRING): SnapMirror relationship universal unique identifier (UUID).
+

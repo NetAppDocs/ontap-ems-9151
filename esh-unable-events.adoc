@@ -14,6 +14,9 @@ summary: esh.unable events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk shelf cannot be added due to a memory allocation failure during disk shelf discovery processing.
+
 == esh.unable.add.shelf
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ If the error occurs upon addition of a disk shelf to a running system, disconnec
 Could not perform disk shelf add because of memory allocation failure (%s).
 *Parameters*::
 *name* (STRING): Where in the disk shelf add path the error occurred.
+

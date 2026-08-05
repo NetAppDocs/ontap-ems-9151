@@ -14,6 +14,9 @@ summary: aws.dev events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAP(R) is running as an instance in Amazon Web Services (AWS), and a data disk failure occurs because of an I/O hang.
+
 == aws.dev.diskFailure
 *Severity*::
 ERROR
@@ -54,3 +57,4 @@ The volume being added is attached to an unsupported device name #%d(%s). Data O
 *Parameters*::
 *unit* (INT): Device unit number.
 *devname* (STRING): Device name.
+

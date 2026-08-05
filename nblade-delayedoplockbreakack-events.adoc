@@ -14,6 +14,9 @@ summary: nblade.delayedoplockbreakack events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message appears when the SMB clients experience delays in responding to oplock recalls.
+
 == Nblade.delayedOplockBreakAck
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ Check the client's network connection, evaluate processing load, and ensure no o
 SMB Clients are showing delays in responding to oplock recalls, potentially due to network latency, heavy processing load, or other factors impacting responsiveness.
 *Parameters*::
 (None).
+

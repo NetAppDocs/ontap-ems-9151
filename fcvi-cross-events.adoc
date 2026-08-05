@@ -14,6 +14,9 @@ summary: fcvi.cross events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the fcvi driver detects a cross connection
+
 == fcvi.cross.connect.detected
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ FC-VI adapter: Cross Connection detected between local port %s and remote port %
 *rname* (STRING): Remote node's port name.
 *lsid* (LONGINT): Local node's system id.
 *rsid* (LONGINT): Remote node's system id.
+

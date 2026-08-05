@@ -14,6 +14,9 @@ summary: icmp.ping events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system receives a burst of ICMP ping packet within a one-second interval.
+
 == icmp.ping.throttle
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ icmp_input: The system dropped %d ping packets after limiting the packets to %d 
 *Parameters*::
 *pingDropped* (INT): ICMP_ECHO packets dropped due to throttling since the last time this message was generated.
 *icmpLimit* (INT): Maximum number of ICMP packets per second.
+

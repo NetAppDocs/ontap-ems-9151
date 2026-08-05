@@ -14,6 +14,9 @@ summary: dbs.ikm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Distributed Block Store (DBS) event relating to Internal Key Management (IKM) occurs, such as purging a key.
+
 == dbs.ikm
 *Severity*::
 NOTICE
@@ -33,3 +36,4 @@ DBS IKM event %s occurred, type %s, service %u, node %u/%s. drive %u/%s, eventID
 *driveUuid* (STRING): Generated UUID of the associated drive. It diplays zeroes if there is no associated drive.
 *evtID* (INT): DBS event ID number.
 *evtDetails* (STRING): Specific details of the DBS event. It may be a string, in JSON format, or empty.
+

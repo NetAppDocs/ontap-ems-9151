@@ -14,6 +14,9 @@ summary: adt.wrkrthrd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when audit initialization fails because the necessary execution threads cannot be created.
+
 == adt.wrkrthrd.create.fail
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Available system resources are required for this feature to function. The best w
 Audit subsystem internal error: Could not start required audit worker threads; system reboot might be required.
 *Parameters*::
 (None).
+

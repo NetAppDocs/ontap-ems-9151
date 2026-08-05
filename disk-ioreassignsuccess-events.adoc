@@ -14,6 +14,9 @@ summary: disk.ioreassignsuccess events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a medium error is detected on a disk and the sector reassignment succeeds.
+
 == disk.ioReassignSuccess
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ disk %s: sector %llu was reassigned (%d). %s
 *sector* (LONGINT): Sector where the error was detected.
 *CTime* (INT): Time, in milliseconds, from when the command was first issued until this I/O operation completed.
 *disk_information* (STRING): Formatted information about the disk. This includes the disk's vendor, model, firmware revision, and serial number.
+

@@ -14,6 +14,9 @@ summary: dbs.ie events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Distributed Block Store (DBS) internal interface exception condition occurs.
+
 == dbs.ie
 *Severity*::
 NOTICE
@@ -33,3 +36,4 @@ A DBS IE event %s of type %s occurred for Service ID %u on node %u/%s. Drive ID 
 *driveUuid* (STRING): Generated UUID of the associated drive. It displays zeroes if there is no associated drive.
 *evtID* (INT): DBS event ID number.
 *evtDetails* (STRING): Specific details of the DBS event. It displays as a string, in JSON format, or is empty.
+

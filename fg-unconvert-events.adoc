@@ -14,6 +14,9 @@ summary: fg.unconvert events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a member of a FlexGroup fails to be converted into an independent FlexVol(R) volume.
+
 == fg.unconvert.critical.fail
 *Severity*::
 ALERT
@@ -71,3 +74,4 @@ FlexGroup member #%u of %u in FlexGroup %s was successfully converted into an in
 *fgindex* (INT): FlexGroup index of the volume being converted to a FlexVol volume.
 *fgmembers* (INT): Total number of members in this FlexGroup.
 *fgname* (STRING): Name of the FlexGroup containing the member being converted to a FlexVol volume.
+

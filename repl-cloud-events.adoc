@@ -14,6 +14,9 @@ summary: repl.cloud events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the replication engine encounters an inconsistent block in the cloud.
+
 == repl.cloud.incons.buf
 *Severity*::
 ERROR
@@ -45,3 +48,4 @@ REPL cloud inconsistent: Corrupted cloud data detected in cloud Snapshot copy:%s
 *snapshot_name* (STRING): Cloud Snapshot copy name.
 *snapshot_uuid* (STRING): Cloud Snapshot copy Universally Unique ID (UUID).
 *object_name* (STRING): Cloud object name.
+

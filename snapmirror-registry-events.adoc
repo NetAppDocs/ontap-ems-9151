@@ -14,6 +14,9 @@ summary: snapmirror.registry events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system cleans up an invalid value in SnapMirror(R) registry.
+
 == snapmirror.registry.cleanup
 *Severity*::
 INFORMATIONAL
@@ -26,3 +29,4 @@ Cleanup invalid registry %s: %s.
 *Parameters*::
 *type* (STRING): SnapMirror registry key or value .
 *invalid* (STRING): Invalid SnapMirror registry key or value.
+

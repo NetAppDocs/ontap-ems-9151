@@ -14,6 +14,9 @@ summary: wafl.br events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued if block reallocation has not been performed on an aggregate but a reallocated block was found that subsequently needs to be redirected.
+
 == wafl.br.redir.invalid
 *Severity*::
 ALERT
@@ -40,3 +43,4 @@ The redirect scanner cannot complete its scan on '%s%s%s' because there is not e
 *volname* (STRING): Volume name.
 *app* (STRING): Application UUID.
 *volident* (STRING): Unique identifier the volume in cases where the volume name itself is insufficient.
+

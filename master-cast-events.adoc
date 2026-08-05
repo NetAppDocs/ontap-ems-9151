@@ -14,6 +14,9 @@ summary: master.cast events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the master service of the associated node cannot connect to current cluster master.
+
 == master.cast.cm.vote.against
 *Severity*::
 NOTICE
@@ -33,3 +36,4 @@ Service ID %u on node ID %u (UUID: %s) has voted against current cluster master 
 *currentState* (STRING): Current MVIP address connection state.
 *currentStateDuration* (STRING): Duration of current MVIP address connection state.
 *highestState* (STRING): Best MVIP address connection state reached since the node connected to current cluster master.
+

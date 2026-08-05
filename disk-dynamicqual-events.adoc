@@ -14,6 +14,9 @@ summary: disk.dynamicqual events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when dynamic device qualification fails due to an invalid /etc/qual_devices file.
+
 == disk.dynamicqual.fail.parse
 *Severity*::
 ERROR
@@ -89,3 +92,4 @@ Device qualification failure has not been corrected for the past %d hour(s). The
 *Parameters*::
 *time* (INT): Time until forced shutdown.
 *disklist* (STRING): List of disks that are still not qualified.
+

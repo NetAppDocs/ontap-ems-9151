@@ -14,6 +14,9 @@ summary: callhome.nvme events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a directly attached NVMe module has worn out and is at the end of its write life.
+
 == callhome.nvme.exhausted
 *Severity*::
 ALERT
@@ -44,3 +47,4 @@ Callhome for %s.
 *model* (STRING): Model number of the NVMe device.
 *slot_subslot* (STRING): PCI slot/subslot of the NVMe device.
 *code* (LONGINTHEX): Bit-encoded error that caused the event.
+

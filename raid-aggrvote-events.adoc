@@ -14,6 +14,9 @@ summary: raid.aggrvote events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the mirror vote pull from the replicated database (RDB) to the mailbox fails.
+
 == raid.aggrvote.pullNotOk
 *Severity*::
 INFORMATIONAL
@@ -57,3 +60,4 @@ RAID: mirror vote update to the RDB succeeded for aggregate UUID %s (num of plex
 *plex0_id* (INT): ID of plex 0 in the mirror vote.
 *plex1_id* (INT): ID of plex 1 in the mirror vote.
 *action_type* (STRING): Action performed on the RDB table entry. "CREATE" or "MODIFY".
+

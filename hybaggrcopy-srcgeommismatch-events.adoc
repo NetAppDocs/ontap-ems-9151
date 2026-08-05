@@ -14,6 +14,9 @@ summary: hybaggrcopy.srcgeommismatch events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an aggregate cannot be copied.
+
 == hybAggrCopy.srcGeomMismatch
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Verify that the source and destination are both hybrid aggregates. Verify that t
 Aggregate %s cannot be copied. Either the source is a hybrid aggregate but the destination is not, or the source and destination hybrid aggregate geometries do not match.
 *Parameters*::
 *srcaggr* (STRING): Name of the source aggregate.
+

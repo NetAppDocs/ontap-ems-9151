@@ -14,6 +14,9 @@ summary: dipmon.dataip events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a data IP address becomes responsive on the node on which it is hosted and has been committed to the Zookeeper database.
+
 == dipmon.dataip.responsive
 *Severity*::
 NOTICE
@@ -45,3 +48,4 @@ Data IP address %s (ID: %u) hosted on node %s (ID: %u, Uuid: %s) is unresponsive
 *nodeName* (STRING): Name of the node that is hosting the data IP.
 *nodeID* (INT): Unique identifier of the node that is hosting the data IP.
 *nodeUuid* (STRING): Universal unique identifier of the node that is hosting the data IP.
+

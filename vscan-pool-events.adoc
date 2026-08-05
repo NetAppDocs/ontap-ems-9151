@@ -14,6 +14,9 @@ summary: vscan.pool events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Vscan scanner pool is automatically activated.
+
 == vscan.pool.autoActivated
 *Severity*::
 INFORMATIONAL
@@ -54,3 +57,4 @@ For scanner-pool '%s' created on Vserver '%s', request-timeout is configured as 
 *vserverName* (STRING): Name of the Vserver on which the scanner pool is configured.
 *requestTimeout* (INT): Request timeout value configured by the user.
 *adjustedRequestTimeout* (INT): Request timeout value that the system internally adjusts to.
+

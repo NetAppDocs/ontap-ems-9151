@@ -14,6 +14,9 @@ summary: netif.sfpeventerrorcode events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the installed Small Form-factor Pluggable (SFP+ or QSFP+) module is either not supported or faulty.
+
 == netif.sfpEventErrorCode
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Unsupported or faulty transceiver or cable in port %s. Error :%s.
 *Parameters*::
 *ifName* (STRING): Name of the network interface.
 *error_string* (STRING): module event error string.
+

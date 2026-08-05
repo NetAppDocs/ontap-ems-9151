@@ -14,6 +14,9 @@ summary: callhome.svo events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a write to a SnapValidator enabled volume failed to be validated and was rejected by the server.
+
 == callhome.svo.prevented
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Check the configuration of the server to insure correct 'svf_offset' setting on 
 Call home for SNAPVALIDATOR ERROR PREVENTED
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

@@ -14,6 +14,9 @@ summary: revertto.force events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a revert-to process is being initiated with the "force" flag, and configuration errors have been detected.
+
 == revertTo.force
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when a revert-to process is being initiated with the "force"
 Forcing revert in spite of detected configuration errors.
 *Parameters*::
 (None).
+

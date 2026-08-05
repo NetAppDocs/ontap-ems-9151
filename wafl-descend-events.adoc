@@ -14,6 +14,9 @@ summary: wafl.descend events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is an error during descendency checking.
+
 == wafl.descend.fail
 *Severity*::
 ERROR
@@ -35,3 +38,4 @@ Descendency check failure: {x%x %d %d %d %d} parent of {x%x %d %d %d %d}. Contac
 *cfh3* (INT): Child file handle's generation.
 *cfh4* (INT): Child file handle's FSID.
 *vendor* (STRING): Vendor contact information.
+

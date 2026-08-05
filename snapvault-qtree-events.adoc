@@ -14,6 +14,9 @@ summary: snapvault.qtree events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when SnapVault(R) cannot start a volume-wide Snapshot(tm) target to complete a manually invoked baseline transfer or resynchronizing transfer.
+
 == snapvault.qtree.initiate
 *Severity*::
 NOTICE
@@ -51,3 +54,4 @@ During initialization, SnapVault will attempt to update the qtree metadata flag 
 Could not update the status entry for %s. Entry will be updated during the next transfer.
 *Parameters*::
 *srcpath* (STRING): The pathname for the qtree.
+

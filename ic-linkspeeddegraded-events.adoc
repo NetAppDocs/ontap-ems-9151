@@ -14,6 +14,9 @@ summary: ic.linkspeeddegraded events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the high-availability (HA) interconnect detects a degraded link speed.
+
 == ic.linkSpeedDegraded
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ HA interconnect: Link speed of link #%d degraded. Current: %s, expected: %s.
 *link_num* (INT): Number that identifies the link.
 *link_speed* (STRING): Current link speed.
 *expected_speed* (STRING): Link speed expected for the HA interconnect device.
+

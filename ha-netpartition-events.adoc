@@ -14,6 +14,9 @@ summary: ha.netpartition events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Data ONTAP(R) subsystem detects an error potentially due to network partitioning, but cannot take over the partner node or allow the partner to take over because both takeover-of-partner and takeover-by-partner are both disabled.
+
 == ha.netPartition
 *Severity*::
 NOTICE
@@ -58,3 +61,4 @@ Taking over the partner node due to a network partition error. Internal error co
 *error_status* (INTHEX): Additional internal status bits related to error_code.
 *req_id* (INT): Internal request ID.
 *duration* (LONGINT): Elapsed time in msecs spent resolving the reported error.
+

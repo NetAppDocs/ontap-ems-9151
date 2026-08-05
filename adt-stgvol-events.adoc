@@ -14,6 +14,9 @@ summary: adt.stgvol events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when retreiving staging volume information fails.
+
 == adt.stgvol.info.notavailable
 *Severity*::
 ERROR
@@ -61,3 +64,4 @@ Contact the Cserver administrator to set the staging volume status to online.
 Audit subsystem internal error: Staging volume %s is offline.
 *Parameters*::
 *volName* (STRING): The Name of the volume which is offline.
+

@@ -14,6 +14,9 @@ summary: nblade.execsoverlimit events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the number of active requests to a connection exceeds the allowed in-flight request threshold, which results in request throttling.
+
 == nblade.execsOverLimit
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ The number of in-flight requests from client IP "[%s]:%d" to destination LIF "%s
 *lifIpAddress* (STRING): IP address of the network interface (LIF).
 *vserverId* (INT): ID of the Vserver.
 *execsLimit* (INT): Maximum number of in-flight requests allowed per connection.
+

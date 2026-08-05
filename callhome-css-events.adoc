@@ -14,6 +14,9 @@ summary: callhome.css events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an inconsistency is discovered in a metadata record of the Cloud Storage Service (CSS).
+
 == callhome.css.toc.repair
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ The (privilege: diag) "object-store-server lost-object-recovery start" command c
 Call home for %s
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

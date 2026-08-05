@@ -14,6 +14,9 @@ summary: nblade.fpolpsvolnospace events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when persistent store volume is full.
+
 == Nblade.fpolPsVolNoSpace
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ FPolicy persistent store volume "%s" belonging to SVM "%s" has no space for new 
 *Parameters*::
 *volName* (STRING): Persistent store volume.
 *vserverName* (STRING): Name of the SVM.
+

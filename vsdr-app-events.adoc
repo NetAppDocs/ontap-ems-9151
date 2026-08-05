@@ -14,6 +14,9 @@ summary: vsdr.app events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs during the configuration replication phase of a Vserver DR transfer when the consistency group that the system is trying to replicate already exists in the cluster on a different Vserver.
+
 == vsdr.app.cg.conflict
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ Consistency group %s cannot be created in Vserver %s due to conflicting consiste
 *destination_vserver* (STRING): Name of the destination Vserver into which the consistency group is being replicated.
 *conflicting_consistency_group* (STRING): Name of the conflicting consistency group.
 *found_in_vserver* (STRING): Name of the Vserver in which the conflicting consistency group was found.
+

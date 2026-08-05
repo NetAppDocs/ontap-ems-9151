@@ -14,6 +14,9 @@ summary: csm.unmarshallerror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+The message occurs when the Cluster Session Manager (CSM) fails to unmarshal a packet.
+
 == csm.unmarshallError
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Unmarshal errors reported in CSM indicate corrupted packet(s) were delivered to 
 Cluster Session Manager (CSM) failed to unmarshall packet for session %s.
 *Parameters*::
 *sessionId* (STRING): Full session ID of this session.
+

@@ -14,6 +14,9 @@ summary: callhome.syncm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when both plexes of a SyncMirror(R) configuration have disk drives in the same hardware-based disk pool; that is, the plexes are not hardware-fault isolated.
+
 == callhome.syncm.isolation
 *Severity*::
 ALERT
@@ -61,3 +64,4 @@ To resolve this issue, complete the following steps: 1. Determine the problem ag
 Call home for SYNCMIRROR VERIFY FAILED
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

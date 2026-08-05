@@ -14,6 +14,9 @@ summary: rdma.rlib events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system fails to start the advertisement service for the high-availability (HA) interconnect.
+
 == rdma.rlib.adv.failed
 *Deprecated*::
 Deprecated as of ONTAP 9.1 because this platform is no longer supported.
@@ -78,3 +81,4 @@ This message occurs when the send or receive queue of a Queue Pair (QP) is full.
 *Parameters*::
 *send_or_recv* (STRING): Send or receive queue of a QP.
 *qp_name* (STRING): QP name.
+

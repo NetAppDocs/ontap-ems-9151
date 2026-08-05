@@ -14,6 +14,9 @@ summary: raid.tree events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when RAID I/Os are active while removing a disk from the RAID tree.
+
 == raid.tree.remove.activeIOs
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ Remove disk %s from vol %s: disk has %d active RAID I/Os.
 *disk_name* (STRING): Name of the disk.
 *tree_name* (STRING): Name of the RAID tree.
 *active_ios* (INT): Number of active I/Os to the disk.
+

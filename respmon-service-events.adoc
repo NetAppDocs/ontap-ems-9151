@@ -14,6 +14,9 @@ summary: respmon.service events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a service being monitored is responding to requests.
+
 == respMon.service.responsive
 *Severity*::
 NOTICE
@@ -45,3 +48,4 @@ A service (ID: %u) of type %s, running on node %s (ID: %u, Uuid: %s), is unrespo
 *nodeName* (STRING): Name of the node on which the service is running.
 *nodeID* (INT): Unique identifier of the node on which the service is running.
 *nodeUuid* (STRING): Universal unique identifier of the node on which the service is running.
+

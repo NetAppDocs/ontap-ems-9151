@@ -14,6 +14,9 @@ summary: netinet6.input events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the destination address is not ready, so the packet is discarded.
+
 == netinet6.input.addr.notReady
 *Severity*::
 INFORMATIONAL
@@ -50,3 +53,4 @@ This message occurs when the length of the router alert option in the header is 
 Length of router alert option is inconsistent(%d).
 *Parameters*::
 *option* (INT): Length of option.
+

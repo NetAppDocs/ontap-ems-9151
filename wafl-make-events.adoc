@@ -14,6 +14,9 @@ summary: wafl.make events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when container cant be made dense
+
 == wafl.make.container.dense.failed
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ Container cannot be made dense for %s "%s" due to "%s".
 *volume_identifier* (STRING): Volume identifier.
 *volume* (STRING): Volume name.
 *message* (STRING): Reason for failure to make container dense
+

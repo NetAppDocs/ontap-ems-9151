@@ -14,6 +14,9 @@ summary: mgmt.snapmir events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the destination volume of a SnapMirror(R) relationship is not of -type Data Protection (DP) or Load Sharing (LS), and a 'snapmirror initialize' operation is attempted.
+
 == mgmt.snapmir.dst.invalidType
 *Severity*::
 ERROR
@@ -218,3 +221,4 @@ Update from source volume '%s' to destination volume(s) '%s' failed with error '
 *dstpaths* (STRING): Path names of the destination volumes to which the update failed.
 *error* (STRING): Error message.
 *jobID* (LONGINT): Job ID.
+

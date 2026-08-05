@@ -14,6 +14,9 @@ summary: san.noconnectedfcport events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs in MetroCluster(tm) configurations on clustered Data ONTAP(R) systems, when Data ONTAP cannot replicate an FC/FC-NVMe (Nonvolatile Memory Express) logical interface (LIF) to a candidate port in the destination cluster.
+
 == san.NoConnectedFCport
 *Severity*::
 ERROR
@@ -46,3 +49,4 @@ The source cluster FC port %s that is hosting "%s" LIF %s on primary Vserver %s 
 *data_protocol* (STRING): Data Protocol of the lif.
 *lif* (STRING): Name of the FC/FC-NVMe LIF.
 *vserver* (STRING): Name of the primary Vserver.
+

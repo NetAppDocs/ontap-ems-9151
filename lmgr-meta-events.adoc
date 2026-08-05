@@ -14,6 +14,9 @@ summary: lmgr.meta events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event occurs when the system detects that the lock manager host metafile is corrupted.
+
 == lmgr.meta.corrupted
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ It is possibile that the corruption affected other parts of the file system. Run
 Corrupted lock state file in volume %s: reinitializing.
 *Parameters*::
 *path* (STRING): Volume name.
+

@@ -14,6 +14,9 @@ summary: secd.cifsauth events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a CIFS authentication attempt fails for any reason other than an unknown user name or bad password.
+
 == secd.cifsAuth.denied
 *Severity*::
 ERROR
@@ -65,3 +68,4 @@ vserver (%s) General CIFS authentication problem. %s
 *Parameters*::
 *vserverName* (STRING): vserver associated with this operation.
 *failureDetail* (STRING): Error journal is a collection of events leading up to a failure. This failure is likely to impact many (if not all) users, and might reflect a misconfiguration or environmental problem..
+

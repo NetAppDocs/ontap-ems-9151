@@ -14,6 +14,9 @@ summary: nblade.callbacktimedout events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Nblade is unable to successfully complete a PORTMAP/SM call to the client within 1 seconds.
+
 == Nblade.CallbackTimedOut
 *Severity*::
 ERROR
@@ -30,3 +33,4 @@ SM NOTIFY: Vserver %d, Vif %d: %s program (Program number:%d Program version:%d)
 *programNum* (INT): RPC Program Number.
 *programVersion* (INT): RPC Program Version.
 *remoteIpAddress* (STRING): IP address of the client machine.
+

@@ -14,6 +14,9 @@ summary: cpeer.recv events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is an incoming cluster peer request using the system-generated passphrase.
+
 == cpeer.recv.pp.mismatch
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ The cluster peer offer with system-generated passphrase was attempted for cluste
 *remotename* (STRING): Remote cluster name.
 *remoteuuid* (STRING): Remote cluster UUID.
 *address* (STRING): Remote cluster IP address.
+

@@ -14,6 +14,9 @@ summary: ha.giveback events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the RAID or WAFL(R) subsystem fails to bring online the aggregate or its containing volumes after giveback.
+
 == ha.giveback.aggrOnlineFailed
 *Severity*::
 INFORMATIONAL
@@ -144,3 +147,4 @@ This message occurs when the local node uses the high-availability (HA) intercon
 Local node used the HA interconnect to communicate with the partner during giveback of aggregate %s.
 *Parameters*::
 *aggrName* (STRING): Name of the aggregate being given back.
+

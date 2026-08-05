@@ -14,6 +14,9 @@ summary: cf.sysid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a node sends its system ID and its HA partner's system ID successfully across the HA interconnect.
+
 == cf.sysid.sent
 *Severity*::
 INFORMATIONAL
@@ -27,3 +30,4 @@ This message occurs when a node sends its system ID and its HA partner's system 
 *sysid* (LONGINT): Value of the local system ID that was sent successfully .
 *host* (STRING): This parameter is obsolete from Data ONTAP(R)8.3 and later because the parter's systemID is also sent in the message.
 *partner_sysid* (LONGINT): Value of the partner system ID that was sent successfully.
+

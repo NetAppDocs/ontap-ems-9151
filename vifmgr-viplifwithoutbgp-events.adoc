@@ -14,6 +14,9 @@ summary: vifmgr.viplifwithoutbgp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a logical interface (LIF) associated with the Virtual IP (VIP) feature does not have a BGP peer group.
+
 == vifmgr.vipLifWithoutBgp
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ VIP lif %s on Vserver %s does not have BGP peer group in IPspace %s on node %s.
 *vserver_name* (STRING): Vserver name.
 *ipspace_name* (STRING): IPspace name.
 *node_name* (STRING): Name of the node to which LIFs could not be replicated.
+

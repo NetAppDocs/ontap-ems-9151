@@ -14,6 +14,9 @@ summary: wafl.mirror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system rejects client access to a primordial volume.
+
 == wafl.mirror.access.denied
 *Severity*::
 ERROR
@@ -39,3 +42,4 @@ Data ONTAP 10.0.x mirror (type %d) cannot be upgraded by the current version of 
 *Parameters*::
 *type* (INT): Mirror type in Data ONTAP 10.0.x.
 *vol* (STRING): Volume name.
+

@@ -14,6 +14,9 @@ summary: storage.cmd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+Indicates a user request to balance I/O across initiator ports has been issued.
+
 == storage.cmd.balanceRequest
 *Severity*::
 INFORMATIONAL
@@ -38,3 +41,4 @@ Initiator Port %s had %d percent of all storage bound I/O traffic routed through
 *Parameters*::
 *portName* (STRING): The name of the initiator port
 *ioPct* (INT): The percentage of overall backend I/O routed through this port
+

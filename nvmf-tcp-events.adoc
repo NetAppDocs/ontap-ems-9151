@@ -14,6 +14,9 @@ summary: nvmf.tcp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is an internal error while creating a NVMe-over-TCP (NVMe/TCP) logical network interface (LIF).
+
 == nvmf.tcp.lif.create.fail
 *Severity*::
 ERROR
@@ -38,3 +41,4 @@ NVMe-oF logs at "/mroot/etc/log/rastrace" need to be collected for further analy
 NVMe/TCP transport initialization failed because of the following internal error: "%d".
 *Parameters*::
 *errorCode* (INT): Error code returned during transport initialization.
+

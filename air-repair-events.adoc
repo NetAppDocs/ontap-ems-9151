@@ -14,6 +14,9 @@ summary: air.repair events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is an inconsistency in the persistent lock entry metafile.
+
 == air.repair.prsist.lock.entry
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ Persistent lock entry %s certification failed: Condition: %s, source: %s, state:
 *condition* (STRING): Initial validation test that fails.
 *source* (STRING): Location of the failing metadata validation test.
 *state* (STRING): Description of the remote lock entry metafile metadata state that is found to be inconsistent.
+

@@ -14,6 +14,9 @@ summary: smbc.pfo events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the SnapMirror(R) active sync planned failover operation completes.
+
 == smbc.pfo.completed
 *Severity*::
 NOTICE
@@ -79,3 +82,4 @@ This message occurs when the SnapMirror(R) active sync planned failover operatio
 SnapMirror(R) active sync planned failover operation started. Destination path: %s.
 *Parameters*::
 *dstpath* (STRING): Path name of the destination group of the SnapMirror(R) active sync relationship.
+

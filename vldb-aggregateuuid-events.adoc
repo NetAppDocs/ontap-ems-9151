@@ -14,6 +14,9 @@ summary: vldb.aggregateuuid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an aggregate's Universally Unique Identifier (UUID) in the Volume Location Database does not match the aggregate's current UUID.
+
 == vldb.aggregateUUID.mismatch
 *Severity*::
 INFORMATIONAL
@@ -41,3 +44,4 @@ The volume '%s' is located on the aggregate with UUID '%s' which does not exist 
 *Parameters*::
 *volume* (STRING): Name of the volume
 *aggregateUUID* (STRING): Universal Unique Identifier (UUID) of the aggregate
+

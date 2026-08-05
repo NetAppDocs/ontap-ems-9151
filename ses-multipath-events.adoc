@@ -14,6 +14,9 @@ summary: ses.multipath events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the AT-FCX disk shelf module does not support the multipath high-availability (Multipath HA) configuration.
+
 == ses.multipath.notSupported
 *Severity*::
 NOTICE
@@ -39,3 +42,4 @@ Check for SAS disk shelf enclosures with only a single path by using the 'sasadm
 SAS disk shelf detected without a multipath configuration.
 *Parameters*::
 (None).
+

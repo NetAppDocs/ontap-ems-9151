@@ -14,6 +14,9 @@ summary: cachemirror.offline events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Cache Mirror encounters an error and has to be taken offline.
+
 == cacheMirror.offline
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Reboot the node by performing a planned takeover and giveback. Contact NetApp te
 Cache Mirror was taken offline because of an unrecoverable error. %s.
 *Parameters*::
 *error_reason* (STRING): String providing information about why Cache Mirror was taken offline.
+

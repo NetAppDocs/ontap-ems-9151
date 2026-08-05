@@ -14,6 +14,9 @@ summary: vol.mount events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a volume or aggregate is mounted as read-only.
+
 == vol.mount.readOnly
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ This message occurs when a volume or aggregate is mounted as read-only.
 Mounting vol/aggr '%s' readonly due to 'online -ro' command.
 *Parameters*::
 *name* (STRING): Name of the volume or aggregate.
+

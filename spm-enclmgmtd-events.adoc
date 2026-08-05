@@ -14,6 +14,9 @@ summary: spm.enclmgmtd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Enclosure Management Daemon (enclmgmtd) involuntarily terminates.
+
 == spm.enclmgmtd.process.exit
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Enclosure Management Daemon (enclmgmtd) with ID %d exited as a result of signal 
 *Parameters*::
 *id* (INT): Process identifier.
 *cause* (STRING): Plain text description of why the process exited.
+

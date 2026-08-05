@@ -14,6 +14,9 @@ summary: replication.vol events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when SnapMirror(R) or VolCopy replication encounters a disk error in the active map delta blocks on the destination and cannot continue replication.
+
 == replication.vol.activemapdelta.err
 *Severity*::
 ERROR
@@ -86,3 +89,4 @@ If the specified Snapshot copy IDs contain 0 (active file system), run wafliron 
 *level* (INT): Buffer level.
 *file_type* (INT): Inode type.
 *snapstring* (STRING): String containing the list of Snapshot copy IDs of the Snapshot copies that have the inconsistent blocks.
+

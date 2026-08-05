@@ -14,6 +14,9 @@ summary: scsitarget.ispfct events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Fibre Channel host bus adapter(HBA) returns an event notification to the driver but the driver did not recognize the event type.
+
 == scsitarget.ispfct.AENErr
 *Severity*::
 ALERT
@@ -115,3 +118,4 @@ Link break detected on Fibre Channel target adapter %s. Firmware status code sta
 *status1* (INTHEX): Firmware status code 1.
 *status2* (INTHEX): Firmware status code 2.
 *status4* (INTHEX): Firmware status code 4.
+

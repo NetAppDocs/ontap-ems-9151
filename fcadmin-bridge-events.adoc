@@ -14,6 +14,9 @@ summary: fcadmin.bridge events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event reports the WWN written to a device.
+
 == fcadmin.bridge.prog.disk
 *Severity*::
 INFORMATIONAL
@@ -145,3 +148,4 @@ WWN update completed on disk %s path 0x%0x, total %d LUNS reported, total %d LUN
 *pathAddress* (INTHEX): Device address.
 *LUNsReported* (INT): Number of LUNs reported.
 *LUNsProgrammed* (INT): Number of LUNs programmed.
+

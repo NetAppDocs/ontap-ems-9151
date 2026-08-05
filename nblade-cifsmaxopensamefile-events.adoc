@@ -14,6 +14,9 @@ summary: nblade.cifsmaxopensamefile events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the number of times a user tries to open a file over a TCP connection is exceeded.
+
 == Nblade.cifsMaxOpenSameFile
 *Severity*::
 ERROR
@@ -31,3 +34,4 @@ Received too many open file requests for the same file by one user on a connecti
 *vserverName* (STRING): Vserver associated with this operation.
 *object_type* (STRING): Type of resource object.
 *object_uuid* (STRING): UUID of the resource object.
+

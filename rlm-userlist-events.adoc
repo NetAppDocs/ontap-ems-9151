@@ -14,6 +14,9 @@ summary: rlm.userlist events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+There was an error while updating user information for the Remote Lan Module (RLM).
+
 == rlm.userlist.update.failed
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ There was an error while updating user information for the Remote Lan Module (RL
 Error updating RLM user information, %s.
 *Parameters*::
 *reason* (STRING): User information update for the Remote Lan Module (RLM) may have failed due to : 1. Communication error with the RLM. 2. RLM may not be operational.
+

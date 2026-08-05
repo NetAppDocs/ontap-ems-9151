@@ -14,6 +14,9 @@ summary: smc.snapmir events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the destination volume of a SnapMirror(R) relationship is not of -type Data Protection (DP) and a 'snapmirror initialize' operation is attempted.
+
 == smc.snapmir.dst.invalidType
 *Severity*::
 ERROR
@@ -224,3 +227,4 @@ Snapmirror update from source volume '%s' to destination volume '%s' failed with
 *dstpath* (STRING): Path name of the destination volume to which the snapmirror transfer failed.
 *error* (STRING): Error message.
 *relationshipID* (STRING): Relationship UUID.
+

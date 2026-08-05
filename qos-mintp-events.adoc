@@ -14,6 +14,9 @@ summary: qos.mintp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Quality of Service (QoS) subsystem notices high latency in the cluster interconnect for workloads associated with minimum-throughput policy groups.
+
 == qos.mintp.high.intrconct.lat
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ Consider using the "qos statistics" CLI command to monitor the workloads and pol
 QoS has noticed high cluster interconnect latency. Some workloads and policy groups might not meet their specified minimum-throughput.
 *Parameters*::
 (None).
+

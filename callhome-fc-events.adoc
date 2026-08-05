@@ -14,6 +14,9 @@ summary: callhome.fc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Fibre Channel arbitrated loop (FC-AL) has link failures.
+
 == callhome.fc.al.link
 *Severity*::
 ALERT
@@ -39,3 +42,4 @@ Check the FC-AL itself and the connections to the FC-AL for poor or broken conne
 Call home for FC-AL RECOVERABLE ERRORS
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

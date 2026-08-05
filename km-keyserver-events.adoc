@@ -14,6 +14,9 @@ summary: km.keyserver events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a check by the key manager for connectivity with a configured key management server indicates that the key management server that was previously unavailable is now available.
+
 == km.keyserver.available
 *Severity*::
 NOTICE
@@ -40,3 +43,4 @@ The external key management server "%s" is not available for Vserver "%s", statu
 *vserver* (STRING): Name of the Vserver where the key management server is configured.
 *address* (STRING): IP address of the key management server.
 *keyserver_status* (STRING): Status of the key management server.
+

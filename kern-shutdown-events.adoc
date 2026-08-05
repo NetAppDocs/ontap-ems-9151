@@ -14,6 +14,9 @@ summary: kern.shutdown events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued to indicate a pending shutdown is underway.
+
 == kern.shutdown
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ This event is issued when we detect that a halt or reboot is about to occur but 
 (None).
 *Parameters*::
 *key* (STRING): The registry key
+

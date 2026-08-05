@@ -14,6 +14,9 @@ summary: telnet.socket events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when telnet could not create a socket.
+
 == telnet.socket.failure
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ Check the window size of the telnet/ssh client by typing "netstat" on the storag
 Telnet daemon socket timed out for the %s connection.
 *Parameters*::
 *conntype* (STRING): The type of connection that timed out. The connection type can be an interactive SSH connection or a telnet connection.
+

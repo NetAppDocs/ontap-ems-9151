@@ -14,6 +14,9 @@ summary: san.mccvserverinitpending events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs in MetroCluster(TM) configurations on clustered Data ONTAP(R) systems when SAN Vservers exceed the time allotted for initialization during a switchover or switchback operation.
+
 == san.MCCVserverInitPending
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ The following Vservers: %s exceeded the time allotted (%u seconds) for Vserver i
 *Parameters*::
 *pending_vservers* (STRING): List of the SAN Vservers pending Vserver initialization.
 *san_budget_in_msecs* (INT): Maximum time (in seconds) the system waits for the SAN Vservers to complete initialization during a switchover or switchback operation.
+

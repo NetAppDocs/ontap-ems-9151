@@ -14,6 +14,9 @@ summary: acp.fw events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Alternate Control Path (ACP) Processor receives a command to initiate a firmware download.
+
 == acp.fw.download
 *Severity*::
 INFORMATIONAL
@@ -57,3 +60,4 @@ Firmware download on %s (%s) was successful, (disk shelf serial number: %s).
 *inband_id* (STRING): In-band ID of the module.
 *ip* (STRING): IP address of the module.
 *shelf_sno* (STRING): Disk shelf serial number of the shelf where this I/O module is seated.
+

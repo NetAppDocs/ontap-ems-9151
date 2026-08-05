@@ -14,6 +14,9 @@ summary: raid.data events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a WAFL(R) generated read detects a stale block due to a lost write.
+
 == raid.data.lw.blkErr
 *Severity*::
 NOTICE
@@ -124,3 +127,4 @@ WAFL sanity check detected bad superblock on volume %s%s, %s, block %llu. RAID i
 *vol* (STRING): Name of the volume.
 *disk_info* (STRING): Formatted information of the disk.
 *blockNum* (LONGINT): Block number.
+

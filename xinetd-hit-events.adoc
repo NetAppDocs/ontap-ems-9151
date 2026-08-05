@@ -14,6 +14,9 @@ summary: xinetd.hit events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the rate of incoming network connections for a service exceeds the maximum allowed rate.
+
 == xinetd.hit.cps.limit
 *Severity*::
 ERROR
@@ -54,3 +57,4 @@ Maximum number of network connections of %d received from the remote host %s for
 *limit* (INT): Maximum number of network connections for a service per source IP address.
 *ipaddress* (STRING): IP address of the remote host that triggered maximum number of network connections of a service.
 *service* (STRING): Service invoked by xinetd.
+

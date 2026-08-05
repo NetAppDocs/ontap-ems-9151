@@ -14,6 +14,9 @@ summary: fpolicy.outage events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when file creation fails under the configured resiliency directory path.
+
 == fpolicy.outage.file.invalid
 *Severity*::
 ERROR
@@ -120,3 +123,4 @@ Unable to store notifications in configured resiliency directory path of FPolicy
 *Parameters*::
 *engine* (STRING): FPolicy external engine.
 *policy* (STRING): FPolicy policy.
+

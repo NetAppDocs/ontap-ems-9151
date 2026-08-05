@@ -14,6 +14,9 @@ summary: repl.dest events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Replication Engine encounters CSS Upload Table in a Snapshot.
+
 == repl.dest.css.upload.notsup
 *Severity*::
 ERROR
@@ -83,3 +86,4 @@ The volume with vserver UUID %s, DSID, %llu, name %s, and size %lld bytes, is no
 *dstVolName* (STRING): Destination volume name.
 *dstVolSize* (LONGINT): Destination volume size in bytes.
 *srcVolSize* (LONGINT): Source transfer snapshot size in bytes.
+

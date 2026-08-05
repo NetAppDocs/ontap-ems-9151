@@ -14,6 +14,9 @@ summary: spm.mntsvc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Node Root Mount Service (mntsvc) involuntarily terminates.
+
 == spm.mntsvc.process.exit
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ The Node Root Mount Service (mntsvc) with ID %d exited as a result of %s. This s
 *Parameters*::
 *id* (INT): Process identifier.
 *cause* (STRING): Plain text description of why the process exited.
+

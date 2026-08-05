@@ -14,6 +14,9 @@ summary: nvd.biodone events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is an error during a block I/O flush operation.
+
 == nvd.biodone.bio.flush.error
 *Severity*::
 NOTICE
@@ -40,3 +43,4 @@ I/O for opcode: 0x%x returned with error code: %d for device: %s.
 *opcode* (INTHEX): SCSI opcode.
 *bio_error* (INT): Error code.
 *dev_path* (STRING): Device path.
+

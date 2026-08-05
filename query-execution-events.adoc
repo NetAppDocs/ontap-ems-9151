@@ -14,6 +14,9 @@ summary: query.execution events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the dotsql command-line program processes an SQL query.
+
 == query.execution.console
 *Severity*::
 NOTICE
@@ -38,3 +41,4 @@ This type of failure can occur legitimately during the course of normal system o
 *Parameters*::
 *query* (STRING): Query that was executed.
 *error* (STRING): Error message that occurred.
+

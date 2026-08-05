@@ -14,6 +14,9 @@ summary: fm.cpuutilduringtransition events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs during various failover and aggregate mobility events, including start of a takeover, end of a successful takeover, start of a CFO giveback, after completion of SFO giveback and completion of an aggregate relocation.
+
 == fm.cpuUtilDuringTransition
 *Severity*::
 NOTICE
@@ -32,3 +35,4 @@ CPU and disk utilization during the %d seconds %s: cpu_util_high: %lld; cpu_util
 *disk_util_high* (LONGINT): Maximum disk utilization.
 *disk_util_low* (LONGINT): Minimum disk utilization.
 *disk_util_avg* (LONGINT): Average disk utilization.
+

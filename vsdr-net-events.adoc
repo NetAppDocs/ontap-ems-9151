@@ -14,6 +14,9 @@ summary: vsdr.net events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system tries to automatically replicate a logical interface (LIF) in a MetroCluster(TM) configuration or Vserver DR setup and the IP address of the LIF that is being created already exists in another Vserver.
+
 == vsdr.net.IPInDiffVserver
 *Severity*::
 ERROR
@@ -168,3 +171,4 @@ Cannot create route %s with gateway %s in Vserver %s because IPv6 is not enabled
 *route* (STRING): Route destination and mask.
 *gateway* (STRING): Gateway of the route.
 *vserver_name* (STRING): Vserver name.
+

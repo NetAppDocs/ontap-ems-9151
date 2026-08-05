@@ -14,6 +14,9 @@ summary: secd.rpc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a user with the same domain and same client IP address is blocked due to continuous authentication requests with an invalid login password.
+
 == secd.rpc.authRequest.blocked
 *Severity*::
 ALERT
@@ -53,3 +56,4 @@ RPC "%s" that was sent from "%s" was dropped by SecD due to a lack of memory spa
 *Parameters*::
 *rpcName* (STRING): Name of the RPC that has been dropped.
 *callerName* (STRING): Caller of the RPC that has been dropped.
+

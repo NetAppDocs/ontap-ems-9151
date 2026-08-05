@@ -14,6 +14,9 @@ summary: cluster.op events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a "cluster create" or a "cluster join" or a "cluster unjoin" operation is attempted but does not succeed.
+
 == cluster.op.fail
 *Severity*::
 ERROR
@@ -113,3 +116,4 @@ This message occurs when a cluster has been successfully created or a node has s
 *operation_type* (STRING): Type of cluster operation.
 *node* (STRING): Name of the node that successfully performed the cluster operation.
 *serial* (STRING): System serial number of the node that successfully performed the cluster operation.
+

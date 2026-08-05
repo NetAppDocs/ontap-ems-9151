@@ -14,6 +14,9 @@ summary: dbs.director events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when data address assignments are stable.
+
 == dbs.director.addrs.stable
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ This message occurs when aggregate assignments are stable. This means that all a
 Aggregate movement is complete and aggregate assignments are stable.
 *Parameters*::
 (None).
+
