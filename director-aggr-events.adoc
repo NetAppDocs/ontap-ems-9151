@@ -15,7 +15,7 @@ summary: director.aggr events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when an aggregate is being reassigned from one node to another node.
+director.aggr events are presented when an aggregate is being reassigned from one node to another in response to either a user request or an error condition on the cluster.
 
 == director.aggr.reassigned
 *Severity*::

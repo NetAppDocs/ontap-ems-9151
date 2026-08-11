@@ -15,7 +15,7 @@ summary: dbs.drives events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when Distributed Block Store (DBS) has one or more failed drives.
+dbs.drives events are presented when Distributed Block Store (DBS) has one or more failed drives, which may require checking network connectivity, replacing drives, or verifying authentication key availability.
 
 == dbs.drives.failed
 *Severity*::

@@ -15,7 +15,7 @@ summary: dbs.exception events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Distributed Block Store (DBS) is unable to process a cluster fault.
+dbs.exception events are presented when the Distributed Block Store (DBS) is unable to process a cluster fault, which may require waiting for resolution or contacting NetApp technical support if the condition persists.
 
 == dbs.exception
 *Severity*::

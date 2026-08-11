@@ -15,7 +15,7 @@ summary: vnm.dataip events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a data IP address is being added to a node.
+vnm.dataip events are presented when a data IP address is being added to or removed from a node, changing data access availability through that IP address.
 
 == vnm.dataip.added
 *Severity*::

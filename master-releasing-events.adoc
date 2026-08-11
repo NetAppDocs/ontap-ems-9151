@@ -15,7 +15,7 @@ summary: master.releasing events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the node is demoted from being the cluster master.
+master.releasing events are presented when a node is demoted from being the cluster master.
 
 == master.releasing.cm
 *Severity*::

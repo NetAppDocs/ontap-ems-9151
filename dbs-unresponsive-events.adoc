@@ -15,7 +15,7 @@ summary: dbs.unresponsive events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when Distributed Block Store (DBS) Master Service detects an unresponsive service.
+dbs.unresponsive events are presented when Distributed Block Store (DBS) Master Service detects an unresponsive service.
 
 == dbs.unresponsive.service.alrt
 *Severity*::

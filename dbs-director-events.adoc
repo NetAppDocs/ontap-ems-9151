@@ -15,7 +15,7 @@ summary: dbs.director events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when data address assignments are stable.
+dbs.director events are presented when data address assignments become stable following all data address movement operations in the cluster.
 
 == dbs.director.addrs.stable
 *Severity*::

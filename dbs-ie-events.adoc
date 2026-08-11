@@ -15,7 +15,7 @@ summary: dbs.ie events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a Distributed Block Store (DBS) internal interface exception condition occurs.
+dbs.ie events are presented when a Distributed Block Store (DBS) internal interface exception condition occurs.
 
 == dbs.ie
 *Severity*::

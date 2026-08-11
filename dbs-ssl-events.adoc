@@ -15,7 +15,7 @@ summary: dbs.ssl events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when Distributed Block Store (DBS) detects that a Secure Socket Layer (SSL) certificate on a node is nearing expiration.
+dbs.ssl events are presented when Distributed Block Store (DBS) detects that an SSL certificate on a node is nearing expiration, though the system resolves this automatically by updating the certificate.
 
 == dbs.ssl.node.cert.expire
 *Severity*::

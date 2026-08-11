@@ -15,7 +15,7 @@ summary: dbs.slice events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a Distributed Block Store (DBS) event relating to a slice service operation such as removing a metadata drive, slice reassignment i.e.
+dbs.slice events are presented when a Distributed Block Store (DBS) event relating to slice service operations occurs, such as metadata drive removal, slice reassignment, or snapshot operations.
 
 == dbs.slice.operation
 *Severity*::

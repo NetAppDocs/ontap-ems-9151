@@ -15,7 +15,7 @@ summary: cluster.switch events
 :imagesdir: ./media/
 
 [.lead]
-Redundant configuration is missing for cluster switches.
+cluster.switch events are presented when cluster switch redundancy issues occur, such as missing redundant configuration or power supply failures, which may require verifying switch connections and running the system cluster-switch create command to configure discovery.
 
 == cluster.switch.count
 *Severity*::

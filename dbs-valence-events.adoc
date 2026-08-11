@@ -15,7 +15,7 @@ summary: dbs.valence events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a Distributed Block Store (DBS) valence test failure event occurs.
+dbs.valence events are presented when a Distributed Block Store (DBS) internal periodic valence test failure event occurs.
 
 == dbs.valence.test.bad
 *Severity*::

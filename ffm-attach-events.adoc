@@ -15,7 +15,7 @@ summary: ffm.attach events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when volumes on an aggregate become available to the protocol clients near the end of the attach phase of volume relocation.
+ffm.attach events are presented when volumes on an aggregate become available to protocol clients near the end of the attach phase of volume relocation.
 
 == ffm.attach.outage.end
 *Severity*::

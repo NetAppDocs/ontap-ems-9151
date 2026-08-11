@@ -15,7 +15,7 @@ summary: dbs.secondary events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Distributed Block Store (DBS) detects that Slice volume secondary write cache has reached the first fullness warning threshold.
+dbs.secondary events are presented when the Distributed Block Store (DBS) detects that a Slice volume secondary write cache has reached a fullness warning threshold, which may require verifying that all nodes and services are online.
 
 == dbs.secondary.cache.thresh
 *Severity*::

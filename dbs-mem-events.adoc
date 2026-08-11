@@ -15,7 +15,7 @@ summary: dbs.mem events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when Distributed Block Store (DBS) detects a node's container has very low memory.
+dbs.mem events are presented when Distributed Block Store (DBS) detects a node's container has very low memory, which may require purging unused volumes, allowing time for garbage collection, or adding more nodes.
 
 == dbs.mem.threshold.alert
 *Severity*::

@@ -15,7 +15,7 @@ summary: dbs.assignments events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a Distributed Block Store (DBS) assignments event is reported, which occurs when the distribution of block data within the cluster changes.
+dbs.assignments events are presented when DBS block data distribution within the cluster changes, reflecting movement of the data that backs FlexVol volumes.
 
 == dbs.assignments
 *Severity*::

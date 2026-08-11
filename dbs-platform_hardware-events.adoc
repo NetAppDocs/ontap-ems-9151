@@ -15,7 +15,7 @@ summary: dbs.platform_hardware events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a Distributed Block Store (DBS) platform hardware event occurs, such as a drive hardware fault.
+dbs.platform_hardware events are presented when a Distributed Block Store (DBS) platform hardware event occurs, such as a drive hardware fault.
 
 == dbs.platform_hardware
 *Severity*::

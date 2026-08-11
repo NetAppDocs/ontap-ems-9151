@@ -15,7 +15,7 @@ summary: dbs.schedule events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Distributed Block Store (DBS) is running one or more of the scheduled activities but the activity failed, for example running a scheduled create snapshot fails to complete.
+dbs.schedule events are presented when the Distributed Block Store (DBS) has a scheduled activity that failed, such as a scheduled snapshot creation, which requires checking the scheduler entry for issues.
 
 == dbs.schedule.action.error
 *Severity*::

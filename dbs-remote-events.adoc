@@ -15,7 +15,7 @@ summary: dbs.remote events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a Distributed Block Store (DBS) event such as a change in cluster pair connectivity status occurs.
+dbs.remote events are presented when a Distributed Block Store (DBS) event such as a change in cluster pair connectivity status occurs.
 
 == dbs.remote.cluster
 *Severity*::

@@ -15,7 +15,7 @@ summary: master.couldnt events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the master service on the associated node is unable to cast a vote to update the connection status with current cluster master in global database since it has lost connection to the database server.
+master.couldnt events are presented when the master service on a node is unable to cast a vote to update the connection status with the current cluster master due to loss of database connectivity.
 
 == master.couldnt.cast.cm.vote
 *Severity*::

@@ -15,7 +15,7 @@ summary: dbs.remrep events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Distributed Block Store (DBS) is executing remote replication for a pair of volumes, but that it has not reached active state for 6 hours.
+dbs.remrep events are presented when the Distributed Block Store (DBS) executing remote replication has not reached active state for 6 hours, which requires checking network connectivity between clusters and inspecting slice service logs.
 
 == dbs.remrep.async.dly.exceed
 *Severity*::

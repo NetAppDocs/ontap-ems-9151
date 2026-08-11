@@ -15,7 +15,7 @@ summary: ffrespmon.aggr events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when an aggregate is detected to be offline due to an unresponsive Firefly Service on a node.
+ffrespmon.aggr events are presented when an aggregate is detected to be offline due to an unresponsive Firefly Service on a node.
 
 == ffRespMon.aggr.offline
 *Severity*::

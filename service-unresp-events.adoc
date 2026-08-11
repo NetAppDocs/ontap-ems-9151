@@ -15,7 +15,7 @@ summary: service.unresp events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a service (Firefly, Slice Service, etc.) is detected as unresponsive and this state is committed into the Zookeeper database.
+service.unresp events are presented when a service such as Firefly or Slice Service is detected as unresponsive and that state is committed to the Zookeeper database.
 
 == service.unresp.committed
 *Severity*::

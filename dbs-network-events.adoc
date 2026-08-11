@@ -15,7 +15,7 @@ summary: dbs.network events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a distributed block store detects network configuration or connectivity errors on nodes in the cluster.
+dbs.network events are presented when distributed block store detects network configuration or connectivity errors on cluster nodes, which may require checking network parameters or replacing faulty hardware components.
 
 == dbs.network.error.fault
 *Severity*::

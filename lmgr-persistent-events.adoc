@@ -15,7 +15,7 @@ summary: lmgr.persistent events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the number of persistent open lock count reaches the maximum supported limit.
+lmgr.persistent events are presented when the persistent open lock count for a single file reaches its maximum supported limit, which is typically fixed by verifying system state and connectivity.
 
 == lmgr.persistent.open.limit.hit
 *Severity*::

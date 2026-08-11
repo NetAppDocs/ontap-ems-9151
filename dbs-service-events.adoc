@@ -15,7 +15,7 @@ summary: dbs.service events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a Distributed Block Store (DBS) service event occurs, such as inability to start the FireStorm service.
+dbs.service events are presented when a Distributed Block Store (DBS) service event occurs, such as inability to start the FireStorm service.
 
 == dbs.service
 *Severity*::

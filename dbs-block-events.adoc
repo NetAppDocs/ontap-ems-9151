@@ -15,7 +15,7 @@ summary: dbs.block events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a Distributed Block Store (DBS) successfully completes a block service repair operation involving block rewrites to all BServices that are replicas for the block .
+dbs.block events are presented when a Distributed Block Store (DBS) completes a block service repair operation involving block rewrites, which may require contacting NetApp technical support to assess severity.
 
 == dbs.block.repair.success
 *Severity*::

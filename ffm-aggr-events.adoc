@@ -15,7 +15,7 @@ summary: ffm.aggr events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when an aggregate attach operation is complete.
+ffm.aggr events are presented when aggregate attach or detach operations occur in the Firefly service, tracking aggregate lifecycle changes.
 
 == ffm.aggr.attach.done
 *Severity*::

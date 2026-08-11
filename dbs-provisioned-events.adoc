@@ -15,7 +15,7 @@ summary: dbs.provisioned events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the distributed block store detects that the overall provisioned capacity of the cluster has exceeded the slice reserve space threshold.
+dbs.provisioned events are presented when the distributed block store detects that the cluster's overall provisioned capacity has exceeded the slice reserve space threshold, which may require adding more provisioned space or deleting and purging volumes.
 
 == dbs.provisioned.space.full
 *Severity*::

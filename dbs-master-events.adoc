@@ -15,7 +15,7 @@ summary: dbs.master events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the node fails to execute cluster master startup.
+dbs.master events are presented when a node fails to execute cluster master startup, though the system attempts to start the cluster master again automatically.
 
 == dbs.master.didnt.start.cm
 *Severity*::

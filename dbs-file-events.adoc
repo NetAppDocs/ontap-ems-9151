@@ -15,7 +15,7 @@ summary: dbs.file events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Distributed Block Store (DBS) detects the mounted container file system ("/", "/persist", "/var/log") has capacity below 5 percent.
+dbs.file events are presented when the Distributed Block Store (DBS) detects a mounted container file system with less than 5 percent capacity remaining, which requires adding filesystem capacity or removing unneeded files.
 
 == dbs.file.system.capacity.low
 *Severity*::

@@ -15,7 +15,7 @@ summary: master.new events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the connection state from the associated node to current cluster master has changed.
+master.new events are presented when the connection state from a node to the current cluster master has changed.
 
 == master.new.connection.state
 *Severity*::

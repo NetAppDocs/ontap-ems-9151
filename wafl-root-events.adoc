@@ -15,7 +15,7 @@ summary: wafl.root events
 :imagesdir: ./media/
 
 [.lead]
-This event is issued when no online root volume is found.
+wafl.root events are presented when the contents of the root volume are changed to those of a previous point in time which is typically fixed by verifying system state and connectivity.
 
 == wafl.root.autocreate
 *Severity*::

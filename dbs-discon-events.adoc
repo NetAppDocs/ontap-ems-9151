@@ -15,7 +15,7 @@ summary: dbs.discon events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Distributed Block Store (DBS) is unable to access snapmirror endpoint on the network.
+dbs.discon events are presented when the Distributed Block Store (DBS) is unable to access a SnapMirror endpoint on the network, which may require checking network connectivity and the 1G management network.
 
 == dbs.discon.snapmirror.end
 *Severity*::

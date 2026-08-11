@@ -15,7 +15,7 @@ summary: ffm.restart events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Firefly manager restarts Firefly after detecting abnormal behavior.
+ffm.restart events are presented when the Firefly manager restarts Firefly after detecting abnormal behavior, which causes aggregates to be re-attached after the restart completes.
 
 == ffm.restart.firefly
 *Severity*::

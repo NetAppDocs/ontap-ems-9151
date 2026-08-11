@@ -15,7 +15,7 @@ summary: dbs.unexpected events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a Distributed Block Store (DBS) exception occurs unexpectedly, such as the inability to analyze existing error information.
+dbs.unexpected events are presented when a Distributed Block Store (DBS) exception occurs unexpectedly, such as inability to analyze existing error information.
 
 == dbs.unexpected.exception
 *Severity*::

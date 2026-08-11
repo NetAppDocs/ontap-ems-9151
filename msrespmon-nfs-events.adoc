@@ -15,7 +15,7 @@ summary: msrespmon.nfs events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when data IP is detected to be unresponsive.
+msrespmon.nfs events are presented when a data IP is detected to be unresponsive, which may affect NFS service availability.
 
 == msRespMon.nfs.unresponsive
 *Severity*::

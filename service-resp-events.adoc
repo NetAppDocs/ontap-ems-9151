@@ -15,7 +15,7 @@ summary: service.resp events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a service (Firefly, Slice Service, etc.) is detected as responsive and this state is committed into the Zookeeper database.
+service.resp events are presented when a service such as Firefly or Slice Service is detected as responsive and that state is committed to the Zookeeper database.
 
 == service.resp.committed
 *Severity*::

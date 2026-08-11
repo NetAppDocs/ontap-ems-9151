@@ -15,7 +15,7 @@ summary: ffm.dataip events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a data IP address was failed to host on the node.
+ffm.dataip events are presented when a data IP address fails to be hosted on a node, making data access through that IP address unavailable.
 
 == ffm.dataip.failedToHost
 *Severity*::
