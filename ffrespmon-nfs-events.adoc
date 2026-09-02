@@ -15,7 +15,7 @@ summary: ffrespmon.nfs events
 :imagesdir: ./media/
 
 [.lead]
-ffrespmon.nfs events are presented when a data interface's IP address is unreachable, which may affect NFS service availability.
+ffrespmon.nfs EMS events occur when a data interface's IP address is unreachable.
 
 == ffRespMon.nfs.unresponsive
 *Severity*::

@@ -15,7 +15,7 @@ summary: dbs.exception events
 :imagesdir: ./media/
 
 [.lead]
-dbs.exception events are presented when the Distributed Block Store (DBS) is unable to process a cluster fault, which may require waiting for resolution or contacting NetApp technical support if the condition persists.
+dbs.exception EMS events occur when the Distributed Block Store (DBS) is unable to process a cluster fault.
 
 == dbs.exception
 *Severity*::

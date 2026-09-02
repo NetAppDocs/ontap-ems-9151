@@ -15,7 +15,7 @@ summary: dbs.master events
 :imagesdir: ./media/
 
 [.lead]
-dbs.master events are presented when a node fails to execute cluster master startup, though the system attempts to start the cluster master again automatically.
+dbs.master EMS events occur when ONTAP encounters issues associated with node cluster master startup.
 
 == dbs.master.didnt.start.cm
 *Severity*::

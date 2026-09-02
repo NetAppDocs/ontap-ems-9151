@@ -15,7 +15,7 @@ summary: dbs.clone events
 :imagesdir: ./media/
 
 [.lead]
-dbs.clone events are presented when a Distributed Block Store (DBS) event related to volume cloning occurs.
+dbs.clone EMS events occur when a Distributed Block Store (DBS) event related to volume cloning occurs.
 
 == dbs.clone
 *Severity*::

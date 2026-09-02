@@ -15,7 +15,7 @@ summary: service.resp events
 :imagesdir: ./media/
 
 [.lead]
-service.resp events are presented when a service such as Firefly or Slice Service is detected as responsive and that state is committed to the Zookeeper database.
+service.resp EMS events occur when a service such as Firefly or Slice Service is detected as responsive and that state is committed to the Zookeeper database.
 
 == service.resp.committed
 *Severity*::

@@ -15,7 +15,7 @@ summary: dbs.drive events
 :imagesdir: ./media/
 
 [.lead]
-dbs.drive events are presented when a Distributed Block Store (DBS) event related to drive operations occurs.
+dbs.drive EMS events occur when ONTAP encounters issues associated with Distributed Block Store (DBS) drive operations, such as capacity mismatches.
 
 == dbs.drive
 *Severity*::

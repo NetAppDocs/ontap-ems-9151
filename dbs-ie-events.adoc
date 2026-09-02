@@ -15,7 +15,7 @@ summary: dbs.ie events
 :imagesdir: ./media/
 
 [.lead]
-dbs.ie events are presented when a Distributed Block Store (DBS) internal interface exception condition occurs.
+dbs.ie EMS events occur when a Distributed Block Store (DBS) internal interface exception condition occurs.
 
 == dbs.ie
 *Severity*::

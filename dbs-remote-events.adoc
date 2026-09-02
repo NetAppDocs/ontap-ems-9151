@@ -15,7 +15,7 @@ summary: dbs.remote events
 :imagesdir: ./media/
 
 [.lead]
-dbs.remote events are presented when a Distributed Block Store (DBS) event such as a change in cluster pair connectivity status occurs.
+dbs.remote EMS events occur when ONTAP encounters issues associated with Distributed Block Store (DBS) cluster pair connectivity or remote replication capacity.
 
 == dbs.remote.cluster
 *Severity*::

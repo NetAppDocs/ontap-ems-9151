@@ -15,7 +15,7 @@ summary: dipmon.dataip events
 :imagesdir: ./media/
 
 [.lead]
-dipmon.dataip events are presented when a data IP address becomes responsive or unresponsive on the node where it is hosted and the state is committed to the Zookeeper database.
+dipmon.dataip EMS events occur when ONTAP encounters issues associated with the responsiveness of a data IP address on the node where it is hosted.
 
 == dipmon.dataip.responsive
 *Severity*::

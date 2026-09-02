@@ -15,7 +15,7 @@ summary: dbs.block events
 :imagesdir: ./media/
 
 [.lead]
-dbs.block events are presented when a Distributed Block Store (DBS) completes a block service repair operation involving block rewrites, which may require contacting NetApp technical support to assess severity.
+dbs.block EMS events occur when a Distributed Block Store (DBS) completes a block service repair operation involving block rewrites.
 
 == dbs.block.repair.success
 *Severity*::

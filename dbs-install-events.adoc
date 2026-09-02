@@ -15,7 +15,7 @@ summary: dbs.install events
 :imagesdir: ./media/
 
 [.lead]
-dbs.install events are presented when a Distributed Block Store (DBS) install event occurs, such as inability to install system software on a pending node.
+dbs.install EMS events occur when a Distributed Block Store (DBS) install event occurs, such as inability to install system software on a pending node.
 
 == dbs.install
 *Severity*::

@@ -15,7 +15,7 @@ summary: flexcache.autogrow events
 :imagesdir: ./media/
 
 [.lead]
-flexcache.autogrow events are presented when automatically growing a FlexCache volume fails because the total cluster-wide FlexCache provisioned space has exceeded the licensed limit, which requires installing a new license to increase capacity.
+flexcache.autogrow EMS events occur when automatically growing a FlexCache volume fails because the total cluster-wide FlexCache provisioned space has exceeded the licensed limit.
 
 == flexcache.autogrow.fail
 *Severity*::

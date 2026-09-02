@@ -15,7 +15,7 @@ summary: ffm.init events
 :imagesdir: ./media/
 
 [.lead]
-ffm.init events are presented when the Firefly manager is initiated during Firefly boot.
+ffm.init EMS events occur when the Firefly manager is initiated during Firefly boot.
 
 == ffm.init.firefly
 *Severity*::

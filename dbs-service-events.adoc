@@ -15,7 +15,7 @@ summary: dbs.service events
 :imagesdir: ./media/
 
 [.lead]
-dbs.service events are presented when a Distributed Block Store (DBS) service event occurs, such as inability to start the FireStorm service.
+dbs.service EMS events occur when ONTAP encounters issues associated with Distributed Block Store (DBS) services, such as their startup or availability.
 
 == dbs.service
 *Severity*::

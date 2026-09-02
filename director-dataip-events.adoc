@@ -15,7 +15,7 @@ summary: director.dataip events
 :imagesdir: ./media/
 
 [.lead]
-director.dataip events are presented when a data IP address is being reassigned from one node to another in response to either a user request or an error condition on the cluster.
+director.dataip EMS events occur when a data IP address is being reassigned from one node to another in response to either a user request or an error condition on the cluster.
 
 == director.dataip.reassigned
 *Severity*::

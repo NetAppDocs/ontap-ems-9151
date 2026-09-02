@@ -15,7 +15,7 @@ summary: dbs.ekm events
 :imagesdir: ./media/
 
 [.lead]
-dbs.ekm events are presented when Distributed Block Store (DBS) detects an External Key Management (EKM) certificate nearing expiration, which requires renewing the certificate and updating the EKM key server configuration.
+dbs.ekm EMS events occur when ONTAP encounters issues associated with External Key Management (EKM) certificates nearing expiration.
 
 == dbs.ekm.cert.alert
 *Severity*::

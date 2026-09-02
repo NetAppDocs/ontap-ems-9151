@@ -15,7 +15,7 @@ summary: dbs.ikm events
 :imagesdir: ./media/
 
 [.lead]
-dbs.ikm events are presented when a Distributed Block Store (DBS) event relating to Internal Key Management (IKM) occurs, such as purging a key.
+dbs.ikm EMS events occur when a Distributed Block Store (DBS) event relating to Internal Key Management (IKM) occurs, such as purging a key.
 
 == dbs.ikm
 *Severity*::

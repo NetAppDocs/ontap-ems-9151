@@ -15,7 +15,7 @@ summary: dbs.upgrade events
 :imagesdir: ./media/
 
 [.lead]
-dbs.upgrade events are presented when Distributed Block Store (DBS) detects a software upgrade in progress for longer than 24 hours, which requires contacting NetApp technical support.
+dbs.upgrade EMS events occur when Distributed Block Store (DBS) detects a software upgrade in progress for longer than 24 hours.
 
 == dbs.upgrade
 *Severity*::

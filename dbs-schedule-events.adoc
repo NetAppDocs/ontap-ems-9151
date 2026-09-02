@@ -15,7 +15,7 @@ summary: dbs.schedule events
 :imagesdir: ./media/
 
 [.lead]
-dbs.schedule events are presented when the Distributed Block Store (DBS) has a scheduled activity that failed, such as a scheduled snapshot creation, which requires checking the scheduler entry for issues.
+dbs.schedule EMS events occur when the Distributed Block Store (DBS) has a scheduled activity that failed, such as a scheduled snapshot creation.
 
 == dbs.schedule.action.error
 *Severity*::

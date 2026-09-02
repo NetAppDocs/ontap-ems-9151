@@ -15,7 +15,7 @@ summary: master.couldnt events
 :imagesdir: ./media/
 
 [.lead]
-master.couldnt events are presented when the master service on a node is unable to cast a vote to update the connection status with the current cluster master due to loss of database connectivity.
+master.couldnt EMS events occur when ONTAP encounters issues associated with a node's inability to update the cluster master voting or demotion state in the global database.
 
 == master.couldnt.cast.cm.vote
 *Severity*::

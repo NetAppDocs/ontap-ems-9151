@@ -15,7 +15,7 @@ summary: ffm.detach events
 :imagesdir: ./media/
 
 [.lead]
-ffm.detach events are presented when a volume becomes unavailable to protocol traffic during a graceful volume relocation.
+ffm.detach EMS events occur when ONTAP encounters issues associated with the detach phase of a graceful volume relocation.
 
 == ffm.detach.outage.start
 *Severity*::

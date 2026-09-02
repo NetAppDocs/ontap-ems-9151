@@ -15,7 +15,7 @@ summary: dbs.volumes events
 :imagesdir: ./media/
 
 [.lead]
-dbs.volumes events are presented when the distributed block store detects that listed volumes have only one copy of some data due to a lost live secondary, which may require checking for network connectivity issues and hardware errors.
+dbs.volumes EMS events occur when the distributed block store detects that listed volumes have only one copy of some data due to a lost live secondary.
 
 == dbs.volumes.degraded
 *Severity*::

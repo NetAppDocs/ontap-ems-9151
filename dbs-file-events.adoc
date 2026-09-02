@@ -15,7 +15,7 @@ summary: dbs.file events
 :imagesdir: ./media/
 
 [.lead]
-dbs.file events are presented when the Distributed Block Store (DBS) detects a mounted container file system with less than 5 percent capacity remaining, which requires adding filesystem capacity or removing unneeded files.
+dbs.file EMS events occur when ONTAP encounters issues associated with Distributed Block Store (DBS) container file system capacity or write access.
 
 == dbs.file.system.capacity.low
 *Severity*::

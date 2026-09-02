@@ -15,7 +15,7 @@ summary: dbs.capacity events
 :imagesdir: ./media/
 
 [.lead]
-dbs.capacity events are presented when the Distributed Block Store (DBS) detects that more than half of the cluster capacity is available on a single node, which may require adjusting node disk capacities to restore high availability.
+dbs.capacity EMS events occur when the Distributed Block Store (DBS) detects that more than half of the cluster capacity is available on a single node.
 
 == dbs.capacity.stranded
 *Severity*::

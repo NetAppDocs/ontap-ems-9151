@@ -15,7 +15,7 @@ summary: ffm.attach events
 :imagesdir: ./media/
 
 [.lead]
-ffm.attach events are presented when volumes on an aggregate become available to protocol clients near the end of the attach phase of volume relocation.
+ffm.attach EMS events occur when ONTAP encounters issues associated with the attach phase of volume relocation on an aggregate.
 
 == ffm.attach.outage.end
 *Severity*::

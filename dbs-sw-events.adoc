@@ -15,7 +15,7 @@ summary: dbs.sw events
 :imagesdir: ./media/
 
 [.lead]
-dbs.sw events are presented when a Distributed Block Store (DBS) event relating to Software Encryption At Rest occurs, such as master key rekey completion, failure, or extended rewrapping of drive keys with a new master key.
+dbs.sw EMS events occur when a Distributed Block Store (DBS) event relating to Software Encryption At Rest occurs, such as master key rekey completion, failure, or extended key rewrapping.
 
 == dbs.sw.encr.at.rest
 *Severity*::

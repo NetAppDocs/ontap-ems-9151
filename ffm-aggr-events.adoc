@@ -15,7 +15,7 @@ summary: ffm.aggr events
 :imagesdir: ./media/
 
 [.lead]
-ffm.aggr events are presented when aggregate attach or detach operations occur in the Firefly service, tracking aggregate lifecycle changes.
+ffm.aggr EMS events occur when ONTAP encounters issues associated with aggregate attach or detach operations in the Firefly service.
 
 == ffm.aggr.attach.done
 *Severity*::

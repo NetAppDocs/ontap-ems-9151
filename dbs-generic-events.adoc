@@ -15,7 +15,7 @@ summary: dbs.generic events
 :imagesdir: ./media/
 
 [.lead]
-dbs.generic events are presented when a Distributed Block Store (DBS) cluster fault is reported as a generic fault for events that manage the data backing FlexVol volumes.
+dbs.generic EMS events occur when ONTAP encounters issues associated with generic Distributed Block Store (DBS) cluster faults or events.
 
 == dbs.generic.cluster.fault
 *Severity*::

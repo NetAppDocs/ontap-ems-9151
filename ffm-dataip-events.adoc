@@ -15,7 +15,7 @@ summary: ffm.dataip events
 :imagesdir: ./media/
 
 [.lead]
-ffm.dataip events are presented when a data IP address fails to be hosted on a node, making data access through that IP address unavailable.
+ffm.dataip EMS events occur when ONTAP encounters issues associated with hosting or unhosting a data IP address on a node.
 
 == ffm.dataip.failedToHost
 *Severity*::

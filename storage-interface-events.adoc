@@ -15,7 +15,7 @@ summary: storage.interface events
 :imagesdir: ./media/
 
 [.lead]
-storage.interface events are presented when a storage interface reports a link status change, which may require checking the network interface configuration and attempting to bring it back online.
+storage.interface EMS events occur when ONTAP encounters issues associated with storage interface link status changes.
 
 == storage.interface.linkdown
 *Severity*::

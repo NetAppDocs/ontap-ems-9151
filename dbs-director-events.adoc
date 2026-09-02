@@ -15,7 +15,7 @@ summary: dbs.director events
 :imagesdir: ./media/
 
 [.lead]
-dbs.director events are presented when data address assignments become stable following all data address movement operations in the cluster.
+dbs.director EMS events occur when ONTAP encounters issues associated with the stability of data address and aggregate assignments in the cluster.
 
 == dbs.director.addrs.stable
 *Severity*::

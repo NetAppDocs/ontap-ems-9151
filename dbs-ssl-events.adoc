@@ -15,7 +15,7 @@ summary: dbs.ssl events
 :imagesdir: ./media/
 
 [.lead]
-dbs.ssl events are presented when Distributed Block Store (DBS) detects that an SSL certificate on a node is nearing expiration, though the system resolves this automatically by updating the certificate.
+dbs.ssl EMS events occur when Distributed Block Store (DBS) detects that an SSL certificate on a node is nearing expiration.
 
 == dbs.ssl.node.cert.expire
 *Severity*::

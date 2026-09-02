@@ -15,7 +15,7 @@ summary: dbs.assignments events
 :imagesdir: ./media/
 
 [.lead]
-dbs.assignments events are presented when DBS block data distribution within the cluster changes, reflecting movement of the data that backs FlexVol volumes.
+dbs.assignments EMS events occur when the distribution of Distributed Block Store (DBS) block data changes within the cluster.
 
 == dbs.assignments
 *Severity*::

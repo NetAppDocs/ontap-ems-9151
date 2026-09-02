@@ -15,7 +15,7 @@ summary: dbs.raid events
 :imagesdir: ./media/
 
 [.lead]
-dbs.raid events are presented when distributed block store detects that a RAID group in the cluster is degraded, which may require checking for disk errors or contacting NetApp technical support.
+dbs.raid EMS events occur when ONTAP encounters issues associated with the health of a RAID group managed by the distributed block store.
 
 == dbs.raid.group.degraded
 *Severity*::

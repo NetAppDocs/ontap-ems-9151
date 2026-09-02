@@ -15,7 +15,7 @@ summary: dbs.remrep events
 :imagesdir: ./media/
 
 [.lead]
-dbs.remrep events are presented when the Distributed Block Store (DBS) executing remote replication has not reached active state for 6 hours, which requires checking network connectivity between clusters and inspecting slice service logs.
+dbs.remrep EMS events occur when ONTAP encounters issues associated with Distributed Block Store (DBS) remote replication of volumes or Snapshot copies.
 
 == dbs.remrep.async.dly.exceed
 *Severity*::

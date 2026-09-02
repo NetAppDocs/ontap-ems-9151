@@ -15,7 +15,7 @@ summary: dbs.slice events
 :imagesdir: ./media/
 
 [.lead]
-dbs.slice events are presented when a Distributed Block Store (DBS) event relating to slice service operations occurs, such as metadata drive removal, slice reassignment, or snapshot operations.
+dbs.slice EMS events occur when ONTAP encounters issues associated with Distributed Block Store (DBS) slice service operations or health.
 
 == dbs.slice.operation
 *Severity*::
