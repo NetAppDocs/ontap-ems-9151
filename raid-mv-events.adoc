@@ -14,6 +14,9 @@ summary: raid.mv events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+raid.mv EMS events occur when ONTAP encounters issues associated with mirror vote operations.
+
 == raid.mv.defVol.online
 *Severity*::
 INFORMATIONAL
@@ -76,3 +79,4 @@ This message occurs when we pull mirror votes from the replicated database (RDB)
 RAID: Found a stale vote for aggregate %s in the mailbox when the mirror vote was pulled from the RDB.
 *Parameters*::
 *aggregate* (STRING): Name of the aggregate.
+

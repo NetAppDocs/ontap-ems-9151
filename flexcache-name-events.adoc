@@ -14,6 +14,9 @@ summary: flexcache.name events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+flexcache.name EMS events occur when the FlexCache(R) volume rename operation fails to synchronize the FlexCache name information to the origin cluster.
+
 == flexcache.name.sync.failed
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Volume rename failed to update the new FlexCache volume "%s" on Vserver "%s" to 
 *cacheVolName* (STRING): Name of the FlexCache volume.
 *cacheVserver* (STRING): Name of the Vserver hosting the FlexCache volume.
 *errorString* (STRING): Error string.
+

@@ -14,6 +14,9 @@ summary: sms.resync events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sms.resync EMS events occur when a resynchronize operation between the source volume and destination volume fails.
+
 == sms.resync.attempt.failed
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ Resynchronize operation between source volume "%s" and destination volume "%s" w
 *dstpath* (STRING): Path name of the destination volume of the SnapMirror relationship.
 *relationship_id* (STRING): Relationship UUID.
 *next_resync_interval* (INT): Interval after which the next resync will be attempted.
+

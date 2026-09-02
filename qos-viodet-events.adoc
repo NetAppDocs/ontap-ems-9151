@@ -14,6 +14,9 @@ summary: qos.viodet events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+qos.viodet EMS events occur when ONTAP encounters issues associated with Quality of Service (QoS) minimum throughput and service-level objectives.
+
 == qos.VioDet.maxThrottle
 *Severity*::
 NOTICE
@@ -66,3 +69,4 @@ QoS subsystem cannot publish throttle limits.
 *Parameters*::
 *object_type* (STRING): Type of resource object under notification. For this EMS, the object_type will always be NODE.
 *object_uuid* (STRING): UUID of the resource object. For this EMS, the UUID will be of the node.
+

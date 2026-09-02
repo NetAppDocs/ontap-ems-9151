@@ -14,6 +14,9 @@ summary: vscan.odreport events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vscan.odreport EMS events occur when ONTAP encounters issues associated with Vscan On-Demand job report file creation or writing.
+
 == vscan.odReport.create.failed
 *Severity*::
 ERROR
@@ -43,3 +46,4 @@ On-Demand job for the task "%s" on Vserver "%s" could not write to the report fi
 *vserverName* (STRING): Name of the Vserver.
 *reportFile* (STRING): Path of the report file.
 *failureReason* (STRING): Reason for the failure.
+

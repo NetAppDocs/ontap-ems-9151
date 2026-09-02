@@ -14,6 +14,9 @@ summary: coredump.spare events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+coredump.spare EMS events occur when ONTAP encounters issues associated with sparecore dump operations.
+
 == coredump.spare.abort
 *Severity*::
 INFORMATIONAL
@@ -75,3 +78,4 @@ sparecore disk: %s has invalid size: %llu, skipping it from all coredump subsyst
 *Parameters*::
 *disk* (STRING): Name of the disk.
 *size* (LONGINT): Size available on the disk, reported by RAID.
+

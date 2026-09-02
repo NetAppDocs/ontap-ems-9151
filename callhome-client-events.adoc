@@ -14,6 +14,9 @@ summary: callhome.client events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.client EMS events occur when ONTAP encounters issues associated with remote clients triggering events using the Manage ONTAP API.
+
 == callhome.client.app.alert
 *Severity*::
 ALERT
@@ -73,3 +76,4 @@ Identify and resolve the issue on the remote client that is using the Manage ONT
 Call home for %s
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

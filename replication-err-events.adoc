@@ -14,6 +14,9 @@ summary: replication.err events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+replication.err EMS events occur when the replication engine fails to create an automatic snapshot.
+
 == replication.err.snapCreateFailed
 *Severity*::
 ERROR
@@ -31,3 +34,4 @@ Make sure that the Snapshot limit is not reached for the volume. The current Dat
 *dstpath* (STRING): Replication destination path.
 *rplerror* (STRING): Replication error message.
 *waflerror* (STRING): WAFL(R) error message.
+

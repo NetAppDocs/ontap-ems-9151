@@ -14,6 +14,9 @@ summary: cf.disk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cf.disk EMS events occur when ONTAP encounters issues associated with disk inventory and reservations in high-availability (HA) pairs.
+
 == cf.disk.invent.mismatchalt
 *Severity*::
 ALERT
@@ -171,3 +174,4 @@ The disk %s was skipped because it reported the status %s.
 *Parameters*::
 *diskname* (STRING): Name of the disk that was skipped.
 *status* (STRING): Status reported by the disk.
+

@@ -14,6 +14,9 @@ summary: disk.fakereassignsuccess events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.fakereassignsuccess EMS events occur when a fake reassign is detected on a disk and the sector verify succeeds.
+
 == disk.fakereassignSuccess
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ disk %s: A fake reassign was issued on sector %llu for disk %s. Disable with boo
 *diskName* (STRING): Name of the disk.
 *sector* (LONGINT): Sector where the error was detected.
 *disk_information* (STRING): Formatted information about the disk. This includes the disk's vendor, model, firmware revision, and serial number.
+

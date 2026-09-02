@@ -14,6 +14,9 @@ summary: callhome.sys events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.sys EMS events occur when ONTAP encounters issues associated with PCI slot configuration.
+
 == callhome.sys.config
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ Examine the command-line interface and System Configuration Guide for more infor
 Call home for SYSTEM CONFIGURATION ERROR
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

@@ -14,6 +14,9 @@ summary: iscsi.loginfailure events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+iscsi.loginfailure EMS events occur when an initiator fails an iSCSI login attempt.
+
 == iscsi.loginFailure
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ Attempt to configure the iSCSI text keys on the initiator such that the iSCSI lo
 ISCSI: iSCSI login failure, '%s'
 *Parameters*::
 *m* (STRING): A more detailed message describing the iSCSI login failure.
+

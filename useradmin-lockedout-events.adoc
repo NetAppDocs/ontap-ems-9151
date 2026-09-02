@@ -14,6 +14,9 @@ summary: useradmin.lockedout events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+useradmin.lockedout EMS events occur when the user tries to log into the appliance using an invalid password and the account has been disabled.
+
 == useradmin.lockedout.user
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ User '%s' is locked out of the appliance for failing authentication '%d' times.
 *Parameters*::
 *username* (STRING): The name of the user that is now locked out from the appliance
 *attempts* (INT): The number of failed attempts that caused the lockout.
+

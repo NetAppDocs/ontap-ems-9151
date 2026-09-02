@@ -14,6 +14,9 @@ summary: disk.fli events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.fli EMS events occur when ONTAP encounters issues associated with Foreign LUN Import (FLI) operations.
+
 == disk.fli.abort.ioSent
 *Severity*::
 NOTICE
@@ -54,3 +57,4 @@ Foreign LUN Import (FLI) message: %s completed on disk %s with status %d.
 *msgType* (STRING): Specifies which type of FLI message: either abort or LUN reset.
 *diskName* (STRING): Name of the disk to which this FLI message was sent.
 *returnStatus* (INT): Completion status of the FLI message.
+

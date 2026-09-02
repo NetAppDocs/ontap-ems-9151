@@ -14,6 +14,9 @@ summary: config.mirrornotmultipath events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+config.mirrornotmultipath EMS events occur when a disk is not multipathed but synchronous mirroring is enabled.
+
 == config.MirrorNotMultiPath
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Multipath the disk shelf stack by also attaching it to a different host adapter 
 Disk %s and other disks on this loop/domain are not multipathed and should be for synchronous mirroring configuration.
 *Parameters*::
 *disk* (STRING): Name of the disk.
+

@@ -14,6 +14,9 @@ summary: netif.speednotsupported events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+netif.speednotsupported EMS events occur when a network interface autonegotiates to an unsupported speed.
+
 == netif.speedNotSupported
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Autonegotiation on network interface %s resolved to speed %d. This speed is not 
 *Parameters*::
 *ifname* (STRING): Name of network interface.
 *speed* (INT): Speed in megabits per second (Mbps).
+

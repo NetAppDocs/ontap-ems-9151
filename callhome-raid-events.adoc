@@ -14,6 +14,9 @@ summary: callhome.raid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.raid EMS events occur when ONTAP encounters issues associated with RAID operations.
+
 == callhome.raid.adp.disabled
 *Severity*::
 NOTICE
@@ -49,3 +52,4 @@ Contact NetApp technical support.
 Call home for Exceeded maximum raw capacity
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

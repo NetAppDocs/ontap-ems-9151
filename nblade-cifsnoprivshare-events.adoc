@@ -14,6 +14,9 @@ summary: nblade.cifsnoprivshare events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.cifsnoprivshare EMS events occur when a client attempts to connect to a nonexistent ONTAP_ADMIN$ share.
+
 == Nblade.cifsNoPrivShare
 *Severity*::
 EMERGENCY
@@ -29,3 +32,4 @@ Vserver ID: %d, user name: %s, client ip: %s, Object type is: %s with UUID: %s.
 *clientIp* (STRING): IP address of the client attemping to access the nonexistent ONTAP_ADMIN$ share.
 *object_type* (STRING): Type of resource object.
 *object_uuid* (STRING): UUID of the resource object.
+

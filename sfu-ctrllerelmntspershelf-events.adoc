@@ -14,6 +14,9 @@ summary: sfu.ctrllerelmntspershelf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sfu.ctrllerelmntspershelf EMS events occur when a disk shelf firmware download determines the number of controller elements per shelf that can be downloaded.
+
 == sfu.ctrllerElmntsPerShelf
 *Severity*::
 INFORMATIONAL
@@ -29,3 +32,4 @@ This message occurs when a disk shelf firmware download determines the number of
 *pluralElement* (STRING): Element or Elements.
 *channelName* (STRING): Name of the adapter port or switch port on which the disk shelf firmware can be downloaded.
 *shelfId* (INT): ID of the disk shelf on which the disk shelf firmware can be downloaded.
+

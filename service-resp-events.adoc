@@ -14,6 +14,9 @@ summary: service.resp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+service.resp EMS events occur when a service such as Firefly or Slice Service is detected as responsive and that state is committed to the Zookeeper database.
+
 == service.resp.committed
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ The responsiveness for service (ID: %u) of type %s running on node %s (ID: %u, U
 *nodeName* (STRING): Name of the node on which the service is running.
 *nodeID* (INT): Unique identifier of the node on which the service is running.
 *nodeUuid* (STRING): Universal unique identifier of the node on which the service is running.
+

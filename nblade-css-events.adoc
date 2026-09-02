@@ -14,6 +14,9 @@ summary: nblade.css events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.css EMS events occur when ONTAP encounters issues associated with object-store-server access control.
+
 == nblade.css.s3.AccessDenied
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ Access is denied for user '%s' (Vserver %d), from client IP %s accessing resourc
 *vserverId* (INT): ID of the Vserver.
 *ipAddress* (STRING): IP address of the client.
 *resource* (STRING): Resource that the user is trying to access.
+

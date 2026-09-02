@@ -14,6 +14,9 @@ summary: raid.aggr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+raid.aggr EMS events occur when ONTAP encounters issues associated with aggregate sizing and configuration operations.
+
 == raid.aggr.autoGrow.abort
 *Severity*::
 NOTICE
@@ -70,3 +73,4 @@ Exclusive access on the aggregate %s by operation %s failed because of a conflic
 *aggregate* (STRING): Name of the aggregate.
 *attempted_op_name* (STRING): Name of the operation that tried to get exclusive access.
 *current_op_name* (STRING): Name of the operation that is currently holding the exclusive access.
+

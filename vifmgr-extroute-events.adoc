@@ -14,6 +14,9 @@ summary: vifmgr.extroute events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vifmgr.extroute EMS events occur when ONTAP encounters issues associated with external route table operations.
+
 == vifmgr.extRoute.addTable
 *Severity*::
 NOTICE
@@ -153,3 +156,4 @@ This message occurs when an external route table is removed.
 External route table %s was removed successfully.
 *Parameters*::
 *table* (STRING): Route table name.
+

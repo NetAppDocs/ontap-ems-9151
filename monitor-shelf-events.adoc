@@ -14,6 +14,9 @@ summary: monitor.shelf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+monitor.shelf EMS events occur when ONTAP encounters issues associated with disk shelf access and configuration.
+
 == monitor.shelf.accessError
 *Severity*::
 ALERT
@@ -97,3 +100,4 @@ Check the messages log for more specific shelf error messages, and follow the co
 Fault reported on disk storage shelf attached to channel %s. Check fans, power supplies, disks, and temperature sensors.
 *Parameters*::
 *channel* (STRING): Adapter slot or switch port that has detected the fault; for example, "7a" or "myswitch:5".
+

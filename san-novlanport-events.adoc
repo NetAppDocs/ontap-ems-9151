@@ -14,6 +14,9 @@ summary: san.novlanport events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+san.novlanport EMS events occur when a clustered Data ONTAP(R) system is in a MetroCluster(TM) configuration.
+
 == san.NoVlanPort
 *Severity*::
 ERROR
@@ -30,3 +33,4 @@ There are no VLAN ports with tag "%s" on node "%s" in IPspace "%s" to host the %
 *data_protocol* (STRING): Data protocol of the LIF.
 *lif* (STRING): Name of the IP LIF.
 *vserver* (STRING): Name of the SVM for which the IP LIF was incorrectly placed.
+

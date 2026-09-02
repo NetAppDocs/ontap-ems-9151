@@ -14,6 +14,9 @@ summary: flexcache.featuredisabled events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+flexcache.featuredisabled EMS events occur when an attempt is made to mount a FlexCache volume.
+
 == flexcache.featureDisabled
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Delete all FlexCache volumes in the cluster. They can be displayed by using the 
 (None).
 *Parameters*::
 *volume* (STRING): FlexCache volume involved.
+

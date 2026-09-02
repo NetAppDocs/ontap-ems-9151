@@ -14,6 +14,9 @@ summary: cf.hwassist events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cf.hwassist EMS events occur when ONTAP encounters issues associated with hardware-assisted takeover operations.
+
 == cf.hwassist.Default.NodemgmtAddr
 *Severity*::
 INFORMATIONAL
@@ -355,3 +358,4 @@ None.
 hw_assist: Received unknown signal 0x%x.
 *Parameters*::
 *sigmask* (INT): Signal received by hwassist thread.
+

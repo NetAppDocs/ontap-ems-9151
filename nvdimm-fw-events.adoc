@@ -14,6 +14,9 @@ summary: nvdimm.fw events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nvdimm.fw EMS events occur when ONTAP encounters issues associated with NVDIMM controller firmware updates.
+
 == nvdimm.fw.upgrade.failure
 *Severity*::
 ERROR
@@ -39,3 +42,4 @@ NVDIMM controller firmware in slot-%d was upgraded to %s.
 *Parameters*::
 *slot* (INT): NVDIMM slot location.
 *version* (STRING): New firmware version.
+

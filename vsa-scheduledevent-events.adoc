@@ -14,6 +14,9 @@ summary: vsa.scheduledevent events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vsa.scheduledevent EMS events occur when ONTAP encounters issues associated with cloud provider scheduled maintenance events.
+
 == vsa.scheduledEvent.mlx.detch
 *Deprecated*::
 This event is replaced with vsa.mlx.nic.detach which is the same, but with a new non-confusing name.
@@ -59,3 +62,4 @@ Cloud provider event %s for node "%s". ID: %s. Type: %s. Status: %s.
 *event_id* (STRING): Cloud-provider-specific event ID.
 *event_type* (STRING): String "reboot", "rehost", or "freeze".
 *status* (STRING): Current status of the event: "scheduled", "started", "complete".
+

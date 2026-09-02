@@ -14,6 +14,9 @@ summary: monitor.ioxmtemp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+monitor.ioxmtemp EMS events occur when the I/O module is above the recommended operating temperature.
+
 == monitor.ioxmTemp.warm
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Evaluate the environment in which the system is functioning for proper air flow 
 I/O expansion module is too warm: %s
 *Parameters*::
 *describe_toowarm* (STRING): Reading and state of the temperature sensors on the I/O expansion module.
+

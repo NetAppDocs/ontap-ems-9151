@@ -14,6 +14,9 @@ summary: fal_nvme.init events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fal_nvme.init EMS events occur when the Flash Adaptation Layer (FAL) NVMe subsystem fails to initialize.
+
 == fal_nvme.init.failed
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Reboot the node. If the problem persists, contact technical support for assistan
 FAL NVMe subsystem initialization failed. Reason: %s.
 *Parameters*::
 *reason* (STRING): Reason for failure.
+

@@ -14,6 +14,9 @@ summary: bootfs.env events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+bootfs.env EMS events occur when an error is detected while trying to access the environment file stored on the boot device.
+
 == bootfs.env.issue
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Reformat or replace the boot media. If the problem persists, contact NetApp tech
 Environmental variables cannot be accessed or saved on the boot device (%s).
 *Parameters*::
 *err_str* (STRING): Error string.
+

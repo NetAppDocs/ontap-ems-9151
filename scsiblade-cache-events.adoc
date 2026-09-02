@@ -14,6 +14,9 @@ summary: scsiblade.cache events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+scsiblade.cache EMS events occur when the SAN cache encounters an error that might cause configuration inconsistencies within the cluster.
+
 == scsiblade.cache.commit.fail
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Reload the scsi-blade by using the (privilege: diagnostic) "debug san vserver re
 The SAN cache might be inconsistent. SAN data traffic might be interrupted.
 *Parameters*::
 (None).
+

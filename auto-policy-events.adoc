@@ -14,6 +14,9 @@ summary: auto.policy events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+auto.policy EMS events occur when ONTAP encounters issues associated with enabling the "auto" efficiency policy on volumes during upgrade to Data ONTAP 9.3 or later.
+
 == auto.policy.feature.enable
 *Severity*::
 NOTICE
@@ -64,3 +67,4 @@ Volume Efficiency features enabled on Volume %s of Vserver %s.
 *Parameters*::
 *volume* (STRING): Volume name.
 *vserver* (STRING): Vserver name.
+

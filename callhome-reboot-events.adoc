@@ -14,6 +14,9 @@ summary: callhome.reboot events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.reboot EMS events occur when ONTAP encounters issues associated with system reboots.
+
 == callhome.reboot
 *Severity*::
 NOTICE
@@ -217,3 +220,4 @@ If you continue to experience watchdog timer resets, contact NetApp technical su
 Call home for REBOOT (watchdog reset)
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

@@ -14,6 +14,9 @@ summary: snaplock.invalid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+snaplock.invalid EMS events occur when an invalid autocommit period value is found on a SnapLock(R) volume.
+
 == snaplock.invalid.autocommit
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Disabling autocommit on SnapLock volume %s%s on the Vserver with ID %s because t
 *volume* (STRING): Name of the SnapLock volume with invalid autocommit period value.
 *app* (STRING): Application Name.
 *volident* (STRING): Unique identifier of the volume when the volume name itself is insufficient.
+

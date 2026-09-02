@@ -14,6 +14,9 @@ summary: lun.vdisk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lun.vdisk EMS events occur when ONTAP encounters issues associated with LUN count limits in volumes.
+
 == LUN.vdisk.cnt.exceeded
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ Provisioning of metadata for some LUNs failed because the limit on the maximum s
 *volume_name* (STRING): Name of the volume for which the LUN provisioning failed.
 *volume_dsid* (LONGINT): Data Set ID (DSID) of the volume for which the LUN provisioning failed.
 *max_prov_limit* (INT): Maximum number of LUNs for which metadata can be provisioned in a volume.
+

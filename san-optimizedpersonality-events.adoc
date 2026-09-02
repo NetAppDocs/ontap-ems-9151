@@ -14,6 +14,9 @@ summary: san.optimizedpersonality events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+san.optimizedpersonality EMS events occur when a mismatch is detected between the san-optimized personality of a node and the cluster.
+
 == san.optimizedPersonality.mismatch
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ The san-optimized value "%s" does not match the san-optimized value of the clust
 *san_optimized* (STRING): The san-optimized value for the node.
 *object_type* (STRING): Type of resource object under notification. For this EMS, the object_type will always be NODE.
 *object_uuid* (STRING): UUID of the resource object. For this EMS, the UUID will be of the node.
+

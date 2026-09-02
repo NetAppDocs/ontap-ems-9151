@@ -14,6 +14,9 @@ summary: callhome.syncm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.syncm EMS events occur when ONTAP encounters issues associated with SyncMirror(R) configurations.
+
 == callhome.syncm.isolation
 *Severity*::
 ALERT
@@ -61,3 +64,4 @@ To resolve this issue, complete the following steps: 1. Determine the problem ag
 Call home for SYNCMIRROR VERIFY FAILED
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

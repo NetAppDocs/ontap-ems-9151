@@ -14,6 +14,9 @@ summary: mgmtgwd.var events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mgmtgwd.var EMS events occur when the system detects a missing or corrupted /var root directory.
+
 == mgmtgwd.var.recovery
 *Severity*::
 EMERGENCY
@@ -25,3 +28,4 @@ Contact NetApp technical support to obtain the recovery procedures.
 Part of the /var boot directory is missing. This node is not fully operational. Contact technical support to obtain the recovery procedures.
 *Parameters*::
 (None).
+

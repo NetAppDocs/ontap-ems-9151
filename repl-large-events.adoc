@@ -14,6 +14,9 @@ summary: repl.large events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+repl.large EMS events occur when ONTAP encounters issues associated with large volume limits on replication destinations.
+
 == repl.large.vol.600tb.limits.unsup
 *Severity*::
 ERROR
@@ -69,3 +72,4 @@ Large volume not supported on the destination node %s for destination volume wit
 *dstNode* (STRING): UUID of the node where the SnapMirror(R) destination is present.
 *dstVolMsid* (LONGINT): MSID of the SnapMirror(R) destination volume.
 *transferId* (STRING): UUID of the failed SnapMirror(R) transfer.
+

@@ -14,6 +14,9 @@ summary: disk.sizeshrank events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.sizeshrank EMS events occur when the controller detects a decrease in the capacity of a virtual disk.
+
 == disk.sizeShrank
 *Severity*::
 NOTICE
@@ -30,3 +33,4 @@ Size of virtual disk %s has changed from %s to %s, a decrease of %lld bytes (%ll
 *byteDiff* (LONGINT): Difference in bytes between the original size and the current size of the virtual disk.
 *blockDiff* (LONGINT): Difference in blocks between the original size and the current size of the virtual disk.
 *blockSize* (INT): Block size in bytes of the virtual disk.
+

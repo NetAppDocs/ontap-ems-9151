@@ -14,6 +14,9 @@ summary: cecc_log.summary events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cecc_log.summary EMS events occur when the ECC error logger reports its periodic summary of new correctable ECC errors that occurred after the last report and the total number of ECC errors that occurred since boot.
+
 == cecc_log.summary
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Total of %lld new correctable ECC errors just reported. You might want to check 
 *Parameters*::
 *num_ceccs* (LONGINT): Number of new correctable ECC errors after the last summary.
 *total_num_ceccs* (LONGINT): Number of correctable ECC errors since boot.
+

@@ -14,6 +14,9 @@ summary: disk.senseinfonotvalid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.senseinfonotvalid EMS events occur when invalid sense information is returned.
+
 == disk.senseInfoNotValid
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ This message occurs when invalid sense information is returned.
 Disk %s: sense data information field is not valid.
 *Parameters*::
 *diskName* (STRING): Name of the device.
+

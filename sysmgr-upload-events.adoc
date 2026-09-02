@@ -14,6 +14,9 @@ summary: sysmgr.upload events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sysmgr.upload EMS events occur when ONTAP encounters issues associated with System Manager file upload operations.
+
 == sysmgr.upload.bad.method
 *Severity*::
 ERROR
@@ -111,3 +114,4 @@ Verify that the user name and password used to log in in to System Manager are c
 Failed to upload file "%s" because the user is unauthorized.
 *Parameters*::
 *file* (STRING): File name.
+

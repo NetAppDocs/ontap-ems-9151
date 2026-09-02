@@ -14,6 +14,9 @@ summary: ic.unsupportcable events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ic.unsupportcable EMS events occur when an unsupported cable is detected on the high-availability interconnect port.
+
 == ic.unsupportCable
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Detected unsupported %s cable with part number %s.
 *Parameters*::
 *cable_type* (STRING): Cable type.
 *cable_part* (STRING): Cable part number.
+

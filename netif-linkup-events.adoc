@@ -14,6 +14,9 @@ summary: netif.linkup events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+netif.linkup EMS events occur when the state of a network link changes to "up".
+
 == netif.linkUp
 *Severity*::
 INFORMATIONAL
@@ -27,3 +30,4 @@ This message occurs when the state of a network link changes to "up".
 *lanType* (STRING): Local area network (LAN) type.
 *ifName* (STRING): Name of the network interface.
 *status* (STRING): Status of the link, "up".
+

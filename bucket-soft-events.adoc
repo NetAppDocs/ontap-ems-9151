@@ -14,6 +14,9 @@ summary: bucket.soft events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+bucket.soft EMS events occur when ONTAP encounters issues associated with a bucket exceeding or returning below the soft quota limit.
+
 == bucket.soft.limit.exceeded
 *Severity*::
 NOTICE
@@ -45,3 +48,4 @@ Bucket "%s" on volume "%s%s%s" is below the soft block limit and is at %s capaci
 *app* (STRING): Application UUID.
 *volident* (STRING): Unique identifier for the volume in cases in which the volume name alone is insufficient.
 *capacity* (STRING): Capacity percentage.
+

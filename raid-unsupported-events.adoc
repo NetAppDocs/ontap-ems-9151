@@ -14,6 +14,9 @@ summary: raid.unsupported events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+raid.unsupported EMS events occur when ONTAP encounters issues associated with unsupported aggregate formats.
+
 == raid.unsupported.bitformat
 *Severity*::
 ERROR
@@ -59,3 +62,4 @@ The label on %s indicates that the disk belongs to a ZCS aggregate, the use of w
 *failure_reason* (STRING): Text description of the storage error leading to disk failure.
 *carrier* (STRING): Unique ID of the carrier in which the disk is installed.
 *site* (STRING): For a MetroCluster(tm) configuration, indicates the site {Local|Remote} where the disk is located. For non-MetroCluster configurations, site is Local.
+

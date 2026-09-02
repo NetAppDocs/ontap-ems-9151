@@ -14,6 +14,9 @@ summary: qos.violation events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+qos.violation EMS events occur every hour to provide a snapshot of violation detection status for the Quality of Service (QoS) policy groups.
+
 == qos.violation.report
 *Deprecated*::
 Deprecated as of version 9.4.0 since the QoS violation detection functionality has been deprecated.
@@ -30,3 +33,4 @@ QoS violation state for policy group %s is (pgid= %u violation= %s deactivation=
 *id* (INT): The QoS policy group identifier.
 *vdstate* (STRING): The violation state for a QoS policy group.
 *dastate* (STRING): The deactivation state for a QoS policy group.
+

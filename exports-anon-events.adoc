@@ -14,6 +14,9 @@ summary: exports.anon events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+exports.anon EMS events occur when we cannot get UNIX credentials for a user id when evaluating the "-anon" portion of an export-policy rule.
+
 == exports.anon.noCredForId
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Cannot retrieve credentials for UID "%u" present in the "-anon" entry for the ex
 *Parameters*::
 *anonId* (INT): UNIX UID for which we cannot acquire credentials.
 *vserver* (INT): Identifier of the Vserver owning the export-policy.
+

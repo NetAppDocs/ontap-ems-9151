@@ -14,6 +14,9 @@ summary: nblade.vscanconnbackpressure events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.vscanconnbackpressure EMS events occur when an AV server is too busy to accept new scan requests.
+
 == Nblade.vscanConnBackPressure
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ For Vserver "%s", AV server "%s" is too busy to accept new scan requests.
 *scannerIp* (STRING): IP address of the AV server.
 *object_type* (STRING): Type of the resource object under notification.
 *object_uuid* (STRING): UUID of the resource object.
+

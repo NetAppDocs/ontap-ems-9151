@@ -14,6 +14,9 @@ summary: sp.upd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sp.upd EMS events occur when ONTAP encounters issues associated with Service Processor (SP) firmware update operations.
+
 == sp.upd.bad.fw.package
 *Severity*::
 ERROR
@@ -51,3 +54,4 @@ Service Processor failed to decompress the image package.
 *Parameters*::
 *package_name* (STRING): SP firmware package name.
 *sp_fw_update_type* (STRING): Type of SP firmware update being performed when the error was encountered.
+

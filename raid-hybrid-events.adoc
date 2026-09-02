@@ -14,6 +14,9 @@ summary: raid.hybrid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+raid.hybrid EMS events occur when ONTAP encounters issues associated with solid state disk (SSD) capacity in hybrid aggregates.
+
 == raid.hybrid.SSDHAExceed
 *Severity*::
 ERROR
@@ -39,3 +42,4 @@ The sum of sizes of SSD disks of hybrid aggregates %s exceeds the %s maximum. Co
 *Parameters*::
 *ssd_disks_size* (STRING): Total of sizes of SSD disks of hybrid aggregates.
 *limit* (STRING): Maximum total of sizes of SSD disks of hybrid aggregates.
+

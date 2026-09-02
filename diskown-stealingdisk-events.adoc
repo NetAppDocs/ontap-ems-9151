@@ -14,6 +14,9 @@ summary: diskown.stealingdisk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+diskown.stealingdisk EMS events occur when a user reassigns a disk that is owned and has a reservation from another system.
+
 == diskown.StealingDisk
 *Severity*::
 NOTICE
@@ -30,3 +33,4 @@ Ownership for disk %s (S/N %s) is being stolen from node "%s" (System ID: %u).
 *systemid* (INT): System ID of the host that currently owns the disk.
 *thread* (STRING): Name of the thread that issued the ownership change request.
 *APIname* (STRING): Name of the API that issued the ownership change request.
+

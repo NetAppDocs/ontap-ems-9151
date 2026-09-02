@@ -14,6 +14,9 @@ summary: rpc.xprt events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+rpc.xprt EMS events occur when ONTAP encounters issues associated with side band Remote Procedure Call (RPC) connection limits.
+
 == rpc.xprt.limit
 *Deprecated*::
 Deprecated as of version 9.2 where this RPC mechanism was withdrawn.
@@ -43,3 +46,4 @@ Active TCP connections to side band RPC services of vFiler %s has reached a limi
 *Parameters*::
 *vfiler* (STRING): Name of the vFiler unit to which the connection request arrived.
 *vf_max_conn* (INT): Maximum number of active connections to sideband RPC services of this vFiler unit.
+

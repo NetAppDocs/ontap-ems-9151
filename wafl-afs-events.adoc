@@ -14,6 +14,9 @@ summary: wafl.afs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.afs EMS events occur when the deswizzle scanner fails to enable the wafl.deswizzle.afs.first feature on the aggregate because block reallocation redirection cannot be enabled on the aggregate.
+
 == wafl.afs.first.disabled
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ afs.first option cannot be enabled on aggregate %s, for volume %s because it is 
 *Parameters*::
 *aggr* (STRING): Aggregate name.
 *vol* (STRING): Volume name.
+

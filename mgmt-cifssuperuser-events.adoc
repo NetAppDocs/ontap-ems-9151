@@ -14,6 +14,9 @@ summary: mgmt.cifssuperuser events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mgmt.cifssuperuser EMS events occur when ONTAP encounters issues associated with CIFS super-user configuration.
+
 == mgmt.cifssuperuser.failure
 *Severity*::
 ERROR
@@ -44,3 +47,4 @@ This message occurs when a CIFS super-user is successfully configured after a fa
 *cifsservername* (STRING): Name of the cifs server.
 *cifsdomainname* (STRING): Name of the cifs domain.
 *accountname* (STRING): Name of the superuser account.
+

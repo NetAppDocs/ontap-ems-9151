@@ -14,6 +14,9 @@ summary: pha.disk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+pha.disk EMS events occur when ONTAP encounters issues associated with backing disk types for existing disks.
+
 == pha.disk.type.changed
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ Failed to recognize backing disk type for Disk: %s, Volume: %s. Error: %s.
 *d_name* (STRING): Disk name.
 *d_id* (STRING): Disk ID
 *errmsg* (STRING): Indicating the stage at which the disk lookup failed.
+

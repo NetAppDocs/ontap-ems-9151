@@ -14,6 +14,9 @@ summary: certificate.insecure events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+certificate.insecure EMS events occur when ONTAP encounters issues associated with insecure digital certificates.
+
 == certificate.insecure.hash
 *Severity*::
 ERROR
@@ -44,3 +47,4 @@ A digital certificate with UUID %s in Vserver %s with name %s has an insecure ke
 *cert_name* (STRING): Name (unique within a Vserver) of the offending certificate.
 *key_algorithm* (STRING): Algorithm (e.g., RSA) of the key for the corresponding certificate.
 *key_length* (INT): Length of the key in bits for the corresponding certificate.
+

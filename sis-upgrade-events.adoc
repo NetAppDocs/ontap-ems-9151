@@ -14,6 +14,9 @@ summary: sis.upgrade events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sis.upgrade EMS events occur when ONTAP encounters issues associated with Single Instance Storage (SIS) upgrades.
+
 == sis.upgrade.aggr.metafile.failed
 *Severity*::
 ERROR
@@ -78,3 +81,4 @@ Volume Efficiency features enabled on Volume %s of Vserver %s.
 *Parameters*::
 *volume* (STRING): Volume name.
 *vserver* (STRING): Vserver name.
+

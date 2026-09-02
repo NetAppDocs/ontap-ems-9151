@@ -14,6 +14,9 @@ summary: sla.shelf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sla.shelf EMS events occur when ONTAP encounters issues associated with shelf firmware module reboots.
+
 == sla.shelf.mod.reboot
 *Severity*::
 NOTICE
@@ -41,3 +44,4 @@ Unexpected reboot event reported by module %s in shelf: %s, log: %s
 *module* (STRING): Module designator (A or B).
 *shelf* (STRING): Shelf identifier.
 *log* (STRING): Reboot event log from the shelf module.
+

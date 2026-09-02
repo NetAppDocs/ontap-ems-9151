@@ -14,6 +14,9 @@ summary: netif.ratelimitthreshold events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+netif.ratelimitthreshold EMS events occur when the protocol rate threshold is reached on a network interface.
+
 == netif.rateLimitThreshold
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ High rate limit on network interface %s for broadcast protocol %s being detected
 *ifName* (STRING): Name of the network interface that reached the protocol rate threshold.
 *protocol* (STRING): Name of the broadcast protocol that overloaded the network.
 *packetRate* (INT): Observed incoming packet rate per second on the interface.
+

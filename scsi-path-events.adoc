@@ -14,6 +14,9 @@ summary: scsi.path events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+scsi.path EMS events occur when excessive errors are encountered on this device within a short-enough time period to raise concern that there might be a faulty component between the storage initiator and device.
+
 == scsi.path.excessiveErrors
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Excessive errors encountered by adapter %s on %s device %s.
 *adapterName* (STRING): Name of the associated storage host bus adapter.
 *deviceType* (STRING): Device type.
 *deviceName* (STRING): Name of the storage device.
+

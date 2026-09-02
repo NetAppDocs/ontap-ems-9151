@@ -14,6 +14,9 @@ summary: dml.fae events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dml.fae EMS events occur when the Device Management Layer fails to import key material.
+
 == dml.fae.key.import.failed
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Verify whether aggregate keys are required. Retry the key transport operation.
 Key import failed. Reason: %s.
 *Parameters*::
 *reaon* (STRING): Failure reason.
+

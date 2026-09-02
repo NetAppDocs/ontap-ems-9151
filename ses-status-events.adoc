@@ -14,6 +14,9 @@ summary: ses.status events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ses.status EMS events occur when ONTAP encounters issues associated with disk shelf environmental monitoring and component status.
+
 == ses.status.ACPError
 *Severity*::
 ALERT
@@ -1024,3 +1027,4 @@ Verify that the power supply and the AC line are supplying power. Monitor the po
 *errorMsg* (STRING): Generic SES error.
 *errorText* (STRING): Description of the exact warning.
 *locationText* (STRING): Location of the module on the disk shelf.
+

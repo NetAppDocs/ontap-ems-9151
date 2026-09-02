@@ -14,6 +14,9 @@ summary: mgmt.nfslisteners events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mgmt.nfslisteners EMS events occur when ONTAP encounters issues associated with NFS service listener configuration.
+
 == mgmt.nfslisteners.failure
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ This message occurs when the listener for the NFS service is configured after a 
 (None).
 *Parameters*::
 (None).
+

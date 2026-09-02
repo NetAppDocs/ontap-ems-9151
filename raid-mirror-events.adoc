@@ -14,6 +14,9 @@ summary: raid.mirror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+raid.mirror EMS events occur when ONTAP encounters issues associated with SyncMirror(R) aggregate operations.
+
 == raid.mirror.aggrSnapUse
 *Severity*::
 NOTICE
@@ -735,3 +738,4 @@ Failed to communicate with the destination node over the cluster network while m
 *aggregate* (STRING): Name of the aggregate.
 *aggregate_uuid* (STRING): UUID of the aggregate.
 *reason* (STRING): The reason the transfer failed.
+

@@ -14,6 +14,9 @@ summary: fmmb.blobwritten events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fmmb.blobwritten EMS events occur when a mailbox 'blob' write to the on-disk mailbox data structure succeeds.
+
 == fmmb.BlobWritten
 *Severity*::
 INFORMATIONAL
@@ -27,3 +30,4 @@ Blob %d: bytes written %d: data: %llx.
 *blob_id* (INT): 'blob' ID.
 *blob_data_len* (INT): Total number of bytes of data written.
 *data* (LONGINTHEX): First eight bytes of the data written.
+

@@ -14,6 +14,9 @@ summary: nblade.recoverybegin events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.recoverybegin EMS events occur when the NFS server enters the lock recovery state.
+
 == Nblade.recoveryBegin
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ NFS server lock recovery has begun for Vserver "%s", LIFID "%d", LIF IP address 
 *vserverName* (STRING): Vserver Name.
 *lifId* (INT): LIF ID
 *lifIpAddress* (STRING): LIF IP address for the NFS server.
+

@@ -14,6 +14,9 @@ summary: cpeer.authentication events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cpeer.authentication EMS events occur when ONTAP encounters issues associated with authentication of cluster peer relationships.
+
 == cpeer.authentication.create
 *Severity*::
 NOTICE
@@ -63,3 +66,4 @@ Access as peer cluster %s was claimed from network address %s, but has not been 
 *peer* (STRING): Peer cluster on behalf of which this access was made.
 *remoteAddress* (STRING): Remote network address of the violating connection.
 *reason* (STRING): Justification for the violation claim.
+

@@ -14,6 +14,9 @@ summary: dbs.disconn events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dbs.disconn EMS events occur when ONTAP encounters issues associated with distributed block store cluster or node connectivity.
+
 == dbs.disconn.cluster.pair
 *Severity*::
 ERROR
@@ -45,3 +48,4 @@ The Distributed Block Store has detected that a remote node is not connected to 
 *cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
 *cfDetails* (STRING): Description of the cluster fault, including context details.
 *cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.
+

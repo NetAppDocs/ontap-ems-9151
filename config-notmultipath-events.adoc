@@ -14,6 +14,9 @@ summary: config.notmultipath events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+config.notmultipath EMS events occur when a disk is not multipathed.
+
 == config.NotMultiPath
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Multipath the disk shelf stack by also attaching it to a different host adapter 
 Disk %s and other disks on this loop/domain are not multipathed and should be for improved availability.
 *Parameters*::
 *disk* (STRING): Name of the disk.
+

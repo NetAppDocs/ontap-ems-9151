@@ -14,6 +14,9 @@ summary: wafl.vv events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.vv EMS events occur when ONTAP encounters issues associated with virtual volume data set identifiers.
+
 == wafl.vv.bad.DSIDorMSID
 *Severity*::
 ERROR
@@ -219,3 +222,4 @@ Cannot configure FlexVol volume '%s' (UUID %s) in aggregate '%s': There are too 
 *count* (INT): Current number of FlexVol volumes.
 *model* (STRING): System model name.
 *limit* (INT): Limit for the number of FlexVol volumes.
+

@@ -14,6 +14,9 @@ summary: mlm.scsi events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mlm.scsi EMS events occur when ONTAP encounters issues associated with SCSI INQUIRY data support levels.
+
 == mlm.SCSI.supportLvl.bad
 *Severity*::
 ALERT
@@ -41,3 +44,4 @@ The target port containing SCSI INQUIRY DATA %s:%s with a (WWPN) of %s, now has 
 *vendorId* (STRING): Vendor ID from the SCSI INQUIRY data.
 *productId* (STRING): Product ID from the SCSI INQUIRY data.
 *wwpn* (STRING): World Wide Port Name (WWPN) of the target port that now has the correct SCSI support level.
+

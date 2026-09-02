@@ -14,6 +14,9 @@ summary: vldb.mccaggregate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vldb.mccaggregate EMS events occur during MetroCluster(tm) configuration setup, when the aggregate at the destination site is renamed to handle a name collision.
+
 == vldb.mccaggregate.rename
 *Severity*::
 INFORMATIONAL
@@ -27,3 +30,4 @@ The aggregate with UUID '%s' and name '%s' is renamed at the MetroCluster config
 *uuid* (STRING): Universally Unique Identifier (UUID) of the aggregate.
 *aggrNameStr* (STRING): Name of the aggregate at the source site.
 *aggrRenameStr* (STRING): Name of the aggregate at the destination site.
+

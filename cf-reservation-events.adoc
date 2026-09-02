@@ -14,6 +14,9 @@ summary: cf.reservation events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cf.reservation EMS events occur when the system does not halt on a disk reservation conflict and the reservation is not found on the disk.
+
 == cf.reservation.disk.notFound
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when the system does not halt on a disk reservation conflict
 Reservation found on disk %s; not halting due to sanown_pr_test_mode.
 *Parameters*::
 *diskName* (STRING): Disk name.
+

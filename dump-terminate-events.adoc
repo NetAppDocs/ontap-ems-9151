@@ -14,6 +14,9 @@ summary: dump.terminate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dump.terminate EMS events occur when ONTAP encounters issues associated with dump termination operations.
+
 == dump.terminate
 *Severity*::
 NOTICE
@@ -38,3 +41,4 @@ This event is generated when we tried to terminate dump and have checked if dump
 Terminating restartable dump(%d)
 *Parameters*::
 *dump_id* (INT): Dump ID
+

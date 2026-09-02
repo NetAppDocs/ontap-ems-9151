@@ -14,6 +14,9 @@ summary: fcvi.disabled events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fcvi.disabled EMS events occur when the HA interconnect card is disabled by the ic-type environment variable.
+
 == fcvi.disabled
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Either remove the HA interconnect card from the controller or change the ic-type
 FC-VI adapter: Port %s has been disabled because of the ic-type environment variable.
 *Parameters*::
 *port* (STRING): FCVI Interconnect NIC.
+

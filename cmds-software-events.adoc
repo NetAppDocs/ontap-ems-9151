@@ -14,6 +14,9 @@ summary: cmds.software events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cmds.software EMS events occur when ONTAP encounters issues associated with software installation operations.
+
 == cmds.software.dirErr
 *Severity*::
 ERROR
@@ -50,3 +53,4 @@ This message occurs during software update and installation to inform you that i
 Software: Installation of %s failed.
 *Parameters*::
 *fileName* (STRING): Name of the file to be updated/installed.
+

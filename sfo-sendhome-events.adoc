@@ -14,6 +14,9 @@ summary: sfo.sendhome events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sfo.sendhome EMS events occur when ONTAP encounters issues associated with storage failover giveback operations.
+
 == sfo.sendhome.NoPartnerDisks
 *Severity*::
 INFORMATIONAL
@@ -50,3 +53,4 @@ The giveback operation of '%s' was aborted by '%s'.
 *Parameters*::
 *aggr* (STRING): Name of the aggregate on which the subsystem attempted the giveback operation.
 *subsystem* (STRING): Name of the subsystem that aborted the giveback operation.
+

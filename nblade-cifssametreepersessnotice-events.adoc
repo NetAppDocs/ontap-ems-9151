@@ -14,6 +14,9 @@ summary: nblade.cifssametreepersessnotice events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.cifssametreepersessnotice EMS events occur when the number of connections to the same share allowed per session nears the configured limit.
+
 == Nblade.cifsSameTreePerSessNotice
 *Severity*::
 NOTICE
@@ -31,3 +34,4 @@ Received %d connection requests to the same share, nearing the configured limit 
 *shareName* (STRING): Name of the share to which the client is attempting connection.
 *userName* (STRING): User that is attempting to connect to the share.
 *vserverName* (STRING): Vserver associated with this operation.
+

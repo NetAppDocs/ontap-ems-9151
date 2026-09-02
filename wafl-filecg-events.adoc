@@ -14,6 +14,9 @@ summary: wafl.filecg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.filecg EMS events occur when a volume with file-based compression(either secondary compression or 8k/16K/32K adaptive compression) have nominal size greater than 300TB.
+
 == wafl.fileCG.vvol.size.exceeded
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ This message occurs when a volume with file-based compression(either secondary c
 Nominal size of the "%s" volume exceeded the 300TB limit.
 *Parameters*::
 *vvolname* (STRING): Name of the volume.
+

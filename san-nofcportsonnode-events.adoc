@@ -14,6 +14,9 @@ summary: san.nofcportsonnode events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+san.nofcportsonnode EMS events occur in MetroCluster(TM) configurations on clustered Data ONTAP(R) systems when an attempt to place an FCP LIF on a particular node fails because the system cannot find any active ports on that node.
+
 == san.NoFCPortsOnNode
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Cannot find online FC ports on Node "%s" for placing LIF "%s" in Vserver "%s".
 *node_name* (STRING): Node name.
 *lif* (STRING): LIF name.
 *vserver_name* (STRING): Vserver name.
+

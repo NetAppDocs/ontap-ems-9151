@@ -14,6 +14,9 @@ summary: lmgr.sh events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lmgr.sh EMS events occur when the system vetoes aggregate giveback or relocation because CIFS oplock recall fails.
+
 == lmgr.sh.oplock.recall.fail
 *Deprecated*::
 This EMS was replaced by the new "lmgr.precommit.oplock.recall.*" variants below and is no longer needed.
@@ -28,3 +31,4 @@ Aggregate "%s" vetoed giveback or relocation because CIFS oplock recall failed. 
 *Parameters*::
 *aggrname* (STRING): Aggregate name.
 *error* (STRING): Error details.
+

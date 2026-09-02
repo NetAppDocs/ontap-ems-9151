@@ -14,6 +14,9 @@ summary: raid.cksum events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+raid.cksum EMS events occur when ONTAP encounters issues associated with checksum errors and block validation.
+
 == raid.cksum.bad.file.block
 *Severity*::
 ERROR
@@ -1196,3 +1199,4 @@ Checksum error due to zeroed super block %llu on %s %s%s, %s.
 *carrier* (STRING): Unique ID of the carrier in which the disk is installed.
 *site* (STRING): For a MetroCluster(tm) configuration, indicates the site {Local|Remote} where the disk is located. For non-MetroCluster configurations, site is 'Local'.
 *physDiskBlockNum* (LONGINT): Physical disk block number for partitioned disk.
+

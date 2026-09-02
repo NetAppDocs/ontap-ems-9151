@@ -14,6 +14,9 @@ summary: scsitarget.fcp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+scsitarget.fcp EMS events occur when ONTAP encounters issues associated with small form-factor pluggable (SFP) modules in the Fibre Channel (FC) target adapter.
+
 == scsitarget.fcp.sfp.inserted
 *Severity*::
 INFORMATIONAL
@@ -62,3 +65,4 @@ Replace the SFP with an SFP that supports FCoE link speed.
 The SFP in FC adapter %s does not support 10 Gbit/sec speed. FCoE is supported only at 10 Gbit/sec and so the FCoE link will not be online.
 *Parameters*::
 *adapter* (STRING): Target adapter name.
+

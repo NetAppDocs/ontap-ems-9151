@@ -14,6 +14,9 @@ summary: cf.ic events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cf.ic EMS events occur when ONTAP encounters issues associated with the High Availability (HA) interconnect.
+
 == cf.ic.cc.config.changed
 *Severity*::
 NOTICE
@@ -220,3 +223,4 @@ Contact NetApp technical support if the problem persists.
 HA interconnect: %s transfer timed out.
 *Parameters*::
 *qp_name* (STRING): Name of the connection queue-pair that timed out.
+

@@ -14,6 +14,9 @@ summary: vifmgr.staticroute events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vifmgr.staticroute EMS events occur when ONTAP encounters issues associated with static route operations on Vservers or storage virtual machines (SVMs).
+
 == vifmgr.staticRoute.add
 *Severity*::
 NOTICE
@@ -43,3 +46,4 @@ Static route deleted from Vserver %s: dest %s, gw %s, metric %u.
 *destination* (STRING): The IP subnet to which the route applies.
 *gateway* (STRING): The IP address of the gateway.
 *metric* (INT): The metric of the route, used to determine its priority relative to other routes for the Vserver.
+

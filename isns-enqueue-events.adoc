@@ -14,6 +14,9 @@ summary: isns.enqueue events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+isns.enqueue EMS events occur when the Internet Storage Name Service (iSNS) is not able to enqueue a new operation to the iSNS subsystem.
+
 == isns.enqueue.failed
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ The iSNS cannot enqueue an operation %s for Vserver %s.
 *Parameters*::
 *event* (STRING): Event/Operation that was no enqueued.
 *vserver* (STRING): Name of the Vserver
+

@@ -14,6 +14,9 @@ summary: gb.sfo events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+gb.sfo EMS events occur when ONTAP encounters issues associated with storage failover (SFO) giveback operations.
+
 == gb.sfo.abort.raid.fm
 *Severity*::
 ERROR
@@ -290,3 +293,4 @@ When volume conversion is complete, re-run the 'storage failover giveback' comma
 SFO giveback is vetoed as Volume Conversion is in progress on one of the volumes on aggregate %s.
 *Parameters*::
 *aggregate_name* (STRING): The name of the aggregate containing the volume on which conversion is in progress.
+

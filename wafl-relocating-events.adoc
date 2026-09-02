@@ -14,6 +14,9 @@ summary: wafl.relocating events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.relocating EMS events occur when ONTAP encounters issues associated with aggregate relocation operation restrictions.
+
 == wafl.relocating.fence.fail
 *Severity*::
 ERROR
@@ -61,3 +64,4 @@ A secure purge operation is in progress on %s %s%s%s. Canceling aggregate reloca
 *vol* (STRING): Volume name.
 *app* (STRING): Application UUID.
 *volident* (STRING): Unique volume identity when the volume name itself is insufficient.
+

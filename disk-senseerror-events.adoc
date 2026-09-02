@@ -14,6 +14,9 @@ summary: disk.senseerror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.senseerror EMS events occur when the drive reports an error.
+
 == disk.senseError
 *Severity*::
 ERROR
@@ -34,3 +37,4 @@ Disk %s: op %s sector %llu %s - %s (%x %x %x %x)
 *qualifier* (INTHEX): SCSI sense code qualifier.
 *fru_failed* (INTHEX): SCSI FRU code.
 *disk_information* (STRING): Formatted information about the disk. This includes the disk's vendor, model, firmware revision, and serial number.
+

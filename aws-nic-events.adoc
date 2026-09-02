@@ -14,6 +14,9 @@ summary: aws.nic events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+aws.nic EMS events occur when Data ONTAP(R) is running in Amazon Web Services (AWS) and a network interface stops processing packets at the beginning of system boot.
+
 == aws.nic.noTxIntr
 *Severity*::
 ALERT
@@ -33,3 +36,4 @@ No TX interrupt on NIC '%s' for %u seconds.
 *respTotal* (INT): Number of total responses.
 *evtBackend* (INT): Number of back-end events.
 *evtFrontend* (INT): Number of front-end events.
+

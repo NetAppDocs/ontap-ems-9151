@@ -14,6 +14,9 @@ summary: wafl.mem events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.mem EMS events occur when this event indicates whether memory stomper code is running or not.
+
 == wafl.mem.stomper
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This event indicates whether memory stomper code is running or not.
 You are %s running in corruption detection diagnostic mode with degraded performance.
 *Parameters*::
 *onoff* (STRING): The stomper code is on/off
+

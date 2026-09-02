@@ -14,6 +14,9 @@ summary: diskown.shareddsk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+diskown.shareddsk EMS events occur when a disk is shared by multiple nodes in a non-HA or stand-alone configuration.
+
 == diskown.sharedDsk.nonHACfg
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Refer to the High-Availability Configuration Guide.
 Either some local disks have partitions that are not owned by the local node, or the local node owns partitions on non-local disks.
 *Parameters*::
 (None).
+

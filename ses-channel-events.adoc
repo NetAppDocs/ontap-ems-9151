@@ -14,6 +14,9 @@ summary: ses.channel events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ses.channel EMS events occur when a rescan for enclosure services devices is initiated.
+
 == ses.channel.rescanInitiated
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ This message occurs when a rescan for enclosure services devices is initiated.
 Initiating rescan on channel %s.
 *Parameters*::
 *channelName* (STRING): Name of the adapter port or switch port being rescanned; for example, "7a" or "myswitch:5".
+

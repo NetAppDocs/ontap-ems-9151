@@ -14,6 +14,9 @@ summary: callhome.flash events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.flash EMS events occur when ONTAP encounters issues associated with Flash Cache degradation, failures, or offline status.
+
 == callhome.flash.cache.degraded
 *Severity*::
 ERROR
@@ -49,3 +52,4 @@ A Flash Cache was offlined. This is an indication or the cause of a performance 
 Call home for Flash Cache OFFLINED
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

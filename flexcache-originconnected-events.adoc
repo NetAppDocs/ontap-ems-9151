@@ -14,6 +14,9 @@ summary: flexcache.originconnected events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+flexcache.originconnected EMS events occur when a FlexCache(R) volume establishes communication with its origin volume.
+
 == flexcache.originConnected
 *Severity*::
 INFORMATIONAL
@@ -30,3 +33,4 @@ FlexCache volume with Name %s MSID %lu on Vserver Name %s UUID %s is connected w
 *cacheVserverUuid* (STRING): Vserver UUID of the FlexCache volume.
 *originVserverUuid* (STRING): Vserver UUID of the origin volume.
 *originMsid* (LONGINT): Master data set identifier (MSID) of the origin volume.
+

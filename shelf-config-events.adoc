@@ -14,6 +14,9 @@ summary: shelf.config events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+shelf.config EMS events occur when ONTAP encounters issues associated with storage shelf configuration.
+
 == shelf.config.mixed
 *Severity*::
 NOTICE
@@ -253,3 +256,4 @@ This message occurs at system boot time, when a high-availability (HA) system's 
 System storage is in a tri-path HA storage configuration.
 *Parameters*::
 (None).
+

@@ -14,6 +14,9 @@ summary: accesscache.nearlimits events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+accesscache.nearlimits EMS events occur when the access cache module is near its limit for entries.
+
 == AccessCache.NearLimits
 *Severity*::
 ALERT
@@ -30,3 +33,4 @@ The exports access cache module is near its limits for entries (current count : 
 *numRulesCurrent* (INT): Current number of export rules in the cache.
 *numRulesWarningThreshold* (INT): Warning threshold for number of export rules.
 *numRulesLimit* (INT): Limit on the number of export rules.
+

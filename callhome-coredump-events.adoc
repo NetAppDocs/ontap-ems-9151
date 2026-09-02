@@ -14,6 +14,9 @@ summary: callhome.coredump events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.coredump EMS events occur when all the core segments belonging to a coredump have been saved.
+
 == callhome.coredump.save.done
 *Severity*::
 NOTICE
@@ -31,3 +34,4 @@ Call home for %s
 *chksum* (STRING): Checksum of primary core segment file's data.
 *ancillary_segment_directory* (STRING): Directory which holds ancillary core segments.
 *ancillary_segments* (STRING): List of ancillary segments.
+

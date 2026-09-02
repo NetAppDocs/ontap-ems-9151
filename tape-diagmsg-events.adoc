@@ -14,6 +14,9 @@ summary: tape.diagmsg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+tape.diagmsg EMS events occur when there is a new state of the tape diagnostic message flag.
+
 == tape.diagMsg
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ There is no corrective action for this message. However, enabling diagnostic mes
 Tape driver diagnostic messages %s.
 *Parameters*::
 *diagState* (STRING): New condition of "diag" message enable.
+

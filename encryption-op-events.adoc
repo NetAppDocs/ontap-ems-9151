@@ -14,6 +14,9 @@ summary: encryption.op events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+encryption.op EMS events occur when ONTAP encounters issues associated with volume encryption and rekey operations.
+
 == encryption.op.completed
 *Severity*::
 NOTICE
@@ -84,3 +87,4 @@ This message occurs when a rekey or conversion to encryption operation is starte
 *op* (STRING): Rekey or conversion operation.
 *volumename* (STRING): Name of the volume.
 *vservername* (STRING): Name of the Vserver.
+

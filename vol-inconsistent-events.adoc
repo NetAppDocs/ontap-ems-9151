@@ -14,6 +14,9 @@ summary: vol.inconsistent events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vol.inconsistent EMS events occur when the "vol inconsistent" command is used to modify a volume's state.
+
 == vol.inconsistent.modify
 *Severity*::
 INFORMATIONAL
@@ -26,3 +29,4 @@ Volume %s: 'vol inconsistent' command used to change inconsistent state to '%s'.
 *Parameters*::
 *vol* (STRING): Name of the volume.
 *state* (STRING): State of the action "set" or "clear".
+

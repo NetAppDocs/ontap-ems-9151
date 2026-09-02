@@ -14,6 +14,9 @@ summary: rlm.firmware events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+rlm.firmware EMS events occur when ONTAP encounters issues associated with Remote LAN Module (RLM) firmware compatibility.
+
 == rlm.firmware.upgrade.reqd
 *Severity*::
 NOTICE
@@ -38,3 +41,4 @@ For more information about upgrading your firmware, check your support provider'
 The RLM firmware version %s is not an official release.
 *Parameters*::
 *current_rlm_fw_version* (STRING): Current firmware version on the RLM.
+

@@ -14,6 +14,9 @@ summary: sms.common events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sms.common EMS events occur when there is a failure in creating a common snapshot.
+
 == sms.common.snapshot.failed
 *Severity*::
 ERROR
@@ -29,3 +32,4 @@ Creating a common Snapshot copy for source volume "%s" and destination volume "%
 *relationship_id* (STRING): Relationship UUID.
 *error_msg* (STRING): Error that prevented the common Snapshot copy from being created.
 *css_fail_interval* (STRING): Interval between the last successful common Snapshot copy creation and recent failure to create a common Snapshot copy.
+

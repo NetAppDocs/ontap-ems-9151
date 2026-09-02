@@ -14,6 +14,9 @@ summary: callhome.dbs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.dbs EMS events occur when ONTAP encounters issues associated with the Distributed Block Store (DBS) assignments, capacity, data consistency, or cluster faults.
+
 == callhome.dbs.assign.error
 *Severity*::
 EMERGENCY
@@ -493,3 +496,4 @@ Call home for %s. One or more DBS volumes offline.
 *cfDetails* (STRING): Description of the cluster fault, including context details.
 *cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.
 *skip_callhome* (INT): If 1, then the ASUP call home was not executed for this event. Call home is only done for newly reported faults (see cfStatus).
+

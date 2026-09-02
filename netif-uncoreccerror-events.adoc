@@ -14,6 +14,9 @@ summary: netif.uncoreccerror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+netif.uncoreccerror EMS events occur when the network interface controller reports an unrecoverable ECC error.
+
 == netif.uncorEccError
 *Severity*::
 EMERGENCY
@@ -25,3 +28,4 @@ Reboot the controller. If the problem persists, replace the component associated
 Unrecoverable ECC error on network interface %s.
 *Parameters*::
 *ifName* (STRING): Name of the network interface; for example, "e4a".
+

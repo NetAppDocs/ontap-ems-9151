@@ -14,6 +14,9 @@ summary: nvmeof.rdma events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nvmeof.rdma EMS events occur when ONTAP encounters issues associated with NVMe-oF RDMA connections.
+
 == nvmeof.rdma.disconnect.event
 *Deprecated*::
 Deprecated as of version 9.13.1.
@@ -45,3 +48,4 @@ NVMe-oF disconnect on subnqn %s, controller ID %d, qpair ID %d.
 *subnqn* (STRING): Subsystem NVMe qualified name.
 *ctrlr_id* (INT): Controller ID.
 *qpair* (INT): Qpair ID.
+

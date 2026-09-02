@@ -14,6 +14,9 @@ summary: lmgr.lock events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lmgr.lock EMS events occur when ONTAP encounters issues associated with the volume lock reclaim process.
+
 == lmgr.lock.reclaim.aborted
 *Severity*::
 ERROR
@@ -45,3 +48,4 @@ The number of lock manager object types in pool %s are: share locks %u byte lock
 *pfs* (INT): Number of allocated clustered Data ONTAP(R) FlexCache(R) delegations in the pool.
 *cached* (INT): Number of allocated clustered Data ONTAP FlexCache cached locks in the pool.
 *delegations* (INT): Number of allocated WAN FlexCache delegations in the pool.
+

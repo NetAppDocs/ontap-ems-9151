@@ -14,6 +14,9 @@ summary: fg.convert events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fg.convert EMS events occur when ONTAP encounters issues associated with FlexVol volume conversion to FlexGroup.
+
 == fg.convert.critical.fail
 *Severity*::
 ALERT
@@ -82,3 +85,4 @@ Conversion of FlexVol volume %s to FlexGroup with MSID %llu successful.
 *Parameters*::
 *volumeName* (STRING): Name of volume being converted to a FlexGroup.
 *flexgroupMsid* (LONGINTHEX): MSID of the new FlexGroup.
+

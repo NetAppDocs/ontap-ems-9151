@@ -14,6 +14,9 @@ summary: cifs.shadowcopy events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cifs.shadowcopy EMS events occur when ONTAP encounters issues associated with shadow copy operations.
+
 == cifs.shadowcopy.abort
 *Severity*::
 NOTICE
@@ -47,3 +50,4 @@ A shadow copy operation has failed: %s. ( Operation : %s , Client Shadow Copy Se
 *shareName* (STRING): Share Name.
 *object_type* (STRING): Type of resource object.
 *object_uuid* (STRING): UUID of the resource object.
+

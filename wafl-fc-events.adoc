@@ -14,6 +14,9 @@ summary: wafl.fc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.fc EMS events occur when a FlexCache(R) origin node detects that its FlexCache volume has disconnected while a lock reclaim operation is in progress.
+
 == wafl.fc.recl.csm.disconnect
 *Severity*::
 EMERGENCY
@@ -28,3 +31,4 @@ FlexCache origin node with UUID %s detected potential disconnect with FlexCache 
 *bladeuuid* (STRING): UUID of the FlexCache Cache node.
 *msid* (LONGINT): Volume master data set identifier (MSID) of the FlexCache volume.
 *vserveruuid* (STRING): UUID of the FlexCache Vserver.
+

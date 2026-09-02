@@ -14,6 +14,9 @@ summary: vifmgr.dbase events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vifmgr.dbase EMS events occur when the logical interface manager (VIFMgr) experiences an error while verifying cluster database consistency.
+
 == vifmgr.dbase.checkerror
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Contact NetApp technical support and reference the "vifmgr.dbase.checkerror" err
 VIFMgr experienced an error verifying cluster database consistency. Some LIFs might not be hosted properly as a result.
 *Parameters*::
 (None).
+

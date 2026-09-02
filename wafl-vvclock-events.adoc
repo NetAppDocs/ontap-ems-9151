@@ -14,6 +14,9 @@ summary: wafl.vvclock events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.vvclock EMS events occur when an operation is run on an aggregate while the flexible volume level admin (vvc) lock of one of volumes of the aggregate is held by another subsystem.
+
 == wafl.vvclock.string
 *Severity*::
 ERROR
@@ -29,3 +32,4 @@ Stop the subsystem that is using this volume/aggregate so that the operation can
 *vvolname* (STRING): Name of the volume that is holding the vvc lock.
 *lockerstring* (STRING): Name of the subsystem that is holding the vvc lock.
 *locktype* (STRING): vvc lock type:WAFL(R) or SnapMirror(R).
+

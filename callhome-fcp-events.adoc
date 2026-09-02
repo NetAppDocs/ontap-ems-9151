@@ -14,6 +14,9 @@ summary: callhome.fcp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.fcp EMS events occur when ONTAP encounters issues associated with Fibre Channel Protocol (FCP) HBA adapter failures or SRAM dumps.
+
 == callhome.fcp.adapter.failed
 *Severity*::
 ERROR
@@ -40,3 +43,4 @@ Call home for FCP SRAM DUMP.
 *portInstance* (INT): Instance number of the target port where the dump occurs.
 *dumpDirName* (STRING): Directory location where the FC dumps are stored.
 *portName* (STRING): FC HBA's name.
+

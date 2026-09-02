@@ -14,6 +14,9 @@ summary: disk.sanit events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.sanit EMS events occur when ONTAP encounters issues associated with disk sanitization operations.
+
 == disk.sanit.complete
 *Severity*::
 INFORMATIONAL
@@ -144,3 +147,4 @@ Sanitization phase of the 'disk sanitize' command was completed for disk %s [S/N
 *Parameters*::
 *diskName* (STRING): Name of the device.
 *serialno* (STRING): Serial number of the device.
+

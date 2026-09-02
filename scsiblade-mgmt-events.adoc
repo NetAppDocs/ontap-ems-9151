@@ -14,6 +14,9 @@ summary: scsiblade.mgmt events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+scsiblade.mgmt EMS events occur when ONTAP encounters issues associated with SAN management event processing and configuration locks.
+
 == scsiblade.mgmt.evt.lost.mem
 *Severity*::
 ERROR
@@ -61,3 +64,4 @@ Contact NetApp technical support.
 SAN management has encountered an error and SAN configuration changes on this node and other nodes in the cluster will fail with timeout errors until corrected.
 *Parameters*::
 (None).
+

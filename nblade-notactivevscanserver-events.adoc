@@ -14,6 +14,9 @@ summary: nblade.notactivevscanserver events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.notactivevscanserver EMS events occur when a connection from a remote IP is not found in the Vscan scanner pool belonging to the storage virtual machine (SVM).
+
 == Nblade.NotActiveVscanServer
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ CIFS connection on SVM %s (ID %u) from IP address %s fails to bind to an establi
 *vserverName* (STRING): Name of the SVM associated with this operation.
 *vsId* (INT): ID of the SVM on which this event occurred.
 *remoteIpAddress* (STRING): IP address of the client machine.
+

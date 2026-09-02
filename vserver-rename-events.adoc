@@ -14,6 +14,9 @@ summary: vserver.rename events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vserver.rename EMS events occur when the "vserver rename" command fails to update the peer Vserver name on the peer cluster in a Vserver peer relationship.
+
 == vserver.rename.fail.peer
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Failed to update new peer Vserver %s name on peer cluster %s.
 *Parameters*::
 *vserver_name* (STRING): Vserver name that caused the update attempt to fail.
 *peer_cluster* (STRING): Peer cluster name.
+

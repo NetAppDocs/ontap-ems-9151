@@ -14,6 +14,9 @@ summary: scsiblade.lif events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+scsiblade.lif EMS events occur when ONTAP encounters issues associated with SAN LIF configuration during Vserver initialization.
+
 == scsiblade.lif.init.fail
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ This message occurs when Vserver initialization finishes, and some volumes are p
 Delayed LIF initialization timer expired for Vserver "%s".
 *Parameters*::
 *vserver* (STRING): Name of the Vserver.
+

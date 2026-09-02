@@ -14,6 +14,9 @@ summary: wafl.spinhi events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.spinhi EMS events occur when a new spinnp error is being propagated to a blade that does not understand that error yet.
+
 == wafl.spinhi.new.err.code
 *Severity*::
 NOTICE
@@ -31,3 +34,4 @@ Spinnp operation %s was executed on DSID(%08x), fileid %u, snapid %u, proto %s a
 *proto* (STRING): Protocol used on the operation.
 *spinerror* (INT): Spinnp error number.
 *bladeuuid* (STRING): Universally Unique Identifier (UUID) of the blade where this error will be returned.
+

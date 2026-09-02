@@ -14,6 +14,9 @@ summary: connectx.ibretimerskipprogrm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+connectx.ibretimerskipprogrm EMS events occur when InfiniBand retimer programming is skipped after the system detects that a cable is plugged in, because there was no change in the cable's type and length.
+
 == connectx.IbRetimerSkipProgrm
 *Severity*::
 INFORMATIONAL
@@ -26,3 +29,4 @@ InfiniBand retimer programming was skipped on port %s for %s cable.
 *Parameters*::
 *port_str* (STRING): InfiniBand port in which the cable is plugged.
 *cable_type* (STRING): InfiniBand cable type.
+

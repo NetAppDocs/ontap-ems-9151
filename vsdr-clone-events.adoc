@@ -14,6 +14,9 @@ summary: vsdr.clone events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vsdr.clone EMS events occur when ONTAP encounters issues associated with volume clone create operations in Vserver DR or MetroCluster configurations.
+
 == vsdr.clone.cleanup.fail
 *Severity*::
 ERROR
@@ -40,3 +43,4 @@ The volume "%s" of Vserver "%s" has been split on the source Vserver. Split the 
 *Parameters*::
 *volume_name* (STRING): Volume clone that needs to be split.
 *vserver_name* (STRING): Vserver name for which the SnapMirror transfer has been initiated.
+

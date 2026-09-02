@@ -14,6 +14,9 @@ summary: lun.inplace events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lun.inplace EMS events occur when ONTAP encounters issues associated with in-place restore operations on LUNs or NVMe namespaces.
+
 == LUN.inplace.dmpRstrLUNonNS
 *Severity*::
 ERROR
@@ -69,3 +72,4 @@ An in-place SFSR (Single File SnapRestore(R)) failed at path %s in volume %s (DS
 *lun_path* (STRING): Path of the LUN or NVMe namespace for which the restore operation failed.
 *volume_name* (STRING): Name of the containing volume.
 *volume_dsid* (LONGINT): Data Set ID (DSID) of the containing volume.
+

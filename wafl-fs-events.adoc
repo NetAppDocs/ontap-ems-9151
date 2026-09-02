@@ -14,6 +14,9 @@ summary: wafl.fs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.fs EMS events occur when ONTAP encounters issues associated with volume fractional reservation and space guarantee configuration.
+
 == wafl.fs.corrupt.fr.pct.changed
 *Severity*::
 NOTICE
@@ -62,3 +65,4 @@ The fractional reservation value for volume '%s%s%s' with guarantee type '%s' ha
 *guarantee_type* (STRING): Guarantee type of the volume.
 *old_fr_pct* (INT): Old fractional reservation value of the volume.
 *new_fr_pct* (INT): New fractional reservation value of the volume.
+

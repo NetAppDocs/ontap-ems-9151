@@ -14,6 +14,9 @@ summary: moveagent.swapvldb events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+moveagent.swapvldb EMS events occur when ONTAP encounters issues associated with volume location database (VLDB) updates during volume move operations.
+
 == moveagent.swapvldb.fail
 *Severity*::
 ALERT
@@ -37,3 +40,4 @@ Monitor the volume move job. If the problem persists, contact NetApp technical s
 Unable to finish replicating swap VLDB operation to MetroCluster(tm) destination for the volume move operation for DSID %llu.
 *Parameters*::
 *volume_dsid* (LONGINT): Destination volume Data Set ID (DSID).
+

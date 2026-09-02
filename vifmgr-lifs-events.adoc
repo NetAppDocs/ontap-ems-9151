@@ -14,6 +14,9 @@ summary: vifmgr.lifs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vifmgr.lifs EMS events occur when ONTAP encounters issues associated with the total number of logical interfaces (LIFs) or their failover configuration.
+
 == vifmgr.lifs.clusterlimit
 *Severity*::
 ERROR
@@ -66,3 +69,4 @@ Removing LIFs from the system, adjusting the failover settings of some LIFs, and
 Node with failover targets over-provisioned: %u LIFs could be marked "down" during node outage.
 *Parameters*::
 *overamount* (INT): Number of LIFs that might be displayed as "down".
+

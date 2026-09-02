@@ -14,6 +14,9 @@ summary: wafl.snapshot_xlation_duplicate_entry events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.snapshot_xlation_duplicate_entry EMS events occur when WAFL(R) determines that there are duplicate snapshot entries in the snapshot translation table.
+
 == wafl.snapshot_xlation_duplicate_entry
 *Severity*::
 ALERT
@@ -29,3 +32,4 @@ WAFL Snapshot copy translation table: Duplicate entry for volume '%s%s%s' that m
 *volident* (STRING): Unique identifier of the volume in cases where the volume name itself is insufficient.
 *physical_snapid* (INT): Physical Snapshot copy index.
 *Logical_snapid* (INT): Logical Snapshot copy index.
+

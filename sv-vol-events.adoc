@@ -14,6 +14,9 @@ summary: sv.vol events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sv.vol EMS events occur when the renaming operation of SnapVault(R) snapshots belonging to a certain volume fails, even though the "vFiler rename" or "vFiler move" operation was successful.
+
 == SV.vol.snapshot.rename.error
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ If necessary, delete the extra Snapshot copy manually after the next SnapVault u
 Rename of SnapVault snapshots for volume %s failed. This might cause SnapVault to have an extra snapshot on destination. If necessary, delete the extra Snapshot copy manually after the next SnapVault update.
 *Parameters*::
 *vol_name* (STRING): Volume whose Snapshot copies created by SnapVault(R) could not be renamed.
+

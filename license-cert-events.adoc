@@ -14,6 +14,9 @@ summary: license.cert events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+license.cert EMS events occur when ONTAP encounters issues associated with the license validation certificate.
+
 == license.cert.expired
 *Severity*::
 ALERT
@@ -37,3 +40,4 @@ Contact your sales representative or reseller about renewing your license valida
 Certificate to validate licenses will expire on %s.
 *Parameters*::
 *exp_date* (STRING): Expiration date.
+

@@ -14,6 +14,9 @@ summary: vm.host events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vm.host EMS events occur when a VM is paused by the hypervisor.
+
 == vm.host.error
 *Severity*::
 EMERGENCY
@@ -25,3 +28,4 @@ Check the hypervisor logs to determine whether the backing datastore is full or 
 The VM is paused possibly due to a full datastore or connectivity to the datastore might have been lost. Check the hypervisor logs for errors, and then perform any necessary corrective actions as soon as possible.
 *Parameters*::
 (None).
+

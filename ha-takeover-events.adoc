@@ -14,6 +14,9 @@ summary: ha.takeover events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ha.takeover EMS events occur when ONTAP encounters issues associated with high-availability (HA) takeover operations.
+
 == ha.takeover.bypOptimChange
 *Severity*::
 INFORMATIONAL
@@ -76,3 +79,4 @@ Node (%s) in takeover for %d days and %d hours.
 *host* (STRING): Name of the host
 *days_in_TO* (INT): Number of days in takeover
 *hours_in_TO* (INT): Number of hours in takeover
+

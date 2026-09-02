@@ -14,6 +14,9 @@ summary: acp.exp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+acp.exp EMS events occur when ONTAP encounters issues associated with the Alternate Control Path (ACP) Processor receiving commands to power-cycle or reset the SAS expander.
+
 == acp.exp.power.cycle
 *Severity*::
 INFORMATIONAL
@@ -114,3 +117,4 @@ An 'expander vpd' request sent to %s (%s) failed with status (%s), (disk shelf s
 *ip* (STRING): IP address of the module.
 *status* (STRING): Reason for the failure to get the SAS expander vpd data.
 *shelf_sno* (STRING): Disk shelf serial number of the shelf where this I/O module is seated.
+

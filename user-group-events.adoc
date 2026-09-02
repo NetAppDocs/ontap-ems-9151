@@ -14,6 +14,9 @@ summary: user.group events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+user.group EMS events occur when ONTAP encounters issues associated with UNIX user and group system limits.
+
 == user.group.limit.reached
 *Severity*::
 ERROR
@@ -40,3 +43,4 @@ Total number of %s has reached %s of the system limit: %d.
 *configuration* (STRING): Name of the configuration table with the system limit.
 *pct_of_limit* (STRING): Percentage of the configuration table's system limit reached.
 *maxAllowableEntries* (INT): Maximum allowable number of local users or local group and group-members.
+

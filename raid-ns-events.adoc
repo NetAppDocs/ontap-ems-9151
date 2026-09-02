@@ -14,6 +14,9 @@ summary: raid.ns events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+raid.ns EMS events occur when ONTAP encounters issues associated with non-shared HA system initialization.
+
 == raid.ns.init.removeOwnership
 *Severity*::
 NOTICE
@@ -53,3 +56,4 @@ This message occurs when the system unpartitions one or more disks during initia
 Unpartitioned %d disk(s).
 *Parameters*::
 *num_disks_unpartitioned* (INT): Number of disks unpartitioned.
+

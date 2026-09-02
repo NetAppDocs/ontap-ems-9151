@@ -14,6 +14,9 @@ summary: sfo.aggr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sfo.aggr EMS events occur when ONTAP encounters issues associated with storage failover (SFO) aggregate relocation.
+
 == sfo.aggr.relocated.cu
 *Severity*::
 INFORMATIONAL
@@ -60,3 +63,4 @@ Aggregate %s was temporarily relocated from source node %s to destination node %
 *src_name* (STRING): Name of the source node.
 *dest_name* (STRING): Name of the destination node.
 *time* (LONGINT): Time, in milliseconds, taken to relocate the aggregate.
+

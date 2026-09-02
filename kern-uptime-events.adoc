@@ -14,6 +14,9 @@ summary: kern.uptime events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+kern.uptime EMS events occur to display the uptime status of the controller.
+
 == kern.uptime.filer
 *Severity*::
 NOTICE
@@ -34,3 +37,4 @@ This message occurs to display the uptime status of the controller. Typically, t
 *nvmeFcOps* (LONGINT): Number of NVMe/FC operations that have been performed.
 *nvmeTcpOps* (LONGINT): Number of NVMe/TCP operations that have been performed.
 *nvmeRoceOps* (LONGINT): Number of NVMe/RDMA over Converged Ethernet(RoCE) operations that have been performed.
+

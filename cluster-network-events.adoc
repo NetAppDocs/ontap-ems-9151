@@ -14,6 +14,9 @@ summary: cluster.network events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cluster.network EMS events occur when a two node cluster transitions between a switched and switchless configuration.
+
 == cluster.network.config
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when a two node cluster transitions between a switched and s
 The cluster network configuration transitioned to %s.
 *Parameters*::
 *current_configuration* (STRING): Displays if the current configuration is switched or switchless.
+

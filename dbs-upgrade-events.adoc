@@ -14,6 +14,9 @@ summary: dbs.upgrade events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dbs.upgrade EMS events occur when Distributed Block Store (DBS) detects a software upgrade in progress for longer than 24 hours.
+
 == dbs.upgrade
 *Severity*::
 ERROR
@@ -29,3 +32,4 @@ DBS has detected a software upgrade is in progress. Cluster fault type %s, fault
 *cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
 *cfDetails* (STRING): Details of the upgrade.
 *cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.
+

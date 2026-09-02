@@ -14,6 +14,9 @@ summary: ktls.badauth events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ktls.badauth EMS events occur when the system receives a TLS message with bad 'authentication' data.
+
 == ktls.badAuth
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ ONTAP received a TLS message with incorrect authentication at local address %s l
 *remoteAddr* (STRING): Full internet address of the remote end of this session.
 *remotePort* (INT): Remote port number that sent the erroneous data.
 *IPspace* (INT): IPspace in which the remote address was reached.
+

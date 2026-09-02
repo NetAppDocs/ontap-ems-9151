@@ -14,6 +14,9 @@ summary: fabricpool.cloud events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fabricpool.cloud EMS events occur when ONTAP encounters issues associated with cloud subscription licenses for FabricPools.
+
 == fabricpool.cloud.subscription.added
 *Severity*::
 NOTICE
@@ -39,3 +42,4 @@ A cloud subscription license for FabricPools has been removed for license type %
 *Parameters*::
 *license_type* (STRING): The type of license that the subscription was removed for.
 *cluster_uuid* (STRING): UUID of the cluster.
+

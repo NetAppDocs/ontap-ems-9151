@@ -14,6 +14,9 @@ summary: cr.snapshot events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cr.snapshot EMS events occur when a temporary Snapshot(tm) copy created by the 'volume check' command could not be deleted.
+
 == CR.Snapshot.Not.Deleted
 *Deprecated*::
 Deprecated as of Data ONTAP 9.6 because Infinite Volumes no longer exist.
@@ -30,3 +33,4 @@ The temporary Snapshot copy [%s] created by the 'volume check' command for volum
 *volume* (STRING): Name of the constituent volume for which the Snapshot copy could not be deleted.
 *vserver* (STRING): Vserver hosting the volume.
 *reason* (STRING): Reason for the failure.
+

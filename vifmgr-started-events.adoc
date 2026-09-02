@@ -14,6 +14,9 @@ summary: vifmgr.started events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vifmgr.started EMS events occur to notify you that the Logical Interface Manager (VIFMgr) started.
+
 == vifmgr.started
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs to notify you that the Logical Interface Manager (VIFMgr) st
 The Logical Interface Manager (VIFMgr) has started.
 *Parameters*::
 (None).
+

@@ -14,6 +14,9 @@ summary: volcopy.src events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+volcopy.src EMS events occur when ONTAP encounters issues associated with volume copy source operations.
+
 == volcopy.src.noMemory
 *Severity*::
 ERROR
@@ -49,3 +52,4 @@ This event is issued when we are not able to obtain all the snapshot information
 Vol copy not able to obtain snapshot information from source volume %s
 *Parameters*::
 *src* (STRING): The vol copy source volume
+

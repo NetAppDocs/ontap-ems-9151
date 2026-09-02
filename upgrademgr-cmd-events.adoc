@@ -14,6 +14,9 @@ summary: upgrademgr.cmd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+upgrademgr.cmd EMS events occur when ONTAP encounters issues associated with automated nondisruptive upgrade (ANDU) command execution.
+
 == upgrademgr.cmd.invoke.done
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ This message occurs when the support file is invoked by an automated nondisrupti
 The commands are invoked from the support file: %s
 *Parameters*::
 *command* (STRING): Commands that are invoked from the support file when the ANDU has started.
+

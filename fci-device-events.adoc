@@ -14,6 +14,9 @@ summary: fci.device events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fci.device EMS events occur when ONTAP encounters issues associated with Fibre Channel device communication.
+
 == fci.device.general.reject
 *Severity*::
 INFORMATIONAL
@@ -92,3 +95,4 @@ Loop recovery event caused by the device upstream from %s device %s.
 *Parameters*::
 *deviceType* (STRING): Type of device.
 *deviceName* (STRING): Name of the device.
+

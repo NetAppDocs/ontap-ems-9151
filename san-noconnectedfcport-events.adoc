@@ -14,6 +14,9 @@ summary: san.noconnectedfcport events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+san.noconnectedfcport EMS events occur when ONTAP encounters issues associated with FC/FC-NVMe LIF replication in MetroCluster(tm) configurations.
+
 == san.NoConnectedFCport
 *Severity*::
 ERROR
@@ -46,3 +49,4 @@ The source cluster FC port %s that is hosting "%s" LIF %s on primary Vserver %s 
 *data_protocol* (STRING): Data Protocol of the lif.
 *lif* (STRING): Name of the FC/FC-NVMe LIF.
 *vserver* (STRING): Name of the primary Vserver.
+

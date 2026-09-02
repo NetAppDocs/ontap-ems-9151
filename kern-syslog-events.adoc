@@ -14,6 +14,9 @@ summary: kern.syslog events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+kern.syslog EMS events occur when ONTAP encounters issues associated with kernel syslog message handling.
+
 == kern.syslog.drops
 *Severity*::
 ERROR
@@ -39,3 +42,4 @@ This event is generated when a kernel syslog message is detected.
 *Parameters*::
 *msg* (STRING): The text of the message
 *vfilerName* (STRING): The name of the vfiler that generated the message
+

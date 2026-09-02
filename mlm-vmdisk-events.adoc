@@ -14,6 +14,9 @@ summary: mlm.vmdisk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mlm.vmdisk EMS events occur when ONTAP encounters issues associated with virtual disks in virtual machines.
+
 == mlm.vmdisk.discovery
 *Severity*::
 INFORMATIONAL
@@ -47,3 +50,4 @@ Virtual disk '%s' (%s) is now connected on initiator port %s through %s's target
 *wwnn* (STRING): World Wide Node Name (WWNN) of the array target port.
 *wwpn* (STRING): World Wide Port Name (WWPN) of the array target port.
 *VirtualDeviceID* (INT): Virtual device ID of the virtual disk.
+

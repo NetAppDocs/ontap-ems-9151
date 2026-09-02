@@ -14,6 +14,9 @@ summary: wafl.bagofbits events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.bagofbits EMS events occur when a read directory request from an NFSv4 client is made to a Unicode-based directory in which directory entries with no NFS alternate name contain non-Unicode characters.
+
 == wafl.bagofbits.name
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ Cannot provide directory entry to NFSv4 client for file ID:%d in volume %s%s bec
 *vol* (STRING): Volume in which the directory entry with non-unicode characters is present.
 *app* (STRING): Application UUID.
 *volident* (STRING): Unique volume identifier (UUID) when the volume name itself is insufficient.
+

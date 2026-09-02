@@ -14,6 +14,9 @@ summary: vsdr.qos events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vsdr.qos EMS events occur when ONTAP encounters issues associated with Quality of Service (QoS) policy group replication in MetroCluster configurations.
+
 == vsdr.QoS.MaxQoSPGs
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ QoS policy group %s cannot be created in Vserver %s as the same QoS policy exist
 *qos_policy_group* (STRING): Name of the QoS policy group that the system is trying to replicate.
 *destination_vserver* (STRING): Name of the destination Vserver into which the QoS policy group is being replicated.
 *found_in_vserver* (STRING): Name of the Vserver in which the same QoS policy group was found.
+

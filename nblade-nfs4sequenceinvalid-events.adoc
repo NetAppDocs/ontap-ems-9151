@@ -14,6 +14,9 @@ summary: nblade.nfs4sequenceinvalid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.nfs4sequenceinvalid EMS events occur when an NFS server detects an unexpected value for an incoming sequence number from a client.
+
 == nblade.nfs4SequenceInvalid
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ NFS client (IP: %s) sent sequence# %d, but server expected sequence# %d. Server 
 *InSeqid* (INT): Incoming sequence number from the client.
 *NextSeqid* (INT): Expected sequence number from the server.
 *NfsError* (STRING): NFS protocol error.
+

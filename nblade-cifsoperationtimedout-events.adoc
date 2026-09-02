@@ -14,6 +14,9 @@ summary: nblade.cifsoperationtimedout events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.cifsoperationtimedout EMS events occur when a CIFS operation times out because it could not be processed completely within 40 seconds.
+
 == Nblade.CifsOperationTimedOut
 *Severity*::
 ERROR
@@ -36,3 +39,4 @@ Detected a timed out CIFS operation. SMB command for this operation: %s, Number 
 *vserverId* (INT): Identifier for the Vserver associated with this operation.
 *dsId* (INT): Data set ID (DSID) of the target volume.
 *vserverName* (STRING): Vserver name associated with this operation.
+

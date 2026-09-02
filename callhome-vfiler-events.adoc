@@ -14,6 +14,9 @@ summary: callhome.vfiler events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.vfiler EMS events occur when ONTAP encounters issues associated with vfiler migration operations.
+
 == callhome.vfiler.move.to.dst
 *Severity*::
 ALERT
@@ -37,3 +40,4 @@ Check that service has been restored to the vfiler on this controller. If not, c
 Call home for VFILER MIGRATION TIME OUT EXCEEDED BY DESTINATION
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

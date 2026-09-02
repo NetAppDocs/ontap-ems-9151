@@ -14,6 +14,9 @@ summary: sfo.retry events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sfo.retry EMS events occur when automatic giveback of one or more SFO aggregates fails.
+
 == sfo.retry.autoGiveback
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ This message occurs when automatic giveback of one or more SFO aggregates fails.
 Automatic giveback of SFO aggregates will be retried after %d minutes.
 *Parameters*::
 *minutes* (INT): Time until giveback is retried, in minutes.
+

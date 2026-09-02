@@ -14,6 +14,9 @@ summary: api.input events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+api.input EMS events occur when an ONTAPI(tm) API receives extra input parameters as part of the API request or when a required input parameter is missing in the API request.
+
 == api.input.invalidSchema
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Error in API input schema validation. API name: %s. Detailed error: %s.
 *Parameters*::
 *apiName* (STRING): Name of the ONTAPI API in which something invalid was detected.
 *detailInfo* (STRING): Description of the error in the API input, such as an extra input value or a missing input value.
+

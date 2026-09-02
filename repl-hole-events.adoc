@@ -14,6 +14,9 @@ summary: repl.hole events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+repl.hole EMS events occur when a SnapMirror(R) transfer encounters an unrecoverable RAID error.
+
 == repl.hole.raid.error
 *Severity*::
 ALERT
@@ -28,3 +31,4 @@ SnapMirror transfer with transfer ID %s encountered an unrecoverable RAID error 
 *fileSpace* (STRING): File space (metafile or user file).
 *fileId* (INT): File ID of the inode involved if it is a user file space, and metafile name if it is a metafile space.
 *dstVolDsid* (LONGINT): Data set identifier (DSID) of the destination volume.
+

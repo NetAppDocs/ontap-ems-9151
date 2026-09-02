@@ -14,6 +14,9 @@ summary: snaplock.trans events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+snaplock.trans EMS events occur when autocommit period is adjusted on a Snaplock volume upon transition.
+
 == snaplock.trans.autocommit
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ Autocommit period on SnapLock volume %s%s on the Vserver with ID %s is changed f
 *app* (STRING): Application Name.
 *volident* (STRING): Unique identifier the volume in cases where the volume name itself is insufficient.
 *old_autocommit_period* (STRING): Autocommit period of the SnapLock volume in 7 mode.
+

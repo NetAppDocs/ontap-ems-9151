@@ -14,6 +14,9 @@ summary: callhome.hm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.hm EMS events occur when ONTAP encounters issues associated with system health monitoring alerts.
+
 == callhome.hm.alert.critical
 *Severity*::
 ALERT
@@ -49,3 +52,4 @@ Run the "system health alert show" command to view details about new alerts in t
 Call home for %s.
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

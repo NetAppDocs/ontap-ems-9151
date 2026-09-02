@@ -14,6 +14,9 @@ summary: monitor.mismatch events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+monitor.mismatch EMS events occur when ONTAP encounters issues associated with hardware and software branding mismatches.
+
 == monitor.mismatch.hourly
 *Severity*::
 ALERT
@@ -40,3 +43,4 @@ Shutting down because of a software branding mismatch. The hardware is branded b
 *Parameters*::
 *hardware* (STRING): Vendor brand associated with the hardware.
 *software* (STRING): Vendor brand associated with the version. of ONTAP.
+

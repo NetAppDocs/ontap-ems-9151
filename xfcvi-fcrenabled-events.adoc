@@ -14,6 +14,9 @@ summary: xfcvi.fcrenabled events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+xfcvi.fcrenabled EMS events occur if Fiber Channel Routing (FCR) functionality is enabled on the system.
+
 == xfcvi.fcrEnabled
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs if Fiber Channel Routing (FCR) functionality is enabled on t
 FC-VI adapter: Fiber Channel Routing (FCR) is enabled.
 *Parameters*::
 (None).
+

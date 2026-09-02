@@ -14,6 +14,9 @@ summary: fci.fabric events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fci.fabric EMS events occur when ONTAP encounters issues associated with Fibre Channel fabric configuration limits.
+
 == fci.fabric.max.ports
 *Severity*::
 ERROR
@@ -42,3 +45,4 @@ Invalid Fabric configuration detected on Fibre Channel adapter %s: Maximum switc
 *adapterName* (STRING): Name of the associated Fibre Channel host bus adapter.
 *numMaxSwitches* (INT): Maximum number of switches supported in a fabric.
 *numFabricSwitches* (INT): Number of switches in the fabric.
+

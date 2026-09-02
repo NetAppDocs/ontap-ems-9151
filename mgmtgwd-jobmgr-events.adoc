@@ -14,6 +14,9 @@ summary: mgmtgwd.jobmgr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mgmtgwd.jobmgr EMS events occur when ONTAP encounters issues associated with the Job Manager.
+
 == mgmtgwd.jobmgr.fetcherr
 *Severity*::
 ERROR
@@ -161,3 +164,4 @@ On the peer cluster, update the schedule to match this cluster.
 *schedule* (STRING): Schedule name.
 *operation* (STRING): Operation performed on schedule: "created," "modified," or "deleted."
 *command* (STRING): Job schedule command that was executed.
+

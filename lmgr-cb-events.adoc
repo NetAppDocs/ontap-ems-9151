@@ -14,6 +14,9 @@ summary: lmgr.cb events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lmgr.cb EMS events occur when a lock manager waiting lock callback object cannot be allocated due to reaching the limit for waiting lock callback objects in the associated pool.
+
 == lmgr.cb.waiting.limit.hit
 *Severity*::
 ERROR
@@ -35,3 +38,4 @@ The number of waiting callback objects %u has reached the limit %u for the pool 
 *locks_limit* (INT): Allocated locks limit for the pool.
 *owners_total* (INT): Number of allocated owners in the pool.
 *owners_limit* (INT): Allocated owners limit for the pool.
+

@@ -14,6 +14,9 @@ summary: callhome.invoke events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.invoke EMS events occur when ONTAP encounters issues associated with user-invoked AutoSupport messages.
+
 == callhome.invoke
 *Severity*::
 NOTICE
@@ -86,3 +89,4 @@ This message occurs when an administrator invokes an AutoSupport message for ful
 Call home for %s
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

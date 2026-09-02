@@ -14,6 +14,9 @@ summary: snapmirror.src events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+snapmirror.src EMS events occur when ONTAP encounters issues associated with SnapMirror(R) source operations.
+
 == snapmirror.src.cannotFind
 *Severity*::
 ERROR
@@ -529,3 +532,4 @@ SnapMirror : vfiler %s tried to use volume %s as a SnapMirror source volume, but
 *Parameters*::
 *vfiler* (STRING): The current vfiler's name
 *src* (STRING): The SnapMirror source volume
+

@@ -14,6 +14,9 @@ summary: ffm.detach events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ffm.detach EMS events occur when ONTAP encounters issues associated with the detach phase of a graceful volume relocation.
+
 == ffm.detach.outage.start
 *Severity*::
 NOTICE
@@ -43,3 +46,4 @@ Detach protocol outage has completed for volumes on aggregate %s. Timestamp: %ll
 *detach_end_sk_msecs* (LONGINT): Timestamp of this event.
 *est_detach_protocol_outage_duration* (LONGINT): Estimated duration in milliseconds from the start to the end of the protocol outage for the detach operation.
 *detach_op_total* (LONGINT): Duration in milliseconds from the moment of the detach callback to this event.
+

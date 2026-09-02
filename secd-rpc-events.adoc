@@ -14,6 +14,9 @@ summary: secd.rpc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+secd.rpc EMS events occur when ONTAP encounters issues associated with Security Daemon (SecD) remote procedure call (RPC) processing.
+
 == secd.rpc.authRequest.blocked
 *Severity*::
 ALERT
@@ -53,3 +56,4 @@ RPC "%s" that was sent from "%s" was dropped by SecD due to a lack of memory spa
 *Parameters*::
 *rpcName* (STRING): Name of the RPC that has been dropped.
 *callerName* (STRING): Caller of the RPC that has been dropped.
+

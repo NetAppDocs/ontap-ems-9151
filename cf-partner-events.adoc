@@ -14,6 +14,9 @@ summary: cf.partner events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cf.partner EMS events occur when ONTAP encounters issues associated with HA partner operations.
+
 == cf.partner.login
 *Severity*::
 INFORMATIONAL
@@ -85,3 +88,4 @@ Check the disk connectivity to the partner node. If the problem persists and the
 Partner up for %llu seconds only.
 *Parameters*::
 *seconds* (LONGINT): Time duration for which the partner was up.
+

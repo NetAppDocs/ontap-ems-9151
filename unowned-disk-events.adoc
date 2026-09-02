@@ -14,6 +14,9 @@ summary: unowned.disk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+unowned.disk EMS events occur when the system has unowned/unassigned disks.
+
 == unowned.disk.reminder
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ Use 'disk show -n' to determine which disks are unowned. Use 'disk assign' to as
 %d disks are currently unowned. Use the "disk assign" command to assign the disks to a system.
 *Parameters*::
 *count* (INT): Number of unowned disks.
+

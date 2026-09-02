@@ -14,6 +14,9 @@ summary: dfu.fwdownloadfailedwbuf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dfu.fwdownloadfailedwbuf EMS events occur when retries are exhausted on the write buffer command that is used to download firmware to a disk.
+
 == dfu.fwDownloadFailedWbuf
 *Severity*::
 ERROR
@@ -29,3 +32,4 @@ Write buffer command failed to Disk %s [%s %s %s] S/N [%s].
 *productId* (STRING): Product ID of the disk.
 *fwVersion* (STRING): Firmware version of the disk.
 *serialno* (STRING): Serial number of the disk.
+

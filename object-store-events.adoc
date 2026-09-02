@@ -14,6 +14,9 @@ summary: object.store events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+object.store EMS events occur when ONTAP encounters issues associated with object store connectivity and operations.
+
 == object.store.available
 *Severity*::
 NOTICE
@@ -219,3 +222,4 @@ Unable to connect to the object store "%s" from node %s. Reason: %s.
 *configname* (STRING): Object store configuration name.
 *node_uuid* (STRING): UUID of the node.
 *reason* (STRING): Reason for the failure to connect.
+

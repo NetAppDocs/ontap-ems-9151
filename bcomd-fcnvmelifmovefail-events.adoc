@@ -14,6 +14,9 @@ summary: bcomd.fcnvmelifmovefail events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+bcomd.fcnvmelifmovefail EMS events occur when a LIF move failed and the recovery action to restore the LIF has also failed.
+
 == bcomd.fcNvmeLifMoveFail
 *Severity*::
 EMERGENCY
@@ -30,3 +33,4 @@ Moving FC-NVMe LIF %s of vserver %s from %s:%s to %s:%s failed. Manual recovery 
 *src_port* (STRING): LIF was moving from this port.
 *dest_node* (STRING): LIF was moving to this node.
 *dest_port* (STRING): LIF was moving to this port.
+

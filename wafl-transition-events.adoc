@@ -14,6 +14,9 @@ summary: wafl.transition events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.transition EMS events occur at the completion of a WAFL(R) consistency point (CP) that occurs during a failover transition, such as takeover or giveback.
+
 == wafl.transition.cp.completed
 *Severity*::
 NOTICE
@@ -30,3 +33,4 @@ Transition CP with reason %s for %s volumes with a total of %s dirty buffers too
 *total_time* (INT): Number of milliseconds that the CP ran for.
 *top_phases* (STRING): Top time consuming phases of the CP.
 *aggrname* (STRING): Name of the aggregate.
+

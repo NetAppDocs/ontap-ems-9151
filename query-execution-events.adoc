@@ -14,6 +14,9 @@ summary: query.execution events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+query.execution EMS events occur when ONTAP encounters issues associated with SQL query processing.
+
 == query.execution.console
 *Severity*::
 NOTICE
@@ -38,3 +41,4 @@ This type of failure can occur legitimately during the course of normal system o
 *Parameters*::
 *query* (STRING): Query that was executed.
 *error* (STRING): Error message that occurred.
+

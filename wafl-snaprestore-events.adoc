@@ -14,6 +14,9 @@ summary: wafl.snaprestore events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.snaprestore EMS events occur when ONTAP encounters issues associated with snapshot restore operations.
+
 == wafl.snaprestore.badVersion
 *Severity*::
 ERROR
@@ -104,3 +107,4 @@ Snapshot copy is stale. (vol='%s', volident='%s')
 *Parameters*::
 *vol* (STRING): Volume name.
 *volident* (STRING): To uniquely identify the volume in cases where the volume name itself is insufficient.
+

@@ -14,6 +14,9 @@ summary: isns.reg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+isns.reg EMS events occur when ONTAP encounters issues associated with Internet Storage Name Service (iSNS) registration.
+
 == isns.reg.info.unavailable
 *Severity*::
 ERROR
@@ -51,3 +54,4 @@ The iSNS registration period for %s was too small (%d); increase the registratio
 *Parameters*::
 *vserver* (STRING): Name of the Vserver
 *period* (INT): Registration period received from the iSNS server
+

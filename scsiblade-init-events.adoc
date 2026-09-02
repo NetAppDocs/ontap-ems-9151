@@ -14,6 +14,9 @@ summary: scsiblade.init events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+scsiblade.init EMS events occur when ONTAP encounters issues associated with SAN Kernel Agent initialization.
+
 == scsiblade.init.abort
 *Severity*::
 ALERT
@@ -38,3 +41,4 @@ There was a problem initializing the SAN Kernel Agent for one or more Vservers. 
 *Parameters*::
 *vserver* (STRING): Name of the Vserver for which the SAN Kernel Agent failed to initialize.
 *error* (STRING): Error encountered while initializing the SAN Kernel Agent for the Vserver.
+

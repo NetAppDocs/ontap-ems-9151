@@ -14,6 +14,9 @@ summary: vnvram.dma events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vnvram.dma EMS events occur when a vNVRAM flush operation on an ONTAP-v system is taking too much time.
+
 == vnvram.dma.long.wait
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ If the problem persists, check for back-end storage issues with the system disk.
 vNVRAM flush taking over %d seconds.
 *Parameters*::
 *vnvr_wait_sec* (INT): Time in seconds for the vNVRAM flush operation.
+

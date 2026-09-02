@@ -14,6 +14,9 @@ summary: acp.fw events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+acp.fw EMS events occur when ONTAP encounters issues associated with firmware download operations to the Alternate Control Path (ACP) Processor.
+
 == acp.fw.download
 *Severity*::
 INFORMATIONAL
@@ -57,3 +60,4 @@ Firmware download on %s (%s) was successful, (disk shelf serial number: %s).
 *inband_id* (STRING): In-band ID of the module.
 *ip* (STRING): IP address of the module.
 *shelf_sno* (STRING): Disk shelf serial number of the shelf where this I/O module is seated.
+

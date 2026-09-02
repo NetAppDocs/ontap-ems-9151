@@ -14,6 +14,9 @@ summary: license.fpool events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+license.fpool EMS events occur when ONTAP encounters issues associated with the FabricPool storage capacity limit.
+
 == license.fpool.changed
 *Severity*::
 NOTICE
@@ -87,3 +90,4 @@ Determine the ID of the cluster by using the "cluster identity show" command. Wi
 *Parameters*::
 *requested_max_capacity* (LONGINT): Requested maximum capacity supported, in TB.
 *cluster_ID* (STRING): Cluster ID as specified in license.
+

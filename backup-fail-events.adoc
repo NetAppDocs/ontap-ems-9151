@@ -14,6 +14,9 @@ summary: backup.fail events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+backup.fail EMS events occur when ONTAP encounters issues associated with backup/restore operations during giveback and log file access.
+
 == backup.fail.giveback
 *Severity*::
 ERROR
@@ -49,3 +52,4 @@ Make sure that the log file exists with proper permission and the file is not co
 Failed to write to backup log file: %s
 *Parameters*::
 *log_file_write_err* (STRING): The error encountered during log file write
+

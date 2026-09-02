@@ -14,6 +14,9 @@ summary: sfu.partnerupdatetimeout events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sfu.partnerupdatetimeout EMS events occur in a high-availability (HA) configuration in which an HA partner was downloading disk shelf firmware and the download has timed out.
+
 == sfu.partnerUpdateTimeout
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ Verify that the HA interconnect is operational and then retry the (advanced priv
 Waited %d minutes for partner shelf firmware update. Resuming enclosure services.
 *Parameters*::
 *minutes* (INT): Duration of the partner update timeout, in minutes.
+

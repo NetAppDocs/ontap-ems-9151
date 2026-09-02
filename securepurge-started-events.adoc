@@ -14,6 +14,9 @@ summary: securepurge.started events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+securepurge.started EMS events occur when a secure purge operation is started in a flexible volume.
+
 == securepurge.started
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Secure purge operation is started on the volume '%s' in Vserver '%s'.
 *Parameters*::
 *volumename* (STRING): Name of the volume.
 *vservername* (STRING): Name of the Vserver.
+

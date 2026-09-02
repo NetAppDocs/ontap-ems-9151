@@ -14,6 +14,9 @@ summary: wafl.stream events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.stream EMS events occur when ONTAP encounters issues associated with stream file validation operations.
+
 == wafl.stream.check.complete
 *Severity*::
 NOTICE
@@ -54,3 +57,4 @@ This message occurs when the "wafl scan stream_check" command is started.
 *Parameters*::
 *volume* (STRING): Volume name.
 *vserver_uuid* (STRING): Universal Unique ID (UUID) of the volume's SVM.
+

@@ -14,6 +14,9 @@ summary: wafl.dosname events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.dosname EMS events occur when ONTAP encounters issues associated with correcting duplicate dosnames in a directory.
+
 == wafl.dosname.repair.fail
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ This message occurs when the "wafl dosname" command is completed successfully.
 *vserver_uuid* (STRING): Universal Unique ID (UUID) of the volume's Vserver.
 *volume* (STRING): Volume name.
 *total* (INT): Total number of directory entries changed.
+

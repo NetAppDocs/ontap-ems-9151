@@ -14,6 +14,9 @@ summary: acp.sock events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+acp.sock EMS events occur when the system encounters a socket error while setting up the Alternate Control Path (ACP) Management Ethernet port.
+
 == acp.sock.error
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Verify that the Ethernet cable is properly attached to the ACP port and that the
 An error was encountered while configuring the ACP Management Ethernet Port: %s.
 *Parameters*::
 *ErrorString* (STRING): Error string.
+

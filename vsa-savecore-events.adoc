@@ -14,6 +14,9 @@ summary: vsa.savecore events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vsa.savecore EMS events occur when the savecore tool determines that the space available is not sufficient for storing the core image from a dump device to a readable core file in the /etc/crash directory.
+
 == vsa.savecore.nospace
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ Available space (%llu %dKB blocks) is not enough to save the core image (require
 *blocksize* (INT): Block size in kilobytes.
 *needed* (LONGINT): Number of blocks needed for saving the core image.
 *minfree* (LONGINT): Number of blocks reserved for normal system operation.
+

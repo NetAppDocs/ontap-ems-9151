@@ -14,6 +14,9 @@ summary: air.corrected events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+air.corrected EMS events occur when the Automated Incremental Repair (AIR) subsystem repairs an inode having a corrupted qtree ID.
+
 == air.corrected.qtree.tid
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ Qtree entry certification failed at %s. AIR repaired qtree inode %d: old TID %d,
 *old_tid* (INT): Old TID.
 *new_tid* (INT): New TID.
 *fgindex* (INT): Fgindex of the qtree root.
+

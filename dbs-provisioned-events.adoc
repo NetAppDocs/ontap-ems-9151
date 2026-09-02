@@ -14,6 +14,9 @@ summary: dbs.provisioned events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dbs.provisioned EMS events occur when the distributed block store detects that the cluster's overall provisioned capacity has exceeded the slice reserve space threshold.
+
 == dbs.provisioned.space.full
 *Severity*::
 ERROR
@@ -29,3 +32,4 @@ The distributed block store detected that the overall provisioned capacity of th
 *cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
 *cfDetails* (STRING): Description of the cluster fault, including context details.
 *cfExtSrc* (STRING): Distributed block store cluster fault external source label created by the "CreateClusterFault" API command and attached to the fault for testing purposes.
+

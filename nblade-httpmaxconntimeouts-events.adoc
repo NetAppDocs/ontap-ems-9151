@@ -14,6 +14,9 @@ summary: nblade.httpmaxconntimeouts events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.httpmaxconntimeouts EMS events occur when the HTTP subsystem, which monitors connection timeouts due to an unresponsive client or data not received from the client within a specified time, especially a PUT request or an HTTP Request containing Request Body.
+
 == Nblade.httpMaxConnTimeOuts
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ The HTTP subsystem on this node on vserver %u has exceeded its connection timeou
 *vsId* (INT): Id of the vserver, on which this event occurred.
 *currentNumConnTimeouts* (LONGINT): Total number of connection timeouts that occured in the HTTP subsystem.
 *totalNumConnTimeouts* (LONGINT): Maximum number of connection timeouts allowed in the HTTP subsystem.
+

@@ -14,6 +14,9 @@ summary: dbs.capacity events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dbs.capacity EMS events occur when the Distributed Block Store (DBS) detects that more than half of the cluster capacity is available on a single node.
+
 == dbs.capacity.stranded
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ Distributed Block Store has detected stranded capacity. Cluster fault type %s, f
 *cfStatus* (INT): Current status of the cluster fault: 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
 *cfDetails* (STRING): Description of the cluster fault, including context details.
 *cfExtSrc* (STRING): Distributed Block Store cluster fault externalSource label created by the "CreateClusterFault" API command and attached to the fault for testing purposes.
+

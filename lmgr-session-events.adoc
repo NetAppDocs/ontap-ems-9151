@@ -14,6 +14,9 @@ summary: lmgr.session events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lmgr.session EMS events occur when a SpinNP session has failed, which causes session-scoped (e.g.
+
 == lmgr.session.failed
 *Severity*::
 INFORMATIONAL
@@ -27,3 +30,4 @@ Dropped session-scoped locks from session %s:%s:%s due to failed session.
 *initiator* (STRING): The blade ID of the initiator.
 *uniquifier* (STRING): The session uniquifier.
 *target* (STRING): The blade ID of the target.
+

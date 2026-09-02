@@ -14,6 +14,9 @@ summary: acp.upgrade events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+acp.upgrade EMS events occur when the Alternate Control Path (ACP) Administrator determines that the ACP Processor has successfully upgraded the firmware.
+
 == acp.upgrade.successful
 *Severity*::
 INFORMATIONAL
@@ -27,3 +30,4 @@ ACP module %s (%s) successfully upgraded firmware, (disk shelf serial number: %s
 *inband_id* (STRING): Inband ID of the module.
 *ip* (STRING): IP address of the module.
 *shelf_sno* (STRING): Disk shelf serial number of the shelf where this I/O module is seated.
+

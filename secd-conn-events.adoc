@@ -14,6 +14,9 @@ summary: secd.conn events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+secd.conn EMS events occur when the Vserver cannot establish a TCP/UDP connection to or be authenticated by an outside server such as NIS, LSA, LDAP and KDC.
+
 == secd.conn.auth.failure
 *Severity*::
 NOTICE
@@ -30,3 +33,4 @@ Vserver (%s) could not %s over the network to server (%s)%s. Error: %s (%s).
 *sourceInfo* (STRING): Information about the source that was making the connection or authentication.
 *ErrnoMessage* (STRING): Errno message from the connection or authentication failure.
 *operation* (STRING): Operation being performed.
+

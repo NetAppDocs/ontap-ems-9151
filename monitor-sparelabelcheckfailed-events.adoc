@@ -14,6 +14,9 @@ summary: monitor.sparelabelcheckfailed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+monitor.sparelabelcheckfailed EMS events occur when the system detects that a hot spare disk has an invalid or a missing label.
+
 == monitor.spareLabelCheckFailed
 *Severity*::
 NOTICE
@@ -36,3 +39,4 @@ Periodic check of hot spare %s has failed. The system will correct the problem.
 *serialno* (STRING): Serial number of the disk.
 *disk_type* (INT): Type of disk.
 *disk_rpm* (STRING): Rotational speed of the disk in RPM.
+

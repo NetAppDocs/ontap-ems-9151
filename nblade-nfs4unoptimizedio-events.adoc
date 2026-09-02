@@ -14,6 +14,9 @@ summary: nblade.nfs4unoptimizedio events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.nfs4unoptimizedio EMS events occur when a session trunking group that is created by the NFSv41 client is split across multiple nodes.
+
 == Nblade.nfs4UnOptimizedIO
 *Severity*::
 ALERT
@@ -28,3 +31,4 @@ In-flight requests from client IP [%s]:%d to destination LIF "%s" (Vserver: %s) 
 *clientPort* (INT): Network port of the client.
 *lifIpAddress* (STRING): IP address of the logical interface.
 *vserverName* (STRING): Name of the Vserver associated with this operation.
+

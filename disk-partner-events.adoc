@@ -14,6 +14,9 @@ summary: disk.partner events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.partner EMS events occur when ONTAP encounters issues associated with disk operations on HA partner nodes.
+
 == disk.partner.encrRevertDone
 *Severity*::
 NOTICE
@@ -49,3 +52,4 @@ This message occurs when a message is received from the partner for a disk sanit
 The partner has started a disk sanitize on %s.
 *Parameters*::
 *diskName* (STRING): Name of the disk.
+

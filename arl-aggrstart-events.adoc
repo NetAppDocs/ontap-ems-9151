@@ -14,6 +14,9 @@ summary: arl.aggrstart events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+arl.aggrstart EMS events occur when relocation of a storage failover aggregate starts.
+
 == arl.aggrStart
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ Starting relocation of aggregate %s at time %llu.
 *aggrName* (STRING): Name of the aggregate being relocated.
 *time* (LONGINT): Time at which relocation of the aggregate started.
 *aggrUUID* (STRING): UUID of the aggregate being relocated.
+

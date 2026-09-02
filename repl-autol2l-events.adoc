@@ -14,6 +14,9 @@ summary: repl.autol2l events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+repl.autol2l EMS events occur when the replication destination engine encounters an unsupported configuration during a transfer with storage efficiency.
+
 == repl.autol2l.unsupported.configuration
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ This message occurs when the replication destination engine encounters an unsupp
 Unsupported configuration for relationship '%s'.
 *Parameters*::
 *transferId* (STRING): UUID of the SnapMirror transfer that has the unsupported configuration.
+

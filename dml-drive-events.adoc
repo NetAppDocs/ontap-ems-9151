@@ -14,6 +14,9 @@ summary: dml.drive events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dml.drive EMS events occur when ONTAP encounters issues associated with drive online and offline operations.
+
 == dml.drive.offline.status
 *Severity*::
 NOTICE
@@ -41,3 +44,4 @@ Drive online request %s %s, (%d).
 *drive_name* (STRING): Drive name.
 *status_str* (STRING): Drive online status string.
 *status_code* (INT): Drive online status code.
+

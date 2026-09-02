@@ -14,6 +14,9 @@ summary: disk.dynamicqual events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.dynamicqual EMS events occur when ONTAP encounters issues associated with dynamic device qualification.
+
 == disk.dynamicqual.fail.parse
 *Severity*::
 ERROR
@@ -89,3 +92,4 @@ Device qualification failure has not been corrected for the past %d hour(s). The
 *Parameters*::
 *time* (INT): Time until forced shutdown.
 *disklist* (STRING): List of disks that are still not qualified.
+

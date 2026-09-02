@@ -14,6 +14,9 @@ summary: xfcvi.cm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+xfcvi.cm EMS events occur when connection requests times out.
+
 == xfcvi.cm.timedout
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ FC-VI adapter: Connection request timedout on port %s. QP name = %s, QP index = 
 *qpnum* (INT): QP index.
 *system_id* (LONGINT): Remote node's system id.
 *info* (STRING): Additional info.
+

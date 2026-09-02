@@ -14,6 +14,9 @@ summary: csm.nomemory events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+csm.nomemory EMS events occur when the memory allocator temporarily runs out of memory that can be allocated or when the entire node has an insufficient amount of free system memory.
+
 == csm.noMemory
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ CSM was unable to process events due to insufficient free memory.
 *Parameters*::
 *filename* (STRING): Name of the file where the event occurred.
 *lineno* (INT): Line number where the event occurred.
+

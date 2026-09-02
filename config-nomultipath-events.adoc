@@ -14,6 +14,9 @@ summary: config.nomultipath events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+config.nomultipath EMS events occur when a disk is found with multiple paths and it does not support them.
+
 == config.NoMultiPath
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Remove the second path from the disk shelf.
 Disk %s cannot be multipathed.
 *Parameters*::
 *disk* (STRING): Name of the disk that was found.
+

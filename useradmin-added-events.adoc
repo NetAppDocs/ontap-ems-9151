@@ -14,6 +14,9 @@ summary: useradmin.added events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+useradmin.added EMS events occur when a user, group, or role has been added, deleted, or modified.
+
 == useradmin.added.deleted
 *Severity*::
 INFORMATIONAL
@@ -27,3 +30,4 @@ The %s '%s' has been %s.
 *type* (STRING): The type of the affected useradmin name. This can be one of the following values: "user", "group", or "role".
 *name* (STRING): The name of the affected user, group, or role.
 *action* (STRING): The action that occurred to the subject. This can be one of the following values: "added", "deleted", or "modified".
+

@@ -14,6 +14,9 @@ summary: scsiblade.online events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+scsiblade.online EMS events occur when the node completes initialization of the SAN configuration cache.
+
 == scsiblade.online
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when the node completes initialization of the SAN configurat
 This node has completed initialization of the SAN configuration cache. FCP and iSCSI traffic are enabled on this node.
 *Parameters*::
 (None).
+

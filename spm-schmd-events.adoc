@@ -14,6 +14,9 @@ summary: spm.schmd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+spm.schmd EMS events occur when the System Connectivity Health Monitor process (schmd) involuntarily terminates.
+
 == spm.schmd.process.exit
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ System Connectivity Health Monitor process (schmd) with ID %d exited as a result
 *Parameters*::
 *id* (INT): Process identifier.
 *cause* (STRING): Plain text description of why the process exited.
+

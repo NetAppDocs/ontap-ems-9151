@@ -14,6 +14,9 @@ summary: smtape.bkp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+smtape.bkp EMS events occur when ONTAP encounters issues associated with SMTape backup operations.
+
 == smtape.bkp.abort.write.err
 *Severity*::
 ERROR
@@ -85,3 +88,4 @@ SMTape backup session %d from %s to %s is waiting for a tape change.
 *sessionid* (INT): Session ID of the SMTape operation.
 *srcvolpath* (STRING): SMTape source volume.
 *tapepath* (STRING): Current destination tape device to which backup was performed.
+

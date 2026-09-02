@@ -14,6 +14,9 @@ summary: monitor.volume events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+monitor.volume EMS events occur when ONTAP encounters issues associated with volume or aggregate space utilization.
+
 == monitor.volume.full
 *Severity*::
 ALERT
@@ -47,3 +50,4 @@ Create space by increasing the volume or aggregate sizes, or by deleting data or
 *vserver_uuid* (STRING): Universal Unique ID (UUID) of the object's Vserver, if the object is a volume. Otherwise, this string is empty.
 *percent_full_blocks* (STRING): Used capacity of the space of the object, as a percent.
 *percent_full_inodes* (STRING): Used capacity of inodes of the object, as a percent.
+

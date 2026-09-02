@@ -14,6 +14,9 @@ summary: netif.init events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+netif.init EMS events occur when initialization of a network interface failed due to an unexpected software error.
+
 == netif.init.failed
 *Severity*::
 ALERT
@@ -27,3 +30,4 @@ Initialization of network interface %s failed due to unexpected software error %
 *ifName* (STRING): Name of the network interface; for example, "e8a".
 *module* (STRING): Name of the software module or driver.
 *error* (INT): Module-specific error code.
+

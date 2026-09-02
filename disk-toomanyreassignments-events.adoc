@@ -14,6 +14,9 @@ summary: disk.toomanyreassignments events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.toomanyreassignments EMS events occur when a reassignment fails due to table overflow.
+
 == disk.tooManyReassignments
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Disk %s: sector %llu was NOT reassigned, too many reassignments.
 *Parameters*::
 *diskName* (STRING): Name of the device.
 *error* (LONGINT): Bad sector.
+

@@ -14,6 +14,9 @@ summary: ffm.init events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ffm.init EMS events occur when the Firefly manager is initiated during Firefly boot.
+
 == ffm.init.firefly
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when the Firefly manager is initiated during Firefly boot.
 Firefly manager initiated.
 *Parameters*::
 (None).
+

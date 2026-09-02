@@ -14,6 +14,9 @@ summary: monitor.unknown events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+monitor.unknown EMS events occur when the status monitor receives an unexpected message type.
+
 == monitor.unknown.message
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Internal error: status monitor received message type %d, expected type %d
 *Parameters*::
 *msgType* (INT): (None).
 *expectedType* (INT): (None).
+

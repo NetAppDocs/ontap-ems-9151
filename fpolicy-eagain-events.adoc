@@ -14,6 +14,9 @@ summary: fpolicy.eagain events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fpolicy.eagain EMS events occur when ONTAP encounters issues associated with FPolicy server connectivity EAGAIN errors.
+
 == fpolicy.eagain.disconnect
 *Severity*::
 ALERT
@@ -42,3 +45,4 @@ Write returned EAGAIN while sending notification to the FPolicy server "%s" for 
 *fpserver* (STRING): IP address of the FPolicy server.
 *vserver* (STRING): Vserver Name.
 *Vserver_UUID* (STRING): Vserver UUID.
+

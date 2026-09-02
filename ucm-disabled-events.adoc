@@ -14,6 +14,9 @@ summary: ucm.disabled events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ucm.disabled EMS events occur when the Unified Target Adapter reads an invalid mode from flash memory.
+
 == ucm.disabled.slot
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Disabling adapter %s because invalid mode %d was read from nonvolatile memory.
 *Parameters*::
 *adapter* (STRING): Name of the affected adapter.
 *faultyMode* (INT): Value of the mode read from flash memory.
+

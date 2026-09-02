@@ -14,6 +14,9 @@ summary: acp.need events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+acp.need EMS events occur when ONTAP encounters issues associated with the Alternate Control Path (ACP) processor requiring firmware or module upgrades.
+
 == acp.need.firmware.update
 *Severity*::
 ERROR
@@ -40,3 +43,4 @@ IOM %s does not support InBand ACP. Upgrade the IOM to IOM6 or later for support
 *Parameters*::
 *inband_id* (STRING): Inband ID of the module.
 *shelf_sno* (STRING): Disk shelf serial number of the shelf where this IOM is seated.
+

@@ -14,6 +14,9 @@ summary: mc.post events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mc.post EMS events occur post replay and conveys information regarding bdatas inserted, rejected, duplicate, hits and misses.
+
 == mc.post.replay.stats
 *Severity*::
 NOTICE
@@ -30,3 +33,4 @@ Mirror Cache post replay stats -- Name: %s Inserted: %llu Rejected: %llu Duplica
 *duplicate* (LONGINT): Duplicate bdatas
 *hits* (LONGINT): Bdata hits
 *misses* (LONGINT): Bdatas misses
+

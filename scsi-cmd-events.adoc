@@ -14,6 +14,9 @@ summary: scsi.cmd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+scsi.cmd EMS events occur when ONTAP encounters issues associated with SCSI command execution and transport errors.
+
 == scsi.cmd.aborted
 *Deprecated*::
 This event has been removed as it does not provide any useful information for a customer.
@@ -669,3 +672,4 @@ The associated hardware adapter should be evaluated for proper operation and pos
 *haStatus* (INTHEX): The value of the HA status field for the failed command.
 *cdb* (STRING): A string containing the opcode byte of the CDB which was sent to the device. If the opcode was for a READ (0x28) or a WRITE (0x2a), the logical block address and the transfer length are included as well.
 *disk_information* (STRING): Formatted information about the disk, including the disk's vendor, model, firmware revision, and serial number.
+

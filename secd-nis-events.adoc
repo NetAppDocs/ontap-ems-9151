@@ -14,6 +14,9 @@ summary: secd.nis events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+secd.nis EMS events occur when ONTAP encounters issues associated with Network Information Service (NIS) server communications.
+
 == secd.nis.connectFailure
 *Deprecated*::
 Deprecated as of version 9.5 since this EMS is no longer needed.
@@ -60,3 +63,4 @@ From CIFS Server(%s) calls to NIS server (%s) at address (%s) is executing slowl
 *vserverName* (STRING): vserver associated with this operation.
 *serverName* (STRING): Name of the NIS server that was not responding fast enough.
 *serverAddress* (STRING): Address of the NIS server that was not responding fast enough.
+

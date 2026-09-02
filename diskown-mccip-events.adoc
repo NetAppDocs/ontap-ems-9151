@@ -14,6 +14,9 @@ summary: diskown.mccip events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+diskown.mccip EMS events occur when ONTAP encounters issues associated with MetroCluster(tm) quarter-shelf based drive assignment.
+
 == diskown.mccip.assignStatus
 *Severity*::
 NOTICE
@@ -50,3 +53,4 @@ This message occurs when the system cannot automatically assign disks because so
 The system cannot automatically assign disks because the disks in shelf "%d" are assigned to multiple systems in a conflicting manner.
 *Parameters*::
 *shelf_id* (INT): Shelf identifier.
+

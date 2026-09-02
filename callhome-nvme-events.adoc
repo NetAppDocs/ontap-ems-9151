@@ -14,6 +14,9 @@ summary: callhome.nvme events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.nvme EMS events occur when ONTAP encounters issues associated with directly attached NVMe modules.
+
 == callhome.nvme.exhausted
 *Severity*::
 ALERT
@@ -44,3 +47,4 @@ Callhome for %s.
 *model* (STRING): Model number of the NVMe device.
 *slot_subslot* (STRING): PCI slot/subslot of the NVMe device.
 *code* (LONGINTHEX): Bit-encoded error that caused the event.
+

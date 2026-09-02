@@ -14,6 +14,9 @@ summary: arw.auto events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+arw.auto EMS events occur when anti-ransomware has been automatically switched from learning mode to enabled after various conditions have been satisfied, such as learning period, file creation, file write, and file extension discovery activities.
+
 == arw.auto.switch.enabled
 *Severity*::
 NOTICE
@@ -31,3 +34,4 @@ Anti-ransomware has been automatically switched from learning mode to enabled on
 *DurationWithoutNewExtension* (INT): Number of days without a new file extension being discovered.
 *FileCount* (INT): Number of new files created in a volume.
 *FileExtensionCount* (INT): Number of new file extensions discovered in a volume.
+

@@ -14,6 +14,9 @@ summary: cpeer.psk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cpeer.psk EMS events occur when ONTAP encounters issues associated with pre-shared key authentication for cluster peering.
+
 == cpeer.psk.cluster.revoked
 *Severity*::
 ERROR
@@ -67,3 +70,4 @@ ONTAP received a TLS request to authenticate with a remote cluster's pre-shared 
 *clusterUUID* (STRING): Cluster UUID being probed.
 *sourceIP* (STRING): IP address that is the source of the probe.
 *sourceIPspace* (STRING): IPspace in which the probe arrived.
+

@@ -14,6 +14,9 @@ summary: sp.firmware events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sp.firmware EMS events occur when ONTAP encounters issues associated with Service Processor (SP) or Baseboard Management Controller (BMC) firmware.
+
 == sp.firmware.corruption
 *Severity*::
 ALERT
@@ -62,3 +65,4 @@ Contact NetApp technical support to get a copy of the recommended version of SP 
 The SP firmware version %s is not an official release.
 *Parameters*::
 *current_sp_fw_version* (STRING): Current firmware version on the SP.
+

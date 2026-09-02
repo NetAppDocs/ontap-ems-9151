@@ -14,6 +14,9 @@ summary: sfu.badbridgeshelfconfig events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sfu.badbridgeshelfconfig EMS events occur when the disk shelf firmware update aborts because it cannot contact the two peer FC-to-SAS bridges.
+
 == sfu.badBridgeShelfConfig
 *Severity*::
 ALERT
@@ -27,3 +30,4 @@ Firmware update aborted on disk shelf %s.shelf%d module %s. Unable to contact tw
 *channelName* (STRING): Name of the adapter port or switch port of the disk shelf that aborted the firmware update.
 *shelfId* (INT): ID of the disk shelf that aborted the firmware update.
 *module* (STRING): Module that aborted the firmware update.
+

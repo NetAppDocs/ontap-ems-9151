@@ -14,6 +14,9 @@ summary: kern.vm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+kern.vm EMS events occur when an attempt to create a new mapping in the virtual address space of a process has failed.
+
 == kern.vm.mmap.return
 *Severity*::
 NOTICE
@@ -30,3 +33,4 @@ mmap(2) by %s (pid %d) for size %ld failed: %s, limit %ld, error %d.
 *message* (STRING): Details about the failed memory map attempt.
 *limit* (LONGINT): Size in bytes of the process's virtual memory limit.
 *errno* (INT): The error code returned to the process.
+

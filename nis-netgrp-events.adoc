@@ -14,6 +14,9 @@ summary: nis.netgrp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nis.netgrp EMS events occur when ONTAP encounters issues associated with NIS netgroup database operations.
+
 == nis.netgrp.db.build.failure
 *Severity*::
 ERROR
@@ -62,3 +65,4 @@ This message occurs when the system fails to queue the NIS netgroup.byhost datab
 NIS netgroup database job queue failed for Vserver %s.
 *Parameters*::
 *vserver_name* (STRING): Name of the Vserver.
+

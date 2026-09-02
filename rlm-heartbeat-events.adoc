@@ -14,6 +14,9 @@ summary: rlm.heartbeat events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+rlm.heartbeat EMS events occur when ONTAP encounters issues associated with Remote LAN Module (RLM) heartbeat notifications.
+
 == rlm.heartbeat.resumed
 *Severity*::
 INFORMATIONAL
@@ -37,3 +40,4 @@ Connect to the RLM CLI and issue 1. rlm version 2. rlm config 3. priv set advanc
 Have not received a heartbeat from the Remote LAN Module (RLM) in last %d seconds.
 *Parameters*::
 *max_anx* (INT): Heartbeats have not been received from the Remote Lan Module (RLM) for this period of time in seconds.
+

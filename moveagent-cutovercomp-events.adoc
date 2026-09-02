@@ -14,6 +14,9 @@ summary: moveagent.cutovercomp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+moveagent.cutovercomp EMS events occur when a 'volume move' operation cannot complete cutover.
+
 == moveagent.cutovercomp.fail
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Monitor the volume move job. If the problem persists, contact NetApp technical s
 Unable to finish the volume move operation for DSID %llu. Failed to complete cutover.
 *Parameters*::
 *volume_dsid* (LONGINT): Destination volume Data Set ID (DSID).
+

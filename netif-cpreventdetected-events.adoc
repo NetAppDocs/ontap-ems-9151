@@ -14,6 +14,9 @@ summary: netif.cpreventdetected events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+netif.cpreventdetected EMS events occur when a CPR Event (core PCI resiliency) is detected.
+
 == netif.cprEventDetected
 *Severity*::
 INFORMATIONAL
@@ -26,3 +29,4 @@ CPR Event (core PCI resiliency) detected on network interface %s and the count s
 *Parameters*::
 *ifname* (STRING): Name of network interface.
 *count* (INT): Number of times CPR Event (core PCI resiliency) has occurred since boot.
+

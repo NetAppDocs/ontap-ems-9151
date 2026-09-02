@@ -14,6 +14,9 @@ summary: dbs.generic events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dbs.generic EMS events occur when ONTAP encounters issues associated with generic Distributed Block Store (DBS) cluster faults or events.
+
 == dbs.generic.cluster.fault
 *Severity*::
 NOTICE
@@ -57,3 +60,4 @@ DBS generic event %s occurred, type %s, service %u, node %u/%s. drive %u/%s, eve
 *driveUuid* (STRING): Generated UUID of the associated drive. It displays zeroes if there is no associated drive.
 *evtID* (INT): DBS event ID number.
 *evtDetails* (STRING): Specific details of the DBS event. It displays as a string, in JSON format, or is empty.
+

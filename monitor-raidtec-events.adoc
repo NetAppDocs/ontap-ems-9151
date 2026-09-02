@@ -14,6 +14,9 @@ summary: monitor.raidtec events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+monitor.raidtec EMS events occur as part of an hourly system check, when a RAID-TEC aggregate is in double degraded mode.
+
 == monitor.raidtec.dblDegraded
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Replace the failed disks, which are identifiable by lighted fault LED lights, to
 *Parameters*::
 *type* (STRING): Type of disks: data, parity, dparity, or tparity disk.
 *rgname* (STRING): RAID group name.
+

@@ -14,6 +14,9 @@ summary: nblade.fpolpsvolofflined events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.fpolpsvolofflined EMS events occur when persistent store volume is offline.
+
 == Nblade.fpolPsVolOfflined
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ FPolicy persistent store volume "%s" belonging to SVM "%s" is offline.
 *Parameters*::
 *volName* (STRING): Persistent store volume.
 *vserverName* (STRING): Name of the SVM.
+

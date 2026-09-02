@@ -14,6 +14,9 @@ summary: wafl.cp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.cp EMS events occur when a WAFL(R) consistency point (CP) takes longer than 30 seconds.
+
 == wafl.cp.toolong
 *Severity*::
 ERROR
@@ -34,3 +37,4 @@ Aggregate %s experienced a long CP.
 *rgid* (INT): ID of the raid group with the highest average tetris write time.
 *clean* (INT): Milliseconds to write allocate (clean) all normal files.
 *flush* (INT): Milliseconds to write all remaining blocks to disk.
+

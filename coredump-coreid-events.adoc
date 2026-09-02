@@ -14,6 +14,9 @@ summary: coredump.coreid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+coredump.coreid EMS events occur when could not find the specified core.
+
 == coredump.coreid.not.found
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ Double-check the core id, and try again.
 Core %d could not be found
 *Parameters*::
 *coreid* (INT): The core id that could not be found
+

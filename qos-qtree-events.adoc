@@ -14,6 +14,9 @@ summary: qos.qtree events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+qos.qtree EMS events occur when the Quality of Service (QoS) subsystem recognizes that an older version of a filehandle is still being used to access a qtree associated with a QoS policy group.
+
 == qos.qtree.fh.error.report
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Use the "qos workload show -wid workloadID" command to show the affected qtree. 
 QoS qtree violation for qtree with workload ID = %u.
 *Parameters*::
 *wid* (INT): The QoS workload ID of the qtree.
+

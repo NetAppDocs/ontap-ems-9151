@@ -14,6 +14,9 @@ summary: diskshelf.psu events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+diskshelf.psu EMS events occur when ONTAP encounters issues associated with disk shelf power supply units.
+
 == diskShelf.psu.added
 *Severity*::
 NOTICE
@@ -43,3 +46,4 @@ Insert a functional power supply unit into the disk shelf.
 *channelName* (STRING): Channel connected to disk shelf.
 *shelfIdent* (INT): ID number displayed on the disk shelf OPS panel.
 *serialNumber* (STRING): Serial number of disk shelf.
+

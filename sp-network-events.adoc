@@ -14,6 +14,9 @@ summary: sp.network events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sp.network EMS events occur when ONTAP encounters issues associated with Service Processor (SP) network configuration.
+
 == sp.network.ipv6.disable
 *Severity*::
 ERROR
@@ -49,3 +52,4 @@ This message occurs when the Service Processor (SP) detects a link error on the 
 Service Processor (SP) network port link down due to cable or network errors.
 *Parameters*::
 (None).
+

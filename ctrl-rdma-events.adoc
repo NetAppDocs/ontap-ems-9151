@@ -14,6 +14,9 @@ summary: ctrl.rdma events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ctrl.rdma EMS events occur when ONTAP encounters issues associated with HA interconnect RDMA operations.
+
 == ctrl.rdma.badSystemId
 *Severity*::
 NOTICE
@@ -76,3 +79,4 @@ HA interconnect: Link to %s changed state %d times in the last hour.
 *Parameters*::
 *ip* (STRING): IP address of the peer.
 *num_times* (INT): Number of times the state changed.
+

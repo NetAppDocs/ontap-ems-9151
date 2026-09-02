@@ -14,6 +14,9 @@ summary: callhome.performance events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.performance EMS events occur when ONTAP encounters issues associated with performance data collection.
+
 == callhome.performance.archive
 *Severity*::
 NOTICE
@@ -59,3 +62,4 @@ Call home for PERFORMANCE SNAPSHOT
 *URI* (STRING): Alternate destination for this ASUP. If this is set, this ASUP is delivered to this alternate destination.
 *force* (INT): This flag indicates this AutoSupport should be generated and delivered even if the AutoSupport configuration is disabled. If zero then obey the normal "state" and "support" flags. If this is "one", then ignore the "state" and "support" configuration and deliver as if both "state" and "support" are enabled.
 *sequence* (LONGINT): Sequence number to use to generate this Autosupport. Use value zero to auto-generate or a value higher than last used ASUP sequence number.
+

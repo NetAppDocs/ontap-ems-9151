@@ -14,6 +14,9 @@ summary: sfu.adaptersuspendio events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sfu.adaptersuspendio EMS events occur when ONTAP encounters issues associated with disk shelf firmware update I/O suspension.
+
 == sfu.adapterSuspendIO
 *Severity*::
 INFORMATIONAL
@@ -42,3 +45,4 @@ Suspending %s to %s adapter %s for %d seconds while shelf firmware is updated.
 *adapterType* (STRING): Type of adapter that is updating firmware.
 *channelName* (STRING): Name of the adapter on which shelves will be updating firmware.
 *minutes* (INT): Amount of time that specified data traffic will be suspended on the adapter.
+

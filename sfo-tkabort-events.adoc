@@ -14,6 +14,9 @@ summary: sfo.tkabort events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sfo.tkabort EMS events occur when the destination node cannot contact the object stores during the planned takeover of a FabricPool aggregate.
+
 == sfo.tkAbort.ca.check.failed
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Planned SFO takeover of aggregate '%s' (uuid: %s) failed due to %s.
 *vol* (STRING): Name of the aggregate.
 *aggr_uuid* (STRING): UUID of the aggregate.
 *reason* (STRING): Reason for the prevention of the planned takeover operation.
+

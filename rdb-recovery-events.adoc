@@ -14,6 +14,9 @@ summary: rdb.recovery events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+rdb.recovery EMS events occur when ONTAP encounters issues associated with automatic recovery of the Data Replication Module local replicas.
+
 == rdb.recovery.failed
 *Severity*::
 EMERGENCY
@@ -50,3 +53,4 @@ This message occurs when the cluster management Data Replication Module determin
 Successful recovery of the local database of Data Replication Module %s.
 *Parameters*::
 *unit* (STRING): The unit that finished recovery.
+

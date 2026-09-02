@@ -14,6 +14,9 @@ summary: ic.linkwidthdegraded events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ic.linkwidthdegraded EMS events occur when the high-availability (HA) interconnect detects a degraded link width.
+
 == ic.linkWidthDegraded
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ HA interconnect: Link width of link #%d degraded. Current: %dX, expected: %dX.
 *link_num* (INT): Number that identifies the link.
 *link_width* (INT): Current link width.
 *expected_width* (INT): Link width expected for the HA interconnect type.
+

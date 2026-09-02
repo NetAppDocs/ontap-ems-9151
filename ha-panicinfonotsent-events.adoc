@@ -14,6 +14,9 @@ summary: ha.panicinfonotsent events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ha.panicinfonotsent EMS events occur when a node cannot send panic information to its high-availability (HA) partner over the HA interconnect.
+
 == ha.panicInfoNotSent
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ Local node cannot send a panic information message to the HA partner over the HA
 *error* (STRING): Reason the node cannot send panic information to its HA partner.
 *partner_name* (STRING): Name of the HA partner.
 *partner_systemid* (LONGINT): System ID of the HA partner.
+

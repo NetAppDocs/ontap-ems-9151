@@ -14,6 +14,9 @@ summary: lmgr.hostfile events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lmgr.hostfile EMS events occur when ONTAP encounters issues associated with the volume lock manager hosts file.
+
 == lmgr.hostfile.cleared
 *Severity*::
 INFORMATIONAL
@@ -55,3 +58,4 @@ Initializing lock manager file %s on volume %s failed due to error: %s.
 *aggr* (STRING): The name of the volume.
 *file_name* (STRING): The name of the file that is being initialized.
 *error* (STRING): Error code.
+

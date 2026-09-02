@@ -14,6 +14,9 @@ summary: revertto.system events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+revertto.system EMS events occur when the system is rebooting to complete the revert process.
+
 == revertTo.system.reboot
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when the system is rebooting to complete the revert process.
 System reverting to work with Data ONTAP %s.
 *Parameters*::
 *target_release* (STRING): Target release name to which the revert process was started.
+

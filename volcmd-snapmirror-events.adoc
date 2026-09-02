@@ -14,6 +14,9 @@ summary: volcmd.snapmirror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+volcmd.snapmirror EMS events occur when this mesage occurs to advise you that the 'vol snapmirror' set of commands has been removed.
+
 == volcmd.snapmirror.removed
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Use the 'snapmirror' command instead.
 The 'vol snapmirror' set of commands has been removed; use the 'snapmirror' command instead.
 *Parameters*::
 (None).
+

@@ -14,6 +14,9 @@ summary: moveagent.exceed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+moveagent.exceed EMS events occur when the time window for a volume move operation exceeds the specified limit.
+
 == moveagent.exceed.window
 *Severity*::
 NOTICE
@@ -30,3 +33,4 @@ Cutover window was exceeded for volume with source DSID %llu in Vserver with ID 
 *cutover_window* (LONGINT): Predetermined cutover window.
 *source_commit_time* (LONGINT): Time for the source volume to be commited on disk.
 *destination_operation_latency* (LONGINT): Time for commit destination and swap VLDB.
+

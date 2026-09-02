@@ -14,6 +14,9 @@ summary: disk.selectiontimeout events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.selectiontimeout EMS events occur when a selection timeout is received.
+
 == disk.selectionTimeout
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ This message occurs when a selection timeout is received.
 Disk %s: selection timeout
 *Parameters*::
 *diskName* (STRING): Name of the device.
+

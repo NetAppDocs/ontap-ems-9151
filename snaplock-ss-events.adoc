@@ -14,6 +14,9 @@ summary: snaplock.ss events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+snaplock.ss EMS events occur when ONTAP encounters issues associated with SnapLock(R) snapshot state.
+
 == snaplock.ss.lockBadVolume
 *Severity*::
 ALERT
@@ -169,3 +172,4 @@ Failed to write the SnapLock snapshot state to SnapLock volume '%s%s' on the Vse
 *volume* (STRING): The name of the SnapLock volume on which the SnapLock snapshot state could not be written.
 *app* (STRING): Application Name.
 *volident* (STRING): Unique identifier of the volume when the volume name itself is insufficient.
+

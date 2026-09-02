@@ -14,6 +14,9 @@ summary: sfu.statuscheckfailure events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sfu.statuscheckfailure EMS events occur when the (advanced privilege) "storage shelf firmware update" command encounters a failure while attempting to read the status of the firmware update in progress.
+
 == sfu.statusCheckFailure
 *Severity*::
 ERROR
@@ -31,3 +34,4 @@ Retry the (advanced privilege) "storage shelf firmware update" command.
 *ModuleType* (STRING): Module type, such as AT-FCX, AT-FC, ESH, LRC, and so on.
 *retryCount* (INT): Number of times the status read has been retried.
 *DeviceStatus* (STRING): Whether the SES target device status is OK or MISSING.
+

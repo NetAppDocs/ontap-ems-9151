@@ -14,6 +14,9 @@ summary: sasmon.adapter events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sasmon.adapter EMS events occur when a Serial Attached SCSI (SAS) transceiver (phy) attached to a SAS host bus adapter (HBA) is disabled due to one of the following reasons: exceeded loss of double word synchronization error threshold; exceeded running disparity error threshold; exceeded invalid double word error threshold; exceeded phy reset problem threshold; exceeded broadcast change threshold.
+
 == sasmon.adapter.phy.disable
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Phy %d of HBA %s will be disabled due to %s errors.
 *phyNum* (INT): Number of the phy being disabled.
 *adapterName* (STRING): Name of the associated SAS HBA.
 *errorType* (STRING): Type of error based on which the phy is being disabled.
+

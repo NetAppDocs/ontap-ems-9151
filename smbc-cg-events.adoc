@@ -14,6 +14,9 @@ summary: smbc.cg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+smbc.cg EMS events occur when ONTAP encounters issues associated with SnapMirror(R) active sync Consistency Group operations.
+
 == smbc.cg.info.read.failed
 *Severity*::
 ERROR
@@ -39,3 +42,4 @@ To recover from this situation, perform below steps : Run wafliron on the aggreg
 *Parameters*::
 *metafile_update_type* (STRING): Name of aggregate metafile update type
 *volume_dsid* (LONGINT): Volume DSID
+

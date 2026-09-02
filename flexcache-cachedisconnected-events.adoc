@@ -14,6 +14,9 @@ summary: flexcache.cachedisconnected events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+flexcache.cachedisconnected EMS events occur when a FlexCache(R) origin volume cannot communicate with its cache volume.
+
 == flexcache.cacheDisconnected
 *Severity*::
 EMERGENCY
@@ -30,3 +33,4 @@ FlexCache origin volume with Name %s MSID %lu on Vserver Name %s UUID %s is disc
 *originVserverUuid* (STRING): Vserver UUID of the origin volume.
 *cacheVserverUuid* (STRING): Vserver UUID of the FlexCache volume.
 *cacheMsid* (LONGINT): MSID of the FlexCache volume.
+

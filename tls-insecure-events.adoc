@@ -14,6 +14,9 @@ summary: tls.insecure events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+tls.insecure EMS events occur when ONTAP encounters issues associated with insecure TLS cipher suites and protocols.
+
 == tls.insecure.cipher
 *Severity*::
 ERROR
@@ -39,3 +42,4 @@ A TLS peer with IP %s has been connected with using the insecure protocol level 
 *Parameters*::
 *ip* (STRING): IP address of the offending peer.
 *protocol_level* (STRING): Protocol level used by the offending peer.
+

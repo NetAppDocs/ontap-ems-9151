@@ -14,6 +14,9 @@ summary: arl.netra events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+arl.netra EMS events occur when ONTAP encounters issues associated with aggregate relocation failures due to destination node validation checks or resource availability.
+
 == arl.netra.ca.check.failed
 *Severity*::
 ERROR
@@ -95,3 +98,4 @@ Check whether there exists any online left-behind DR aggregates on the destinati
 Aggregate '%s': One or more online left-behind DR aggregates were found on the destination node and the "node-object-limit" option is set to off.
 *Parameters*::
 *vol* (STRING): Name of the aggregate.
+

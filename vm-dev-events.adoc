@@ -14,6 +14,9 @@ summary: vm.dev events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vm.dev EMS events occur when ONTAP encounters issues associated with disk I/O performance or device write-protection on virtual platforms.
+
 == vm.dev.diskSlowIO
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ Detach the device, and then reattach the device as writable.
 The device %s is write-protected and is not presented to ONTAP.
 *Parameters*::
 *device* (STRING): Device name.
+

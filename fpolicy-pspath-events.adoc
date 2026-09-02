@@ -14,6 +14,9 @@ summary: fpolicy.pspath events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fpolicy.pspath EMS events occur when the creation of the FPolicy persistent store active or backlog directories fails.
+
 == fpolicy.pspath.failed
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Failed to create FPolicy persistent store path "%s" in SVM "%s".
 *Parameters*::
 *path* (STRING): The directory path name that failed while it's creation.
 *vserverName* (STRING): Name of the Vserver.
+

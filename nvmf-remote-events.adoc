@@ -14,6 +14,9 @@ summary: nvmf.remote events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nvmf.remote EMS events occur when NVMe over Fabric(NVMeOF) receives a status callback from the connection manager for the Cluster Session Manager(CSM) session is used for remote IO.
+
 == nvmf.remote.status.cb
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ NVMeOF remote status callback endpoint=%s, status=%s.
 *Parameters*::
 *endpoint* (STRING): CSM session endpoint on which the status callback is received.
 *status* (STRING): Reason for the status callback.
+

@@ -14,6 +14,9 @@ summary: fcvi.attr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fcvi.attr EMS events occur when any of the FCVI attributes changes.
+
 == fcvi.attr.changed
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ FC-VI adapter: %s changed on port %s. %s
 *attr_type* (STRING): Attribute type.
 *port* (STRING): FCVI Interconnect NIC.
 *info* (STRING): Additional info.
+

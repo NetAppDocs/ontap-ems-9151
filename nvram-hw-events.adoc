@@ -14,6 +14,9 @@ summary: nvram.hw events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nvram.hw EMS events occur when ONTAP encounters issues associated with NVRAM hardware initialization and operation.
+
 == nvram.hw.degraded
 *Severity*::
 ERROR
@@ -49,3 +52,4 @@ This message occurs when the NVRAM hardware is operating normally.
 NVRAM hardware is operating normally.
 *Parameters*::
 (None).
+

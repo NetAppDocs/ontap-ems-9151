@@ -14,6 +14,9 @@ summary: callhome.corefile events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.corefile EMS events occur when you invoke an AutoSupport for corefile upload.
+
 == callhome.corefile.upload
 *Severity*::
 NOTICE
@@ -32,3 +35,4 @@ corefile upload callhome for %s
 *aod_initiated* (INT): This flag indicates that NetApp technical support has remotely requested for this AutoSupport message via AutoSupport OnDemand.
 *sequence* (LONGINT): Sequence number to use to generate this Autosupport. Use value zero to auto-generate or a value higher than last used ASUP sequence number.
 *aod_req_id* (STRING): AOD request ID
+

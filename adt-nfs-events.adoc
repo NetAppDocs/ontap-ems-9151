@@ -14,6 +14,9 @@ summary: adt.nfs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+adt.nfs EMS events occur in the auditing subsystem, when the NFS root user is accessing the file without a valid CIFS credential.
+
 == adt.nfs.root.access.no.map
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ If NFS root user access to the file without NT ACL check should be prohibited, d
 NFS root user is accessing the file without a valid CIFS credential. Access is being allowed because the "ignore-nt-acl-for-root" NFS option is set, and hence the BUILTIN\Administrator credential is used for auditing.
 *Parameters*::
 *VserverUuid* (STRING): UUID of the Storage Virtual Machine (SVM, formerly Vserver).
+

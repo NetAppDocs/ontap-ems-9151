@@ -14,6 +14,9 @@ summary: master.couldnt events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+master.couldnt EMS events occur when ONTAP encounters issues associated with a node's inability to update the cluster master voting or demotion state in the global database.
+
 == master.couldnt.cast.cm.vote
 *Severity*::
 NOTICE
@@ -50,3 +53,4 @@ Service ID %u on node ID %u (UUID: %s) failed to update database to demote clust
 *nodeUuid* (STRING): Node UUID of the associated node.
 *lastKnownClusterMasterServiceID* (INT): Service ID number of the cluster master last known by this node.
 *exceptionCode* (STRING): Exception code.
+

@@ -14,6 +14,9 @@ summary: vifmgr.vifidmissing events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vifmgr.vifidmissing EMS events occur when a LIF ID, associated with a particular storage virtual machine (SVM), is configured in the VIFMgr but is missing in the vifids UI table.
+
 == vifmgr.vifidmissing
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ LIF "%s" with ID %s on Vserver SVM "%s" (IP address: %s) is configured in the VI
 *id* (STRING): ID of the LIF.
 *vserver* (STRING): Name of the SVM.
 *vifip* (STRING): LIF IP address
+

@@ -14,6 +14,9 @@ summary: disk.healthtrigger events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.healthtrigger EMS events occur when the disk returns a health trigger event.
+
 == disk.healthTrigger
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ Disk %s received NHT health trigger (0x%x 0x%x 0x%x 0x%x)
 *sense_code* (INTHEX): SCSI sense code.
 *qualifier* (INTHEX): SCSI sense code qualifier.
 *fru_failed* (INTHEX): SCSI FRU code.
+

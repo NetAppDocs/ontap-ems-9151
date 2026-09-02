@@ -14,6 +14,9 @@ summary: repl.xfer events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+repl.xfer EMS events occur when a replication transfer component (sender or receiver) has taken more than an hour to terminate.
+
 == repl.xfer.term.timed.out
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ A component of a replication transfer with destination volume DSID '%llu' or Sna
 *Parameters*::
 *dstVolDsid* (LONGINT): Data set identifier (DSID) of the destination volume.
 *smTapeNDMPSession* (STRING): NDMP session identifier for SnapMirror(R) tape transfers.
+

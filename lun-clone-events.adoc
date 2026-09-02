@@ -14,6 +14,9 @@ summary: lun.clone events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lun.clone EMS events occur when ONTAP encounters issues associated with LUN clone operations.
+
 == LUN.clone.log.full
 *Severity*::
 NOTICE
@@ -41,3 +44,4 @@ A snapshot containing a file or LUN used to create the LUN clone %s (Inode numbe
 *lun_inode_num* (INT): Inode number of the LUN clone for which the snapshot was deleted.
 *volume_name* (STRING): Name of the containing volume.
 *volume_dsid* (LONGINT): Data Set ID (DSID) of the containing volume.
+

@@ -14,6 +14,9 @@ summary: cna.dump events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cna.dump EMS events occur when ONTAP encounters issues associated with Converged Network Adapter (CNA) driver operations.
+
 == cna.dump
 *Severity*::
 NOTICE
@@ -39,3 +42,4 @@ A dump for CNA adapter CNA_%s was stored in %s
 *Parameters*::
 *adapter* (STRING): Name of the CNA.
 *filename* (STRING): Name of the file containing the dump.
+

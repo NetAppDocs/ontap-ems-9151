@@ -14,6 +14,9 @@ summary: callhome.checksum events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.checksum EMS events occur when ONTAP encounters issues associated with RAID level checksum errors.
+
 == callhome.checksum
 *Severity*::
 ALERT
@@ -37,3 +40,4 @@ If you need assistance, contact NetApp technical support.
 Call home for CHECKSUM ERROR (multiple disks)
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

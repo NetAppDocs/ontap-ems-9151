@@ -14,6 +14,9 @@ summary: ses.system events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ses.system EMS events occur when ONTAP(R) software does not support internal disk drives in this platform.
+
 == ses.system.em.mmErr
 *Severity*::
 EMERGENCY
@@ -27,3 +30,4 @@ Disk shelf %d containing a %.8s system with internal drives (product ID %.16s) i
 *ShelfID* (INT): ID of the disk shelf.
 *VendorID* (STRING): Vendor ID of the disk shelf.
 *ProductID* (STRING): Product ID of the disk shelf.
+

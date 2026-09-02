@@ -14,6 +14,9 @@ summary: snmp.authentication events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+snmp.authentication EMS events occur when there is an authentication failure during an SNMP query.
+
 == snmp.authentication.failure
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ In case of SNMPv1/v2c check whether the SNMP community string is configured. In 
 Authentication failure for SNMP query from port: %d.
 *Parameters*::
 *interface* (INT): Port on which the SNMP authentication failed.
+

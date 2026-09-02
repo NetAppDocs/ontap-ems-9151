@@ -14,6 +14,9 @@ summary: moveagent.abort events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+moveagent.abort EMS events occur when during volume move when cutover is aborted because the volume took too long to replicate.
+
 == moveagent.abort.cutover
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ The move job can be in process of retry. User can try '-force-cutover true' to f
 Cutover abort due to volume quiesce timer expiration: volume dsid %llu.
 *Parameters*::
 *volume_dsid* (LONGINT): The source volume data set identifier (dsid)
+

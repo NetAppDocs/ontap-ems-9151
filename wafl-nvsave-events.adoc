@@ -14,6 +14,9 @@ summary: wafl.nvsave events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.nvsave EMS events occur when ONTAP encounters issues associated with NVSave file management and replay operations.
+
 == wafl.nvsave.deletion.status
 *Severity*::
 INFORMATIONAL
@@ -175,3 +178,4 @@ Replay detected nvlog records for an offline volume with FSID %d and CP count %d
 *host* (STRING): Owner of the root volume on which the detected nvlog records are successfully stored.
 *timetaken* (LONGINT): Time taken to save the nvlog records, in milliseconds.
 *vol_type* (STRING): Whether this message refers to NVSave files for an aggregate or a flexible volume.
+

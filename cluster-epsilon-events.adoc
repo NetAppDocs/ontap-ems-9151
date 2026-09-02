@@ -14,6 +14,9 @@ summary: cluster.epsilon events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cluster.epsilon EMS events occur when ONTAP encounters issues associated with epsilon assignment operations.
+
 == cluster.epsilon.assign.fail
 *Severity*::
 ERROR
@@ -52,3 +55,4 @@ Epsilon was removed from node %s by %s.
 *Parameters*::
 *node* (STRING): Name of the node that epsilon was removed from.
 *actor* (STRING): Whether the change was made manually by a user command or automatically by the system.
+

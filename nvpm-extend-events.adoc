@@ -14,6 +14,9 @@ summary: nvpm.extend events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nvpm.extend EMS events occur when nvlog client segments cannot be enabled in a partner NVRAM section following a controller failover or MetroCluster(R) switchover.
+
 == nvpm.extend.failed
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ Client segments cannot be enabled due to a %s.
 *current_state* (INT): (debug only) Current Non-volatile RAM Partition Manager (NVPM) state.
 *expected_state* (INT): (debug only) Expected NVPM state.
 *reason* (INT): (debug only) Reason for the extension failure.
+

@@ -14,6 +14,9 @@ summary: suspend.zapi events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+suspend.zapi EMS events occur when ONTAPI (ZAPI) has been suspended due to a lack of use.
+
 == suspend.zapi
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Ensure that all ONTAP data storage management functions using ONTAPI (ZAPI) have
 ONTAPI (ZAPI) was suspended on "%s" due to a lack of use.
 *Parameters*::
 *date* (STRING): Date ONTAPI (ZAPI) was suspended.
+

@@ -14,6 +14,9 @@ summary: callhome.clus events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.clus EMS events occur when ONTAP encounters issues associated with cluster network degradation or cluster-wide storage volume creation and deletion.
+
 == callhome.clus.net.degraded
 *Severity*::
 ALERT
@@ -59,3 +62,4 @@ Call home for %s. Could not delete volumes "%s" and "%s" for feature %s.
 *ActiveVolume* (STRING): Active volume name.
 *StandbyVolume* (STRING): Standby volume name.
 *Feature* (STRING): Feature using the cluster-wide storage.
+

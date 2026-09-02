@@ -14,6 +14,9 @@ summary: vsdr.ip events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vsdr.ip EMS events occur when ONTAP encounters issues associated with logical interface (LIF) automatic creation or placement in MetroCluster configurations.
+
 == vsdr.ip.lif.auto.created
 *Severity*::
 NOTICE
@@ -45,3 +48,4 @@ Home port and node changed from %s, %s to %s, %s while placing LIF %s in Vserver
 *node_name* (STRING): Name of the current home node of the existing IP LIF.
 *lif* (STRING): LIF name.
 *vserver_name* (STRING): Vserver name.
+

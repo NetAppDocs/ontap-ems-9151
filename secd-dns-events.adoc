@@ -14,6 +14,9 @@ summary: secd.dns events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+secd.dns EMS events occur when ONTAP encounters issues associated with DNS server communications.
+
 == secd.dns.server.timed.out
 *Severity*::
 ERROR
@@ -40,3 +43,4 @@ DNS server failed to look up service (%s) for vserver (%s) with error (%s).
 *serviceName* (STRING): Service name to look up.
 *vsName* (STRING): Name of the Vserver.
 *errorMsg* (STRING): Error message of the failure.
+

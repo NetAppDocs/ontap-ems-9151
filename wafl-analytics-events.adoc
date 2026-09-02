@@ -14,6 +14,9 @@ summary: wafl.analytics events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.analytics EMS events occur when ONTAP encounters issues associated with file system analytics database inconsistencies or operations.
+
 == wafl.analytics.air.uh
 *Severity*::
 ALERT
@@ -257,3 +260,4 @@ A file system analytics update was discarded due to an unexpected error. Analyti
 *fh* (STRING): File handle that the operation targeted.
 *dsid* (LONGINT): DSID of the volume affected by the discarded update.
 *operation* (STRING): Operation that was being performed when this error occurred.
+

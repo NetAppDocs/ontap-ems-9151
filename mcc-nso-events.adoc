@@ -14,6 +14,9 @@ summary: mcc.nso events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mcc.nso EMS events occur when ONTAP encounters issues associated with dump or restore operations during MetroCluster switch-over.
+
 == mcc.nso.abort.dump
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ Either abort the replication transfer that is preventing the MetroCluster switch
 Could not complete switch-over because a replication transfer with UUID %s is in progress.
 *Parameters*::
 *transferId* (STRING): UUID of the SnapMirror(R) replication transfer that vetoed MetroCluster switch-over.
+

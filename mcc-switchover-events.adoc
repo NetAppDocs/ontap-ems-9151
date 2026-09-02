@@ -14,6 +14,9 @@ summary: mcc.switchover events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mcc.switchover EMS events occur when a MetroCluster switchover operation finds a system metadata volume, used by config replication applications, in the nvfailed state.
+
 == mcc.switchover.mdvInNvfailedState
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Verify the configuration.
 The 'in-nvfailed-state' was cleared on MetroCluster system metadata volume '%s'. The system will attempt to replicate all recent configuration updates (if any) to the local cluster. After the process completes, verify the configuration.
 *Parameters*::
 *Volume* (STRING): Volume
+

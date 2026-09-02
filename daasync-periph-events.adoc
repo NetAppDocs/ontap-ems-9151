@@ -14,6 +14,9 @@ summary: daasync.periph events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+daasync.periph EMS events occur when the system cannot attach a drive.
+
 == daasync.periph.alloc.fail
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Unable to attach new device %s due to status 0x%x.
 *Parameters*::
 *device_name* (STRING): Drive name.
 *status* (INTHEX): Status of the system.
+

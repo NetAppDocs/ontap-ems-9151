@@ -14,6 +14,9 @@ summary: ucore.panicstring events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ucore.panicstring EMS events occur when a userspace application crashes, and we manage to obtain a panic string indicating the cause of the crash.
+
 == ucore.panicString
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Contact customer support, and if necessary upload the core and/or the core repor
 *panic_string* (STRING): The panic string of the crashed process.
 *process_name* (STRING): The name of the crashed process.
 *fault_type* (STRING): The type of fault we encountered (eg SIGSEGV, SIGHUP).
+

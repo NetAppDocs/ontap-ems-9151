@@ -14,6 +14,9 @@ summary: api.fileio events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+api.fileio EMS events occur after a file I/O error that typically causes a Data ONTAP(R) API to fail.
+
 == api.fileio
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ If the problem is related to creating a file, use the system's "df" and "df -i" 
 *targetDescription* (STRING): Description of the file or directory in which the error occurred.
 *errorCode* (INT): Numeric error code.
 *errorDetail* (STRING): Description of the error code.
+

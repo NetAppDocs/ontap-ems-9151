@@ -14,6 +14,9 @@ summary: nblade.httpmemexceeded events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.httpmemexceeded EMS events occur when the HTTP subsystem, which operates all the HTTP servers exposed through a given node, has requested more memory than it is allowed in this node.
+
 == Nblade.httpMemExceeded
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ The HTTP subsystem on this node has exceeded its allotment of %llu bytes of node
 *Parameters*::
 *availableMemoryInBytes* (LONGINT): Amount of memory available to the HTTP subsystem.
 *memAllocFailures* (LONGINT): Number of memory allocation failures in the HTTP subsystem since boot time.
+

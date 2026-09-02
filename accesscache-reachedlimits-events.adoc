@@ -14,6 +14,9 @@ summary: accesscache.reachedlimits events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+accesscache.reachedlimits EMS events occur when the access cache module reaches its limit for entries.
+
 == AccessCache.ReachedLimits
 *Severity*::
 EMERGENCY
@@ -30,3 +33,4 @@ The exports access cache module on this node reached its limits while trying to 
 *numRulesDelta* (INT): Number of new export rules to be added.
 *numRulesCurrent* (INT): Current number of export rules in the cache.
 *numRulesLimit* (INT): Limit on the number of export rules.
+

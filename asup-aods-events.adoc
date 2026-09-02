@@ -14,6 +14,9 @@ summary: asup.aods events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+asup.aods EMS events occur when ONTAP encounters issues associated with the AutoSupport OnDemand Server (AODS) response size or timeout limits.
+
 == asup.aods.response.overLimit
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ Check AOD Server connectivity using the "autosupport check show-details -check-t
 AutoSupport OnDemand Server (AODS) response was not received before the %u second time limit.
 *Parameters*::
 *TimeLimit* (INT): System AODS response time limit in seconds.
+

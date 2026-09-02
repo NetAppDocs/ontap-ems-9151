@@ -14,6 +14,9 @@ summary: config.sameha events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+config.sameha EMS events occur when a disk is multipathed to the same host adapter.
+
 == config.sameHA
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Move one of the connections attaching the disk shelf to a different host adapter
 Disk %s and other disks attached to the same port are dual-attached to the same adapter. For improved availability you should dual-attach them to separate adapters.
 *Parameters*::
 *disk* (STRING): Name of the disk.
+

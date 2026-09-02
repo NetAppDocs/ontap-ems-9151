@@ -14,6 +14,9 @@ summary: callhome.dr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.dr EMS events occur when all attempts to replicate the configuration fails.
+
 == callhome.dr.apply.failed
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Call home for DR CONFIG REPLICATION FAILED
 *subject* (STRING): AutoSupport subject or title for this event.
 *DestinationVserver* (STRING): Destination Vserver of the DR relationship.
 *FailedReason* (STRING): Failed reason.
+

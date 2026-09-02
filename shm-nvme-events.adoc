@@ -14,6 +14,9 @@ summary: shm.nvme events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+shm.nvme EMS events occur when the NVMe drive returns a critical warning to the health monitor.
+
 == shm.NVME.critical.warning
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Disk %s returned a critical warning 0x%x and will be recommended for failure.
 *Parameters*::
 *disk_name* (STRING): Name of the disk.
 *warning_code* (INTHEX): Warning code returned.
+

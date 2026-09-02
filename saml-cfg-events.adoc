@@ -14,6 +14,9 @@ summary: saml.cfg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+saml.cfg EMS events occur when ONTAP encounters issues associated with Security Assertion Markup Language (SAML) Service Provider (SP) configuration.
+
 == saml.cfg.idp.download
 *Severity*::
 NOTICE
@@ -50,3 +53,4 @@ Use the 'security saml status show' command to see the status of all nodes. Veri
 SAML SP configuration modification was not completed successfully.
 *Parameters*::
 (None).
+

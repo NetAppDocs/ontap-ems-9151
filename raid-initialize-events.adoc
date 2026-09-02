@@ -14,6 +14,9 @@ summary: raid.initialize events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+raid.initialize EMS events occur when a foreign or partner homed spare disk is detected during system initialization.
+
 == raid.initialize.nonhomed.disk
 *Severity*::
 NOTICE
@@ -35,3 +38,4 @@ In Maintenance mode, remove this disk's ownership by using the 'disk remove_owne
 *disk_rpm* (STRING): Rotational speed of the disk, in RPM.
 *carrier* (STRING): Unique ID of the carrier in which the disk is installed.
 *site* (STRING): For a MetroCluster(tm) configuration, indicates the site {Local|Remote} where the disk is located. For non-MetroCluster configurations, site is 'Local'.
+

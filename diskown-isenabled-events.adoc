@@ -14,6 +14,9 @@ summary: diskown.isenabled events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+diskown.isenabled EMS events occur when enable sanown.
+
 == diskown.isEnabled
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ This event is issued when enable sanown.
 software ownership has been enabled for this system
 *Parameters*::
 (None).
+

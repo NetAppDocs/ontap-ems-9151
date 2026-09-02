@@ -14,6 +14,9 @@ summary: lmgr.aggr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lmgr.aggr EMS events occur when locks established through CIFS Continuously Available (CA) shares on an aggregate are dropped after takeover, giveback, or aggregate relocation.
+
 == lmgr.aggr.CA.locks.dropped
 *Severity*::
 EMERGENCY
@@ -26,3 +29,4 @@ Continuously Available (CA) locks were dropped on aggregate %s because %s.
 *Parameters*::
 *aggregate* (STRING): Name of the aggregate where CA locks were dropped.
 *reason* (STRING): Reason for dropping CA locks, such as "remote lock synchronization is in progress".
+

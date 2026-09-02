@@ -14,6 +14,9 @@ summary: dbs.ssl events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dbs.ssl EMS events occur when Distributed Block Store (DBS) detects that an SSL certificate on a node is nearing expiration.
+
 == dbs.ssl.node.cert.expire
 *Severity*::
 NOTICE
@@ -31,3 +34,4 @@ DBS has detected that an SSL certificate is nearing expiration. Cluster fault no
 *cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
 *cfDetails* (STRING): Details of the certificates that are nearing expiration.
 *cfExtSrc* (STRING): DBS cluster fault externalSource label created by the "CreateClusterFault" API command and attached to the fault for testing purposes.
+

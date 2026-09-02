@@ -14,6 +14,9 @@ summary: lsm.merge events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lsm.merge EMS events occur when ONTAP encounters issues associated with block store log merging operations.
+
 == lsm.merge.alog.problem
 *Severity*::
 NOTICE
@@ -47,3 +50,4 @@ Block store LSM "%u" (level %u) of keyspace "%u" on volume "%s" has encountered 
 *volume_name* (STRING): Volume name.
 *error_code* (INT): Error code.
 *error_string* (STRING): Error string.
+

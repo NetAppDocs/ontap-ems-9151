@@ -14,6 +14,9 @@ summary: ctran.net events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ctran.net EMS events occur when the Cluster Transaction Manager (CTRAN) on the local node is unable to reach a peer node that it believes is in CLAM quorum.
+
 == ctran.net.unreachable
 *Severity*::
 ALERT
@@ -30,3 +33,4 @@ Node %s (id=%llu) is unable to reach peer node %s (id=%llu) on connection %s (AC
 *peer_node_id* (LONGINT): Node ID of the unreachable peer node.
 *connection* (STRING): Name of connection that is unreachable.
 *acn* (LONGINTHEX): The ACN value.
+

@@ -14,6 +14,9 @@ summary: tcp.change events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+tcp.change EMS events occur when an attempt to change the TCP congestion control algorithm fails.
+
 == tcp.change.cc.algorithm
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Check the node health, address any issues found, and then try the command again.
 An error (out of memory) occurred while changing the TCP congestion control algorithm of existing connection(s) to %s. The NewReno (RFC6582) will be used as the congestion control algorithm for those connections.
 *Parameters*::
 *cc_algo* (STRING): Name of the congestion control algorithm to which the change was attempted.
+

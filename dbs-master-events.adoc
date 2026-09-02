@@ -14,6 +14,9 @@ summary: dbs.master events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dbs.master EMS events occur when ONTAP encounters issues associated with node cluster master startup.
+
 == dbs.master.didnt.start.cm
 *Severity*::
 NOTICE
@@ -42,3 +45,4 @@ Cluster master startup on service ID %u on node ID %u (UUID: %s) completed succe
 *serviceID* (INT): Service ID that identifies the associated master service.
 *nodeID* (INT): Node ID number of the associated node.
 *nodeUuid* (STRING): Node universal unique identifier (UUID) of the associated node.
+

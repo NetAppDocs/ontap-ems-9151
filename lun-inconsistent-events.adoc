@@ -14,6 +14,9 @@ summary: lun.inconsistent events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lun.inconsistent EMS events occur when ONTAP encounters issues associated with LUN or NVMe namespace attribute block consistency.
+
 == LUN.inconsistent.blocks
 *Severity*::
 ERROR
@@ -42,3 +45,4 @@ The on-disk structure of the object at path %s in volume %s (DSID %llu) is incon
 *lun_path* (STRING): Path for the LUN or NVMe namespace.
 *volume_name* (STRING): Name of the containing volume.
 *volume_dsid* (LONGINT): Data set ID (DSID) of the containing volume.
+

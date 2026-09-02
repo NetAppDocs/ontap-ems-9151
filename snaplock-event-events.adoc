@@ -14,6 +14,9 @@ summary: snaplock.event events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+snaplock.event EMS events occur on completion of a event based retention apply operation on a SnapLock(R) volume.
+
 == snaplock.event.based.retention.op.status
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ An %s operation with ID %lu ended for policy "%s" and retention period "%s" on p
 *num_files_failed* (LONGINT): Total count of files for which event based retention operation failed.
 *num_files_skipped* (LONGINT): Total count of files for which event based retention operation was skipped.
 *num_inodes_ignored* (LONGINT): Total count of inodes which were ignored by event based retention operation because they are not regular files.
+

@@ -14,6 +14,9 @@ summary: diskshelf.support events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+diskshelf.support EMS events occur when a new disk shelf support file is detected.
+
 == diskShelf.support.file
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when a new disk shelf support file is detected. Current supp
 New disk shelf support file (DQP) detected.
 *Parameters*::
 (None).
+

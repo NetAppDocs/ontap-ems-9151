@@ -14,6 +14,9 @@ summary: nblade.fpolicy events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.fpolicy EMS events occur when ONTAP encounters issues associated with FPolicy(tm) file operation monitoring.
+
 == nblade.fpolicy.extn.failed
 *Severity*::
 EMERGENCY
@@ -55,3 +58,4 @@ FPolicy check is skipped for a non-mandatory policy ID "%lu" on volume MSID "%lu
 *msid* (LONGINT): MSID of the FlexCache volume.
 *vserverid* (LONGINT): ID of the Vserver.
 *maximumListLengthAllowed* (LONGINT): Maximum length that can be sent to the origin volume.
+

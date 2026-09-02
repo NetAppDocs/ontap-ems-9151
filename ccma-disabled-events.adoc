@@ -14,6 +14,9 @@ summary: ccma.disabled events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ccma.disabled EMS events occur when the Performance Archive has been disabled for more than an hour.
+
 == ccma.disabled
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Run the 'statistics archive config modify -is-enable true' command. This will en
 The Performance Archive has been disabled for more than an hour. It is Important for the analysis and diagnoses of performance related issues. Consider enabling it.
 *Parameters*::
 (None).
+

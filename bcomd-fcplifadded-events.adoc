@@ -14,6 +14,9 @@ summary: bcomd.fcplifadded events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+bcomd.fcplifadded EMS events occur when a Fibre Channel logical interface (LIF) is added.
+
 == bcomd.fcpLifAdded
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ LIF %s (on Vserver %s), WWPN %s, was added to node %s, port %s.
 *wwpn* (STRING): WWPN that was added.
 *node* (STRING): Name of the node on which the LIF is hosted.
 *port* (STRING): Name of the port on which the LIF is hosted.
+

@@ -14,6 +14,9 @@ summary: auditlog.change events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+auditlog.change EMS events occur when the system detects that audit log files have been tampered with.
+
 == auditlog.change.detected
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Contact Contact NetApp technical support. for assistance.
 Audit log file "%s" was tampered with.
 *Parameters*::
 *file_name* (STRING): Name of the audit log file which was tampered with.
+

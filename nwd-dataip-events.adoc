@@ -14,6 +14,9 @@ summary: nwd.dataip events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nwd.dataip EMS events occur when a data IP address is being removed from a node.
+
 == nwd.dataip.removed
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when a data IP address is being removed from a node. Data ac
 Data IP address %s is being removed from this node.
 *Parameters*::
 *dataip* (STRING): The IP address that is being removed.
+

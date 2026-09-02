@@ -14,6 +14,9 @@ summary: esh.unexpected events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+esh.unexpected EMS events occur when a disk shelf reports an unknown status.
+
 == esh.unexpected.status
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Ensure that the shelf module firmware and ONTAP(R) software are compatible versi
 Unexpected ESH status of: %d.
 *Parameters*::
 *status* (INT): Unexpected/unknown status code that was received.
+

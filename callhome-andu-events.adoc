@@ -14,6 +14,9 @@ summary: callhome.andu events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.andu EMS events occur when ONTAP encounters issues associated with the automated update of the cluster.
+
 == callhome.andu.completed
 *Severity*::
 NOTICE
@@ -38,3 +41,4 @@ The automated update of the cluster has been paused due to an error. Determine t
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
 *epoch* (STRING): Identifying tag for multinode AutoSupport.
+

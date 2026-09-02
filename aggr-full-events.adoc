@@ -14,6 +14,9 @@ summary: aggr.full events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+aggr.full EMS events occur when an aggregate is full.
+
 == aggr.full
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Ensure that all containers in the pod are online and healthy. Check if the REST 
 Aggregate "%s" is full.
 *Parameters*::
 *aggr_name* (STRING): Name of the aggregate.
+

@@ -14,6 +14,9 @@ summary: ses.disk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ses.disk EMS events occur when ONTAP encounters issues associated with disk drive configuration.
+
 == ses.disk.configOk
 *Severity*::
 INFORMATIONAL
@@ -37,3 +40,4 @@ Remove the disk drives.
 Disk drives are inserted into unsupported drive slots in the bottom row of the storage appliance.
 *Parameters*::
 (None).
+

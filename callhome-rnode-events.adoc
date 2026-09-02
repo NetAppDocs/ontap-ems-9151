@@ -14,6 +14,9 @@ summary: callhome.rnode events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.rnode EMS events occur when this messages occurs when a new set of log files has been collected from a Service Processor (SP) of one or more non-operational nodes in the cluster.
+
 == callhome.rnode.splog
 *Severity*::
 NOTICE
@@ -35,3 +38,4 @@ Call home for REMOTE NODE SP LOG %s %s %s %s %s %s %s %s %s %s
 *node4_latest_fn* (STRING): Node-specific filename for the latest splog from the fourth node.
 *node5_down_fn* (STRING): Node-specific filename for the downfiler splog from the fifth node. If NULL is specified, this downfiler splog is not available.
 *node5_latest_fn* (STRING): Node-specific filename for the latest splog from the fifth node.
+

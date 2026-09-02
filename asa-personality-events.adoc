@@ -14,6 +14,9 @@ summary: asa.personality events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+asa.personality EMS events occur when ONTAP encounters issues associated with cluster personality conversion to an All SAN Array.
+
 == asa.personality.enable.end
 *Severity*::
 NOTICE
@@ -49,3 +52,4 @@ This message occurs when the cluster personality is being changed to All SAN Arr
 The cluster personality is changing to All SAN Array.
 *Parameters*::
 *job_id* (LONGINT): ID of the conversion job.
+

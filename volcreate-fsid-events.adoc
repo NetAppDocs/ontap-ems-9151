@@ -14,6 +14,9 @@ summary: volcreate.fsid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+volcreate.fsid EMS events occur when flexible volumes were created with file system identifiers (FSIDs) which conflict with existing volumes.
+
 == volcreate.fsid.dup
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Volume %s's fsid 0x%x conflicts with a volume owned by vfiler %s.
 *volName* (STRING): Name of the volume created
 *FSID* (INT): FSID of the volume
 *vfiler_name* (STRING): The vfiler which owns the existing offlined volume with the same FSID.
+

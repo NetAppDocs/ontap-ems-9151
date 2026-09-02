@@ -14,6 +14,9 @@ summary: nodewatchdog.node events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nodewatchdog.node EMS events occur when ONTAP encounters issues associated with node internal service failures.
+
 == nodewatchdog.node.failure
 *Severity*::
 EMERGENCY
@@ -66,3 +69,4 @@ Unable to generate an application core for %s (pid %d) within the allotted time 
 *process_name* (STRING): Name of the application that failed to generate core.
 *process_id* (INT): PID of the application that failed to generate core.
 *timeout* (INT): Time in seconds within which the application coredump did not complete.
+

@@ -14,6 +14,9 @@ summary: image.copy events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+image.copy EMS events occur when ONTAP software installation was performed via the boot menu, which does not verify the digital signature of the software image.
+
 == image.copy.bypass.ds.chk
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Corrective action is not required if the software was installed by authorized pe
 ONTAP software image %s was installed without digital signature verification.
 *Parameters*::
 *cfcard_image* (STRING): Software image name that was installed.
+

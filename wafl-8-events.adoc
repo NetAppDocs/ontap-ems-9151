@@ -14,6 +14,9 @@ summary: wafl.8 events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.8 EMS events occur when WAFL(R) unexpectedly encounters a Data ONTAP(R) 8.0.x logical mirror volume during an upgrade.
+
 == wafl.8.0.mirror.upgrade.fail
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Data ONTAP 8.0.x mirror (type %d) cannot be upgraded by the current version of D
 *Parameters*::
 *type* (INT): Mirror type in Data ONTAP 8.0.x.
 *vol* (STRING): Volume name.
+

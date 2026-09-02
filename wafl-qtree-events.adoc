@@ -14,6 +14,9 @@ summary: wafl.qtree events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.qtree EMS events occur when ONTAP encounters issues associated with qtree metadata and SnapMirror relationships.
+
 == wafl.qtree.id.mismatch
 *Severity*::
 ERROR
@@ -126,3 +129,4 @@ Breaking SnapMirror qtree %d in %s %s%s%s%s: WAFL_check broke all SnapMirror rel
 *vol2* (STRING): Volume name.
 *app2* (STRING): Application UUID.
 *volident2* (STRING): To uniquely identify the volume in cases where volume name itself is insufficient.
+

@@ -14,6 +14,9 @@ summary: xfcvi.qlgc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+xfcvi.qlgc EMS events occur when ONTAP encounters issues associated with FC-VI adapter firmware and connection operations.
+
 == xfcvi.qlgc.async.event.overflow
 *Severity*::
 ERROR
@@ -641,3 +644,4 @@ FC-VI adapter: %s transfer error on port %s. Affected queue number = %d. %s
 *port* (STRING): xfcvi Interconnect NIC.
 *queue_num* (INT): Queue number.
 *info* (STRING): Additional info.
+

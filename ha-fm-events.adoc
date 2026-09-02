@@ -14,6 +14,9 @@ summary: ha.fm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ha.fm EMS events occur when the Failover Monitor (FM) platform type changes in response to changes in the cluster configuration.
+
 == ha.fm.platformTypeChanged
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ FM platform type changed from %s to %s.
 *Parameters*::
 *from* (STRING): Previous FM platform type.
 *to* (STRING): New FM platform type.
+

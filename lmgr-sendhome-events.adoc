@@ -14,6 +14,9 @@ summary: lmgr.sendhome events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lmgr.sendhome EMS events occur during an SFO aggregate giveback or relocation.
+
 == lmgr.sendhome.veto.bootarg.override
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs during an SFO aggregate giveback or relocation. It implies t
 Because bootarg.gb.override.lmgr.veto is set to true, the ANDU procedure will override any lock-manager veto regarding the giveback of the "%s" aggregate.
 *Parameters*::
 *aggregate* (STRING): Name of the aggregate.
+

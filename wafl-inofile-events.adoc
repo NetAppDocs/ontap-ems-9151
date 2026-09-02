@@ -14,6 +14,9 @@ summary: wafl.inofile events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.inofile EMS events occur when this event can occur when a snapshot's inofile buffer header has the wrong magic or file block number.
+
 == wafl.inofile.buf.badHeader
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ Bad header in snapshot %s inofile in %s %s%s%s%s, snapid %d, fbn %llu, vbn %llu,
 *omagic* (INT): The magic number in the header
 *ofbn* (LONGINT): The file block number in the header
 *ocp_count* (INT): The CP count in the header
+

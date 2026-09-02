@@ -14,6 +14,9 @@ summary: splog.running events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+splog.running EMS events occur when the Data ONTAP(R) process (splogd) that monitors the Service Processor (SP) for available SP logs starts successfully or when it returns to normal operation from degraded mode.
+
 == splog.running.normally
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ This message occurs when the Data ONTAP(R) process (splogd) that monitors the Se
 Process splogd is operating normally.
 *Parameters*::
 (None).
+

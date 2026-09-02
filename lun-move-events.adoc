@@ -14,6 +14,9 @@ summary: lun.move events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lun.move EMS events occur when ONTAP encounters issues associated with LUN move operations.
+
 == LUN.move.dstPresent
 *Severity*::
 INFORMATIONAL
@@ -42,3 +45,4 @@ LUN move started from (DSID:%llu)%s to (DSID:%llu)%s with job-uuid %s.
 *dst_vol_dsid* (LONGINT): Destination volume Data Set ID (DSID).
 *dst_lun* (STRING): Destination LUN.
 *UUID* (STRING): UUID identifying the move operation.
+

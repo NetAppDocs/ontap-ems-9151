@@ -14,6 +14,9 @@ summary: nblade.cifsmaxopensamefilenotice events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.cifsmaxopensamefilenotice EMS events occur when the number of open instances of a particular file under a CIFS tree nears the configuration limit.
+
 == Nblade.cifsMaxOpenSameFileNotice
 *Severity*::
 NOTICE
@@ -31,3 +34,4 @@ Received %d open file requests, nearing the configured limit of %d, for the same
 *filePath* (STRING): Path of the file being opened.
 *shareName* (STRING): Name of the share that holds the file.
 *vserverName* (STRING): Vserver associated with this operation.
+

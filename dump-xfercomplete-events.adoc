@@ -14,6 +14,9 @@ summary: dump.xfercomplete events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dump.xfercomplete EMS events occur when the dump engine completes data backup with disk errors in user files.
+
 == dump.xfercomplete.inconsistent_data
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Contact NetApp technical support.
 Dump of source path (%s): One or more files in the backup encountered disk errors. Refer to /etc/log/backup for a list of files that encountered disk errors.
 *Parameters*::
 *src_path* (STRING): Source path being backed up.
+

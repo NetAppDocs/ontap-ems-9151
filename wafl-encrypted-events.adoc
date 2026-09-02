@@ -14,6 +14,9 @@ summary: wafl.encrypted events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.encrypted EMS events occur when ONTAP encounters issues associated with NetApp(R) Aggregate Encryption (NAE) aggregate operations.
+
 == wafl.encrypted.aggr.created
 *Severity*::
 NOTICE
@@ -45,3 +48,4 @@ Aggregate "%s" is converted to a NAE aggregate.
 *KeyID_2* (STRING): Aggregate key ID of key2.
 *KeyID_3* (STRING): Aggregate key ID of key3.
 *KeyID_4* (STRING): Aggregate key ID of key4.
+

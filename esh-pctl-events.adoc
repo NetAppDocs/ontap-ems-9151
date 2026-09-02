@@ -14,6 +14,9 @@ summary: esh.pctl events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+esh.pctl EMS events occur when ONTAP encounters issues associated with disk power control operations.
+
 == esh.pctl.bpCPLDFailed
 *Severity*::
 ERROR
@@ -69,3 +72,4 @@ Cannot execute a 'power control' command on disk %d [%s:%s:%s] serial number [%s
 *shelfID* (INT): Disk shelf ID of the disk shelf that reported an error.
 *channelName* (STRING): Name of the Fibre Channel adapter port.
 *module* (STRING): I/O module with the failed CPLD.
+

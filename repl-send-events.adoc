@@ -14,6 +14,9 @@ summary: repl.send events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+repl.send EMS events occur when a SnapMirror(R) transfer uses logical mode without even attempting raw directory negotiation.
+
 == repl.send.mgr.forcedLogical
 *Severity*::
 INFORMATIONAL
@@ -32,3 +35,4 @@ This message occurs when a SnapMirror(R) transfer uses logical mode without even
 *srcVersionImageUuid* (STRING): Source transfer version Snapshot copy UUID.
 *srcInstanceRefImageUuid* (STRING): Source reference instance Snapshot copy UUID.
 *srcVersionRefImageUuid* (STRING): Source reference version Snapshot copy UUID.
+

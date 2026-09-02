@@ -14,6 +14,9 @@ summary: usb.device events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+usb.device EMS events occur when ONTAP encounters issues associated with USB device operations.
+
 == usb.device.failed
 *Severity*::
 ERROR
@@ -66,3 +69,4 @@ Ignoring non high-speed device detected in adapter %s on port %d.
 *Parameters*::
 *adapterName* (STRING): Name of the associated USB adapter.
 *port* (INT): Port number within the adapter to which the non high-speed device is connected.
+

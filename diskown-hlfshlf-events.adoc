@@ -14,6 +14,9 @@ summary: diskown.hlfshlf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+diskown.hlfshlf EMS events occur when ONTAP encounters issues associated with half-shelf based drive assignment.
+
 == diskown.hlfShlf.assignStatus
 *Severity*::
 NOTICE
@@ -50,3 +53,4 @@ This message occurs when the controller cannot automatically assign disks using 
 The controller cannot automatically assign disks using half shelf based disk assignment because disks in shelf "%d" are assigned to multiple systems in a conflicting manner.
 *Parameters*::
 *shelf_id* (INT): Shelf identifier.
+

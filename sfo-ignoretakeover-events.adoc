@@ -14,6 +14,9 @@ summary: sfo.ignoretakeover events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sfo.ignoretakeover EMS events occur when ONTAP encounters issues associated with storage failover mailbox takeover state management.
+
 == sfo.ignoretakeover.envVarClearFailed
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ None.
 Mailbox takeover state rewritten due to previous bringhome operation.
 *Parameters*::
 (None).
+

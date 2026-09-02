@@ -14,6 +14,9 @@ summary: replication.status events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+replication.status EMS events occur when the time skew between the source and destination system is greater than 1 minute.
+
 == replication.status.timeSkewed
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ Use either the 'date' or 'rdate' command to synchronize the time between the sys
 *rtype* (STRING): Replication type (SnapMirror, SnapVault, and so on.).
 *srcfiler* (STRING): The host name of the source system.
 *dstfiler* (STRING): The host name of the destination system.
+

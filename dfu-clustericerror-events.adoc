@@ -14,6 +14,9 @@ summary: dfu.clustericerror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dfu.clustericerror EMS events occur when communication with the controller failover partner cannot be established.
+
 == dfu.clusterIcError
 *Severity*::
 ERROR
@@ -30,3 +33,4 @@ HA interconnect error %d encountered. Unable to download firmware to disk %s [%s
 *productId* (STRING): Product ID of the disk.
 *fwVersion* (STRING): Firmware version of the disk.
 *serialno* (STRING): Serial number of the disk.
+

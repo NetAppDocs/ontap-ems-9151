@@ -14,6 +14,9 @@ summary: dbs.file events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dbs.file EMS events occur when ONTAP encounters issues associated with Distributed Block Store (DBS) container file system capacity or write access.
+
 == dbs.file.system.capacity.low
 *Severity*::
 ERROR
@@ -49,3 +52,4 @@ DBS has detected a file system is read-only. Cluster fault node %u, node UUID %s
 *cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
 *cfDetails* (STRING): Details of the file system set to read-only.
 *cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.
+

@@ -14,6 +14,9 @@ summary: tcpip.conn events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+tcpip.conn EMS events occur when a connection is leaked because it can't be closed.
+
 == tcpip.conn.leaked
 *Severity*::
 INFORMATIONAL
@@ -29,3 +32,4 @@ Connection %u to remote IP %s on vif %u using service %u over %s leaked because 
 *VIF* (INT): The VIF on which this connection was located.
 *serviceType* (INT): The service being used on the leaked connection.
 *protocol* (STRING): The protocol being used on the leaked connection.
+

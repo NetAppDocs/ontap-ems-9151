@@ -14,6 +14,9 @@ summary: dbs.sw events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dbs.sw EMS events occur when a Distributed Block Store (DBS) event relating to Software Encryption At Rest occurs, such as master key rekey completion, failure, or extended key rewrapping.
+
 == dbs.sw.encr.at.rest
 *Severity*::
 NOTICE
@@ -33,3 +36,4 @@ A DBS SW Encryption at Rest event occurred, event %s, type %s, service %u, node 
 *driveUuid* (STRING): Generated UUID of the associated drive. It displays zeroes if there is no associated drive.
 *evtID* (INT): DBS event ID number.
 *evtDetails* (STRING): Specific details of the DBS event. It displays as a string, in JSON format, or is empty.
+

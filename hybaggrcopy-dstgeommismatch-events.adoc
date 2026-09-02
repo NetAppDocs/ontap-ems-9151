@@ -14,6 +14,9 @@ summary: hybaggrcopy.dstgeommismatch events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+hybaggrcopy.dstgeommismatch EMS events occur when there is a mismatch between the disk geometries of source and destination hybrid aggregates.
+
 == hybAggrCopy.dstGeomMismatch
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Satisfy the following conditions: Both aggregates are hybrid. The destination ag
 Aggregate %s cannot be copied. Source and destination hybrid aggregate geometries do not match.
 *Parameters*::
 *srcaggr* (STRING): Aggr copy source aggregate.
+

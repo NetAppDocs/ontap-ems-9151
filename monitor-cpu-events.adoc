@@ -14,6 +14,9 @@ summary: monitor.cpu events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+monitor.cpu EMS events occur when ONTAP encounters issues associated with CPU utilization.
+
 == monitor.cpu.ok
 *Severity*::
 INFORMATIONAL
@@ -37,3 +40,4 @@ This message occurs when the CPU is too busy.
 Warning: %s
 *Parameters*::
 *report* (STRING): Description of the problem.
+

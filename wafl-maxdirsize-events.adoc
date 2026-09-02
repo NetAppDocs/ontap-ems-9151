@@ -14,6 +14,9 @@ summary: wafl.maxdirsize events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.maxdirsize EMS events occur for each volume that has a maximum directory size greater than the default during boot.
+
 == wafl.maxdirsize.boot.notice
 *Severity*::
 NOTICE
@@ -30,3 +33,4 @@ Use (privilege:advanced) option "volume modify -volume vol_name -maxdir-size new
 *volident* (STRING): Unique identifier of the volume when the volume name alone is insufficient.
 *current_maxdirsize* (INT): Default maximum directory size value.
 *default_maxdirsize* (INT): Default maximum directory size value.
+

@@ -14,6 +14,9 @@ summary: wafl.sparse events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.sparse EMS events occur when a sparse config metafile can not be removed in recycling bin.
+
 == wafl.sparse.meta.rm
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Unable to remove sparse metafile %s in recycle bin: error %s
 *Parameters*::
 *path* (STRING): The metadata filepath
 *err* (STRING): The error message
+

@@ -14,6 +14,9 @@ summary: qos.onnix events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+qos.onnix EMS events occur when the classification subsystem for Quality of Service (QoS) fails.
+
 == qos.onnix.classf.failure
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Contact Contact NetApp technical support. for assistance.
 QoS classification failed. Any limits that are configured for volumes will not be applied.
 *Parameters*::
 (None).
+

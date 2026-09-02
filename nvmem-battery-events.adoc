@@ -14,6 +14,9 @@ summary: nvmem.battery events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nvmem.battery EMS events occur when ONTAP encounters issues associated with NVMEM battery capacity and preservation.
+
 == nvmem.battery.capacity.low
 *Severity*::
 EMERGENCY
@@ -653,3 +656,4 @@ Replace the NVMEM battery. If the problem persists, replace the controller modul
 The NVMEM battery charger is charging the battery even though the battery is not requesting to be charged. To prevent data loss, the system will shut down %s.
 *Parameters*::
 *countdown* (STRING): Remaining time before chassis shutdown.
+

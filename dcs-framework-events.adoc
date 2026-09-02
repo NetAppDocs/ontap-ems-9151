@@ -14,6 +14,9 @@ summary: dcs.framework events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dcs.framework EMS events occur when ONTAP encounters issues associated with DCS framework state changes.
+
 == dcs.framework.disabled
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ This message occurs when the DCS framework has been enabled on this node.
 The DCS framework is enabled on this node.
 *Parameters*::
 (None).
+

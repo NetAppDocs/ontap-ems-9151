@@ -14,6 +14,9 @@ summary: snapmirror.sockstrwriteerr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+snapmirror.sockstrwriteerr EMS events occur when SnapMirror tries to write a large string to the socket.
+
 == snapmirror.sockStrWriteErr
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ This event is issued when SnapMirror tries to write a large string to the socket
 Write string too large %d.
 *Parameters*::
 *len* (INT): String length SnapMirror tried to write to socket.
+

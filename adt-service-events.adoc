@@ -14,6 +14,9 @@ summary: adt.service events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+adt.service EMS events occur when ONTAP encounters issues associated with the audit consolidation service being unable to write to the destination volume hosting the audit logs.
+
 == adt.service.block
 *Severity*::
 EMERGENCY
@@ -55,3 +58,4 @@ Audit destination directory "%s" of Vserver "%s" for consolidation job of type "
 *destinationPath* (STRING): Destination path.
 *vserverName* (STRING): Name of the Storage Virtual Machine (SVM, formerly Vserver).
 *descriptor* (STRING): Type of consolidation job - CIFS/S3.
+

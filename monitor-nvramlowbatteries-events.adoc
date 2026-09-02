@@ -14,6 +14,9 @@ summary: monitor.nvramlowbatteries events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+monitor.nvramlowbatteries EMS events occur when ONTAP encounters issues associated with NVRAM batteries power levels.
+
 == monitor.nvramLowBatteries
 *Severity*::
 EMERGENCY
@@ -39,3 +42,4 @@ If the NVRAM batteries are dangerously low, the system shuts down automatically 
 *timeout1* (INT): Timeout value.
 *timeout2* (INT): Timeout value.
 *timeout3* (INT): Timeout value.
+

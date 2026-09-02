@@ -14,6 +14,9 @@ summary: adt.dest events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+adt.dest EMS events occur when ONTAP encounters issues associated with the audit consolidation job failing to access or write audit logs to the destination directory.
+
 == adt.dest.access.fail
 *Severity*::
 ERROR
@@ -55,3 +58,4 @@ Audit destination directory "%s" of Vserver "%s" is unavailable or out of space;
 *destination* (STRING): Destination directory of the Vserver to which the consolidation job failed to write audit logs.
 *vserver* (STRING): Name of the Vserver name whose consolidation job failed to write audit logs to the destination directory.
 *descriptor* (STRING): Type of consolidation job - CIFS/S3.
+

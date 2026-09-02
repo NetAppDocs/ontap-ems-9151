@@ -14,6 +14,9 @@ summary: air.repaired events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+air.repaired EMS events occur when ONTAP encounters issues associated with metadata inconsistencies that are automatically repaired immediately upon detection.
+
 == air.repaired.bucket.header
 *Severity*::
 NOTICE
@@ -679,3 +682,4 @@ AIR vplus rebuild of %s completed for subtype %d
 *Parameters*::
 *fh* (STRING): File handle of the storage tree.
 *subtype* (INT): Subtype of the inode encountering the inconsistency.
+

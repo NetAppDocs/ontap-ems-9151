@@ -14,6 +14,9 @@ summary: crypto.import events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+crypto.import EMS events occur when the import of a cryptographic key fails.
+
 == crypto.import.failed
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ ERROR: Import of key with key ID %s failed. Additional information: %s.
 *Parameters*::
 *key_id* (STRING): Key ID for the cryptographic key.
 *msg* (STRING): Associated failure message.
+

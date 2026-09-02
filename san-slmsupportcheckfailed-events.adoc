@@ -14,6 +14,9 @@ summary: san.slmsupportcheckfailed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+san.slmsupportcheckfailed EMS events occur during reboot when SAN capability is enabled, the cluster has more than 8 nodes and lun.reporting.nodes options is disabled.
+
 == san.slmSupportCheckFailed
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Set the option "lun.reporting_nodes.enable" to "on" with the command "vserver op
 Clusters with more than 8 nodes must have SLM support enabled.
 *Parameters*::
 (None).
+

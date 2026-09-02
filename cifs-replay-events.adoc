@@ -14,6 +14,9 @@ summary: cifs.replay events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cifs.replay EMS events occur when configuration is not synchronized.
+
 == cifs.replay.failure
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Contact NetApp technical support. Be prepared to provide log files to technical 
 Failed to replay configuration for %s module.
 *Parameters*::
 *module* (STRING): Name of the module for which configuration is not synchronized.
+

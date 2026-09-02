@@ -14,6 +14,9 @@ summary: nblade.vscannoregdscanner events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.vscannoregdscanner EMS events occur when AV Connector notifies ONTAP(R) that it does not have a registered scan-engine.
+
 == Nblade.vscanNoRegdScanner
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ For Vserver "%s", AV Connector running on the AV server "%s" does not have a reg
 *scannerIp* (STRING): IP address of the AV server.
 *object_type* (STRING): Type of the resource object under notification.
 *object_uuid* (STRING): UUID of the resource object.
+

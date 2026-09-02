@@ -14,6 +14,9 @@ summary: mgmtgwd.certificate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mgmtgwd.certificate EMS events occur when ONTAP encounters issues associated with digital certificate expiration for Vservers.
+
 == mgmtgwd.certificate.expired
 *Severity*::
 ERROR
@@ -46,3 +49,4 @@ A digital certificate with Fully Qualified Domain Name (FQDN) %s, Serial Number 
 *type* (STRING): Type of the digital certificate.
 *vserver* (STRING): Name of the Vserver.
 *days* (LONGINT): Number of days remaining until the certificate expires.
+

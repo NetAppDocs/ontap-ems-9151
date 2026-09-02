@@ -14,6 +14,9 @@ summary: fg.space events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fg.space EMS events occur when ONTAP encounters issues associated with FlexGroup constituent volume space availability.
+
 == fg.space.member.allOK
 *Severity*::
 NOTICE
@@ -93,3 +96,4 @@ Constituent volume "%s" in FlexGroup volume "%s" (fg-uuid "%s") has had a resize
 *flexgroup_used* (LONGINT): Size used in bytes of the FlexGroup volume.
 *flexgroup_percent_full* (INT): Percentage of filled space in the FlexGroup volume.
 *event_time* (LONGINT): When the event occurred, shown in system time.
+

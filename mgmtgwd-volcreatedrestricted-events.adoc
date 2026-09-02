@@ -14,6 +14,9 @@ summary: mgmtgwd.volcreatedrestricted events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mgmtgwd.volcreatedrestricted EMS events occur when a volume is created in the restricted state.
+
 == mgmtgwd.volcreatedrestricted
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ This message occurs when a volume is created in the restricted state. This messa
 *Parameters*::
 *vserver* (STRING): The vserver that owns the volume.
 *volume* (STRING): The name of the volume.
+

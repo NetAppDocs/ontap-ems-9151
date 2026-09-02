@@ -14,6 +14,9 @@ summary: cf.diskinventory events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cf.diskinventory EMS events occur when ONTAP encounters issues associated with disk inventory message validation.
+
 == cf.diskinventory.cksum.fail
 *Severity*::
 ALERT
@@ -39,3 +42,4 @@ disk inventory: ndisks %d max_disks %d
 *Parameters*::
 *ndisks* (INT): Number of disk descriptions sent in the inventory message.
 *maxdisks* (INT): Maximum number of disks supported.
+

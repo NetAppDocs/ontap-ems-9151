@@ -14,6 +14,9 @@ summary: raid.encrypt events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+raid.encrypt EMS events occur when ONTAP encounters issues associated with RAID encryption and volume encryption keys.
+
 == raid.encrypt.disabled
 *Severity*::
 ALERT
@@ -38,3 +41,4 @@ No encryption key is available for volume '%s' because of error '%d'.
 *Parameters*::
 *volume* (STRING): Volume involved.
 *error* (INT): Reason code for the failure to find a key.
+

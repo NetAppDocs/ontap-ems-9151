@@ -14,6 +14,9 @@ summary: shm.pulllogwarning events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+shm.pulllogwarning EMS events occur when the disk dongle requests the system to retrieve the error log.
+
 == shm.pullLogWarning
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ shm: Disk %s has returned %d warnings and the log will be saved.
 *Parameters*::
 *diskName* (STRING): Name of the disk.
 *count* (INT): Count of warnings received.
+

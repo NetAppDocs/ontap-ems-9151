@@ -14,6 +14,9 @@ summary: raid.no events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+raid.no EMS events occur periodically to warn the user that the aggregate has no RAID protection and is not safe for storing data.
+
 == raid.no.parity.aggr
 *Severity*::
 EMERGENCY
@@ -25,3 +28,4 @@ Use the "aggregate delete" command to delete the aggregate, if possible.
 Aggregate "%s" does not use any RAID-level data protection; any data is unprotected.
 *Parameters*::
 *aggr* (STRING): Name of the aggregate.
+

@@ -14,6 +14,9 @@ summary: config.fcsameloop events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+config.fcsameloop EMS events occur when a disk is multipathed to the same Fibre Channel loop.
+
 == config.FCSameLoop
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Recable the disk shelf containing the specified disk so that it is multipathed t
 Disk %s is attached to the same Fibre Channel loop. The disk should be multipathed to different loops.
 *Parameters*::
 *disk* (STRING): Name of the disk.
+

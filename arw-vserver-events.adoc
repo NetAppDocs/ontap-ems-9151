@@ -14,6 +14,9 @@ summary: arw.vserver events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+arw.vserver EMS events occur when the anti-ransomware state of a Vserver is changed.
+
 == arw.vserver.state
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ Anti-ransomware was changed to "%s" on Vserver "%s" (UUID: "%s").
 *op* (STRING): Anti-ransomware state (enabled, disabled,or dry-run).
 *vserverName* (STRING): Name of the Vserver.
 *vserverUuid* (STRING): UUID of the Vserver.
+

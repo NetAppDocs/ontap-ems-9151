@@ -14,6 +14,9 @@ summary: wafl.lookup events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.lookup EMS events occur when the system encounters an unexpected deleted directory entry in a snapmirrored qtree.
+
 == wafl.lookup.smDirErr
 *Severity*::
 ERROR
@@ -36,3 +39,4 @@ wafl_nfs_lookup: unexpected deleted directory entry in snapmirrored qtree %d: {x
 *dfh2* (INT): Requested file handle's fileid.
 *dfh3* (INT): Requested file handle's generation.
 *dfh4* (INT): Requested file handle's FSID.
+

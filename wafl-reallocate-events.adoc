@@ -14,6 +14,9 @@ summary: wafl.reallocate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.reallocate EMS events occur when ONTAP encounters issues associated with aggregate reallocation operations.
+
 == wafl.reallocate.aggr.interrupt
 *Severity*::
 INFORMATIONAL
@@ -167,3 +170,4 @@ Correct the schedule syntax then retry the operation
 Invalid schedule: %s
 *Parameters*::
 *reason* (STRING): The reason why the schedule is invalid
+

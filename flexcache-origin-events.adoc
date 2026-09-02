@@ -14,6 +14,9 @@ summary: flexcache.origin events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+flexcache.origin EMS events occur when ONTAP encounters issues associated with FlexCache origin volume configuration synchronization.
+
 == flexcache.origin.config.sync.failed
 *Severity*::
 ERROR
@@ -66,3 +69,4 @@ Failed to sync origin size property for FlexCache volume "%s" in Vserver "%s". E
 *volumeName* (STRING): Cache Volume Name.
 *vserverName* (STRING): Cache Vserver Name.
 *errorString* (STRING): Error string.
+

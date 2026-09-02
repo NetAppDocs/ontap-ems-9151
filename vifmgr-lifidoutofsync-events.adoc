@@ -14,6 +14,9 @@ summary: vifmgr.lifidoutofsync events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vifmgr.lifidoutofsync EMS events occur when a Logical Interface (LIF) is configured in the Logical Interface manager (VIFMgr) but is not visible in the user interface.".
+
 == vifmgr.lifIdOutOfSync
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ LIF %s with ID %s (on virtual server %s), IP address %s, is configured in the VI
 *vifid* (STRING): Unique ID of the invisible LIF as it exists in VIFMgr.
 *vsrvid* (STRING): ID of the virtual server on which the LIF resides.
 *vifip* (STRING): IP address of the invisible LIF as it exists in the VIFMgr.
+

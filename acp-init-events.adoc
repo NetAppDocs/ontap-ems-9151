@@ -14,6 +14,9 @@ summary: acp.init events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+acp.init EMS events occur when ONTAP encounters issues associated with initialization and configuration of the Alternate Control Path (ACP) Ethernet port.
+
 == acp.init.configIP
 *Severity*::
 ERROR
@@ -52,3 +55,4 @@ This message occurs when the Alternate Control Path (ACP) process cannot initial
 Could not initialize SSL.
 *Parameters*::
 (None).
+

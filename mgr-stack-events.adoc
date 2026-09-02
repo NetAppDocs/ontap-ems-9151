@@ -14,6 +14,9 @@ summary: mgr.stack events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mgr.stack EMS events occur when ONTAP encounters issues associated with panic information.
+
 == mgr.stack.at
 *Severity*::
 NOTICE
@@ -139,3 +142,4 @@ This message contains the panic string.
 Panic string: %s
 *Parameters*::
 *string* (STRING): The panic string
+

@@ -14,6 +14,9 @@ summary: wafl.rclm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.rclm EMS events occur when an attempt to estimate the space that can be reclaimed for the aggregate was completed successfully.
+
 == wafl.rclm.est.scan.done
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ Estimate Reclaim Scanner done for %s with estimated free logical blocks=%llu, ph
 *logical_free_blks* (LONGINT): Estimated number of reclaimable logical blocks found by the scanner.
 *physical_free_blks* (LONGINT): Estimated number of reclaimable physical blocks found by the scanner.
 *run_time* (LONGINT): Duration of the scan in milliseconds.
+

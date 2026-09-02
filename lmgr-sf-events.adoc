@@ -14,6 +14,9 @@ summary: lmgr.sf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lmgr.sf EMS events occur when the lock manager non-disruption subsystem for CIFS continuously available (CA) shares notifies the high-availability (HA) module that transition into the up state is allowed.
+
 == lmgr.sf.up.ready
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when the lock manager non-disruption subsystem for CIFS cont
 Lock manager allowed high availability module to transition to the up state for the following reason: %s.
 *Parameters*::
 *reason* (STRING): Reason for allowing transition to occur. Valid reasons include: 1. Lock-sync complete 2. Lock-sync timed out 3. CSM Invalid 4. Partner down 5. Mirroring disabled from bootarg 6. SMB3 disabled
+

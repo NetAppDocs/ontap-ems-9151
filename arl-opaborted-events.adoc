@@ -14,6 +14,9 @@ summary: arl.opaborted events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+arl.opaborted EMS events occur when an aggregate relocation operation is aborted.
+
 == arl.OpAborted
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Aggregate relocation operation aborted by node %s because %s.
 *Parameters*::
 *node* (STRING): Name of the node that aborted relocation.
 *msg* (STRING): Error that prevented relocation.
+

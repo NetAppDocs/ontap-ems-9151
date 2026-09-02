@@ -14,6 +14,9 @@ summary: cpeer.addr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cpeer.addr EMS events occur when ONTAP encounters issues associated with resolving stable addresses for peer clusters.
+
 == cpeer.addr.bad.dns
 *Severity*::
 ERROR
@@ -67,3 +70,4 @@ Address %s is not any of the addresses that peer cluster %s considers valid for 
 *addr* (STRING): Peer cluster stable address that is not valid.
 *peer* (STRING): Name of the peer cluster whose stable address is not valid.
 *complaint* (STRING): Details, if any, of the issue with the stable address.
+

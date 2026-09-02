@@ -14,6 +14,9 @@ summary: nblade.qtreefhnotused events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.qtreefhnotused EMS events occur when newly-configured Qtree export policies, QoS policies or latency statistics are not available for an NFSv4 client that has existing mounts to the NFSv4 server.
+
 == Nblade.qtreeFhNotUsed
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ Newly-configured Qtree export policies, QoS policies or latency statistics will 
 *remoteIpAddress* (STRING): Client IP address.
 *lifIpAddress* (STRING): LIF IP address of NFS server.
 *vsName* (STRING): Storage virtual machine (SVM) name.
+

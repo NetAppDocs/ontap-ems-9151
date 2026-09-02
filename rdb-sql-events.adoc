@@ -14,6 +14,9 @@ summary: rdb.sql events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+rdb.sql EMS events occur when ONTAP encounters issues associated with Data Replication Module database upgrades from RDB to SQL.
+
 == rdb.sql.upgrade.failed
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ Successful upgrade of the local database from RDB to SQL of Data Replication Mod
 *duration* (STRING): Duration of the upgrade in seconds.
 *tables* (LONGINT): Number of tables processed.
 *records* (LONGINT): Number of records processed.
+

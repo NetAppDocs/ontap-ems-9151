@@ -14,6 +14,9 @@ summary: config.disknoswitch events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+config.disknoswitch EMS events occur when a disk is found to be attached to a switch, but it's not supported for a switch configuration.
+
 == config.DiskNoSwitch
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Ensure that the Disk Qualification Package (DQP) is up-to-date. Visit the NetApp
 Disk %s is not supported in a switch configuration.
 *Parameters*::
 *disk* (STRING): Name of the disk.
+

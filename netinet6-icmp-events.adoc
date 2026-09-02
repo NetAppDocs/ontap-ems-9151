@@ -14,6 +14,9 @@ summary: netinet6.icmp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+netinet6.icmp EMS events occur when ONTAP encounters issues associated with ICMPv6 message processing.
+
 == netinet6.icmp.chksum
 *Severity*::
 ERROR
@@ -91,3 +94,4 @@ This message occurs because of invalid neighbor discovery options.
 icmp6_redirect_input: Invalid neighbor discovery option, rejected: %s.
 *Parameters*::
 *addressBuff* (STRING): Contains IP6 addresses.
+

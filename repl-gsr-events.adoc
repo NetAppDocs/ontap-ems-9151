@@ -14,6 +14,9 @@ summary: repl.gsr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+repl.gsr EMS events occur when ONTAP encounters issues associated with SnapMirror Granular Sync operations.
+
 == repl.gsr.cache.modify.gs.enfrc.failed
 *Severity*::
 ERROR
@@ -60,3 +63,4 @@ Failed to replicate snapshot operation to the destination.
 *replStatus* (INT): Replication Status.
 *replFailureMsg* (INT): Replication failure message.
 *replFailureMsgDetail* (INT): Replication failure message detail.
+

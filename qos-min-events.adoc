@@ -14,6 +14,9 @@ summary: qos.min events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+qos.min EMS events occur when minimum throughput value is not honoured if adaptive QoS is set on a SnapMirror Synchronous protected storage object.
+
 == qos.min.tput.not.honoured.for.sync
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Adaptive QoS policy "%s" set on SnapMirror Synchronous volume "%s" or any of it'
 *Parameters*::
 *policy* (STRING): Policy group name.
 *volume* (STRING): Volume name.
+

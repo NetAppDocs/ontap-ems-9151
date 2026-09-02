@@ -14,6 +14,9 @@ summary: device.latency events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+device.latency EMS events occur when a device exceeds the latency threshold for the 30- second monitoring period.
+
 == device.latency.threshold
 *Severity*::
 NOTICE
@@ -31,3 +34,4 @@ The device latency in microseconds exceeded the threshold value for device "%s%d
 *exec_lat* (INT): Execution latency in microseconds for this period.
 *total_lat* (INT): Total latency in microseconds for this period.
 *num_operations* (INT): Number of I/O operations for this period.
+

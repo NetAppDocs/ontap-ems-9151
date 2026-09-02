@@ -14,6 +14,9 @@ summary: snapmirror.dst events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+snapmirror.dst EMS events occur when ONTAP encounters issues associated with SnapMirror(R) destination operations.
+
 == snapmirror.dst.abortOps
 *Severity*::
 ERROR
@@ -565,3 +568,4 @@ Transfer from %s to %s:%s is in progress, SnapMirror transfer from %s:%s delayed
 *dstpath2* (STRING): The destination for dstpath
 *srcfiler* (STRING): The source filer for dstpath
 *srcpath* (STRING): The source for dstpath
+

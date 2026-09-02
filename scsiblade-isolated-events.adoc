@@ -14,6 +14,9 @@ summary: scsiblade.isolated events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+scsiblade.isolated EMS events occur when the node loses connectivity with the majority of the cluster.
+
 == scsiblade.isolated
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Correct the issue that caused the node to lose connectivity with the majority of
 This node lost connectivity with the majority of the cluster. When this occurs, both FCP and iSCSI traffic are isolated to local access only. Remote cluster traffic will be impacted until connectivity is restored.
 *Parameters*::
 (None).
+

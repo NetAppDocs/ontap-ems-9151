@@ -14,6 +14,9 @@ summary: dfu.disksizechanged events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dfu.disksizechanged EMS events occur when a size change is detected after a firmware update.
+
 == dfu.diskSizeChanged
 *Severity*::
 NOTICE
@@ -39,3 +42,4 @@ Disk %s [%s %s %s] S/N [%s] size changed (%x:%x %llx:%llx %llx:%llx %llx:%llx %l
 *newRealLastSector* (LONGINTHEX): New raw size of the disk.
 *oldRealDiskBlocks* (LONGINTHEX): Old raw blocks on the disk.
 *newRealDiskBlocks* (LONGINTHEX): New raw blocks on the disk.
+

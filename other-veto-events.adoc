@@ -14,6 +14,9 @@ summary: other.veto events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+other.veto EMS events occur when ONTAP encounters issues associated with giveback or aggregate relocation operations.
+
 == other.veto.kmgr.keysmissing
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ Relocation or giveback of aggregate "%s" has failed because the restoration stat
 *Parameters*::
 *aggr* (STRING): Name of the aggregate that was being queried when the timeout occurred.
 *dest_node* (STRING): Name of the destination node.
+

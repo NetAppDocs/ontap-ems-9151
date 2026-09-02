@@ -14,6 +14,9 @@ summary: coredump.job events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+coredump.job EMS events occur when ONTAP encounters issues associated with automatically saving cores.
+
 == coredump.job.notstarted
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ Return storage to the MetroCluster member by using the "metrocluster switchback"
 System cannot automatically save cores because a MetroCluster switchback was not performed.
 *Parameters*::
 (None).
+

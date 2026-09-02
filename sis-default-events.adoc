@@ -14,6 +14,9 @@ summary: sis.default events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sis.default EMS events occur when ONTAP encounters issues associated with automatic storage efficiency configuration.
+
 == sis.default.auto.se.enable
 *Severity*::
 NOTICE
@@ -40,3 +43,4 @@ Failed to enable automatic offline volume efficiency features for volume %s on a
 *vvol_name* (STRING): Flex volume name.
 *aggr_name* (STRING): Aggregate name.
 *reason* (STRING): Reason for the failure.
+

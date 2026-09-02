@@ -14,6 +14,9 @@ summary: kern.log events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+kern.log EMS events occur when the system messages log is rotated to a new name.
+
 == kern.log.rotate
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ System %s (ID %s) is running %s
 *hostname* (STRING): The host name of the appliance.
 *serialno* (STRING): The serial number of the host.
 *short_version* (STRING): The short version string of the OnTap kernel, in the form 'NetApp Release NNNN'.
+

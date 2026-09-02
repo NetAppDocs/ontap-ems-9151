@@ -14,6 +14,9 @@ summary: cluster.vol events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cluster.vol EMS events occur when ONTAP encounters issues associated with cluster-wide storage volumes.
+
 == cluster.vol.create.success
 *Severity*::
 NOTICE
@@ -93,3 +96,4 @@ Both active and standby cluster-wide storage volumes (%s, %s) for %s feature are
 *ActiveVolume* (STRING): Active volume name.
 *StandbyVolume* (STRING): Standby volume name.
 *Feature* (STRING): Feature using the cluster-wide storage.
+

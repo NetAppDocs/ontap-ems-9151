@@ -14,6 +14,9 @@ summary: lmgr.owners events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lmgr.owners EMS events occur when ONTAP encounters issues associated with lock manager owner object allocation limits.
+
 == lmgr.owners.limit.hit
 *Severity*::
 ERROR
@@ -54,3 +57,4 @@ The current number of owner objects %u with maximum limit of %u has reached the 
 *hosts_limit* (INT): Allocated hosts limit for the pool.
 *locks_total* (INT): Number of allocated locks in the pool.
 *locks_limit* (INT): Allocated locks limit for the pool.
+

@@ -14,6 +14,9 @@ summary: fci.fwupdate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fci.fwupdate EMS events occur when ONTAP encounters issues associated with Fibre Channel host bus adapter (HBA) firmware updates.
+
 == fci.fwupdate.AutoBoot
 *Severity*::
 NOTICE
@@ -70,3 +73,4 @@ FC Initator HBA %s failed to update the firmware from version %s to %s with the 
 *currentversion* (STRING): Firmware version the HBA is running.
 *bundleversion* (STRING): Firmware version bundled with ONTAP(R) software.
 *status* (INT): Status code of the firmware update process.
+

@@ -14,6 +14,9 @@ summary: vol.phy events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vol.phy EMS events occur when the volume is running dangerously low on free blocks to write to.
+
 == vol.phy.overalloc.inc.sav
 *Severity*::
 EMERGENCY
@@ -30,3 +33,4 @@ Create space by increasing the volume size, deleting data, or deleting Snapshot 
 *vserver_uuid* (STRING): UUID of the object's or volume's Vserver.
 *object_uuid* (STRING): UUID of the object or volume.
 *percent_full* (STRING): Used capacity of the physical space of the object, along with space saved by the storage efficiency features, as a percentage. This value can be greater than 100 due to efficiency features and space reserved for metadata. The percentage is computed for the entire object, including Snapshot(tm) copy space.
+

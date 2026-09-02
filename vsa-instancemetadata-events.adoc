@@ -14,6 +14,9 @@ summary: vsa.instancemetadata events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vsa.instancemetadata EMS events occur when the system detects that a field in the virtual machine's instance metadata settings has changed.
+
 == vsa.instanceMetadata.change
 *Severity*::
 ALERT
@@ -28,3 +31,4 @@ Virtual machine instance metadata setting %s. Field: %s. Previous value: "%s". N
 *field_name* (STRING): Instance metadata field name.
 *previous_value* (STRING): Previous value of field.
 *current_value* (STRING): Current value of field.
+

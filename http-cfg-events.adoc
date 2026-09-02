@@ -14,6 +14,9 @@ summary: http.cfg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+http.cfg EMS events occur when the maximum number of Cross-Site Request Forgery (CSRF) tokens has been reached.
+
 == http.cfg.csrf.max.tokens
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ You can fix the issue in a few different ways. You can disable CSRF protection b
 Maximum number of CSRF tokens (%d) has been reached.
 *Parameters*::
 *limit* (INT): Maximum number of CSRF tokens that can exist at any given time.
+

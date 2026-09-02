@@ -14,6 +14,9 @@ summary: nblade.nfsv4poolexhaust events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.nfsv4poolexhaust EMS events occur when one of the NFSv4 store pools is exhausted.
+
 == Nblade.nfsV4PoolExhaust
 *Severity*::
 EMERGENCY
@@ -27,3 +30,4 @@ NFS Store Pool for %s exhausted. Associated object type is %s with UUID: %s.
 *poolname* (STRING): NFSv4 store pool type where the exhaustion happened.
 *object_type* (STRING): Type of the resource object under notification.
 *object_uuid* (STRING): UUID of the resource object.
+

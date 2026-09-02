@@ -14,6 +14,9 @@ summary: cluster.repl events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cluster.repl EMS events occur when ONTAP encounters issues associated with cluster replication heartbeat operations.
+
 == cluster.repl.localNW.unreachable
 *Severity*::
 NOTICE
@@ -63,3 +66,4 @@ The cluster replication heartbeat to the remote application running on peer clus
 *Parameters*::
 *peerIPaddress* (STRING): Remote application cluster IP address that could not be reached.
 *durationSinceLastSuccess* (INT): Number of seconds since the problem first occurred.
+

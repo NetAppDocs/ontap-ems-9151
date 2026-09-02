@@ -14,6 +14,9 @@ summary: backup.flip events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+backup.flip EMS events occur when while flipping inodemap.
+
 == backup.flip.inodemap
 *Severity*::
 INFORMATIONAL
@@ -25,3 +28,4 @@ This message is generated while flipping inodemap.
 Took %u seconds to flip inodemap.
 *Parameters*::
 *time* (INT): Time in seconds taken to flip inodemap.
+

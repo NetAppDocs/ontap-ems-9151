@@ -14,6 +14,9 @@ summary: image.install events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+image.install EMS events occur when ONTAP encounters issues associated with ONTAP software installation operations.
+
 == image.install.bypass.ds.chk
 *Severity*::
 ALERT
@@ -73,3 +76,4 @@ Replace the image, and then try the command again.
 Image installation fail: Image digital signature check failed.
 *Parameters*::
 (None).
+

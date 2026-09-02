@@ -14,6 +14,9 @@ summary: wafl.aggr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.aggr EMS events occur when ONTAP encounters issues associated with aggregate operations, configurations, or consistency checks.
+
 == wafl.aggr.addup.offline
 *Severity*::
 ERROR
@@ -348,3 +351,4 @@ Skipping uncompact scan on aggregate %s. Volume %s encountered error %d.
 *aggr_name* (STRING): Aggregate name.
 *vvol_name* (STRING): Flex volume name.
 *error_code* (INT): Error code for the abort.
+

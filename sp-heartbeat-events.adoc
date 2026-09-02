@@ -14,6 +14,9 @@ summary: sp.heartbeat events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sp.heartbeat EMS events occur when ONTAP encounters issues associated with Service Processor (SP) heartbeat notifications.
+
 == sp.heartbeat.resumed
 *Severity*::
 INFORMATIONAL
@@ -38,3 +41,4 @@ Have not received a %s heartbeat from the Service Processor (SP) in last %d seco
 *Parameters*::
 *type* (STRING): Heartbeat from Service Processor can be of the following types: 1. IPMI Heartbeat 2. Packetized heartbeat. This parameter specifies which type of heartbeat this event corresponds to.
 *time* (INT): Heartbeats have not been received from the Service Processor (SP) for this period of time in seconds.
+

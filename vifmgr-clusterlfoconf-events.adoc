@@ -14,6 +14,9 @@ summary: vifmgr.clusterlfoconf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vifmgr.clusterlfoconf EMS events occur when the failover policy and failover group for a cluster LIF are restored to their default values.
+
 == vifmgr.clusterLFOConf
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when the failover policy and failover group for a cluster LI
 Setting failover settings for cluster LIF %s to avoid disruption.
 *Parameters*::
 *LIF* (STRING): Name of the Cluster LIF that was modified.
+

@@ -14,6 +14,9 @@ summary: wafl.quota events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.quota EMS events occur when ONTAP encounters issues associated with quota database management and quota limits.
+
 == wafl.quota.control.inconsistent
 *Severity*::
 ERROR
@@ -368,3 +371,4 @@ tid %d: disk quota exceeded on volume %s%s%s%s for Windows user ID: %s. Addition
 *volident* (STRING): To uniquely identify the volume in cases where volume name itself is insufficient.
 *id* (STRING): Windows user identifier
 *mins* (INT): Number of minutes warnings will be supressed
+

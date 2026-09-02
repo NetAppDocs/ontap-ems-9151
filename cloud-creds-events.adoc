@@ -14,6 +14,9 @@ summary: cloud.creds events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cloud.creds EMS events occur when ONTAP encounters issues associated with cloud provider credential acquisition.
+
 == cloud.creds.metadataConnFail
 *Severity*::
 ERROR
@@ -52,3 +55,4 @@ This message occurs when the system attempts to access credentials before initia
 Module on node %s attempted to access credential information before initialization was complete
 *Parameters*::
 *nodeUuid* (STRING): UUID of the node.
+

@@ -14,6 +14,9 @@ summary: acp.shelf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+acp.shelf EMS events occur when ONTAP encounters issues associated with the Alternate Control Path (ACP) Processor completing disk shelf power operations.
+
 == acp.shelf.power.cycle.failed
 *Severity*::
 INFORMATIONAL
@@ -112,3 +115,4 @@ This message occurs when a 'shelf power on' command sent to the Alternate Contro
 Disk shelf power on command sent to %s was successful
 *Parameters*::
 *shelf_id* (STRING): In-band ID of the module or Shelf Serial Number.
+

@@ -14,6 +14,9 @@ summary: vserver.start events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vserver.start EMS events occur when ONTAP encounters issues associated with Vserver start operations.
+
 == vserver.start.failed
 *Severity*::
 ERROR
@@ -39,3 +42,4 @@ Vserver %s (UUID: %s) started successfully.
 *Parameters*::
 *vserver_name* (STRING): Name of the Vserver.
 *vserver_uuid* (STRING): UUID of the Vserver.
+

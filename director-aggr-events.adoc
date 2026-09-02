@@ -14,6 +14,9 @@ summary: director.aggr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+director.aggr EMS events occur when an aggregate is being reassigned from one node to another in response to either a user request or an error condition on the cluster.
+
 == director.aggr.reassigned
 *Severity*::
 NOTICE
@@ -34,3 +37,4 @@ Aggregate (ID: %u) is being reassigned (forcefully:%u) from node %s (ID: %u, Uui
 *toNodeID* (INT): Unique identifier of the node that the aggregate is being reassigned to.
 *toNodeUuid* (STRING): Universal unique identifier of the node that the aggregate is being reassigned to.
 *toFireflyID* (INT): Unique identifier of the Firefly Service that the aggregate is reassigned to.
+

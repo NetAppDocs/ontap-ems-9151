@@ -14,6 +14,9 @@ summary: air.vplus events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+air.vplus EMS events occur when an inconsistency is discovered inside an indexed storage tree.
+
 == air.vplus.certify.issue
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ AIR vplus certification of %s failed: %s, %s for subtype %d
 *condition* (STRING): Specific metadata validation test that failed.
 *source* (STRING): Location of the failing metadata validation test.
 *subtype* (INT): Subtype of the inode encountering the inconsistency.
+

@@ -14,6 +14,9 @@ summary: coredump.nvlog events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+coredump.nvlog EMS events occur when one or more unsuccessful attempts have been made to process information in the WAFL (R) NVlog after a previous failure.
+
 == coredump.nvlog.replay.dump.dont
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ The node will reboot. No further action is necessary.
 Core dump was not taken for the latest failure while processing the WAFL NVlog.
 *Parameters*::
 (None).
+

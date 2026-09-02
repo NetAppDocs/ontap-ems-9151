@@ -14,6 +14,9 @@ summary: disk.lipstormdetect events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.lipstormdetect EMS events occur when a Fibre Channel disk detects a large number of Loop Initialization Procedure requests (a LIP storm) and has reset itself.
+
 == disk.lipStormDetect
 *Severity*::
 NOTICE
@@ -30,3 +33,4 @@ shm: disk %s reports a LIP storm reset. %s. Error %x/%x/%x/%x.
 *sense_code* (INT): Actual sense code.
 *qualifier* (INT): Actual sense code qualifier.
 *fru_failed* (INT): Actual FRU code.
+

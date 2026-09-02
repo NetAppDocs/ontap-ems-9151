@@ -14,6 +14,9 @@ summary: nvmeof.cabling events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nvmeof.cabling EMS events occur when ONTAP encounters issues associated with storage shelf cabling.
+
 == nvmeof.cabling.clear
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ Run the "storage check-cables" node shell command to list the errors. Follow the
 There is a storage cabling issue on node "%s". Run the "storage check-cables" node shell command to list the errors.
 *Parameters*::
 *node_name* (STRING): Node name connected to the cable.
+

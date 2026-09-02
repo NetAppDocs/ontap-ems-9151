@@ -14,6 +14,9 @@ summary: lmgr.gb events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lmgr.gb EMS events occur when ONTAP encounters issues associated with giveback operations and Continuously Available (CA) locks.
+
 == lmgr.gb.CA.locks.lost
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ This message occurs when giveback veto is overridden. Locks established using CI
 Continuously Available (CA) locks may be lost on aggregate %s due to forced giveback commit occurring simultaneously with lock sync completion.
 *Parameters*::
 *aggr* (STRING): Name of the aggregate for which CA locks might be lost.
+

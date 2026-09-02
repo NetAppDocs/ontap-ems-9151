@@ -14,6 +14,9 @@ summary: wafl.cbin events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.cbin EMS events occur when ONTAP encounters issues associated with cloud mirror configuration changes during WAFLiron operations on FabricPool aggregates.
+
 == wafl.cbin.iron.mirror.config.changed
 *Severity*::
 INFORMATIONAL
@@ -64,3 +67,4 @@ Run wafliron again once resync operation is complete.
 Wafliron has skipped ironing objslothdr metafile on aggregate %s as resync operation is in progress on this aggregate. Please run wafliron after resync operation is complete.
 *Parameters*::
 *aggregate_name* (STRING): Aggregate name.
+

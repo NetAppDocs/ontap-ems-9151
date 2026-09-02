@@ -14,6 +14,9 @@ summary: httpd.api events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+httpd.api EMS events occur when a Manage ONTAP(R) API request to an internal server expires due to configured session limits.
+
 == httpd.api.expired.session.limit
 *Severity*::
 ERROR
@@ -29,3 +32,4 @@ A Manage ONTAP(R) API request (%s) has expired after %lu seconds. Last error: %s
 *last_error* (STRING): Reason for the warning, indicating the limit category that was exceeded.
 *purge_time* (LONGINT): The purge time (in seconds) for outstanding API requests.
 *trace_tag* (LONGINTHEX): The generated trace tag associated with the API request.
+

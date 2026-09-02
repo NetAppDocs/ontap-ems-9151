@@ -14,6 +14,9 @@ summary: sms.qr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sms.qr EMS events occur when ONTAP encounters issues associated with SnapMirror(R) Synchronous relationships.
+
 == sms.qr.mem.alloc.issue
 *Severity*::
 ERROR
@@ -52,3 +55,4 @@ Maximum number of streams for a file supported by SnapMirror Synchronous relatio
 *Parameters*::
 *relationship_id* (STRING): SnapMirror relationship UUID.
 *file_id* (STRING): File ID of the file for which the number of streams exceeded the maximum.
+

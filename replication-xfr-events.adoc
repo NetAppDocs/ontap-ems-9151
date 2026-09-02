@@ -14,6 +14,9 @@ summary: replication.xfr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+replication.xfr EMS events occur when ONTAP encounters issues associated with SnapMirror(R) or SnapVault(tm) transfer operations.
+
 == replication.xfr.checksum.fail
 *Severity*::
 ERROR
@@ -49,3 +52,4 @@ For scheduled SnapVault updates, ensure that the snapshot name on the destinatio
 *dstpath* (STRING): Replication destination path.
 *rplerror* (STRING): Replication error message.
 *waflerror* (STRING): WAFL(R) error.
+

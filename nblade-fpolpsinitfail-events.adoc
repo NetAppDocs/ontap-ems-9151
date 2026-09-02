@@ -14,6 +14,9 @@ summary: nblade.fpolpsinitfail events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.fpolpsinitfail EMS events occur when initialization of any FPolicy persistent store resource fails.
+
 == Nblade.fpolPsInitFail
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Contact NetApp technical support.
 Initialization of FPolicy resource the "%s" is unsuccessful.
 *Parameters*::
 *resource* (STRING): Uninitialized resource.
+

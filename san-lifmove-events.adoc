@@ -14,6 +14,9 @@ summary: san.lifmove events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+san.lifmove EMS events occur when a LIF move failed and the recovery action to restore the LIF has also failed.
+
 == san.lifmove.fail
 *Severity*::
 EMERGENCY
@@ -32,3 +35,4 @@ Moving LIF %s of vserver %s from %s:%s to %s:%s failed. Manual recovery required
 *dest_port* (STRING): LIF was moving to this port.
 *address* (STRING): LIF address.
 *recovery_commands* (STRING): Commands to recover the LIF and associated settings.
+

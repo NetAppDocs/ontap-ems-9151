@@ -14,6 +14,9 @@ summary: lic.cappool events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lic.cappool EMS events occur when ONTAP encounters issues associated with capacity pool license reassignment operations.
+
 == lic.cappool.reassign.abort
 *Severity*::
 NOTICE
@@ -81,3 +84,4 @@ This message occurs when the system starts an operation of reassigning nodes to 
 *Parameters*::
 *node_names* (STRING): List of node names that are reassigned to the new capacity pool license.
 *new_pool_serial* (STRING): Capacity pool license serial number to which the nodes are reassigned.
+

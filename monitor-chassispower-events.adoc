@@ -14,6 +14,9 @@ summary: monitor.chassispower events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+monitor.chassispower EMS events occur when ONTAP encounters issues associated with chassis power supply operation.
+
 == monitor.chassisPower.degraded
 *Severity*::
 ALERT
@@ -37,3 +40,4 @@ This message occurs when the motherboard power is OK.
 Chassis power is OK.
 *Parameters*::
 (None).
+

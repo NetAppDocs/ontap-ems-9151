@@ -14,6 +14,9 @@ summary: vldb.adtcons events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vldb.adtcons EMS events occur when the Remote Procedure Call (RPC) from the Volume Location Database (VLDB) to the Management Gateway (MGWD) fails.
+
 == vldb.adtcons.rpcfailure
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ RPC failure linked with the consolidation job for auditing on Vserver ID '%d', a
 *Parameters*::
 *vserverid* (INT): ID of the Vserver that owned the last volume deleted or moved from the aggregate.
 *aggruuid* (STRING): UUID of the aggregate that owned the moved or deleted volume.
+

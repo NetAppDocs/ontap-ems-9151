@@ -14,6 +14,9 @@ summary: config.badpoolassign events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+config.badpoolassign EMS events occur when SyncMirror(R) is in use and disks are assigned to different pools on the same interface or loop.
+
 == config.BadPoolAssign
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Disk %s is in %s and other disks on this loop/domain are in %s. Disks/interfaces
 *disk* (STRING): Name of the disk that fails.
 *disk_pool* (STRING): Name of the pool that the disk is in.
 *other_pool* (STRING): Name of the other pool.
+

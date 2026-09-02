@@ -14,6 +14,9 @@ summary: netif.excesslinkinterrupts events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+netif.excesslinkinterrupts EMS events occur when excessive link status change interrupts occur on the network interface.
+
 == netif.excessLinkInterrupts
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Try using a different switch port and cable. If the problem persists, replace th
 Excessive link status change interrupts occurred on network interface %s.
 *Parameters*::
 *ifName* (STRING): Name of the network interface; for example, "e8a".
+

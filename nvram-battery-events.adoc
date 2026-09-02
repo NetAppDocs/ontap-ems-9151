@@ -14,6 +14,9 @@ summary: nvram.battery events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nvram.battery EMS events occur when ONTAP encounters issues associated with NVRAM battery capacity and charging status.
+
 == nvram.battery.capacity.low.critical
 *Severity*::
 EMERGENCY
@@ -572,3 +575,4 @@ Correct any environmental problems, such as chassis over- temperature. If the NV
 The NVRAM battery voltage is below normal (%s).
 *Parameters*::
 *reading* (STRING): Reading that triggered this message.
+

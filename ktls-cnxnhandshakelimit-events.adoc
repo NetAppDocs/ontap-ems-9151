@@ -14,6 +14,9 @@ summary: ktls.cnxnhandshakelimit events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ktls.cnxnhandshakelimit EMS events occur when the concurrent TLS connection handshake limit is reached.
+
 == ktls.cnxnHandshakeLimit
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ Reduce the encrypted connection load on ONTAP to avoid reaching the maximum conc
 ONTAP reached the maximum limit of %d concurrent TLS connection handshakes. If this limit is reached, subsequent TLS connections will fail.
 *Parameters*::
 *maxTLSConnHandles* (INT): Maximum number of concurrent TLS connection handshakes.
+

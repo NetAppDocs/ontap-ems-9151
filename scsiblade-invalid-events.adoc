@@ -14,6 +14,9 @@ summary: scsiblade.invalid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+scsiblade.invalid EMS events occur when a SCSI command requests a transfer length greater than the LUN's maximum supported transfer length of 1MB.
+
 == scsiblade.invalid.xfer.len
 *Severity*::
 NOTICE
@@ -28,3 +31,4 @@ Host type %s sent command opcode 0x%x with a transfer length of %lld bytes, whic
 *opcode* (INT): SCSI opcode.
 *length* (LONGINT): Request transfer length.
 *LUNSerialNumber* (STRING): Serial number of the LUN.
+

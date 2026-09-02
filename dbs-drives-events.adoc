@@ -14,6 +14,9 @@ summary: dbs.drives events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dbs.drives EMS events occur when Distributed Block Store (DBS) detects one or more failed drives.
+
 == dbs.drives.failed
 *Severity*::
 ERROR
@@ -33,3 +36,4 @@ DBS has detected a failed drive(s). Cluster fault node %u, node UUID %s, drives 
 *cfStatus* (INT): Current status of the cluster fault. 1 = New (just reported), 2 = Existing (updated), 3 = Resolved (closed).
 *cfDetails* (STRING): Description of the cluster fault, including context details.
 *cfExtSrc* (STRING): DBS cluster fault externalSource label created by the CreateClusterFault API command and attached to the fault for testing purposes.
+

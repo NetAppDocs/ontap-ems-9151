@@ -14,6 +14,9 @@ summary: esh.term events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+esh.term EMS events occur when there is an error related to loop termination.
+
 == esh.term.error
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ FORCED TERMINATION ERROR: TERM switch set improperly on ESH %s on channels %s di
 *element* (STRING): ESH module designator (A is the upper module, B is the lower module).
 *channels* (STRING): Channels that have the error if local, PARTNER for high-availability partner, UNUSED if unconnected.
 *shelfID* (INT): Disk shelf ID (1-7) of the disk shelf reporting the error.
+

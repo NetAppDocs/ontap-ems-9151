@@ -14,6 +14,9 @@ summary: vifmgr.migratelifs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vifmgr.migratelifs EMS events occur when ONTAP encounters issues associated with the network load balancing listener and cluster-scoped LIF migration.
+
 == vifmgr.migrateLifs.nlbdDown
 *Severity*::
 ERROR
@@ -41,3 +44,4 @@ The network load balancing listener has started responding via LIF "%s" on Vserv
 *lif* (STRING): LIF name.
 *vserver_name* (STRING): Vserver name.
 *port* (STRING): Network port name.
+

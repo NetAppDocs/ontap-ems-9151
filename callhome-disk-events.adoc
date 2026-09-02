@@ -14,6 +14,9 @@ summary: callhome.disk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.disk EMS events occur when ONTAP encounters issues associated with insufficient spare disks, disk carrier evacuation, low disk throughput, or orphaned drives.
+
 == callhome.disk.carrier.evacuation.notpossible
 *Severity*::
 ALERT
@@ -49,3 +52,4 @@ This message occurs when RAID subsystem detects an orphan or broken drive and is
 Call home for %s.
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

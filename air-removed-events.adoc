@@ -14,6 +14,9 @@ summary: air.removed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+air.removed EMS events occur when there is an inconsistency in the remote lock entry metafile.
+
 == air.removed.remote.lck.entry
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ Remote lock entry %s certification failed: expression %s, source %s, state (%s).
 *condition* (STRING): Initial metadata validation test that failed.
 *source* (STRING): Location of the failing metadata validation test.
 *state* (STRING): Description of the remote lock entry metafile metadata state that was found to be inconsistent.
+

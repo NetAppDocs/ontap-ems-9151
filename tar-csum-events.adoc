@@ -14,6 +14,9 @@ summary: tar.csum events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+tar.csum EMS events occur when ONTAP encounters issues associated with TAR archive checksum operations.
+
 == tar.csum.csumUnsuccessful
 *Severity*::
 NOTICE
@@ -76,3 +79,4 @@ This message occurs when the system accesses a TAR archive and compares the calc
 Stored checksum file does not exist, extracting %s.
 *Parameters*::
 *tgz_path* (STRING): Path to the archive for which a corresponding stored checksum file does not exist.
+

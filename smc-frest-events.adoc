@@ -14,6 +14,9 @@ summary: smc.frest events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+smc.frest EMS events occur when a SnapMirror file restore operation fails to delete a local file restore snapshot on the destination volume.
+
 == smc.frest.snap.delete.fail
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Unable to delete Snapshot copy '%s' from volume '%s'.
 *Parameters*::
 *snapname* (STRING): Snapshot copy that was not deleted.
 *dstpath* (STRING): Path name of the destination volume to which restore was issued.
+

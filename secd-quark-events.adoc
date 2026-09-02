@@ -14,6 +14,9 @@ summary: secd.quark events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+secd.quark EMS events occur when ONTAP encounters issues associated with dynamic DNS (DDNS) updates and Security Identifier (SID) lookups.
+
 == secd.quark.ddns.updt.failure
 *Severity*::
 ERROR
@@ -38,3 +41,4 @@ Failed to lookup the SID for account name "%s" with error "%s".
 *Parameters*::
 *accountName* (STRING): Name of the account whose SID is looked up in the server.
 *errorMsg* (STRING): Error received from the server while doing a SID lookup for the given account name.
+

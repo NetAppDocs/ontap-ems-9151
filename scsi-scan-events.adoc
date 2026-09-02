@@ -14,6 +14,9 @@ summary: scsi.scan events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+scsi.scan EMS events occur when ONTAP encounters issues associated with SCSI transport (xpt) path creation.
+
 == scsi.scan.bus.halted
 *Severity*::
 NOTICE
@@ -37,3 +40,4 @@ Check whether the device is connected correctly.
 The path that is creating the xpt path has failed with status 0x%x. Bus scan halted.
 *Parameters*::
 *status* (INTHEX): SCSI scan LUN halted status.
+

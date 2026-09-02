@@ -14,6 +14,9 @@ summary: boot.shutdown events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+boot.shutdown EMS events occur when an error is detected while shutting down the system.
+
 == boot.shutdown.issue
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Contact NetApp technical support.
 Failed to shutdown the system. Error: %s
 *Parameters*::
 *err_str* (STRING): Error string.
+

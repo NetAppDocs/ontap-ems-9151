@@ -14,6 +14,9 @@ summary: nvd.biodone events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nvd.biodone EMS events occur when ONTAP encounters issues associated with block I/O operations.
+
 == nvd.biodone.bio.flush.error
 *Severity*::
 NOTICE
@@ -40,3 +43,4 @@ I/O for opcode: 0x%x returned with error code: %d for device: %s.
 *opcode* (INTHEX): SCSI opcode.
 *bio_error* (INT): Error code.
 *dev_path* (STRING): Device path.
+

@@ -14,6 +14,9 @@ summary: replication.givebackcancel events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+replication.givebackcancel EMS events occur when a 'giveback' command is issued while a SnapMirror(R) or SnapVault(R) transfer is in progress.
+
 == replication.givebackCancel
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ This message occurs when a 'giveback' command is issued while a SnapMirror(R) or
 %s transfer in progress or in-sync; canceling giveback.
 *Parameters*::
 *rtype* (STRING): Replication type (SnapMirror, SnapVault, and so on.).
+

@@ -14,6 +14,9 @@ summary: bridge.discovered events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+bridge.discovered EMS events occur when the system discovers an FC-to-SAS bridge.
+
 == bridge.discovered
 *Severity*::
 INFORMATIONAL
@@ -29,3 +32,4 @@ FC-to-SAS bridge %s [%s %s %s] S/N [%s] was discovered.
 *bridgeModel* (STRING): Model name of the bridge.
 *bridgeRevision* (STRING): Firmware revision of the bridge.
 *bridgeSerialNum* (STRING): Serial number of the bridge.
+

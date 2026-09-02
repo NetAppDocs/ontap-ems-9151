@@ -14,6 +14,9 @@ summary: ses.loop events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ses.loop EMS events occur when ONTAP encounters issues associated with disk shelf loop configuration.
+
 == ses.loop.configErr
 *Severity*::
 ALERT
@@ -53,3 +56,4 @@ For Fibre Channel disk shelves, check whether disk drives are connected to slots
 Loop map unavailable for loop on channel %s. Could not check for unsupported disk shelf configurations.
 *Parameters*::
 *channelName* (STRING): Name of the channel on which the loop map was unavailable.
+

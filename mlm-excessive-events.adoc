@@ -14,6 +14,9 @@ summary: mlm.excessive events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mlm.excessive EMS events occur when ONTAP(R) detects that the average SCSI I/O command latency on the target port of the array exceeds the set threshold.
+
 == mlm.excessive.TPlatency
 *Severity*::
 NOTICE
@@ -27,3 +30,4 @@ Average latency of %dus on target port %s, has exceeded %dus
 *avg_latency* (INT): Current average latency of commands for the array target port in microseconds.
 *wwpn* (STRING): World Wide Port Name of the array target port on which the excessive latency was detected.
 *threshold* (INT): Threshold value for excessive average latency in microseconds.
+

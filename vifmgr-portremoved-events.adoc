@@ -14,6 +14,9 @@ summary: vifmgr.portremoved events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vifmgr.portremoved EMS events occur when ONTAP encounters issues associated with ports being removed because they no longer exist.
+
 == vifmgr.portRemoved
 *Severity*::
 NOTICE
@@ -62,3 +65,4 @@ LIF %s (Vserver %s), IP addr %s moving to node %s port %s from node %s port %s: 
 *toPort* (STRING): Name of the port to which the LIF is moving.
 *fromNode* (STRING): Name of the node from which the LIF is moving.
 *fromPort* (STRING): Name of the port from which the LIF is moving.
+

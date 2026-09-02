@@ -14,6 +14,9 @@ summary: mgmt.keymgr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mgmt.keymgr EMS events occur when the system cannot delete the key ID associated with the encrypted aggregate from the key management server.
+
 == mgmt.keymgr.keyid.noDelete
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Encrypted aggregate "%s" with UUID "%s" has been deleted. The key ID "%s" was as
 *name* (STRING): Aggregate name.
 *uuid* (STRING): Unique identifier of the aggregate when the aggregate name by itself is insufficient.
 *key_id* (STRING): Unique key ID used by the encrypted aggregate.
+

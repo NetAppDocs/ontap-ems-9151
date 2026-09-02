@@ -14,6 +14,9 @@ summary: cpeer.receiver events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cpeer.receiver EMS events occur when an incoming cluster peer request using the system-generated passphrase.
+
 == cpeer.receiver.noindex
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ The cluster peer request from the remote cluster (%s) using the system-generated
 *Parameters*::
 *remote_cluster_details* (STRING): Remote cluster name.
 *ppindex* (INT): Cluster peer passphrase index.
+

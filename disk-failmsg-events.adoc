@@ -14,6 +14,9 @@ summary: disk.failmsg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.failmsg EMS events occur when a drive is marked failed, is being sanitized, or has entered Maintenance Center.
+
 == disk.failmsg
 *Deprecated*::
 Deprecated as of ONTAP 9.5 - replaced by disk.outOfService.
@@ -31,3 +34,4 @@ Disk %s (%s)%s. %d %s
 *reason* (STRING): Reason for the failure.
 *powerOnTime* (INTHEX): Time, in minutes, that the drive was powered on when the failure occurred.
 *disk_information* (STRING): Formatted information about the disk. This includes the disk's vendor, model, firmware revision, and serial number.
+

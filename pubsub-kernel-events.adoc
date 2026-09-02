@@ -14,6 +14,9 @@ summary: pubsub.kernel events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+pubsub.kernel EMS events occur when ONTAP encounters issues associated with kernel publish-subscribe (pubsub) operations.
+
 == pubsub.kernel.flow.control.enabled
 *Deprecated*::
 This event is deprecated as of 9.10.0.
@@ -48,3 +51,4 @@ Kernel pubsub failed to send message with topic %s, object %s, object UUID %s, o
 *object_uuid* (STRING): Object UUID of the message.
 *operation* (STRING): Operation of the message.
 *error_code* (INT): Error code associated with the failure.
+

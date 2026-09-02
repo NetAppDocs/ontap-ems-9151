@@ -14,6 +14,9 @@ summary: disk.lostwritedetected events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.lostwritedetected EMS events occur when the system detects a lost write.
+
 == disk.lostwriteDetected
 *Severity*::
 ERROR
@@ -31,3 +34,4 @@ Disk level lost write detected on WRITE VERIFY: Disk %s, Block #%llu: Volume %s,
 *block* (LONGINT): File block ID.
 *cksum* (INTHEX): Expected checksum.
 *cksum2* (INTHEX): Computed checksum.
+

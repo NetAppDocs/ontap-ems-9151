@@ -14,6 +14,9 @@ summary: san.fcnvmeunsupportedport events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+san.fcnvmeunsupportedport EMS events occur in MetroCluster(tm) configurations on clustered Data ONTAP(R) systems, when Data ONTAP has an FC NVMe (Nonvolatile Memory Express) logical interface (LIF) hosted on an unsupported FC port.
+
 == san.FcNvmeUnsupportedPort
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Port "%s" on node "%s" does not support hosting FC-NVMe LIF "%s".
 *port* (STRING): Unsupported port that hosts the FC-NVMe LIF.
 *node* (STRING): Name of the node on which the LIF is hosted.
 *lif* (STRING): Name of the FC-NVMe LIF hosted on unsupported FC port.
+

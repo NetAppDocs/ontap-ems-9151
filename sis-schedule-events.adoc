@@ -14,6 +14,9 @@ summary: sis.schedule events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sis.schedule EMS events occur when ONTAP encounters issues associated with Single Instance Storage (SIS) schedules.
+
 == sis.schedule.notify.change
 *Severity*::
 NOTICE
@@ -52,3 +55,4 @@ Efficiency policy for volume %s%s is not valid and has been replaced with defaul
 *Parameters*::
 *volume* (STRING): Volume name.
 *volident* (STRING): To uniquely identify the volume in cases where volume name itself is insufficient.
+

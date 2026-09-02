@@ -14,6 +14,9 @@ summary: repl.logical events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+repl.logical EMS events occur when ONTAP encounters issues associated with data warehouse rebuilds and logical replication.
+
 == repl.logical.dw.rebuild
 *Severity*::
 INFORMATIONAL
@@ -76,3 +79,4 @@ This message occurs when a SnapMirror(R) transfer uses logical mode after a prev
 *srcVersionImageUuid* (STRING): Source transfer version Snapshot copy UUID.
 *rawDirsSupported* (INT): Indicates whether the destination believes raw directory transfer is supported.
 *rawDirsRequired* (INT): Indicates whether the destination believes raw directory transfer is required.
+

@@ -14,6 +14,9 @@ summary: revert.ufmt events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+revert.ufmt EMS events occur when ONTAP encounters issues associated with unified object format conversion operations.
+
 == revert.ufmt.cap.tier.full
 *Severity*::
 ALERT
@@ -109,3 +112,4 @@ This message occurs when the revert operation to convert unified object format i
 The operation to revert the object format to the native format paused on aggregate "%s" because the tiering of unified format objects to the object store is pending.
 *Parameters*::
 *aggregate_name* (STRING): Aggregate name.
+

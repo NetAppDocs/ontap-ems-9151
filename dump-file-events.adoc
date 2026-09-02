@@ -14,6 +14,9 @@ summary: dump.file events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dump.file EMS events occur when the dump engine encounters an NFS security label during any type of dump operation.
+
 == dump.file.has.security.label
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when the dump engine encounters an NFS security label during
 The dump engine encountered one or more inodes with NFS security labels. The dump engine will back up the inodes but will not back up the associated security labels.
 *Parameters*::
 *src_path* (STRING): Path being backed up.
+

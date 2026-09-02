@@ -14,6 +14,9 @@ summary: app.log events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+app.log EMS events occur when ONTAP encounters issues associated with application events and messages from remote client applications.
+
 == app.log.alert
 *Severity*::
 ALERT
@@ -98,3 +101,4 @@ This event is issued when an application is notifing of a certain event.
 *eventID* (INT): Application eventID.
 *category* (STRING): Event category.
 *subject* (STRING): Event description.
+

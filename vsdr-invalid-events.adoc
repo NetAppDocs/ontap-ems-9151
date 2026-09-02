@@ -14,6 +14,9 @@ summary: vsdr.invalid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vsdr.invalid EMS events occur when a package is licensed at the primary site but not licensed at the secondary site in a MetroCluster(tm) configuration or Vserver DR setup.
+
 == vsdr.invalid.license
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Configuration replication on vserver %s failed due to an invalid license for pac
 *Parameters*::
 *vserver_name* (STRING): Name of the Vserver.
 *package_name* (STRING): Name of the package for which the license is to be added.
+

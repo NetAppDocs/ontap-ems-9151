@@ -14,6 +14,9 @@ summary: upgrademgr.update events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+upgrademgr.update EMS events occur when ONTAP encounters issues associated with automated cluster update operations.
+
 == upgrademgr.update.cancelled
 *Severity*::
 INFORMATIONAL
@@ -85,3 +88,4 @@ This message occurs when the upgrade manager begins an automated update of the c
 An automated update of the cluster has been started.
 *Parameters*::
 (None).
+

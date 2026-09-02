@@ -14,6 +14,9 @@ summary: connectx.iblinkretrainnotreqd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+connectx.iblinkretrainnotreqd EMS events occur when the software detects that the previous InfiniBand link training was successful.
+
 == connectx.IBLinkRetrainNotReqd
 *Severity*::
 INFORMATIONAL
@@ -26,3 +29,4 @@ InfiniBand Link training was successful for ConnectX in slot %d, port %d.
 *Parameters*::
 *pcie_slot* (INT): PCIe slot in which ConnectX is present.
 *port_num* (INT): Port number where the success was detected.
+

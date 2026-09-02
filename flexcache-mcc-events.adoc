@@ -14,6 +14,9 @@ summary: flexcache.mcc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+flexcache.mcc EMS events occur when a FlexCache(R) configuration refresh operation fails during MetroCluster(tm) switchover and switchback.
+
 == flexcache.mcc.refresh.failed
 *Severity*::
 ERROR
@@ -29,3 +32,4 @@ FlexCache configuration refresh failed on peer Vserver %s for peer volume %s and
 *peerEndPointType* (STRING): Peer endpoint type.
 *clusterUuid* (STRING): UUID of the cluster with the peer endpoint.
 *localVserverUuid* (STRING): UUID of the local Vserver.
+

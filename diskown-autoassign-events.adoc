@@ -14,6 +14,9 @@ summary: diskown.autoassign events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+diskown.autoassign EMS events occur when ONTAP encounters issues associated with automatic disk assignment.
+
 == diskown.AutoAssign.MultipleOwners
 *Severity*::
 ERROR
@@ -52,3 +55,4 @@ Automatic assigning failed for disk "%s" (S/N "%s") because none of the disks on
 *Parameters*::
 *diskname* (STRING): Name of the disk.
 *serialno* (STRING): Serial number of the disk.
+

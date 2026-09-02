@@ -14,6 +14,9 @@ summary: diskown.ilv events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+diskown.ilv EMS events occur when ONTAP encounters issues associated with interleaved-half-shelf based drive assignment.
+
 == diskown.ilv.hShlf.invShlf
 *Severity*::
 ERROR
@@ -50,3 +53,4 @@ Interleaved-half-shelf based automatic drive assignment for shelf %d is "%s".
 *Parameters*::
 *shelf_id* (INT): Shelf identifier.
 *state* (STRING): Interleaved-half-shelf based automatic drive assignment state.
+

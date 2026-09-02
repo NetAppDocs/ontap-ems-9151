@@ -14,6 +14,9 @@ summary: disk.checksum events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.checksum EMS events occur when ONTAP encounters issues associated with disk checksum verification.
+
 == disk.checksum.offlineAdapter
 *Severity*::
 ALERT
@@ -41,3 +44,4 @@ Disk level checksum verification failed on WRITE VERIFY: Disk %s, Block #%llu: V
 *vol* (STRING): Volume name.
 *fileid* (INT): File ID.
 *block* (LONGINT): File block ID.
+

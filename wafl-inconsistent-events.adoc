@@ -14,6 +14,9 @@ summary: wafl.inconsistent events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.inconsistent EMS events occur when ONTAP encounters issues associated with WAFL(R) file system consistency.
+
 == wafl.inconsistent.acl
 *Severity*::
 ERROR
@@ -252,3 +255,4 @@ Contact NetApp technical support.
 *type* (STRING): Container type (volume or aggregate).
 *owner* (STRING): Volume owner.
 *vol* (STRING): Volume name.
+

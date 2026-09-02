@@ -14,6 +14,9 @@ summary: dfu.fwdownloadfailedmultfiles events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dfu.fwdownloadfailedmultfiles EMS events occur when more than one file is found for downloading to an ATA drive.
+
 == dfu.fwDownloadFailedMultFiles
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ Download failed due to multiple firmware files found for Disk type [%s %s].
 *Parameters*::
 *vendorName* (STRING): Vendor name of the disk.
 *productId* (STRING): Product ID of the disk.
+

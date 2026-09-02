@@ -14,6 +14,9 @@ summary: fci.config events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fci.config EMS events occur when ONTAP encounters issues associated with configurable Fibre Channel adapter state changes.
+
 == fci.config.autoReboot
 *Severity*::
 NOTICE
@@ -90,3 +93,4 @@ Fibre Channel %s adapter %s is in the %s state.
 *type* (STRING): Current adapter type.
 *adapter* (STRING): Name of the associated Fibre Channel adapter.
 *state* (STRING): Configured adapter state.
+

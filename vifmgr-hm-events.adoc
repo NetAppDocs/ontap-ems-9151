@@ -14,6 +14,9 @@ summary: vifmgr.hm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vifmgr.hm EMS events occur when a health monitor has been fully activated for an IPspace.
+
 == vifmgr.hm.promoted
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ The %s has been promoted on IPspace %s.
 *Parameters*::
 *monitor* (STRING): Health monitor name.
 *ipspace* (STRING): IPspace name for which the health monitor has been promoted.
+

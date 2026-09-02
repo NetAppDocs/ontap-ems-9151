@@ -14,6 +14,9 @@ summary: netport.eth events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+netport.eth EMS events occur when a physical network port has been discovered.
+
 == netport.eth.discovered
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Physical network port %s (node %s) has been discovered.
 *Parameters*::
 *port* (STRING): Name of the network port.
 *node* (STRING): Name of the node on which the network port resides.
+

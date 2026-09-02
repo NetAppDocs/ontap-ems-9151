@@ -14,6 +14,9 @@ summary: nblade.fpolpsvolmoving events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.fpolpsvolmoving EMS events occur when the FPolicy persistent store volume is being moved.
+
 == Nblade.fpolPsVolMoving
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ FPolicy persistent store volume "%s" belonging to SVM "%s" is being moved.
 *Parameters*::
 *volName* (STRING): Persistent store volume.
 *vserverName* (STRING): Name of the SVM.
+

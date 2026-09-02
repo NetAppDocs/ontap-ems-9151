@@ -14,6 +14,9 @@ summary: secd.nfsauth events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+secd.nfsauth EMS events occur when ONTAP encounters issues associated with NFS authorization.
+
 == secd.nfsAuth.noCifsCred
 *Severity*::
 ERROR
@@ -91,3 +94,4 @@ vserver (%s) General NFS authorization problem. %s
 *Parameters*::
 *vserverName* (STRING): vserver associated with this operation.
 *failureDetail* (STRING): Error journal is a collection of events leading up to a failure. This failure is likely to impact many (if not all) users, and might reflect a misconfiguration or environmental problem..
+

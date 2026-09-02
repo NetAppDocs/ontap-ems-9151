@@ -14,6 +14,9 @@ summary: lmgr.vol events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lmgr.vol EMS events occur when a volume cannot reclaim certain file locks when the system attempts to bring it online.
+
 == lmgr.vol.lock.reclaim.partial
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ Lock reclaims for volume %s are partial due to the following error: %s.
 *Parameters*::
 *vol* (STRING): The name of the volume.
 *error* (STRING): Error code.
+

@@ -14,6 +14,9 @@ summary: nblade.cifs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.cifs EMS events occur when ONTAP encounters issues associated with CIFS subsystem memory allocation and logon operations.
+
 == Nblade.cifs.budgetAllocFailure
 *Severity*::
 ERROR
@@ -39,3 +42,4 @@ Use the command "event log show -messagename adt.service.block" to check for des
 CIFS logon failed due to audit log generation failure for the vserver %u.
 *Parameters*::
 *vsId* (INT): Id of the vserver, on which this event occurred.
+

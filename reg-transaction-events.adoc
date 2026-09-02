@@ -14,6 +14,9 @@ summary: reg.transaction events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+reg.transaction EMS events occur when ONTAP encounters issues associated with registry transaction commits.
+
 == reg.transaction.commitFail
 *Severity*::
 ERROR
@@ -51,3 +54,4 @@ registry: Transaction cannot set "%s" to "%s".
 *Parameters*::
 *key* (STRING): Registry key that should have been changed.
 *value* (STRING): Value that the key should have been changed to.
+

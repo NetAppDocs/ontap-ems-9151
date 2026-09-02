@@ -14,6 +14,9 @@ summary: raid.multierr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+raid.multierr EMS events occur when ONTAP encounters issues associated with multiple RAID errors exceeding protection levels.
+
 == raid.multierr.bad.block
 *Severity*::
 ERROR
@@ -265,3 +268,4 @@ Marking '%s%s', block number [%llu - %llu], volume block number [%llu - %llu], a
 *disk_rpm* (STRING): Rotational speed of the disk, in RPM.
 *carrier* (STRING): Unique ID of the carrier in which the disk is installed.
 *site* (STRING): For a MetroCluster(R) configuration, indicates the site {Local|Remote} where the disk is located. For non-MetroCluster configurations, site is 'Local'.
+

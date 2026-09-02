@@ -14,6 +14,9 @@ summary: san.mccvserverinitfailed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+san.mccvserverinitfailed EMS events occur in MetroCluster(TM) configurations on clustered Data ONTAP(R) systems when SAN Vserver failed to initialize during a switchover or switchback operation.
+
 == san.MCCVserverInitFailed
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ The Vserver %s failed to initialize. Reason: %s. Contact NetApp technical suppor
 *Parameters*::
 *vserver* (STRING): The SAN Vserver that failed to initialize.
 *reason* (STRING): The reason for failure.
+

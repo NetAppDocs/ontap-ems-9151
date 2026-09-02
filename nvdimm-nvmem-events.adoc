@@ -14,6 +14,9 @@ summary: nvdimm.nvmem events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nvdimm.nvmem EMS events occur when ONTAP encounters issues associated with NVDIMM-based NVMEM subsystem operations and checks.
+
 == nvdimm.nvmem.checkfail
 *Severity*::
 EMERGENCY
@@ -85,3 +88,4 @@ This message occurs when all NVDIMM devices have restored nonvolatile data from 
 NVMEM subsystem successfully restored nonvolatile data from flash memory on NVDIMM device in %ld seconds.
 *Parameters*::
 *seconds* (INT): Time taken by the restage operation.
+

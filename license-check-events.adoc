@@ -14,6 +14,9 @@ summary: license.check events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+license.check EMS events occur when ONTAP encounters issues associated with the license checker and Base license validation.
+
 == license.check.expired
 *Severity*::
 ERROR
@@ -124,3 +127,4 @@ The license for package "%s" expires on %s.
 *Parameters*::
 *package* (STRING): Name of the license package.
 *expiration* (STRING): Expiration date.
+

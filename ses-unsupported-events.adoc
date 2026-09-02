@@ -14,6 +14,9 @@ summary: ses.unsupported events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ses.unsupported EMS events occur when ONTAP encounters issues associated with unsupported disk shelf power supplies.
+
 == ses.unsupported.shelf.psu
 *Severity*::
 EMERGENCY
@@ -61,3 +64,4 @@ Part number %s not supported on Product ID %s. %s and other shelves: %d unsuppor
 *ProdId* (STRING): Product identification of the shelf with unsupported power supply.
 *prodChannel* (STRING): Disk shelf identity (channel and shelf number).
 *psCount* (INT): Number of unsupported power supplies on the shelf.
+

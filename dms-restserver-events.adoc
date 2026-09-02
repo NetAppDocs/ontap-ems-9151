@@ -14,6 +14,9 @@ summary: dms.restserver events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dms.restserver EMS events occur when the system hits an error in enabling SSL authentication in the rest server.
+
 == dms.restserver.ssl.disabled
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Check that the SSL certificates and keys given to the rest server are accessible
 Failed to set SSL authentication in DMAP rest server due to %s
 *Parameters*::
 *error* (STRING): Text describing the error.
+

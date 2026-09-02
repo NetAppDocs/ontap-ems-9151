@@ -14,6 +14,9 @@ summary: callhome.battery events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.battery EMS events occur when ONTAP encounters issues associated with NVRAM battery capacity, charging, temperature, or environmental conditions.
+
 == callhome.battery.failure
 *Severity*::
 EMERGENCY
@@ -87,3 +90,4 @@ Correct any environmental issues, such as a high ambient temperature. If the con
 Call home for %s WARNING.
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

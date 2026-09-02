@@ -14,6 +14,9 @@ summary: pac.access events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+pac.access EMS events occur when the access is denied or unsuccessful for the specified source host, destination host, and network interface combination.
+
 == pac.access
 *Severity*::
 INFORMATIONAL
@@ -30,3 +33,4 @@ If you want to provide access, then modify 'options.(protocol).access' to allow 
 *srcIpAdr* (STRING): Source IP address.
 *dstIpAdr* (STRING): Destination IP address.
 *protocol2* (STRING): Protocol.
+

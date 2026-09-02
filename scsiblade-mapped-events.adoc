@@ -14,6 +14,9 @@ summary: scsiblade.mapped events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+scsiblade.mapped EMS events occur when a mapped NVMe namespace attribute changes as a result of a management operation.
+
 == scsiblade.mapped.ns.attr.mod
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ The Namespace attributes of the Namespace with Vdisk ID '%s' in volume with MSID
 *vdiskId* (STRING): Vdisk ID of the LUN.
 *volume* (LONGINTHEX): Volume identifier.
 *vserver* (STRING): UUID of the Vserver that hosts the LUN.
+

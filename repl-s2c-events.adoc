@@ -14,6 +14,9 @@ summary: repl.s2c events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+repl.s2c EMS events occur when ONTAP encounters issues associated with SnapMirror(R) cloud operations and checksum verification.
+
 == repl.s2c.checksum.mismatch
 *Severity*::
 ERROR
@@ -129,3 +132,4 @@ Replication specific metadata inconsistency in volume '%s%s%s'. Aborting transfe
 *vol* (STRING): Name of the volume.
 *app* (STRING): Application UUID.
 *volident* (STRING): Unique identifier of the volume in cases where the volume name itself is insufficient.
+

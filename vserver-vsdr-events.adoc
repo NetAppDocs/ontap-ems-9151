@@ -14,6 +14,9 @@ summary: vserver.vsdr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vserver.vsdr EMS events occur when ONTAP encounters issues associated with auditing-configured Vservers operating in Async Vserver-DR Read-Only mode.
+
 == vserver.vsdr.adt.romode
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ None.
 Vserver %s is configured with auditing support in Async Vserver-Disaster Recovery setup.
 *Parameters*::
 *vserver_name* (STRING): Name of the Vserver that is in Async Vserver-Disaster Recovery Read only mode.
+

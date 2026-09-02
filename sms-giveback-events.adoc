@@ -14,6 +14,9 @@ summary: sms.giveback events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sms.giveback EMS events occur during an SFO aggregate giveback, when the SnapMirror(R) subsystem indicates that giveback should be vetoed but the veto was overridden by the automated nondisruptive update procedure.
+
 == sms.giveback.veto.override
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs during an SFO aggregate giveback, when the SnapMirror(R) sub
 snapmirror subsystem veto was overridden during giveback operation of "%s" aggregate.
 *Parameters*::
 *aggregate* (STRING): Name of the aggregate.
+

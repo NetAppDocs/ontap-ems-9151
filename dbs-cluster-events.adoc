@@ -14,6 +14,9 @@ summary: dbs.cluster events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dbs.cluster EMS events occur when ONTAP encounters issues associated with Distributed Block Store (DBS) cluster operations, such as capacity and master management.
+
 == dbs.cluster
 *Severity*::
 NOTICE
@@ -69,3 +72,4 @@ A DBS cluster master event %s of type %s occurred for Service ID %u on node %u/%
 *driveUuid* (STRING): Generated UUID of the associated drive. It displays zeroes if there is no associated drive.
 *evtID* (INT): DBS event ID number.
 *evtDetails* (STRING): Specific details of the DBS event. It displays as a string, in JSON format, or is empty.
+

@@ -14,6 +14,9 @@ summary: raid.pmdopt events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+raid.pmdopt EMS events occur when ONTAP encounters issues associated with the raid.panic.missing.disks option.
+
 == raid.pmdOpt.misconfigured
 *Severity*::
 ERROR
@@ -64,3 +67,4 @@ Change the option 'raid.panic.missing.disks' to a more appropriate value (0, or 
 The option 'raid.panic.missing.disks' is set to 1, which causes the system to panic and halt on any disk failure. Change the option as soon as possible.
 *Parameters*::
 (None).
+

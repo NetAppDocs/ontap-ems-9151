@@ -14,6 +14,9 @@ summary: fp.est events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fp.est EMS events occur when ONTAP encounters issues associated with volume footprint estimator scan operations.
+
 == fp.est.scan.catalog.failed
 *Severity*::
 ERROR
@@ -57,3 +60,4 @@ Volume footprint estimator scan fails to start on "%s" - %s.
 *Parameters*::
 *vol* (STRING): Volume name.
 *fail_message* (STRING): Scan failure reason.
+

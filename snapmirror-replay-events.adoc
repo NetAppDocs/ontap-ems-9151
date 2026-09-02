@@ -14,6 +14,9 @@ summary: snapmirror.replay events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+snapmirror.replay EMS events occur when metadata replay fails in the process of making a Synchronous SnapMirror(R) destination flexible volume writable.
+
 == snapmirror.replay.failed
 *Severity*::
 EMERGENCY
@@ -25,3 +28,4 @@ There is no way to recover from this data loss.
 Synchronous SnapMirror failed to replay metadata up until the last consistency point during snapmirror break for volume '%s'.
 *Parameters*::
 *dst_volume* (STRING): The name of the Synchronous SnapMirror(R) destination volume
+

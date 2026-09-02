@@ -14,6 +14,9 @@ summary: cache.ttl events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cache.ttl EMS events occur on the last node during the upgrade to ONTAP(R) 9.3, if the default TTL values of any of the SecD or NFS export caches are changed.
+
 == cache.ttl.settings.change
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Use the "vserver services name-service cache" commands to configure TTL values a
 One or more default cache TTL values for SecD and NFS export caches have been changed.
 *Parameters*::
 (None).
+

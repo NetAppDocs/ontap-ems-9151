@@ -14,6 +14,9 @@ summary: fci.sfp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fci.sfp EMS events occur when an invalid Small Form-factor Pluggable (SFP) is inserted into the adapter.
+
 == fci.sfp.invalid
 *Severity*::
 ERROR
@@ -26,3 +29,4 @@ The SFP in FC adapter %s is not valid. (%s)
 *Parameters*::
 *port* (STRING): Name of the adapter port.
 *reason* (STRING): Reason for Invalid SFP.
+

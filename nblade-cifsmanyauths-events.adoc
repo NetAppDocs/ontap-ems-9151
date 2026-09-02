@@ -14,6 +14,9 @@ summary: nblade.cifsmanyauths events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.cifsmanyauths EMS events occur when many authentication negotiations occur simultaneously.
+
 == Nblade.cifsManyAuths
 *Severity*::
 ERROR
@@ -28,3 +31,4 @@ Many simultaneous new CIFS connections are occurring on Vserver ID %u from IP ad
 *remoteIpAddress* (STRING): IP address of the client machine.
 *object_type* (STRING): Type of the resource object under notification.
 *object_uuid* (STRING): UUID of the Vserver.
+

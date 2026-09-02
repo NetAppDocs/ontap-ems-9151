@@ -14,6 +14,9 @@ summary: vserver.name events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vserver.name EMS events occur when ONTAP encounters issues associated with Vserver name conflicts during rename operations.
+
 == vserver.name.conflict.local
 *Severity*::
 NOTICE
@@ -40,3 +43,4 @@ Vserver name conflict occured in peer cluster %s with existing local or peer Vse
 *peer_cluster* (STRING): Peer cluster name.
 *vserver_name* (STRING): Vserver name that caused the renaming conflict.
 *unique_vsname* (STRING): Unique Vserver name that Peer cluster has assigned.
+

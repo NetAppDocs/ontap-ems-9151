@@ -14,6 +14,9 @@ summary: cmd.shelfchk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cmd.shelfchk EMS events occur when ONTAP encounters issues associated with disk shelf cabling and configuration verification.
+
 == cmd.shelfchk.config.OK
 *Severity*::
 INFORMATIONAL
@@ -37,3 +40,4 @@ Verify that the adapters and storage shelves are cabled correctly.
 Disk Configuration - Failure Identified by Operator.
 *Parameters*::
 (None).
+

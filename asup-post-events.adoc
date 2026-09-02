@@ -14,6 +14,9 @@ summary: asup.post events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+asup.post EMS events occur when the AutoSupport(R) mechanism quits trying to post to the NetApp URL after having retried for the specified number of times.
+
 == asup.post.drop
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Use the "system node autosupport check show-details" command to check for connec
 AutoSupport message (%s) was not posted to NetApp. The system will drop the message.
 *Parameters*::
 *subject* (STRING): AutoSupport message title.
+

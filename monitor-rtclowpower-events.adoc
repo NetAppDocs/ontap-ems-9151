@@ -14,6 +14,9 @@ summary: monitor.rtclowpower events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+monitor.rtclowpower EMS events occur when the real-time clock (RTC) battery is at a dangerously low power level.
+
 == monitor.rtcLowPower
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Replace the real-time clock battery.
 Real-time clock battery is dangerously low. Replace it at the next available maintenance window.
 *Parameters*::
 (None).
+

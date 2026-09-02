@@ -14,6 +14,9 @@ summary: callhome.wafl events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.wafl EMS events occur when ONTAP encounters issues associated with WAFL(R) file system integrity.
+
 == callhome.wafl.check
 *Severity*::
 ALERT
@@ -73,3 +76,4 @@ Check the appliance's log for valuable information that WAFL Iron might have rep
 Call home for WAFL IRON COMPLETED
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

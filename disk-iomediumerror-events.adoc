@@ -14,6 +14,9 @@ summary: disk.iomediumerror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.iomediumerror EMS events occur when the drive reports a medium error.
+
 == disk.ioMediumError
 *Severity*::
 NOTICE
@@ -36,3 +39,4 @@ Medium error on disk %s: op %s sector %llu %s - %s %s (%x %x %x %x) (%d) %s
 *fru_failed* (INTHEX): Actual FRU code.
 *CTime* (INT): Time, in milliseconds, from when the command was first issued until this I/O operation completed.
 *disk_information* (STRING): Formatted information about the disk. This includes the disk's vendor, model, firmware revision, and serial number.
+

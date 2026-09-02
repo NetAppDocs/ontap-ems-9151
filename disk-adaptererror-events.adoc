@@ -14,6 +14,9 @@ summary: disk.adaptererror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+disk.adaptererror EMS events occur when an adapter error is detected.
+
 == disk.adapterError
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ Disk %s: unexpected adapter error 0x%x
 *Parameters*::
 *diskName* (STRING): Name of the device.
 *error* (INTHEX): Adapter status.
+

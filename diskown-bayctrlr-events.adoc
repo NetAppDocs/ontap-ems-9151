@@ -14,6 +14,9 @@ summary: diskown.bayctrlr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+diskown.bayctrlr EMS events occur when ONTAP encounters issues associated with determining controller addresses for bay-based disk assignment.
+
 == diskown.bayctrlr
 *Severity*::
 NOTICE
@@ -39,3 +42,4 @@ This message occurs when disks in a shelf are not assigned to the current node.
 Cannot make determination of controller address.
 *Parameters*::
 (None).
+

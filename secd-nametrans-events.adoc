@@ -14,6 +14,9 @@ summary: secd.nametrans events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+secd.nametrans EMS events occur when ONTAP encounters issues associated with name mapping and resolution.
+
 == secd.nameTrans.groupNotFound
 *Severity*::
 ERROR
@@ -91,3 +94,4 @@ vserver (%s) could not resolve the user name (%s) by any of the entities in the 
 *Parameters*::
 *vserverName* (STRING): vserver associated with this operation.
 *userName* (STRING): Name of the user that could not be converted to an ID.
+

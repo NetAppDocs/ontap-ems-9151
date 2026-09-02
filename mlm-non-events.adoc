@@ -14,6 +14,9 @@ summary: mlm.non events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mlm.non EMS events occur when Data ONTAP(R) detects non-optimized usage of an array's target port.
+
 == mlm.non.optimized.TPusage
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Detected non-optimized usage of a array's target port. WWPN: %s, average service
 *wwpn* (STRING): World Wide Port Name of the array's target port which the non-optimized usage was detected on.
 *avg_service* (INT): Current average service time of I/O commands for the array's target port in microseconds.
 *avg_latency* (INT): Current average latency of I/O commands for the array's target port in microseconds.
+

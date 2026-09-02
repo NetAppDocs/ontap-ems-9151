@@ -14,6 +14,9 @@ summary: raid.recons events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+raid.recons EMS events occur when ONTAP encounters issues associated with RAID group reconstruction operations.
+
 == raid.recons.lw.id.inconsist
 *Severity*::
 NOTICE
@@ -55,3 +58,4 @@ RAID reconstruct multiprocessing is %s (raid.reconstruct.threads: %d rows, RAID 
 *status* (STRING): Whether multiprocessing is enabled or disabled
 *rows* (INT): Number of reconstruct rows ("raid.reconstruct.threads") in use per RAID I/O thread.
 *raidio_nthreads* (INT): Number of RAID I/O threads in use.
+

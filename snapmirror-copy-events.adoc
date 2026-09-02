@@ -14,6 +14,9 @@ summary: snapmirror.copy events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+snapmirror.copy EMS events occur when ONTAP encounters issues associated with SnapMirror(R) copy operations.
+
 == snapmirror.copy.baseLine.done
 *Severity*::
 INFORMATIONAL
@@ -74,3 +77,4 @@ This message occurs when the update time taken by the latest transfer is smaller
 Destination volume %s is ready for final update.
 *Parameters*::
 *dstpath* (STRING): Destination volume.
+

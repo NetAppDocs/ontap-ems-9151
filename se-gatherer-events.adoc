@@ -14,6 +14,9 @@ summary: se.gatherer events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+se.gatherer EMS events occur when ONTAP encounters issues associated with Single Instance Storage (SIS) auto gathering scanner operations.
+
 == se.gatherer.done
 *Severity*::
 NOTICE
@@ -44,3 +47,4 @@ Auto adaptive gathering scanner on volume %s%s could not be triggered for %s due
 *volident* (STRING): To uniquely identify the volume in cases where volume name itself is insufficient.
 *trigger_type* (STRING): Type of the trigger that was attempted.
 *err* (STRING): Error message that caused the failure.
+

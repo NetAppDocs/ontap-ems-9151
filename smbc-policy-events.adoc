@@ -14,6 +14,9 @@ summary: smbc.policy events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+smbc.policy EMS events occur when the system detects during a flip on a SnapMirror(R) Sync relationship that the custom policy has been deleted from the source cluster and automatically falls back to the system policy of type "automated-failover".
+
 == smbc.policy.reassign
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This message occurs when the system detects during a flip on a SnapMirror(R) Syn
 The custom policy has been deleted from the source cluster so the SnapMirror Sync relationship with destination path: %s has been assigned "AutomatedFailover" policy.
 *Parameters*::
 *dstpath* (STRING): Path name of the destination group of the SnapMirror(R) active sync relationship.
+

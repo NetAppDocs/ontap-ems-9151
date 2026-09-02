@@ -14,6 +14,9 @@ summary: netif.linkerrors events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+netif.linkerrors EMS events occur when the driver detects an excessive link error rate.
+
 == netif.linkErrors
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Verify that the cable is securely connected at both ends. Verify that both devic
 Excessive link errors on network interface %s. Might indicate a bad cable, switch port, or NIC, or that a cable connector is not fully inserted in a socket. On a 10/100 port, might indicate a duplex mismatch.
 *Parameters*::
 *ifName* (STRING): Name of the network interface; for example, "e8a".
+

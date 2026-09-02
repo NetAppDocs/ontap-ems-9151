@@ -14,6 +14,9 @@ summary: sms.cg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sms.cg EMS events occur when a SnapMirror(R) Synchronous Automated Failover relationship is part of a cascade configuration.
+
 == sms.cg.cascade.not.supported
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ The source of the relationship %s (msid:%llu and vserver_uuid:%s) is part of of 
 *RelationshipId* (STRING): UUID of the SnapMirror Relationship.
 *volumeMSID* (LONGINT): Volume MSID.
 *vserverUUID* (STRING): vserver instance UUID.
+

@@ -14,6 +14,9 @@ summary: aggrcopy.src events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+aggrcopy.src EMS events occur when we are not able to obtain all the snapshot information, from the vol copy source volume, required for a vol copy transfer.
+
 == aggrcopy.src.snapshotErr
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ This event is issued when we are not able to obtain all the snapshot information
 Aggr copy not able to obtain snapshot information from source aggregate %s
 *Parameters*::
 *srcaggr* (STRING): The aggr copy source volume
+

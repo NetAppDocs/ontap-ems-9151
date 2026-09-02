@@ -14,6 +14,9 @@ summary: ipmultipath.setup events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ipmultipath.setup EMS events occur when ONTAP encounters issues associated with IP Multipath connection setup.
+
 == ipmultipath.setup.bindFailed
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ The destination host information provided to IP Multipath is incorrect or the re
 IP Multipath failed to connect to %s.
 *Parameters*::
 *dst* (STRING): Host name of the remote host.
+

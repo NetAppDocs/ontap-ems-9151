@@ -14,6 +14,9 @@ summary: clus.net events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+clus.net EMS events occur when ONTAP encounters issues associated with cluster network configuration.
+
 == clus.net.noNeighbors
 *Severity*::
 ALERT
@@ -49,3 +52,4 @@ Use the "network options switchless-cluster modify" command to disable support f
 All of the cluster ports are wired to a switch, but the "switchless-cluster" option is enabled.
 *Parameters*::
 (None).
+

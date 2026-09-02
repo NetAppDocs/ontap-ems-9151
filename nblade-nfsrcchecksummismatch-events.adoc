@@ -14,6 +14,9 @@ summary: nblade.nfsrcchecksummismatch events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nblade.nfsrcchecksummismatch EMS events occur when the server detects a retransmitted request from the client with a modified payload.
+
 == Nblade.nfsRCChecksumMismatch
 *Severity*::
 ALERT
@@ -32,3 +35,4 @@ Replay cache checksum mismatch detected in retransmitted NFS request from client
 *remotePort* (INT): Remote port number that sent the data.
 *localAddr* (STRING): IP address of the local interface serving the protocol operation.
 *procedureNum* (INT): RPC Procedure Number for the requested operation.
+

@@ -14,6 +14,9 @@ summary: vifmgr.lifbeingremoved events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vifmgr.lifbeingremoved EMS events occur when a logical interface (LIF) IP address is being removed or moved from the node.
+
 == vifmgr.lifBeingRemoved
 *Severity*::
 NOTICE
@@ -29,3 +32,4 @@ LIF %s (on virtual server %s), IP address %s, is being removed from node %s, por
 *vifip* (STRING): The IP address that is being removed.
 *tonode* (STRING): Name of the node on which the LIF had been hosted.
 *toport* (STRING): Name of the port on which the LIF had been hosted.
+

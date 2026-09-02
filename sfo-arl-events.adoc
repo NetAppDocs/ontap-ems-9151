@@ -14,6 +14,9 @@ summary: sfo.arl events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sfo.arl EMS events occur when ONTAP encounters issues associated with storage failover (SFO) aggregate relocation operations.
+
 == sfo.arl.gb.failed.conversion
 *Severity*::
 ERROR
@@ -55,3 +58,4 @@ This message occurs when the aggregate relocation worker thread receives an unex
 *Parameters*::
 *signal_info* (STRING): Additional information on the signal received, indicating if it was a bad message type or a bad signal mask.
 *signal_value* (INT): Value of the unexpected signal.
+

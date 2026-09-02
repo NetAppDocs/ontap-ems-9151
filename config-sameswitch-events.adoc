@@ -14,6 +14,9 @@ summary: config.sameswitch events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+config.sameswitch EMS events occur when both ports of a disk is found to be attached to the same switch.
+
 == config.SameSwitch
 *Severity*::
 ALERT
@@ -28,3 +31,4 @@ Disks on port %s:%d are also connected to the same switch at port %s:%d. This is
 *port1* (INT): port number of 1st connection.
 *switch2* (STRING): (None).
 *port2* (INT): port number of 2nd connection.
+

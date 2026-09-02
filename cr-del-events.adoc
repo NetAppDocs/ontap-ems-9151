@@ -14,6 +14,9 @@ summary: cr.del events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cr.del EMS events occur when ONTAP encounters issues associated with deleting corrupt or dangling stream data and redirectors.
+
 == CR.Del.CrptStreamData.Fail
 *Deprecated*::
 Deprecated as of Data ONTAP 9.6 because Infinite Volumes no longer exist.
@@ -77,3 +80,4 @@ Deletion failed for dangling stream redirector [%s] on volume [%s] in Vserver [%
 *path* (STRING): Stream path.
 *volume* (STRING): Name of the constituent volume where the redirector resides.
 *vserver* (STRING): Vserver hosting the volume.
+

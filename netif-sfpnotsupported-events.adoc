@@ -14,6 +14,9 @@ summary: netif.sfpnotsupported events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+netif.sfpnotsupported EMS events occur when the installed Small Form-factor Pluggable (SFP+ or QSFP+) module is not supported.
+
 == netif.sfpNotSupported
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ The SFP+ or QSFP+ module (%s %s) installed in %s is not supported with this netw
 *sfpVendor* (STRING): SFP+ or QSFP+ vendor name.
 *sfpPn* (STRING): SFP+ or QSFP+ part number.
 *ifName* (STRING): Name of the network interface; for example, "e2a".
+

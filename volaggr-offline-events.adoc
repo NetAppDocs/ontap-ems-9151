@@ -14,6 +14,9 @@ summary: volaggr.offline events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+volaggr.offline EMS events occur when some aggregates are forced offline.
+
 == volaggr.offline
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Bring all offline aggregates online.
 Some aggregates are offline. Volume creation could cause duplicate FSIDs.
 *Parameters*::
 (None).
+

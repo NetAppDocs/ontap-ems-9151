@@ -14,6 +14,9 @@ summary: sfu.downloadstarted events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sfu.downloadstarted EMS events occur when a disk shelf firmware update starts to download disk shelf firmware.
+
 == sfu.downloadStarted
 *Severity*::
 INFORMATIONAL
@@ -26,3 +29,4 @@ Update of disk shelf firmware started on %d %s.
 *Parameters*::
 *count* (INT): Number of shelves that are starting disk shelf firmware download.
 *pluralShelf* (STRING): Shelf or Shelves.
+

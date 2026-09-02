@@ -14,6 +14,9 @@ summary: diskshelf.unsupported events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+diskshelf.unsupported EMS events occur when ONTAP(R) software detects an unsupported disk shelf.
+
 == diskShelf.unsupported
 *Severity*::
 ALERT
@@ -26,3 +29,4 @@ Disk shelf %s (%s) is unsupported.
 *Parameters*::
 *device* (STRING): Device address of the disk shelf.
 *product_id* (STRING): Product ID of the disk shelf.
+

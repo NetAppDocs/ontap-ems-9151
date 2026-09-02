@@ -14,6 +14,9 @@ summary: asup.smtp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+asup.smtp EMS events occur when ONTAP encounters issues associated with the AutoSupport mechanism delivering email messages via SMTP.
+
 == asup.smtp.drop
 *Severity*::
 ERROR
@@ -49,3 +52,4 @@ Install the correct Root CA certificates for the SMTP server using the "security
 AutoSupport SMTP connection to "%s" failed due to missing Root CA certificate.
 *Parameters*::
 *mailhost* (STRING): Mailhost name.
+

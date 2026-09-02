@@ -14,6 +14,9 @@ summary: master.new events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+master.new EMS events occur when the connection state from a node to the current cluster master has changed.
+
 == master.new.connection.state
 *Severity*::
 NOTICE
@@ -30,3 +33,4 @@ Service ID %u on node ID %u (UUID: %s) has a new MVIP address connection state "
 *currentState* (STRING): Current management virtual IP (MVIP) address connection state.
 *lastKnownClusterMasterServiceID* (INT): Service ID number of the cluster master last known by this node.
 *highestState* (STRING): Best MVIP address connection state reached since the node connected to current cluster master.
+

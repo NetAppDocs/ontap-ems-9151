@@ -14,6 +14,9 @@ summary: lmgr.partner events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lmgr.partner EMS events occur when ONTAP encounters issues associated with partner node mirrored lock state synchronization.
+
 == lmgr.partner.locks.outOfSync
 *Severity*::
 ERROR
@@ -48,3 +51,4 @@ Mirrored lock state is now in sync for %s/%s (DSID %08x) for file %d Snapshot co
 *dsid* (LONGINT): Data set identifier.
 *fileid* (INT): File identifier.
 *snapid* (INT): Snapshot(tm) copy in which the file exists, 0 for the active file system.
+

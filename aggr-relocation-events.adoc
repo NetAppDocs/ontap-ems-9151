@@ -14,6 +14,9 @@ summary: aggr.relocation events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+aggr.relocation EMS events occur when relocation of an aggregate fails.
+
 == aggr.relocation.failed
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Relocation of aggregate %s failed by node %s because %s.
 *aggr* (STRING): Name of the aggregate that was not relocated.
 *node* (STRING): Name of the node that failed the relocation.
 *msg* (STRING): Error that prevented relocation.
+

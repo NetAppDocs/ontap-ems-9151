@@ -14,6 +14,9 @@ summary: logger.usr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+logger.usr EMS events occur when the user runs the 'logger' command.
+
 == logger.usr
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ This event is issued when the user runs the 'logger' command. The parameter indi
 %s
 *Parameters*::
 *message* (STRING): Message passed by the user to the logger command.
+

@@ -14,6 +14,9 @@ summary: diskown.ownernameupdatefailed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+diskown.ownernameupdatefailed EMS events occur when we have to rewrite a DOWN because it is out of date wrt the other DOWNs.
+
 == diskown.OwnerNameUpdateFailed
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ owner name update failed for disk %s (S/N %s)
 *Parameters*::
 *diskname* (STRING): The name of the disk
 *serialno* (STRING): The serial number of the disk
+

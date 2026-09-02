@@ -14,6 +14,9 @@ summary: smc.snapmir events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+smc.snapmir EMS events occur when ONTAP encounters issues associated with SnapMirror(R) operations and relationships.
+
 == smc.snapmir.dst.invalidType
 *Severity*::
 ERROR
@@ -224,3 +227,4 @@ Snapmirror update from source volume '%s' to destination volume '%s' failed with
 *dstpath* (STRING): Path name of the destination volume to which the snapmirror transfer failed.
 *error* (STRING): Error message.
 *relationshipID* (STRING): Relationship UUID.
+

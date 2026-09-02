@@ -14,6 +14,9 @@ summary: monitor.nvmembattery events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+monitor.nvmembattery EMS events occur when the nonvolatile memory (NVMEM) battery charge is low.
+
 == monitor.nvmembattery.warninglow
 *Severity*::
 ALERT
@@ -25,3 +28,4 @@ Replace the NVMEM battery as soon as possible.
 NVMEM battery is low on power and should be replaced as soon as possible.
 *Parameters*::
 (None).
+

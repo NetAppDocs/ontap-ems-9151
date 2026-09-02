@@ -14,6 +14,9 @@ summary: vifmgr.ifgrp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vifmgr.ifgrp EMS events occur when an interface group (ifgrp) is configured with an unsupported name.
+
 == vifmgr.ifgrp.invalidname
 *Severity*::
 ERROR
@@ -25,3 +28,4 @@ Special corrective action is necessary to remove this ifgrp; contact NetApp tech
 Ifgrp %s has an invalid name and cannot be modified or destroyed.
 *Parameters*::
 *ifgrp* (STRING): Invalid name of the ifgrp.
+

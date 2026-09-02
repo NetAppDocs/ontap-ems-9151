@@ -14,6 +14,9 @@ summary: vifmgr.bd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vifmgr.bd EMS events occur when ONTAP encounters issues associated with broadcast domain configuration.
+
 == vifmgr.bd.badmtu
 *Severity*::
 ERROR
@@ -43,3 +46,4 @@ LIF %s had mismatching broadcast domains. The previous values were: home-port (%
 *home_port_bd* (STRING): Broadcast domain name of this LIF's home port prior to going out of quorum.
 *current_port_bd* (STRING): Broadcast domain name of this LIF's current port prior to going out of quorum.
 *sub_bd* (STRING): Broadcast domain name of this LIF's subnet prior to going out of quorum.
+

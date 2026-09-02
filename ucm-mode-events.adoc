@@ -14,6 +14,9 @@ summary: ucm.mode events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ucm.mode EMS events occur when ONTAP encounters issues associated with FC adapter and converged networking adapter mode configuration.
+
 == ucm.mode.autoReboot
 *Severity*::
 INFORMATIONAL
@@ -50,3 +53,4 @@ Perform a planned takeover and giveback on this controller node to enable the ne
 The adapter %s was unable to automatically initiate a reboot after reconfiguration from the backup.
 *Parameters*::
 *adapters* (STRING): Affected adapter or adapters.
+

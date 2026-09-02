@@ -14,6 +14,9 @@ summary: net.ifgrp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+net.ifgrp EMS events occur when ONTAP encounters issues associated with interface group (ifgrp) operations.
+
 == net.ifgrp.addLimitExceeded
 *Severity*::
 ERROR
@@ -71,3 +74,4 @@ ifgrp %s, port %s has transitioned to an inactive state. The interface group is 
 *Parameters*::
 *aggregateName* (STRING): Name of the interface group.
 *portName* (STRING): Name of the member port.
+

@@ -14,6 +14,9 @@ summary: vldb.vsrootvol events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vldb.vsrootvol EMS events occur when the Vserver root volume is force deleted while non-root volumes for the Vserver still exist in the cluster.
+
 == vldb.vsRootVol.del
 *Severity*::
 INFORMATIONAL
@@ -26,3 +29,4 @@ The root volume '%s' for the Vserver with Vserver ID '%d' was force deleted whil
 *Parameters*::
 *volume* (STRING): Root volume name that was deleted.
 *vserverid* (INT): ID for the Vserver that owned the deleted root volume.
+

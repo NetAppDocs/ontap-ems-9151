@@ -14,6 +14,9 @@ summary: callhome.sdsk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.sdsk EMS events occur when ONTAP encounters issues associated with spare disk drives.
+
 == callhome.sdsk.admin
 *Severity*::
 NOTICE
@@ -97,3 +100,4 @@ Locate the failed disk drive by looking for a disk drive whose red and amber LED
 Call home for SPARE DISK RAWSIZE SHRANK
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
+

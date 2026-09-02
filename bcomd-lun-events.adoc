@@ -14,6 +14,9 @@ summary: bcomd.lun events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+bcomd.lun EMS events occur when the SAN Kernel Agent is unable to process a LUN metadata update resulting from a Snapshot(R) copy restore operation or other LUN event.
+
 == bcomd.lun.update.lost
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ A metadata change notification for a LUN in VServer %s on volume %llu has been l
 *vserver* (STRING): Name of the Vserver.
 *volume* (LONGINT): MSID of the volume.
 *error* (STRING): Error preventing the update from being processed.
+

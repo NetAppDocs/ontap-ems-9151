@@ -14,6 +14,9 @@ summary: sas.reset events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sas.reset EMS events occur when ONTAP encounters issues associated with SAS expander resets.
+
 == sas.reset.exp.discovery.resp
 *Severity*::
 NOTICE
@@ -65,3 +68,4 @@ SAS adapter [%s]: Excessive SMP failures occured, resetting expander: %s
 *Parameters*::
 *adapterName* (STRING): Name of the associated SAS adapter.
 *expanderName* (STRING): Name of the expander being reset.
+

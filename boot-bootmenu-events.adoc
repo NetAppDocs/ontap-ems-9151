@@ -14,6 +14,9 @@ summary: boot.bootmenu events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+boot.bootmenu EMS events occur when an error is detected while booting into, or using, the system boot menu.
+
 == boot.bootmenu.issue
 *Severity*::
 EMERGENCY
@@ -25,3 +28,4 @@ Retry the boot. If the problem persists, contact NetApp technical support for as
 Failed to boot the system. Error: %s
 *Parameters*::
 *err_str* (STRING): Error string.
+

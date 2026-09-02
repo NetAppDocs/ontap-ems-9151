@@ -14,6 +14,9 @@ summary: app.temp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+app.temp EMS events occur when ONTAP encounters issues associated with application destroy operations.
+
 == app.temp.delete.s3bucket.fail
 *Severity*::
 ERROR
@@ -97,3 +100,4 @@ Failed to remove application %s on Vserver %s from the persistent database. Erro
 *application_name* (STRING): Name of the application.
 *vserver_name* (STRING): Name of the Vserver.
 *error* (STRING): The error that the application destroy service encountered while removing the application from the persistent database.
+

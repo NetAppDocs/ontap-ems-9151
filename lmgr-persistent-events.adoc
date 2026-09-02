@@ -14,6 +14,9 @@ summary: lmgr.persistent events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lmgr.persistent EMS events occur when ONTAP encounters issues associated with persistent open lock count limits.
+
 == lmgr.persistent.open.limit.hit
 *Severity*::
 NOTICE
@@ -26,3 +29,4 @@ The number of persisted open locks count %u has reached the limit %u.
 *Parameters*::
 *locks_total* (INT): Number of persisted open locks.
 *locks_limit* (INT): Maximum supported persisted open locks.
+

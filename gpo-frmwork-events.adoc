@@ -14,6 +14,9 @@ summary: gpo.frmwork events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+gpo.frmwork EMS events occur when ONTAP encounters issues associated with Group Policy Object (GPO) framework operations.
+
 == gpo.frmwork.RSoPApplied
 *Severity*::
 NOTICE
@@ -64,3 +67,4 @@ GPO RSoP update failed for Vserver %s, reason: %s.
 *Parameters*::
 *vserver* (STRING): Vserver name.
 *reason* (STRING): Reason for the failure.
+

@@ -14,6 +14,9 @@ summary: secd.ldap events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+secd.ldap EMS events occur when ONTAP encounters issues associated with Lightweight Directory Access Protocol (LDAP) server communications.
+
 == secd.ldap.bindDn.missing
 *Severity*::
 ALERT
@@ -173,3 +176,4 @@ None of the LDAP servers configured for SVM "%s" and trusted domain "%s" are cur
 *vserverName* (STRING): Storage virtual machine (SVM) associated with this operation.
 *trustedDomain* (STRING): Trusted domain for which the LDAP connection is required.
 *ldapOperation* (STRING): LDAP operation and service for which the connection is required.
+

@@ -14,6 +14,9 @@ summary: shm.threshold events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+shm.threshold EMS events occur when ONTAP encounters issues associated with disk health threshold monitoring.
+
 == shm.threshold.agrsvIOCount
 *Deprecated*::
 This event is removed as it is a test message not intended for customers.
@@ -265,3 +268,4 @@ shm: There are %d disks that have consumed at least 80 percent of their use-base
 *Parameters*::
 *count* (INT): Count of disks which have exceeded the second threshold.
 *disk_names* (STRING): Names of the disk drives.
+

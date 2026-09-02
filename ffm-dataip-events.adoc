@@ -14,6 +14,9 @@ summary: ffm.dataip events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ffm.dataip EMS events occur when ONTAP encounters issues associated with hosting or unhosting a data IP address on a node.
+
 == ffm.dataip.failedToHost
 *Severity*::
 NOTICE
@@ -69,3 +72,4 @@ The NFS protocol service unhosted data IP address "%s" on node "%s" (ID: %u).
 *dataip* (STRING): IP address that was unhosted.
 *nodename* (STRING): Name of the node on which the data IP was unhosted.
 *nodeid* (INT): Unique identifier of the node on which the data IP was unhosted.
+

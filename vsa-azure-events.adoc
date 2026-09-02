@@ -14,6 +14,9 @@ summary: vsa.azure events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vsa.azure EMS events occur when ONTAP encounters issues associated with Microsoft Azure Load Balancer health probes on ONTAP Cloud.
+
 == vsa.azure.nlb.probeActive
 *Severity*::
 NOTICE
@@ -44,3 +47,4 @@ Failed to receive Load Balancer probe (%s) for %d ports (port range: %d to %d), 
 *first_missed_port* (INT): First (lowest) port that did not receive a probe.
 *last_missed_port* (INT): Last (highest) port that did not receive a probe.
 *timeout_in_seconds* (LONGINT): Seconds before timeout occurs.
+

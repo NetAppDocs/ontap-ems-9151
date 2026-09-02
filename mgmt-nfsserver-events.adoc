@@ -14,6 +14,9 @@ summary: mgmt.nfsserver events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mgmt.nfsserver EMS events occur when ONTAP encounters issues associated with NFS server configuration.
+
 == mgmt.nfsserver.failure
 *Severity*::
 ERROR
@@ -38,3 +41,4 @@ This message occurs when a NFS server is successfully configured after a failure
 (None).
 *Parameters*::
 *vservername* (STRING): Name of the nfs server.
+

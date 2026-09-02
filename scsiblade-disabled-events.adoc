@@ -14,6 +14,9 @@ summary: scsiblade.disabled events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+scsiblade.disabled EMS events occur when the local node is made ineligible.
+
 == scsiblade.disabled
 *Severity*::
 NOTICE
@@ -25,3 +28,4 @@ Modify the node's eligibility by using the (privilege: advanced) "cluster modify
 The local node is ineligible. FCP and iSCSI access is disabled.
 *Parameters*::
 (None).
+

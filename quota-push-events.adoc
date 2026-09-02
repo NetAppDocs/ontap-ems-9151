@@ -14,6 +14,9 @@ summary: quota.push events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+quota.push EMS events occur when ONTAP encounters issues associated with quota rule database operations.
+
 == quota.push.rules.complete
 *Severity*::
 NOTICE
@@ -45,3 +48,4 @@ Quota rules push started on %s %s%s%s%s.
 *vol* (STRING): Volume name.
 *app* (STRING): Application UUID.
 *volident* (STRING): Additional volume identifier, used to uniquely identify the volume if the volume name alone cannot.
+

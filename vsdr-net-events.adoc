@@ -14,6 +14,9 @@ summary: vsdr.net events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vsdr.net EMS events occur when ONTAP encounters issues associated with logical interface (LIF) replication in MetroCluster or Vserver DR configurations.
+
 == vsdr.net.IPInDiffVserver
 *Severity*::
 ERROR
@@ -168,3 +171,4 @@ Cannot create route %s with gateway %s in Vserver %s because IPv6 is not enabled
 *route* (STRING): Route destination and mask.
 *gateway* (STRING): Gateway of the route.
 *vserver_name* (STRING): Vserver name.
+

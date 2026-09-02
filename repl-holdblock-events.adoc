@@ -14,6 +14,9 @@ summary: repl.holdblock events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+repl.holdblock EMS events occur when ONTAP encounters issues associated with incremental transfers after snapshot restore operations.
+
 == repl.holdblock.arrived
 *Severity*::
 INFORMATIONAL
@@ -62,3 +65,4 @@ Applied held block for volume '%s%s%s' (DSID %llu) with VVBN %llu to WAFL.
 *volident* (STRING): Unique identifier for the volume.
 *volDsid* (LONGINT): Data set identifier (DSID) of the volume.
 *vvbn* (LONGINT): VVBN of the held block applied to WAFL.
+

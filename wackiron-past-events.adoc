@@ -14,6 +14,9 @@ summary: wackiron.past events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wackiron.past EMS events occur when ONTAP encounters issues associated with wafliron operation time limits exceeding their maximum threshold.
+
 == wackiron.past.hour.limit
 *Severity*::
 ERROR
@@ -37,3 +40,4 @@ Run wafliron on the affected volume. From the boot menu, run 'wafliron'. From th
 %s: Number of Data ONTAP kernel versions used since wafliron was last run on the specified volume is past its limit. Run 'wafliron' as soon as possible.
 *Parameters*::
 *volname* (STRING): Name of the aggregate.
+

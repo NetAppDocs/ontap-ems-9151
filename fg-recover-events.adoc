@@ -14,6 +14,9 @@ summary: fg.recover events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fg.recover EMS events occur when ONTAP encounters issues associated with FlexGroup volume recovery to FlexVol.
+
 == fg.recover.fail
 *Severity*::
 ERROR
@@ -53,3 +56,4 @@ Conversion of FlexVol volume %s to FlexGroup with MSID %llu successful.
 *Parameters*::
 *volumeName* (STRING): Name of volume being recovered back into a FlexVol.
 *volMsid* (LONGINTHEX): MSID of the recovered FlexVol.
+

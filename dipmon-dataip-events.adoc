@@ -14,6 +14,9 @@ summary: dipmon.dataip events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dipmon.dataip EMS events occur when ONTAP encounters issues associated with the responsiveness of a data IP address on the node where it is hosted.
+
 == dipmon.dataip.responsive
 *Severity*::
 NOTICE
@@ -45,3 +48,4 @@ Data IP address %s (ID: %u) hosted on node %s (ID: %u, Uuid: %s) is unresponsive
 *nodeName* (STRING): Name of the node that is hosting the data IP.
 *nodeID* (INT): Unique identifier of the node that is hosting the data IP.
 *nodeUuid* (STRING): Universal unique identifier of the node that is hosting the data IP.
+

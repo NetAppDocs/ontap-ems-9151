@@ -14,6 +14,9 @@ summary: ctran.gc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ctran.gc EMS events occur when ONTAP encounters issues associated with Cluster Transaction Manager (CTRAN) Group Coordinator operations.
+
 == ctran.gc.proposal.stuck
 *Severity*::
 EMERGENCY
@@ -44,3 +47,4 @@ CTRAN GC Reselection failed on local node (name=%s, id=%llu).
 *Parameters*::
 *localhostname* (STRING): The host name of the local node.
 *localnodeid* (LONGINT): The node ID of the local node.
+

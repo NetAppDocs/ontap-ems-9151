@@ -14,6 +14,9 @@ summary: sv.vfiler events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sv.vfiler EMS events occur when movement of SnapVault(R) configuration from 'from' vFiler to 'to' vFiler fails.
+
 == SV.vfiler.config.move.error
 *Severity*::
 ERROR
@@ -27,3 +30,4 @@ Movement of SnapVault configuration failed while moving volumes between vFiler %
 *from_vfiler1* (STRING): vFiler(tm) from which resources are being moved.
 *to_vfiler* (STRING): vFiler to which resources are being moved.
 *from_vfiler2* (STRING): vFiler to which resources are being moved.
+

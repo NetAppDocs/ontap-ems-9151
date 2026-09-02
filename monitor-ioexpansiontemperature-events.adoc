@@ -14,6 +14,9 @@ summary: monitor.ioexpansiontemperature events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+monitor.ioexpansiontemperature EMS events occur when ONTAP encounters issues associated with I/O expansion module temperature.
+
 == monitor.ioexpansionTemperature.cool
 *Severity*::
 EMERGENCY
@@ -51,3 +54,4 @@ Evaluate the environment in which the system is functioning: are air conditionin
 I/O expansion module is too warm: %s
 *Parameters*::
 *describe_toowarm* (STRING): Reading and state of the temperature sensors on the I/O expansion module.
+

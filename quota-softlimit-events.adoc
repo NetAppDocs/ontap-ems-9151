@@ -14,6 +14,9 @@ summary: quota.softlimit events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+quota.softlimit EMS events occur when ONTAP encounters issues associated with soft quota limits.
+
 == quota.softlimit.exceeded
 *Severity*::
 NOTICE
@@ -49,3 +52,4 @@ This message occurs when a user's soft quota limit (file and/or block limit) ret
 *app* (STRING): Application UUID.
 *volident* (STRING): Unique identifier for the volume in cases in which the volume name alone is insufficient.
 *vfname* (STRING): vFiler(tm) name.
+
